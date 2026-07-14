@@ -92,6 +92,9 @@ reverse the choice.
    verify the produced artifact.
 9. **Learn.** Record the result, not just the recommendation. Promote a rule
    only after evidence supports it; preserve failures and contradiction notes.
+   Use `improve-live-consultant` for explicit corrections, caught mistakes,
+   measured outcomes, repeated friction, and framework-routing errors. A
+   candidate never changes behavior until it clears its scoped promotion gate.
 
 ## Protect gates and permissions
 

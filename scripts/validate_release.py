@@ -19,15 +19,25 @@ MARKER = ROOT / ".live-consultant-public-export.json"
 
 REQUIRED_ROOT_FILES = {
     Path(".agents/plugins/marketplace.json"),
+    Path(".github/CODEOWNERS"),
+    Path(".github/ISSUE_TEMPLATE/config.yml"),
+    Path(".github/ISSUE_TEMPLATE/learning.yml"),
+    Path(".github/pull_request_template.md"),
     Path(".github/workflows/validate.yml"),
     Path("CHANGELOG.md"),
     Path("CONTRIBUTING.md"),
+    Path("LEARNING_POLICY.md"),
     Path("LICENSE"),
     Path("PRIVACY.md"),
     Path("README.md"),
     Path("SECURITY.md"),
     Path("TERMS.md"),
     Path("plugins/live-consultant/LICENSE"),
+    Path("plugins/live-consultant/scripts/learning_loop.py"),
+    Path("plugins/live-consultant/scripts/learning_loop_selftest.py"),
+    Path("plugins/live-consultant/skills/improve-live-consultant/SKILL.md"),
+    Path("plugins/live-consultant/skills/improve-live-consultant/references/foundation-invariants.md"),
+    Path("plugins/live-consultant/skills/improve-live-consultant/references/learning-protocol.md"),
     Path("plugins/live-consultant/THIRD_PARTY_NOTICES.md"),
 }
 
@@ -57,6 +67,11 @@ FORBIDDEN_PATTERNS = {
     "GitHub token": re.compile(r"\b(?:gh[opusr]_[A-Za-z0-9_]{20,})\b"),
     "OpenAI key": re.compile(r"\bsk-[A-Za-z0-9_-]{20,}\b"),
     "AWS access key": re.compile(r"\bAKIA[0-9A-Z]{16}\b"),
+    "Google API key": re.compile(r"\bAIza[0-9A-Za-z_-]{35}\b"),
+    "Slack token": re.compile(r"\bxox[baprs]-[0-9A-Za-z-]{20,}\b"),
+    "JWT": re.compile(
+        r"\beyJ[A-Za-z0-9_-]{8,}\.[A-Za-z0-9_-]{8,}\.[A-Za-z0-9_-]{8,}\b"
+    ),
     "private key": re.compile(r"BEGIN [A-Z ]*PRIVATE KEY"),
 }
 
@@ -188,6 +203,12 @@ def main() -> int:
     record(errors, plugin_manifest.get("repository") == "https://github.com/alizeidan06/live-consultant", "wrong public repository URL")
     record(errors, marker.get("version") == version, "export marker version does not match plugin")
     record(errors, bool(re.fullmatch(r"[0-9a-f]{40}", marker.get("source_commit", ""))), "export marker lacks a source commit")
+    changelog_text = (ROOT / "CHANGELOG.md").read_text(encoding="utf-8")
+    record(
+        errors,
+        bool(re.search(rf"(?m)^## {re.escape(version)}(?:\s+-|\s*$)", changelog_text)),
+        "CHANGELOG.md has no entry for the plugin version",
+    )
 
     interface = plugin_manifest.get("interface", {})
     for field in ("displayName", "shortDescription", "longDescription", "developerName", "category"):
@@ -269,7 +290,36 @@ def main() -> int:
             continue
         record(errors, frontmatter.get("name") == skill_file.parent.name, f"skill name mismatch: {skill_file.relative_to(ROOT)}")
         record(errors, bool(frontmatter.get("description")), f"skill description missing: {skill_file.relative_to(ROOT)}")
-    record(errors, skill_count == 22, f"expected 22 skills, found {skill_count}")
+        record(
+            errors,
+            "communication-voice.md" in skill_file.read_text(encoding="utf-8"),
+            f"skill lost universal voice and learning entry point: {skill_file.relative_to(ROOT)}",
+        )
+    record(errors, skill_count == 23, f"expected 23 skills, found {skill_count}")
+
+    voice_path = (
+        PLUGIN
+        / "skills"
+        / "founder-business-consultant"
+        / "references"
+        / "communication-voice.md"
+    )
+    voice_text = voice_path.read_text(encoding="utf-8") if voice_path.is_file() else ""
+    record(
+        errors,
+        "improve-live-consultant/references/learning-protocol.md" in voice_text,
+        "universal communication voice lost the learning protocol link",
+    )
+
+    privacy_text = (ROOT / "PRIVACY.md").read_text(encoding="utf-8")
+    record(errors, "off by default" in privacy_text, "privacy policy lost local-learning opt-in")
+    record(errors, "does not call GitHub" in privacy_text, "privacy policy lost no-submission promise")
+    learning_policy = (ROOT / "LEARNING_POLICY.md").read_text(encoding="utf-8")
+    record(errors, "does not retrain model weights" in learning_policy, "learning policy overclaims retraining")
+    record(errors, "does not transmit" in learning_policy, "learning policy lost transmission boundary")
+    workflow_text = (ROOT / ".github/workflows/validate.yml").read_text(encoding="utf-8")
+    record(errors, "pull_request_target" not in workflow_text, "privileged pull_request_target is forbidden")
+    record(errors, "contents: read" in workflow_text, "validation workflow must remain read-only")
 
     link_count = validate_local_links(errors)
     block_quote_count, inline_quote_count = validate_long_quotes(errors)
@@ -296,12 +346,24 @@ def main() -> int:
     if coverage.returncode != 0:
         errors.append(f"source coverage failed: {coverage.stdout}{coverage.stderr}")
 
+    learning_selftest = subprocess.run(
+        [sys.executable, str(PLUGIN / "scripts" / "learning_loop_selftest.py")],
+        text=True,
+        capture_output=True,
+    )
+    if learning_selftest.returncode != 0:
+        errors.append(
+            "learning loop self-test failed: "
+            f"{learning_selftest.stdout}{learning_selftest.stderr}"
+        )
+
     summary = {
         "errors": errors,
         "files": files,
         "local_links_checked": link_count,
         "block_quotes_checked": block_quote_count,
         "inline_case_quotes_checked": inline_quote_count,
+        "learning_selftest": learning_selftest.stdout.strip(),
         "skills": skill_count,
         "source_coverage": coverage.stdout.strip(),
         "version": version,

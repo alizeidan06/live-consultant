@@ -1,0 +1,4 @@
+interface:
+  display_name: "Improve Live Consultant"
+  short_description: "Turn corrections and outcomes into better guidance"
+  default_prompt: "Use $improve-live-consultant to turn this correction or business outcome into a validated learning."

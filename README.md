@@ -17,24 +17,59 @@ codex plugin add live-consultant@live-consultant
 ```
 
 Start a new Codex task after installation. For a reproducible install, replace
-`main` with a published tag such as `v0.1.0`.
+`main` with a published tag such as `v0.2.0`.
 
 ## What is included
 
-- Seven integrated consulting skills covering diagnosis, validation, offers and
-  funnels, Meta ads, decisions, operations, and engagement leadership.
+- Eight integrated consulting skills covering diagnosis, validation, offers and
+  funnels, Meta ads, decisions, operations, engagement leadership, and
+  continuous improvement.
 - Fifteen namespaced Founder Playbook lenses for positioning, customer
   development, pricing, sales, influence, acquisition, and experimentation.
 - Reusable templates for business context, offers, funnels, economics,
   evidence, experiments, creative tests, decisions, and launch gates.
-- Local scripts for workspace setup, unit-economics calculations, and source
-  coverage verification.
+- Local scripts for workspace setup, unit-economics calculations, source
+  coverage verification, and privacy-preserving learning.
+
+## Continuous learning
+
+Every Live Consultant answer runs an ephemeral self-check. Persistent learning
+is off until the user explicitly enables it for a selected project. In Codex,
+say:
+
+```text
+Use $improve-live-consultant to enable project-local learning here.
+```
+
+From a repository checkout, the equivalent command is:
+
+```bash
+python3 plugins/live-consultant/scripts/learning_loop.py init \
+  --workspace <project-root> \
+  --enable-local-learning
+```
+
+After that opt-in, explicit corrections, caught mistakes, measured outcomes,
+and repeated routing failures can become redacted candidates. Candidates affect
+future advice only after evidence review, a countercase, and a regression test.
+They stay inside that project and are ignored by Git by default.
+
+The local store signs settings, candidates, and decisions with a project-local
+integrity key. Runtime tasks use the verifier's `rules` command, so directly
+editing the rendered rule file does not change trusted behavior.
+Repeated observations append through project-local evidence lineage IDs; one
+experiment, artifact, cohort, or report counts once even when reworded.
+
+Community improvement is also opt-in. The tool can prepare a sanitized local
+preview and exact digest, but it cannot submit to GitHub or transmit data. Read
+[the learning policy](LEARNING_POLICY.md) for the full lifecycle.
 
 ## Try it
 
 - `Diagnose the real bottleneck in my business.`
 - `Create three bold offers for this audience and explain why they hit.`
 - `Audit this funnel, calculate the economics, and give me the strongest next move.`
+- `Use $improve-live-consultant to turn this correction into a tested local rule.`
 
 Live Consultant separates two jobs that are often mixed together. The creative
 pass pursues the strongest desirable outcome and offer without weakening it.
@@ -68,8 +103,9 @@ python3 scripts/validate_release.py
 ```
 
 The validator checks marketplace and plugin manifests, skill entry points,
-local links, source coverage, script compilation, forbidden private paths,
-secret signatures, symlinks, and disallowed binary/source-document files.
+local links, source coverage, script compilation, the complete learning-loop
+self-test, forbidden private paths, secret signatures, symlinks, and disallowed
+binary/source-document files.
 
 ## Independent project
 

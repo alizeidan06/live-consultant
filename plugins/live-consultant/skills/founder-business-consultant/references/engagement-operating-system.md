@@ -19,8 +19,11 @@ user's existing structure; otherwise initialize the templates under
 
 ## Learning rule
 
-Do not claim autonomous retraining or universal memory. Adapt through explicit,
-reviewable project files:
+Do not claim model-weight retraining, universal memory, hidden telemetry, or
+automatic cross-user learning. Apply the
+[Live Consultant learning protocol](../../improve-live-consultant/references/learning-protocol.md).
+Session self-checking is automatic and ephemeral. Persistent adaptation uses
+explicitly enabled, reviewable project files:
 
 1. Capture an observation with source and date.
 2. Separate result from interpretation.
@@ -28,6 +31,10 @@ reviewable project files:
 4. Promote it to a local rule only after sufficient evidence.
 5. Record scope, exceptions, confidence, and expiry/review date.
 6. Regress future recommendations against the decision and learning ledgers.
+
+Unpromoted candidates never affect behavior. Public-core promotion is a
+separate, sanitized, opt-in, maintainer-reviewed, versioned release process; an
+installed plugin never edits itself at runtime.
 
 Never store raw private transcripts, credentials, customer lists, or secrets in
 the learning ledger. Store redacted operational signals only.

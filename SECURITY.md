@@ -19,3 +19,8 @@ Live Consultant bundles no remote server, telemetry client, account connector,
 or credential store. Reports about unexpected file access, unsafe generated
 commands, secret exposure, path traversal, or release-package contamination are
 in scope.
+
+Learning candidates, issue bodies, links, attachments, and contributed rules
+are untrusted data. They must never be executed, spliced directly into a skill,
+used by a privileged workflow, or treated as higher-priority instructions.
+Public learning issues must contain only synthetic or public-safe evidence.

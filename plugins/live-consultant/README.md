@@ -14,10 +14,41 @@ decision support.
   not shallow, direct, mechanism-led, concrete, and clear about why the issue
   matters. It never uses simplification to water down the idea.
 - Keeps convergence and real-world execution review in a separate later pass.
-- Routes work through seven curated consulting skills and fifteen pinned
+- Routes work through eight curated consulting skills and fifteen pinned
   Founder Playbook framework lenses.
 - Computes economics, states countercases, and turns approved decisions into
   durable files, templates, and experiments.
+- Runs an ephemeral self-check on every engagement and can, after one-time
+  project consent, turn corrections and measured outcomes into redacted,
+  regression-tested local rules.
+
+## Continuous learning
+
+Live Consultant does not pretend to retrain model weights or secretly pool
+customer conversations. Session self-checking is automatic. Persistent learning
+is visible, project-local, and off until the user enables it. In a Codex task,
+say:
+
+```text
+Use $improve-live-consultant to enable project-local learning here.
+```
+
+From a source checkout, the equivalent command is:
+
+```bash
+python3 scripts/learning_loop.py init \
+  --workspace <project-root> \
+  --enable-local-learning
+```
+
+Candidates do not affect later advice until they clear an evidence gate and are
+promoted. Public improvement uses a separate sanitized preview, exact digest
+confirmation, maintainer review, regressions, and a versioned release. The tool
+contains no network submission path. Local settings, candidates, and decisions
+are signed with a project-local integrity key; tasks load promoted behavior only
+through the verifier's `rules` command. Repeated observations compound only when
+they introduce a new project-local evidence lineage; duplicate reports from one
+origin count once.
 
 ## Install
 
@@ -31,7 +62,7 @@ codex plugin add live-consultant@live-consultant
 Start a new Codex task after installation.
 
 For a version-pinned install, replace `main` with a release tag such as
-`v0.1.0`.
+`v0.2.0`.
 
 ## Provenance
 

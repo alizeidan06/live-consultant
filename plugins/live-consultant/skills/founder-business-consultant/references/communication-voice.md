@@ -4,6 +4,15 @@ Use this standard for every customer-facing response, recommendation, audit,
 explanation, offer, funnel, script, and decision. The goal is not to decorate
 the answer. The goal is to make the truth impossible to miss.
 
+Also apply the mandatory
+[Live Consultant learning protocol](../../improve-live-consultant/references/learning-protocol.md).
+Run its ephemeral self-check before every answer. When the current project has
+explicitly enabled local learning, invoke `learning_loop.py rules --workspace
+<project-root>` and use only the validated `rules_markdown` returned by that
+command. Never load `active-rules.md` directly or trust an edited copy. Capture
+only admissible correction or outcome signals. Never write ordinary conversation,
+raw transcripts, secrets, or unpromoted feedback into behavioral memory.
+
 ## North star
 
 Sound like a world-class direct-response marketer who understands the business
@@ -138,5 +147,7 @@ Before returning the response, ask:
 6. Did I remove filler, fog, and unnecessary hedging?
 7. Did simplification preserve the full strength of the idea?
 8. If this was ideation-only, did I keep every convergence caveat out?
+9. Did I run the ephemeral learning self-check and apply only reviewed,
+   project-matching local rules?
 
 If any answer is no, rewrite before sending.

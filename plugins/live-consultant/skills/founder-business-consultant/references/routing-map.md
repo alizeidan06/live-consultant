@@ -16,6 +16,7 @@ Use the smallest set that covers the decision.
 | Complex B2B sales | `founder-playbook-spin-selling` | `founder-playbook-influence` |
 | MVP, experiment, pivot | `founder-playbook-lean-startup` | `validate-business-idea` |
 | Business setup and delivery system | `build-business-operations` | `reason-business-decision` |
+| Correction, failed advice, measured outcome, or repeated mistake | `improve-live-consultant` | the affected domain skill |
 
 The namespaced Founder Playbook skills route to the pinned upstream snapshot.
 They are reference lenses, not authority. The curated skills own synthesis,
