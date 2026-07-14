@@ -1,0 +1,4 @@
+interface:
+  display_name: "Plan Meta Ads"
+  short_description: "Plan and audit evidence-led Meta campaigns"
+  default_prompt: "Use $plan-meta-ads to diagnose or plan my Meta ads without changing spend."

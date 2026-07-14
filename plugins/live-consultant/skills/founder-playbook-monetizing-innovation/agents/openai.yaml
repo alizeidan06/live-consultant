@@ -1,0 +1,4 @@
+interface:
+  display_name: "Founder Playbook Monetization"
+  short_description: "Design products and prices together"
+  default_prompt: "Use $founder-playbook-monetizing-innovation to test willingness to pay and packaging."

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Validate Business Idea"
+  short_description: "Test demand, value, capability, and economics"
+  default_prompt: "Use $validate-business-idea to prove, revise, or park this idea before I build it."

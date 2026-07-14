@@ -1,0 +1,4 @@
+interface:
+  display_name: "Audit Business"
+  short_description: "Audit a business from evidence to bottleneck"
+  default_prompt: "Use $audit-business to audit this business and identify the binding constraint."

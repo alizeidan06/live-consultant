@@ -1,0 +1,4 @@
+interface:
+  display_name: "Design Offer and Funnel"
+  short_description: "Generate bold offers, then build the funnel"
+  default_prompt: "Use $design-offer-funnel to create bold direct-response offer concepts, then map the strongest funnel."

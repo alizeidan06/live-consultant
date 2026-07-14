@@ -1,0 +1,4 @@
+interface:
+  display_name: "Founder Playbook StoryBrand"
+  short_description: "Clarify customer-centered brand messaging"
+  default_prompt: "Use $founder-playbook-storybrand to clarify this customer-centered message."

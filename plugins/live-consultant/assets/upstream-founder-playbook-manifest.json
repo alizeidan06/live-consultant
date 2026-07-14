@@ -1,0 +1,657 @@
+{
+  "audited_at": "2026-07-14",
+  "commit": "67f25d1852547a131cd5b6b43b2fbf44d08ed8ec",
+  "files": [
+    {
+      "bytes": 9188,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "100m-leads/SKILL.md",
+      "sha256": "bb88a76b747c48ad91cb3d4af83da42dcfb198fd7d01183ed26c8cbd1b07cdda"
+    },
+    {
+      "bytes": 7478,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "100m-leads/cases.md",
+      "sha256": "4dc43c4da0d2c0ff4e8aeb5838a9e2ad66a27e5f2619cab34e2b9cb1df1b50cc"
+    },
+    {
+      "bytes": 9301,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "100m-leads/examples.md",
+      "sha256": "4dd2f2cce0fd365238d9230708c5897e3fcb9e35edce61a46f5520b8a4dbd2bb"
+    },
+    {
+      "bytes": 8011,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "100m-leads/frameworks.md",
+      "sha256": "7aed27778fffd4df5f63a87a6efd3e5fc00d7b2aa2af1aa8e3d2e6e48f33b71b"
+    },
+    {
+      "bytes": 8107,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "100m-leads/integration.md",
+      "sha256": "831b7170a15d0b1377b81995750f80d2c4936f89da3a571cdacbaa83ae8c5c09"
+    },
+    {
+      "bytes": 8642,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "100m-leads/lead-getters.md",
+      "sha256": "f9144f928b6c43da47d52262329c8f777cebb00be7347cfda1e4ca3807f4e96d"
+    },
+    {
+      "bytes": 6806,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "100m-leads/paid-ads.md",
+      "sha256": "7db83f6f4428b0d9f1453473c80471cb05c51d8c0343c4dbe2bd487fd01143f3"
+    },
+    {
+      "bytes": 10785,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "100m-offers/SKILL.md",
+      "sha256": "4576e30fac76fdb2297f6aa2a36b6d26fac1d42b25cd6eb587b39ff7a81da123"
+    },
+    {
+      "bytes": 5561,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "100m-offers/cases.md",
+      "sha256": "57b893d894cc5b5b06fc17294d1fb85d150ffd9d1cc5cab6ad5a92f39bcd30c2"
+    },
+    {
+      "bytes": 9713,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "100m-offers/examples.md",
+      "sha256": "b38c8f366cbdbfc9e198fa35578e9d3fd327ddf7115b0030db9eba2480ee6497"
+    },
+    {
+      "bytes": 8340,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "100m-offers/frameworks.md",
+      "sha256": "573b04374005f7d0992e5a503417d53a9766dc28f7456e4d7351366d76f01c85"
+    },
+    {
+      "bytes": 7196,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "100m-offers/integration.md",
+      "sha256": "9533ac95cfe9b4ed8281ea0fe0d042a0f59255da554b4cb4a1709c2e423bd69d"
+    },
+    {
+      "bytes": 1066,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "LICENSE",
+      "sha256": "25dd3389bfc55f463f9745c6fa3f4193bb31b58157a6861836b62bf91f6b76e5"
+    },
+    {
+      "bytes": 12148,
+      "packaged": false,
+      "packaging_note": "public release omission: upstream packaging README not required",
+      "path": "README.md",
+      "sha256": "7359e705a351b13ee15d51ca7c12a869c600d7e54cf3af127697df670c882065"
+    },
+    {
+      "bytes": 12378,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "blue-ocean-strategy/SKILL.md",
+      "sha256": "e95dfbc03437f660c1752621b9131de5e54bb13c998da79ed2b79a286b91fd78"
+    },
+    {
+      "bytes": 7910,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "blue-ocean-strategy/cases.md",
+      "sha256": "e0e88fa62e1bd8696bc33b75c7cf74bf510c90203d160d81443f6304eb277f6d"
+    },
+    {
+      "bytes": 7347,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "blue-ocean-strategy/examples.md",
+      "sha256": "4e953f6574c530a6ebd2e743e3a8ec3433210b06cf856f5867a92d508b981f8d"
+    },
+    {
+      "bytes": 7572,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "blue-ocean-strategy/frameworks.md",
+      "sha256": "4177078ae443a97e24a952d804325370b947171044e5e0eed3d2c0125d6babb1"
+    },
+    {
+      "bytes": 8876,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "blue-ocean-strategy/integration.md",
+      "sha256": "e5d6578cff9bd410994b3fd786b116d25f390b634b4bf576bbc314a3253c895b"
+    },
+    {
+      "bytes": 51830,
+      "packaged": false,
+      "packaging_note": "binary cover/banner omitted pending redistribution-rights review",
+      "path": "covers/100m-leads.jpg",
+      "sha256": "fd9f9cfc212f62ecedb3226d1063aa931ccfb0962a3ad1991ea28159b067621b"
+    },
+    {
+      "bytes": 10508,
+      "packaged": false,
+      "packaging_note": "binary cover/banner omitted pending redistribution-rights review",
+      "path": "covers/100m-offers.jpeg",
+      "sha256": "aef81625de983434e5ac8b9e5e020e5de0063cfdc1bc336958bc7ad2d0c790b5"
+    },
+    {
+      "bytes": 2604114,
+      "packaged": false,
+      "packaging_note": "binary cover/banner omitted pending redistribution-rights review",
+      "path": "covers/banner.png",
+      "sha256": "9010ed8f7a07e0b54bb7817c13d5f903f8d5f22a1c2d6454ccee456d411d1754"
+    },
+    {
+      "bytes": 665852,
+      "packaged": false,
+      "packaging_note": "binary cover/banner omitted pending redistribution-rights review",
+      "path": "covers/blue-ocean-strategy.jpg",
+      "sha256": "4078b256523595aad61f124e804dab9f8a41016f5e7635b58e1696fb934adbe8"
+    },
+    {
+      "bytes": 23322,
+      "packaged": false,
+      "packaging_note": "binary cover/banner omitted pending redistribution-rights review",
+      "path": "covers/building-a-storybrand.jpg",
+      "sha256": "0de4d705820fb7ff8c55a9c6a89c42aebc22bf84f895ecb4668979c850538148"
+    },
+    {
+      "bytes": 80548,
+      "packaged": false,
+      "packaging_note": "binary cover/banner omitted pending redistribution-rights review",
+      "path": "covers/crossing-the-chasm.jpg",
+      "sha256": "574091658bec6bfaca1d301120e76b58908496db328120134e1571348336c10c"
+    },
+    {
+      "bytes": 59363,
+      "packaged": false,
+      "packaging_note": "binary cover/banner omitted pending redistribution-rights review",
+      "path": "covers/four-steps-to-the-epiphany.jpg",
+      "sha256": "7c69844fa2c30115ba63a13ca27da2c619d2b5891dc83481973ebdfeaa81031c"
+    },
+    {
+      "bytes": 30250,
+      "packaged": false,
+      "packaging_note": "binary cover/banner omitted pending redistribution-rights review",
+      "path": "covers/influence.webp",
+      "sha256": "d102d07bc3adf8ccadfb039d78689dddf2799c8a577fed1f4a00b5322dddb854"
+    },
+    {
+      "bytes": 44307,
+      "packaged": false,
+      "packaging_note": "binary cover/banner omitted pending redistribution-rights review",
+      "path": "covers/made-to-stick.jpg",
+      "sha256": "31df84e03431b2369bb06f9e3bbbb365fab10a2f220d5f4b0393ca81515dc97d"
+    },
+    {
+      "bytes": 117993,
+      "packaged": false,
+      "packaging_note": "binary cover/banner omitted pending redistribution-rights review",
+      "path": "covers/monetizing-innovation.jpg",
+      "sha256": "d6c43e92da89a4396bc671730e87b8f80d93db031b22107166316bd971953565"
+    },
+    {
+      "bytes": 16412,
+      "packaged": false,
+      "packaging_note": "binary cover/banner omitted pending redistribution-rights review",
+      "path": "covers/obviously-awesome.jpeg",
+      "sha256": "0c7afb7bc2cea9dedadaf7618e697a3959c669159a9265eecd04a5c4f7478e65"
+    },
+    {
+      "bytes": 79788,
+      "packaged": false,
+      "packaging_note": "binary cover/banner omitted pending redistribution-rights review",
+      "path": "covers/spin-selling.jpg",
+      "sha256": "7a4f4ba27e988087bc020fd9711378a813d51afeb54bdfc9bf693e72cae87dc0"
+    },
+    {
+      "bytes": 214633,
+      "packaged": false,
+      "packaging_note": "binary cover/banner omitted pending redistribution-rights review",
+      "path": "covers/the-lean-startup.jpg",
+      "sha256": "d90327befe2e9b6e2cddc64e0458c226f5beaf93068fbc11d0b5c784eaab8222"
+    },
+    {
+      "bytes": 76341,
+      "packaged": false,
+      "packaging_note": "binary cover/banner omitted pending redistribution-rights review",
+      "path": "covers/the-mom-test.jpg",
+      "sha256": "3537bf35723a4b927e475ab303ac221de43d791a56179feaa75fa3be89431ebc"
+    },
+    {
+      "bytes": 68204,
+      "packaged": false,
+      "packaging_note": "binary cover/banner omitted pending redistribution-rights review",
+      "path": "covers/traction.jpg",
+      "sha256": "f14d2a30fc3b5031009665fb3c2288196a46d36e326234d9942dc3209bbd4411"
+    },
+    {
+      "bytes": 21852,
+      "packaged": true,
+      "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
+      "path": "crossing-the-chasm/SKILL.md",
+      "sha256": "d8c2aeff4f90a81269ea34f2281071231a5076d4cc94802d8e3039f99af79a5d"
+    },
+    {
+      "bytes": 11103,
+      "packaged": true,
+      "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
+      "path": "crossing-the-chasm/cases.md",
+      "sha256": "59048e3369770fc65e0b8e7c745b1ebb0c697d2a27b7133c1317947b4ca59fab"
+    },
+    {
+      "bytes": 11058,
+      "packaged": true,
+      "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
+      "path": "crossing-the-chasm/examples.md",
+      "sha256": "ace3f493b67dec71a0201b1d82b51e22269a71ebe748f0076dd1a1dcc187d194"
+    },
+    {
+      "bytes": 12416,
+      "packaged": true,
+      "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
+      "path": "crossing-the-chasm/frameworks.md",
+      "sha256": "6c0a4c74a28cadb229a09eef56f6aa99cbfdc4d0112f26ecc9cc6d23c80f9fdc"
+    },
+    {
+      "bytes": 17380,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "crossing-the-chasm/integration.md",
+      "sha256": "356786e0ea1737525850832078b0458cee58ace0f94f6659707988e7607d2e43"
+    },
+    {
+      "bytes": 10031,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "diagnose/SKILL.md",
+      "sha256": "b5e5285f71a31fe8a1959a479f0f7440f013dfd965d9a68244b2420ef14fd369"
+    },
+    {
+      "bytes": 15774,
+      "packaged": false,
+      "packaging_note": "public release omission: verbatim third-party community posts not required",
+      "path": "experiments/real-founder-problems.md",
+      "sha256": "9157aac48dc25c7888566c9283d8f4bb2e61453ca69030dd39540be893226703"
+    },
+    {
+      "bytes": 30181,
+      "packaged": true,
+      "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
+      "path": "four-steps/SKILL.md",
+      "sha256": "fd022d0d4130015eb740b9542d9596fba1e7de80b248cbe736e10fce9a1372bf"
+    },
+    {
+      "bytes": 11087,
+      "packaged": true,
+      "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
+      "path": "four-steps/cases.md",
+      "sha256": "bfb7e569591346b370f488ec685c1f37186a04d98b52eb644eae72a360523ab8"
+    },
+    {
+      "bytes": 18623,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "four-steps/examples.md",
+      "sha256": "e7caa399d548b96807151ce2ffd1ef5f5f3e04bab5aa6d32b8733901e255e9e3"
+    },
+    {
+      "bytes": 15741,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "four-steps/frameworks.md",
+      "sha256": "4cbc22914a00f1ec9926ded22ab6eae4801b0baeee53899eeb23189a571202e3"
+    },
+    {
+      "bytes": 11817,
+      "packaged": true,
+      "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
+      "path": "four-steps/integration.md",
+      "sha256": "ad9804e7b9606d5e55eaad89886e69b4c9742569b6e58dce040a21caf79a3de6"
+    },
+    {
+      "bytes": 15340,
+      "packaged": true,
+      "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
+      "path": "influence/SKILL.md",
+      "sha256": "0b198e82be2d927e3859266438c29a88195d4dacacec599d53b696b66b1fae91"
+    },
+    {
+      "bytes": 5157,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "influence/integration.md",
+      "sha256": "057207882c37f0782e32364a279b990ce0325b227810f6ae828181fdd6e42e03"
+    },
+    {
+      "bytes": 3398,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "influence/pre-suasion.md",
+      "sha256": "d0f8509dfc0ee998a3385ebfb97a2d01184277d52a2499f00e365473efcb368b"
+    },
+    {
+      "bytes": 23762,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "influence/principles.md",
+      "sha256": "a504e28ca0575d8502b8f1245cfa1746cfe87fcf3d1918ec9bdab7d2b718d7e9"
+    },
+    {
+      "bytes": 8948,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "influence/replication-notes.md",
+      "sha256": "886661fc05a25ce3f75db96591c2977bfb7597955fe5b0fc9b76b7774ae211bf"
+    },
+    {
+      "bytes": 18324,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "lean-startup/SKILL.md",
+      "sha256": "24f04c7f0bd736b5ea19cd7424dc8286e781e871a65a515d0bb93ebf7cd591d2"
+    },
+    {
+      "bytes": 18436,
+      "packaged": true,
+      "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
+      "path": "lean-startup/cases.md",
+      "sha256": "596f04f4d0b9072326ae218f4cf15a0757a2dcc1f645acfe1773f5e86e06ece5"
+    },
+    {
+      "bytes": 18441,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "lean-startup/examples.md",
+      "sha256": "ccb6c8f59eb0407b258dafe25904a476d0fc87f40edf865320614aee8ba2b9b1"
+    },
+    {
+      "bytes": 20857,
+      "packaged": true,
+      "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
+      "path": "lean-startup/frameworks.md",
+      "sha256": "3dcd68344bf057e9b506f6679411b551c195628a5e3cd949ae1b47c6aa8b645a"
+    },
+    {
+      "bytes": 17710,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "lean-startup/integration.md",
+      "sha256": "b0bb3f66232783bdc1a8063d183224705aaec5b98c46390c05e72059dbaa1a53"
+    },
+    {
+      "bytes": 16092,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "made-to-stick/SKILL.md",
+      "sha256": "fc16b74b64fb14cc40405f108afcc1a5e6050ad5203dc5145d0703e44aa6b44d"
+    },
+    {
+      "bytes": 14440,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "made-to-stick/cases.md",
+      "sha256": "6bf440d9e3a5c997a9c263d0023dd36b3a5469901e2da1e8456701a58bc14c96"
+    },
+    {
+      "bytes": 13571,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "made-to-stick/examples.md",
+      "sha256": "dbaa55ea317d6f94bc07ac57a6f2022263b301d44429576d5445d656c390ae60"
+    },
+    {
+      "bytes": 18114,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "made-to-stick/frameworks.md",
+      "sha256": "c524e7e222c8d292132801db1cc6cee5b32cfc5f1839f331266e7f44e68bc8ce"
+    },
+    {
+      "bytes": 12378,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "made-to-stick/integration.md",
+      "sha256": "f7bc68a9dbd9b60b4780444d94e3a874f93d4130f0b4711d3c47cba7a9be565a"
+    },
+    {
+      "bytes": 9181,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "mom-test/SKILL.md",
+      "sha256": "4af80c78a64830d70ea33431c02375ee7f0b882392bc27812984a618ae583079"
+    },
+    {
+      "bytes": 4624,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "mom-test/cases.md",
+      "sha256": "029a0607fa89eac759f6394a855147274d41c2fa520466a8663921d9c6a3a5ff"
+    },
+    {
+      "bytes": 6892,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "mom-test/examples.md",
+      "sha256": "b2ddc4cc4afcaa16b93222425809d71135a488c48cd4fce34cae7b0ec62b5f05"
+    },
+    {
+      "bytes": 3695,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "mom-test/frameworks.md",
+      "sha256": "adcdeda2c5446b0ea8117bfb8fa8b3d175d2b19a23e48b5e1c029f6cccc8f5af"
+    },
+    {
+      "bytes": 5319,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "mom-test/integration.md",
+      "sha256": "29915a2f562aea82599887476386ae0e6c91602f2f8555173b8b7fada7a5cbd6"
+    },
+    {
+      "bytes": 11717,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "monetizing-innovation/SKILL.md",
+      "sha256": "a9daaec29a943f40fe4bd4816a951d9400b03193f158e6778d260def34c00995"
+    },
+    {
+      "bytes": 6853,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "monetizing-innovation/cases.md",
+      "sha256": "c4cd177373d40c2167ca0e0a8a76ce3ea45331de807cb6ae9d55c57a58dba94c"
+    },
+    {
+      "bytes": 8867,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "monetizing-innovation/examples.md",
+      "sha256": "899104a1d8448afbd8fb2edad6e8ab17bccbf641ec2fed19db18483d99ac6fa6"
+    },
+    {
+      "bytes": 18201,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "monetizing-innovation/frameworks.md",
+      "sha256": "17f9e6c8108dabb0d70a29e84c434003b77ed2863c0f07d65a6fe879aab877f9"
+    },
+    {
+      "bytes": 8226,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "monetizing-innovation/integration.md",
+      "sha256": "1254d124cbb4bcbf575cba8d5b7b41a9e9451f82d7f64804616eaa6c773bd904"
+    },
+    {
+      "bytes": 14571,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "obviously-awesome/SKILL.md",
+      "sha256": "81757b552d8fafeea9238a3a1107bd0e81c7466fc1f75c32ff657a34bf7c1171"
+    },
+    {
+      "bytes": 5302,
+      "packaged": true,
+      "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
+      "path": "obviously-awesome/cases.md",
+      "sha256": "12b0c96b40e7b0c885978258b84564bec50f87c196ae26255fa0546d6ac98f26"
+    },
+    {
+      "bytes": 6685,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "obviously-awesome/examples.md",
+      "sha256": "7033e7e31a6cbc28ceabc1d4cae1ba5d5e16c8c45e911aeef4d324db9a4dcc0e"
+    },
+    {
+      "bytes": 9654,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "obviously-awesome/frameworks.md",
+      "sha256": "da0aa4135c38ea298985c77f3613b6f03fe7e6b4fc758a61fad4fac0cc5b6634"
+    },
+    {
+      "bytes": 5300,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "obviously-awesome/integration.md",
+      "sha256": "05569b7d191fd964c613632c8b0572ad8919164949e2284ffded5386d72e4c48"
+    },
+    {
+      "bytes": 19501,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "spin-selling/SKILL.md",
+      "sha256": "124392733ae32f8947fab1d61d370d927d6f9bc2e6f6c59510cc478e05a0e1e5"
+    },
+    {
+      "bytes": 10128,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "spin-selling/cases.md",
+      "sha256": "ded0d1efcb2b1cc26675b07bb573ed62efb423d05c5842e30e50cff178b53548"
+    },
+    {
+      "bytes": 10124,
+      "packaged": true,
+      "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
+      "path": "spin-selling/examples.md",
+      "sha256": "668252db821d8891fcdce22d88e8b07645b6d8c166abb25decb9aaf51d380366"
+    },
+    {
+      "bytes": 11345,
+      "packaged": true,
+      "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
+      "path": "spin-selling/frameworks.md",
+      "sha256": "5ba53947d3d980ae3f5e6ad2bdbd9ce2f7a6520fc8062facf113f3dab867f489"
+    },
+    {
+      "bytes": 14566,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "spin-selling/integration.md",
+      "sha256": "72fd674e6a290efee8791191b7e078ac36d817daeb3ea04288114d2b5301bbd2"
+    },
+    {
+      "bytes": 13946,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "storybrand/SKILL.md",
+      "sha256": "8fa75ea2712c94fb4a43563b4b167eccd0654209a9009d27785cd8a1b17c0734"
+    },
+    {
+      "bytes": 10394,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "storybrand/cases.md",
+      "sha256": "2d3d30ec4bf9dd016cd34049f84dac83403afc9d18017019f11c9ce2c6f83351"
+    },
+    {
+      "bytes": 14018,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "storybrand/examples.md",
+      "sha256": "5bbb69d608ca0f8ca34ada27c0666b9d1e8e682f00358bfd94b847dc5b3ad369"
+    },
+    {
+      "bytes": 13970,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "storybrand/frameworks.md",
+      "sha256": "929c8bb94ae0bcbf63212610e021c10d794447b8cfe27f267bc879a24f761219"
+    },
+    {
+      "bytes": 11793,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "storybrand/integration.md",
+      "sha256": "f4b0e29ae64f0e13d4c252f06e7c29c29665937691547b32fb82f791ed125ce6"
+    },
+    {
+      "bytes": 20982,
+      "packaged": true,
+      "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
+      "path": "traction/SKILL.md",
+      "sha256": "e0e7b44e5d211955608c4e23a44e01a3890c2f3d156e026f94ba1cd68b4c3797"
+    },
+    {
+      "bytes": 17381,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "traction/cases.md",
+      "sha256": "9dfdce11556d704e150ff6b577d2417878389cd80c99747ea4849de999767282"
+    },
+    {
+      "bytes": 18889,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "traction/examples.md",
+      "sha256": "6612bf2df7dd8b2888fc2e9b8df8fb60cfe51a0bc839bd3637580d86554ad015"
+    },
+    {
+      "bytes": 21686,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "traction/frameworks.md",
+      "sha256": "2abc297005c29d7628a072f9f84beab74fd8826276762962d4fa7d1c36deda80"
+    },
+    {
+      "bytes": 14214,
+      "packaged": true,
+      "packaging_note": "text/source license included",
+      "path": "traction/integration.md",
+      "sha256": "afa7503e3f59c08416e4f2d1c8445d394f1bc3f7081122519b7d6df4d33e8df6"
+    }
+  ],
+  "public_release_transform": {
+    "block_quote_passages_omitted": 26,
+    "excluded_paths": [
+      "README.md",
+      "experiments/real-founder-problems.md"
+    ],
+    "inline_case_quote_passages_omitted": 7,
+    "long_quote_word_limit": 25,
+    "quote_passages_omitted": 33,
+    "transformed_files": 14
+  },
+  "schema_version": 1,
+  "source": "https://github.com/getagentseal/founder-playbook.git",
+  "tracked_file_count": 91
+}

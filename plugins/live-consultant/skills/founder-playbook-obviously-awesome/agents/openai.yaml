@@ -1,0 +1,4 @@
+interface:
+  display_name: "Founder Playbook Positioning"
+  short_description: "Clarify positioning and market context"
+  default_prompt: "Use $founder-playbook-obviously-awesome to sharpen this positioning."

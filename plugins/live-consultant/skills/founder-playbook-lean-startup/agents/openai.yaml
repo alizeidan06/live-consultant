@@ -1,0 +1,4 @@
+interface:
+  display_name: "Founder Playbook Lean Startup"
+  short_description: "Design MVPs and validated-learning loops"
+  default_prompt: "Use $founder-playbook-lean-startup to design the smallest valid experiment."

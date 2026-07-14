@@ -1,0 +1,4 @@
+interface:
+  display_name: "Live Consultant"
+  short_description: "Diagnose and orchestrate founder decisions"
+  default_prompt: "Use $founder-business-consultant to diagnose my business and choose the highest-leverage next move."

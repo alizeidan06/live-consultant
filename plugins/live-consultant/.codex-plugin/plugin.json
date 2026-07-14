@@ -1,0 +1,44 @@
+{
+  "name": "live-consultant",
+  "version": "0.1.0",
+  "description": "Adaptive business consulting, direct-response offer creation, marketing, sales, funnels, Meta ads, operations, and decision support delivered with simple, forceful customer clarity.",
+  "author": {
+    "name": "Ali Zeidan",
+    "url": "https://github.com/alizeidan06"
+  },
+  "homepage": "https://github.com/alizeidan06/live-consultant",
+  "repository": "https://github.com/alizeidan06/live-consultant",
+  "license": "MIT",
+  "keywords": [
+    "business",
+    "consulting",
+    "founders",
+    "marketing",
+    "sales",
+    "offers",
+    "funnels",
+    "meta-ads",
+    "strategy"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Live Consultant",
+    "shortDescription": "Direct business clarity, bold offers, execution",
+    "longDescription": "Diagnose business bottlenecks, create bold direct-response offers, audit ideas and operating systems, design funnels and Meta experiments, solve sales and operations problems, and explain every answer with the simplicity, stakes, mechanisms, and concrete examples of a great marketer.",
+    "developerName": "Ali Zeidan",
+    "category": "Business",
+    "websiteURL": "https://github.com/alizeidan06/live-consultant",
+    "privacyPolicyURL": "https://github.com/alizeidan06/live-consultant/blob/main/PRIVACY.md",
+    "termsOfServiceURL": "https://github.com/alizeidan06/live-consultant/blob/main/TERMS.md",
+    "capabilities": [
+      "Interactive",
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Diagnose the real bottleneck in my business.",
+      "Create three bold direct-response offers for this audience.",
+      "Explain what is broken, why it matters, and the strongest next move."
+    ]
+  }
+}

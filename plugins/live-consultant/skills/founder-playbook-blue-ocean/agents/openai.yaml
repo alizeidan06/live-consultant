@@ -1,0 +1,4 @@
+interface:
+  display_name: "Founder Playbook Blue Ocean"
+  short_description: "Explore value innovation and category shifts"
+  default_prompt: "Use $founder-playbook-blue-ocean to test a value-innovation strategy."

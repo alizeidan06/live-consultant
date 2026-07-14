@@ -1,0 +1,4 @@
+interface:
+  display_name: "Founder Playbook Crossing the Chasm"
+  short_description: "Plan a focused mainstream beachhead"
+  default_prompt: "Use $founder-playbook-crossing-the-chasm to assess whether a beachhead strategy fits."

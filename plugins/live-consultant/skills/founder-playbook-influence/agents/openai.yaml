@@ -1,0 +1,4 @@
+interface:
+  display_name: "Founder Playbook Influence"
+  short_description: "Apply and audit ethical persuasion"
+  default_prompt: "Use $founder-playbook-influence to improve persuasion while preserving informed choice."

@@ -1,0 +1,4 @@
+scenario,price,discounts,refund_rate,net_revenue,cogs,payment_fees,delivery_labor,variable_support,variable_commissions,chargeback_cost,contribution_before_ads,ad_spend,new_customers,cac,contribution_after_ads,payback_days,capacity_units,source_or_assumption,as_of_date
+conservative,,,,,,,,,,,,,,,,,,,
+base,,,,,,,,,,,,,,,,,,,
+optimistic,,,,,,,,,,,,,,,,,,,

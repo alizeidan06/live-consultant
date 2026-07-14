@@ -1,0 +1,4 @@
+interface:
+  display_name: "Founder Playbook Made to Stick"
+  short_description: "Make important messages concrete and memorable"
+  default_prompt: "Use $founder-playbook-made-to-stick to make this truthful message easier to remember."

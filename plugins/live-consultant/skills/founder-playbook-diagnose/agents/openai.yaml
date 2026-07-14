@@ -1,0 +1,4 @@
+interface:
+  display_name: "Founder Playbook Diagnose"
+  short_description: "Route startup problems to the right framework"
+  default_prompt: "Use $founder-playbook-diagnose to route this founder problem to the right framework."

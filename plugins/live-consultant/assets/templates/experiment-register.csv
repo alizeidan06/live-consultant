@@ -1,0 +1,1 @@
+experiment_id,decision,owner,hypothesis,assumption_tested,control,variant,one_changed_variable,primary_metric,guardrail_metric,pass_threshold,stop_threshold,minimum_evidence,start_date,review_date,source_population,result,decision_after,artifact_links,notes

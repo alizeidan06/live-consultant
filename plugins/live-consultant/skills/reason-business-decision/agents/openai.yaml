@@ -1,0 +1,4 @@
+interface:
+  display_name: "Reason About a Business Decision"
+  short_description: "Resolve tradeoffs with logic and business math"
+  default_prompt: "Use $reason-business-decision to stress-test this decision and show what would change the answer."

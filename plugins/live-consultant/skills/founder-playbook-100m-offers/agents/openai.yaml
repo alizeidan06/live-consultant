@@ -1,0 +1,4 @@
+interface:
+  display_name: "Founder Playbook 100M Offers"
+  short_description: "Generate bold direct-response offer concepts"
+  default_prompt: "Use $founder-playbook-100m-offers to generate bold source-style offers and value stacks."

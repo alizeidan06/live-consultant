@@ -1,0 +1,4 @@
+interface:
+  display_name: "Founder Playbook Four Steps"
+  short_description: "Apply customer development before scaling"
+  default_prompt: "Use $founder-playbook-four-steps to identify our customer development stage."

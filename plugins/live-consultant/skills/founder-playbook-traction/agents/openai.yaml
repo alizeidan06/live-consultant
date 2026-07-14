@@ -1,0 +1,4 @@
+interface:
+  display_name: "Founder Playbook Traction"
+  short_description: "Select and test acquisition channels"
+  default_prompt: "Use $founder-playbook-traction to rank and test likely growth channels."

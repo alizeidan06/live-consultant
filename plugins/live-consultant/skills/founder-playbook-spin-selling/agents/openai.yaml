@@ -1,0 +1,4 @@
+interface:
+  display_name: "Founder Playbook SPIN Selling"
+  short_description: "Structure complex B2B discovery and sales"
+  default_prompt: "Use $founder-playbook-spin-selling to improve this complex B2B sales conversation."

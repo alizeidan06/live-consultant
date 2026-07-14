@@ -1,0 +1,4 @@
+interface:
+  display_name: "Founder Playbook Mom Test"
+  short_description: "Plan unbiased customer discovery interviews"
+  default_prompt: "Use $founder-playbook-mom-test to improve these customer interview questions."
