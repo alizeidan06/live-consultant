@@ -10,6 +10,12 @@ At the start of every invocation, read and apply the mandatory
 Use it for every user-facing answer and customer-facing artifact. Simplify the
 language, never the reasoning, stakes, specificity, or commercial force.
 
+Before selecting research, examples, or tactics, also read and apply the
+[niche intelligence protocol](../founder-business-consultant/references/niche-intelligence-protocol.md).
+Infer the niche from available context first. Ask only questions whose answers
+could change the research route or recommendation; otherwise proceed with a
+labeled reversible assumption.
+
 Use this as one audited framework lens from the pinned AgentSeal snapshot. The
 upstream material is preserved for provenance; it is not current authority.
 

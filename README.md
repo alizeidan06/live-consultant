@@ -5,7 +5,9 @@ founders, entrepreneurs, startup teams, and operators.
 
 It diagnoses the real bottleneck, builds bold offers, maps funnels, plans Meta
 experiments, tests business ideas, computes unit economics, strengthens sales
-and operations, and explains the next move in plain language.
+and operations, and explains the next move in plain language. Before it does
+that, it resolves the exact buyer, trigger, business model, geography, channel,
+and stage so the research and answer fit the real niche.
 
 ## Install
 
@@ -17,7 +19,7 @@ codex plugin add live-consultant@live-consultant
 ```
 
 Start a new Codex task after installation. For a reproducible install, replace
-`main` with a published tag such as `v0.2.0`.
+`main` with a published tag such as `v0.3.0`.
 
 ## What is included
 
@@ -29,7 +31,23 @@ Start a new Codex task after installation. For a reproducible install, replace
 - Reusable templates for business context, offers, funnels, economics,
   evidence, experiments, creative tests, decisions, and launch gates.
 - Local scripts for workspace setup, unit-economics calculations, source
-  coverage verification, and privacy-preserving learning.
+  coverage and foundation verification, and privacy-preserving learning.
+- A universal niche-intelligence protocol and reusable niche context card.
+
+## Niche intelligence
+
+Live Consultant infers the buyer, payer, trigger, offer, business model,
+geography, channel, stage, and current phase from the request and project
+artifacts before asking questions. If the niche is already clear, it proceeds.
+If one unknown could change the answer, it asks the single most useful question
+and still gives provisional analysis whenever a reversible assumption is safe.
+
+Research is scoped to the exact niche and decision. Project ground truth comes
+first, followed by direct market artifacts and current authoritative sources
+matched to the claim. Evidence from one buyer, geography, channel, period,
+price context, or business model is not silently transferred to another. The
+niche layer changes how the foundation is applied; it does not rewrite the
+foundation.
 
 ## Continuous learning
 
@@ -69,6 +87,7 @@ preview and exact digest, but it cannot submit to GitHub or transmit data. Read
 - `Diagnose the real bottleneck in my business.`
 - `Create three bold offers for this audience and explain why they hit.`
 - `Audit this funnel, calculate the economics, and give me the strongest next move.`
+- `Infer my exact niche, research it, and ask only what could change your answer.`
 - `Use $improve-live-consultant to turn this correction into a tested local rule.`
 
 Live Consultant separates two jobs that are often mixed together. The creative

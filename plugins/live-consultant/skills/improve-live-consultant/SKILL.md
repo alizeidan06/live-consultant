@@ -7,6 +7,7 @@ description: Capture, review, test, and reuse Live Consultant mistakes and busin
 
 Read and apply the
 [Live Consultant communication voice](../founder-business-consultant/references/communication-voice.md),
+[niche intelligence protocol](../founder-business-consultant/references/niche-intelligence-protocol.md),
 [learning protocol](references/learning-protocol.md), and
 [foundation invariants](references/foundation-invariants.md).
 

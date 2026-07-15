@@ -2,6 +2,21 @@
 
 All notable public releases are recorded here.
 
+## 0.3.0 - 2026-07-15
+
+- Added a universal niche decision card across all 23 skills so advice resolves
+  the buyer, payer, trigger, offer, business model, geography, channel, stage,
+  and current phase before routing research or frameworks.
+- Added zero-question-by-default clarification discipline, one-question normal
+  mode, a three-question hard cap, reversible assumptions, and research stop
+  conditions that prevent questionnaire and proof-loop drift.
+- Added R0-R3 research depth, claim-matched current primary-source selection,
+  scope-transfer safeguards, common niche branches, and a reusable niche
+  context template.
+- Added a machine-verifiable v0.2.0 foundation lock so the communication voice,
+  advice hierarchy, source syntheses, proof and execution gates, logic, and
+  learning invariants remain byte-identical.
+
 ## 0.2.0 - 2026-07-14
 
 - Added the `improve-live-consultant` skill and a universal self-check protocol.

@@ -33,11 +33,15 @@ REQUIRED_ROOT_FILES = {
     Path("SECURITY.md"),
     Path("TERMS.md"),
     Path("plugins/live-consultant/LICENSE"),
+    Path("plugins/live-consultant/assets/foundation-lock.json"),
+    Path("plugins/live-consultant/assets/templates/niche-context.md"),
+    Path("plugins/live-consultant/scripts/verify_foundation_integrity.py"),
     Path("plugins/live-consultant/scripts/learning_loop.py"),
     Path("plugins/live-consultant/scripts/learning_loop_selftest.py"),
     Path("plugins/live-consultant/skills/improve-live-consultant/SKILL.md"),
     Path("plugins/live-consultant/skills/improve-live-consultant/references/foundation-invariants.md"),
     Path("plugins/live-consultant/skills/improve-live-consultant/references/learning-protocol.md"),
+    Path("plugins/live-consultant/skills/founder-business-consultant/references/niche-intelligence-protocol.md"),
     Path("plugins/live-consultant/THIRD_PARTY_NOTICES.md"),
 }
 
@@ -295,6 +299,11 @@ def main() -> int:
             "communication-voice.md" in skill_file.read_text(encoding="utf-8"),
             f"skill lost universal voice and learning entry point: {skill_file.relative_to(ROOT)}",
         )
+        record(
+            errors,
+            "niche-intelligence-protocol.md" in skill_file.read_text(encoding="utf-8"),
+            f"skill lost universal niche intelligence: {skill_file.relative_to(ROOT)}",
+        )
     record(errors, skill_count == 23, f"expected 23 skills, found {skill_count}")
 
     voice_path = (
@@ -310,6 +319,27 @@ def main() -> int:
         "improve-live-consultant/references/learning-protocol.md" in voice_text,
         "universal communication voice lost the learning protocol link",
     )
+
+    niche_path = (
+        PLUGIN
+        / "skills"
+        / "founder-business-consultant"
+        / "references"
+        / "niche-intelligence-protocol.md"
+    )
+    niche_text = niche_path.read_text(encoding="utf-8") if niche_path.is_file() else ""
+    for required_phrase in (
+        "Default to zero questions",
+        "never ask more than three",
+        "R3 - Execution grade",
+        "Never silently transfer evidence",
+        "Adapt the implementation, not the foundation",
+    ):
+        record(
+            errors,
+            required_phrase in niche_text,
+            f"niche protocol lost invariant: {required_phrase}",
+        )
 
     privacy_text = (ROOT / "PRIVACY.md").read_text(encoding="utf-8")
     record(errors, "off by default" in privacy_text, "privacy policy lost local-learning opt-in")
@@ -357,8 +387,20 @@ def main() -> int:
             f"{learning_selftest.stdout}{learning_selftest.stderr}"
         )
 
+    foundation_integrity = subprocess.run(
+        [sys.executable, str(PLUGIN / "scripts" / "verify_foundation_integrity.py")],
+        text=True,
+        capture_output=True,
+    )
+    if foundation_integrity.returncode != 0:
+        errors.append(
+            "foundation integrity failed: "
+            f"{foundation_integrity.stdout}{foundation_integrity.stderr}"
+        )
+
     summary = {
         "errors": errors,
+        "foundation_integrity": foundation_integrity.stdout.strip(),
         "files": files,
         "local_links_checked": link_count,
         "block_quotes_checked": block_quote_count,
