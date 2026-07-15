@@ -8,6 +8,10 @@ decision support.
 ## Core behavior
 
 - Finds the binding constraint before recommending tactics.
+- Infers the exact buyer, trigger, business model, geography, channel, stage,
+  and current decision before researching or asking questions.
+- Asks only decision-changing questions, then researches the exact niche with
+  claim-matched current sources instead of substituting generic industry advice.
 - Uses the Sabri/King Kong mindset without compliance, proof, or implementation
   dilution during offer ideation.
 - Speaks with the shared strengths of Sabri Suby and Alex Hormozi: simple but
@@ -62,7 +66,7 @@ codex plugin add live-consultant@live-consultant
 Start a new Codex task after installation.
 
 For a version-pinned install, replace `main` with a release tag such as
-`v0.2.0`.
+`v0.3.0`.
 
 ## Provenance
 

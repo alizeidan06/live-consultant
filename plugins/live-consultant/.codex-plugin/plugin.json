@@ -1,7 +1,7 @@
 {
   "name": "live-consultant",
-  "version": "0.2.0",
-  "description": "Adaptive business consulting, direct-response marketing, sales, funnels, Meta ads, operations, decisions, and evidence-gated learning from corrections and outcomes.",
+  "version": "0.3.0",
+  "description": "Niche-specific business consulting, direct-response marketing, sales, funnels, Meta ads, operations, decisions, and evidence-gated learning.",
   "author": {
     "name": "Ali Zeidan",
     "url": "https://github.com/alizeidan06"
@@ -19,13 +19,14 @@
     "funnels",
     "meta-ads",
     "strategy",
+    "niche-research",
     "continuous-learning"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Live Consultant",
-    "shortDescription": "Direct business clarity, bold offers, execution",
-    "longDescription": "Diagnose business bottlenecks, create bold direct-response offers, audit ideas and operating systems, design funnels and Meta experiments, solve sales and operations problems, and compound from corrections and measured outcomes through private, evidence-gated project learning.",
+    "shortDescription": "Niche-specific clarity, bold offers, execution",
+    "longDescription": "Infer the exact buyer, niche, geography, channel, business model, and stage before researching and advising. Diagnose bottlenecks, create bold direct-response offers, design funnels and Meta experiments, solve sales and operations problems, and compound from corrections through private, evidence-gated project learning.",
     "developerName": "Ali Zeidan",
     "category": "Business",
     "websiteURL": "https://github.com/alizeidan06/live-consultant",
@@ -38,8 +39,8 @@
     ],
     "defaultPrompt": [
       "Diagnose the real bottleneck in my business.",
-      "Create three bold direct-response offers for this audience.",
-      "Explain what is broken, why it matters, and the strongest next move."
+      "Research my exact niche before recommending the strongest move.",
+      "Create three bold direct-response offers for this audience."
     ]
   }
 }

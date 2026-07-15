@@ -1,0 +1,18 @@
+{
+  "baseline_release": "0.2.0",
+  "protected_files": {
+    "skills/design-offer-funnel/references/offer-funnel-gates.md": "6fb6deb71068d0689ce5e5696967ff2a5b5a1025a3f3d8b8c6f28705b7eb1814",
+    "skills/design-offer-funnel/references/sell-like-crazy-source-synthesis.md": "99d77a724a9baa2faaacf2494b3fd83e2eed2b184711dfa65c2debfbf01bac88",
+    "skills/founder-business-consultant/references/advice-hierarchy.md": "004c18bea968565104cb88fbd2d8a70d6dee2d6f7d014752fe7dfe4af81bf583",
+    "skills/founder-business-consultant/references/communication-voice.md": "94be29266f2c42374e79eb7aafea7af2320fa554e96f6d993fe464311317d503",
+    "skills/founder-business-consultant/references/source-provenance.md": "088c1d21ec6f1d89b4457e5ee9ceb22e55b802aaea41a02e4f8a721770cea701",
+    "skills/improve-live-consultant/references/foundation-invariants.md": "588585202c016b18e923c0393569121947f72393dd96aca9dd5afacd5340e239",
+    "skills/improve-live-consultant/references/learning-protocol.md": "6fe71aaaa6156c28d673378001c5dbe5168b421f8b8cfbdb3ab57087e60ff229",
+    "skills/plan-meta-ads/references/meta-ads-source-synthesis.md": "892aa4a135e5741dc92fa8412697a03071623a141eed3de8353adc9db4c88259",
+    "skills/plan-meta-ads/references/meta-audit-launch-gate.md": "ff0e7a2052121c5a5f3985fe738c825d45ddcf124a31cc287bb059cb2715fe9f",
+    "skills/reason-business-decision/references/decision-math.md": "e298d1d7bb967425d0ab7cbfc18c69b28a8751c4a30b9297b1815ec130600363",
+    "skills/reason-business-decision/references/logic-protocol.md": "ecd66099694283b775c62563316414cc6bc60d4b12980636184a9269ec606b27",
+    "skills/validate-business-idea/references/proof-gates.md": "c0b11f2a73824871ef66e72d5051c2d17bc715547941f92d9a9f832d0bb49997"
+  },
+  "schema_version": 1
+}

@@ -10,6 +10,12 @@ At the start of every invocation, read and apply the mandatory
 Use it for every user-facing answer and customer-facing artifact. Simplify the
 language, never the reasoning, stakes, specificity, or commercial force.
 
+Before selecting research, examples, or tactics, also read and apply the
+[niche intelligence protocol](../founder-business-consultant/references/niche-intelligence-protocol.md).
+Infer the niche from available context first. Ask only questions whose answers
+could change the research route or recommendation; otherwise proceed with a
+labeled reversible assumption.
+
 Treat the supplied Meta playbook as a dated experiment library. Current official
 documentation, live account state, business evidence, and cash economics govern.
 
