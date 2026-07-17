@@ -7,9 +7,9 @@ For warm intro emails / cold outreach to potential interviewees:
 | Letter | Element | Purpose |
 |--------|---------|---------|
 | **V**ision | Your big-picture goal | Why they should care |
-| **F**raming | Honest where you are | Sets expectations, removes pitch fear |
+| **F**raming | State where you are | Sets expectations and changes how answers should be interpreted |
 | **W**eakness | What you don't know | Gives them a way to help |
-| **P**edestal | Why they specifically | Flatters genuinely, signals research |
+| **P**edestal | Why they specifically | Signals relevance; can range from genuine recognition to strategic status framing |
 | **A**sk | Concrete request | Makes saying yes easy |
 
 ### Template
@@ -43,7 +43,7 @@ Do you have time in the next couple weeks to meet up for a chat? (ASK)
 
 ## Question Depth Hierarchy
 
-### Surface (avoid)
+### Surface (Source: Lower Signal for Discovery)
 - "Do you like X?"
 - "Would X be useful?"
 
@@ -64,16 +64,18 @@ Do you have time in the next couple weeks to meet up for a chat? (ASK)
 
 ## Conversation Frame: The Casual Default
 
-### Why Formality Kills Conversations
+### Why the Source Disfavors Formality
 - Meetings cost 4+ hours with overhead
 - Sets expectation you'll pitch, inviting biased feedback
 - Feels like an interview, not a conversation
 
-### Better Approach
+### Source Casual Default and Available Variants
 - Strip the formality - reduce "meeting" to "chat"
 - Pop your most important question immediately
 - 5-10 minute casual conversations yield as much as formal meetings
 - Goal: they don't even realize they've "had a meeting"
+
+Also preserve formal research interviews, disclosed sales-discovery calls, expert panels, workshops, and covert observation as analyzable variants. Casual conversations reduce performance pressure; formal sessions improve comparability, consent clarity, recording quality, and multi-stakeholder access. Covert or "stealth" approaches may change behavior but create trust, privacy, and permission consequences that must be resolved before execution.
 
 ## The Three Levels of Filtering
 
@@ -95,7 +97,7 @@ Practical signals you have enough:
 - Distinct segments emerging clearly
 - B2B with buying committees: talk to economic buyer, user, AND technical evaluator (these are typically different people)
 
-If 10+ conversations and still confused → segment is too broad. Slice tighter, don't keep interviewing.
+If 10+ conversations remain confused, the source recommends slicing tighter. Continued broad interviewing is also available when the objective is category mapping, weak-signal discovery, or locating a new segmentation axis. Set a learning objective, time box, and stop criterion for either path.
 
 ## Three Big Questions Framework
 

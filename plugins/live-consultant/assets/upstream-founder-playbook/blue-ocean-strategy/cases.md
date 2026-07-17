@@ -101,7 +101,7 @@ Tests for a usable trend: **decisive, irreversible, clear trajectory**.
 
 ## Tipping Point Leadership: Bratton/NYPD
 
-**Historical contestation note:** Subsequent research disputes parts of the broken-windows policing theory and Compstat-era statistics (manipulation of crime numbers documented in later studies). Use as illustrative of the framework, not as a clean historical account.
+**Historical contestation note:** Subsequent research disputes parts of the broken-windows policing theory and Compstat-era statistics (manipulation of crime numbers documented in later studies). Preserve the case as an illustration of the framework while labeling the disputed history and avoiding presentation as clean causal proof.
 
 Bill Bratton took over NYPD in 1994. Crime at all-time highs. No budget increase.
 

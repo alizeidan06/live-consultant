@@ -46,13 +46,15 @@ Positioning is built from 5 components, plus 1 optional layer:
 | **5. Market Category** | What context makes your value obvious? | "CRM for X" |
 | **+1. Relevant Trends** | What in the world makes you matter MORE NOW? | AI, remote work |
 
-**Critical:** Dependency chain. Get the order wrong and the whole thing collapses.
+**Source-default dependency:** Dunford presents the chain below because each output informs the next. It is a source emphasis, not a required operating order; alternatives-first, category-first, customer-first, value-first, reverse, parallel, iterative, and complete-method passes all remain available.
 
 ```
 Alternatives → Attributes → Value → Target Market → Category → (Trends)
 ```
 
 Why traditional "For X who Y, our product is a Z that does W unlike V" template fails: assumes you already know category and competitors. For novel products, those are exactly what you're trying to figure out.
+
+Choose the order using evidence maturity, category ambiguity, customer access, product novelty, decision reversibility, test speed, coordination cost, and the consequence of anchoring too early versus learning too broadly.
 
 Detailed component definitions: see [frameworks.md](frameworks.md).
 
@@ -61,7 +63,7 @@ Detailed component definitions: see [frameworks.md](frameworks.md).
 | # | Step |
 |---|------|
 | 1 | Understand customers who LOVE the product (best-fit) |
-| 2 | Form cross-functional positioning team (CEO mandatory) |
+| 2 | Form positioning team (source favors cross-functional participation and CEO ownership; delegated and specialist variants remain available) |
 | 3 | Align vocabulary, let go of positioning baggage |
 | 4 | List true competitive alternatives (customer view) |
 | 5 | Isolate unique attributes (with proof) |
@@ -75,13 +77,11 @@ Step-by-step detail with team formation, baggage handling, value-theme clusterin
 
 ## The Circular Dependency (Why Step 1 Matters)
 
-You can't position for your target market until you know who loves you.
-You can't know who loves you without selling first.
-You can't sell without some positioning.
+The source describes a circular dependency: target-market positioning improves with evidence about who loves the product; that evidence often comes from selling; and selling usually begins with at least a provisional position. Preserve customer-evidence-first, founder-vision-first, category-first, sales-first, positioning-first, reverse, parallel, and iterative variants rather than turning any leg into a prerequisite.
 
-**Break the cycle:** Cast wide early ("fishing-net analogy"). Don't position narrowly until you have signal from real users. Then narrow to best-fit.
+**Source default:** Cast wide early ("fishing-net analogy"), then narrow after real-user signal. Also preserve narrow-first, hypothesis-led, founder-vision-led, category-first, and parallel-positioning variants; compare learning speed, focus, wasted reach, and reversibility.
 
-If you don't have happy customers yet → you don't have positioning yet, you have hypotheses. Use Mom Test for problem validation FIRST. Don't position what you haven't built.
+Before happy customers, positioning is hypothesis-led rather than customer-validated. Generate it freely from the envisioned product, category, founder insight, analogues, or early research; run Mom Test first, after, or in parallel. Mark what is unbuilt and testable so external claims do not imply current capabilities that do not exist.
 
 ## The Three Positioning Styles (Step 8 - The Core Step)
 
@@ -92,7 +92,7 @@ Market category is the context customers use to evaluate you. Three styles:
 Compete in an existing category by being better at one specific dimension.
 
 **When to use:** Established category exists, you have a clear advantage on something customers care about, you can be top-3.
-**When NOT:** Category leader is too entrenched, your advantage isn't category-level important.
+**Lower-probability conditions and variants:** An entrenched category leader or a weak category-level advantage lowers the odds. Head-to-head can still work through superior distribution, price, brand, speed, controversy, capital, a wedge feature, or a deliberate war of attrition; compare those against subsegment and new-category plays.
 
 ### Style 2: Big Fish, Small Pond (Subsegment)
 
@@ -109,11 +109,11 @@ Find a subsegment where YOUR strengths are most valuable.
 Define a new category you can lead.
 
 **When to use:** Existing categories don't fit, you can clearly explain the new category in customer terms, you have resources to educate the market (expensive).
-**When NOT (most cases):** You think your product is "unique" (everyone thinks that), no budget to educate, existing categories work "well enough."
+**Lower-probability conditions and variants:** Self-assessed uniqueness, low education budget, and a workable existing category raise the cost. New-game positioning can still be tested with a provocative label, founder-led media, borrowed distribution, a coalition, a manifesto, or a small beachhead; compare education cost, memorability, category ownership, and time to revenue.
 
 **Example:** Eloqua coined "marketing automation": $12M → $96M → $870M Oracle acquisition.
 
-Mark Organ (Eloqua founder) found that successful category creation comes from deeply understanding a narrow set of extreme early customers, not from executives brainstorming acronyms at offsites. The category emerges from observed behavior, not invented positioning.
+Mark Organ (Eloqua founder) attributes successful category creation to deeply understanding a narrow set of extreme early customers. Preserve that observed-behavior route alongside executive-invented, analyst-led, community-named, hybrid, and deliberately provocative category variants. Label provenance and compare authenticity, control, comprehension, media value, and adoption; external factual claims about customer behavior still require evidence.
 
 When both a new market boundary AND new evaluation criteria are needed, consider creating a new category. With only one needed, stay within existing category structure. Treat as a heuristic.
 
@@ -122,14 +122,16 @@ When both a new market boundary AND new evaluation criteria are needed, consider
 ```
 Does an existing category fit?
 ├─ YES → Are you the leader or can become one?
-│        ├─ YES → HEAD TO HEAD
+│        ├─ YES → Source emphasis: HEAD TO HEAD; Big Fish and New Game remain available
 │        └─ NO → Is there a subsegment where you'd be leader?
-│                ├─ YES → BIG FISH, SMALL POND ← often the answer
-│                └─ NO → Reconsider product, or move to Style 3
+│                ├─ YES → Source emphasis: BIG FISH, SMALL POND; Head to Head and New Game remain available
+│                └─ NO → Source emphasis: reconsider the product or test New Game; all three styles and hybrids remain available
 └─ NO → Can you afford to educate the market?
-         ├─ YES → CREATE NEW GAME (rare and risky)
-         └─ NO → Force-fit Style 1 or 2
+         ├─ YES → Source emphasis: CREATE NEW GAME; Head to Head, Big Fish, borrowed-category, and hybrid variants remain available
+         └─ NO → Source emphasis: borrow or narrow an existing category; New Game, low-cost education, coalition, provocative-label, and all other styles remain available
 ```
+
+The tree records source priors, not style eligibility. Compare Head to Head, Big Fish/Small Pond, New Game, borrowed-category, hybrid, reverse, parallel, and multi-position variants in every branch. Choose using category fit, defendable advantage, education cost, distribution, capital, time to revenue, memorability, customer comprehension, reversibility, and the consequence of owning a small frame versus teaching a new one.
 
 ### Failure Examples
 
@@ -166,22 +168,22 @@ Major trigger occurred?
 ├─ New technology disrupts category
 ├─ Customer attitude shifts
 └─ YES to any → Run the 4 weak-positioning signs check
-                ├─ Multiple failing → Start at Step 4 (re-check alternatives)
-                └─ All clear → Stay course
+                ├─ Multiple failing → Source emphasis: re-check alternatives; preserve any-step-first, full-process, reverse, parallel, message-test, and stay-course variants
+                └─ All clear → Source emphasis: stay course; preserve proactive, scheduled, campaign-level, trigger-led, parallel, and full-process repositioning variants
 ```
 
-Dunford recommends "checking in" on positioning every six months OR when there's a major event - not mandatory periodic repositioning. **Reposition when triggers occur, not on schedule.** Adding a large competitor doesn't necessarily mean positioning should change.
+Dunford recommends checking positioning every six months or after a major event, with trigger-led repositioning as her default. Also preserve scheduled, continuous, campaign-level, and opportunistic repositioning; compare message consistency, learning cadence, market volatility, and switching cost. A large competitor is one input, not an automatic decision.
 
 ## Critical Caveats and Soft Heuristics
 
-- **"Big Fish / Small Pond is often the best fit for startups"** - heuristic. Selection bias is severe in any consultant's dataset (clients tend to be companies that already need help, often because they're not category leaders). Don't read as a measured rule.
+- **"Big Fish / Small Pond is often the best fit for startups"** - heuristic. Selection bias is severe in any consultant's dataset; treat it as a source prior and compare head-to-head and new-game alternatives.
 - **Two-dimensional stretch (new boundary + new criteria → new category)** - heuristic, not law. Use as guidance.
 - **"Check in every six months"** - Dunford's actual phrasing is "checking in on your positioning every six months OR when there has been a major event." It's a check, not a mandatory reposition.
 - **No "2+/4 weak signs" threshold** - the source doesn't quantify how many signs trigger a positioning problem. Use judgment.
 
-## Customer Sales Story (After Positioning Locked)
+## Customer Sales Story: Source-Default Timing and Complete Variants
 
-Once positioning is locked, build a sales story in 6 stages:
+The source foregrounds building the six-stage sales story once positioning is stable. Preserve story-first positioning discovery, provisional stories before lock-in, early, late, reverse, parallel, iterative, and full-method variants when a concrete narrative is needed to expose gaps or test context.
 
 | # | Stage | Content |
 |---|-------|---------|
@@ -192,9 +194,9 @@ Once positioning is locked, build a sales story in 6 stages:
 | 5 | Value Themes | The 1-4 ways we deliver value |
 | 6 | Next Steps | What to do now |
 
-Sales story comes BEFORE messaging. Story drives messaging, not vice versa. Then write a master messaging document to prevent message creep.
+**Source-default order:** sales story informs messaging, followed by a master messaging document to reduce message creep. Preserve messaging-first story discovery, reverse, early or late master documentation, parallel story-message tests, continuous documentation, and complete-method variants. Choose using positioning confidence, audience access, channel urgency, production cost, consistency needs, reversibility, and the consequence of premature lock-in versus uncontrolled drift.
 
-**Customers vs investors warning:** Don't say "disruption" to customers. Investor language alienates buyers. Save category-creation language for fundraising.
+**Customers versus investors:** Dunford warns that "disruption" often alienates buyers and fits fundraising better. Keep plain customer value, technical inevitability, disruption, insurgency, fear, status, and category-creation variants available; test comprehension, credibility, excitement, and resistance by audience.
 
 ## Positioning ≠ Messaging ≠ Branding
 
@@ -204,7 +206,7 @@ These three terms are used interchangeably and shouldn't be.
 - **Messaging** = customer-facing translation of positioning. The words on your website, in your pitch deck, in your ads. Positioning makes messaging obvious; without positioning, messaging is guesswork.
 - **Branding** = the emotional associations customers have with your company over time. Builds slowly through repeated, consistent exposure. Can't be written in a workshop.
 
-**Key Dunford point:** Most teams skip positioning and jump straight to messaging. The messaging then changes weekly because there's no foundation underneath it - every new opinion reshapes the copy. Fix the positioning first; the messaging becomes obvious.
+**Key Dunford source point:** teams that jump from an unstable strategic frame into messaging often create weekly message drift. Her default is to stabilize positioning before scaling messaging. Preserve message-first positioning discovery, provisional copy, reverse diagnosis, early, late, parallel, iterative, and whole-system variants. Choose using evidence maturity, category clarity, speed, message-test cost, reversibility, and the consequence of drift versus delayed market contact.
 
 | Layer | What It Is | Who Owns It | How Often It Changes |
 |-------|------------|-------------|----------------------|
@@ -226,15 +228,17 @@ These three terms are used interchangeably and shouldn't be.
 | **6 months** | Frequency to check in (not mandatory reposition) |
 | **30 sec** | Time customer should need to "get it" |
 
-## When NOT to Use This Skill
+## Context Routing Without Method Exclusion
 
 ```
-Pre-product, validating problem? → Mom Test instead. Don't position what you haven't built.
+Pre-product, validating problem? → Mom Test can lead, follow, or run beside provisional positioning; label unbuilt capabilities and hypotheses.
 Pure consumer (TikTok-style)? → Brand and content matter more than positioning
-Commodity goods? → Price is the only differentiator
-Internal tools? → No customer-facing positioning needed
+Commodity goods? → Source emphasis: price may dominate; preserve service, convenience, distribution, brand, trust, bundle, experience, identity, category, and full-positioning variants
+Internal tools? → Source emphasis: internal adoption context may replace public positioning; preserve employee-facing, executive-facing, workflow, change-management, recruiting, vendor, cross-functional, and customer-facing positioning variants
 Genuine 10x product / strong network effects / PLG with self-explaining UX? → Positioning matters but doesn't WIN the game
 ```
+
+These routes indicate likely performance emphasis, not framework eligibility. The complete positioning method remains available in every context, early or late, in reverse, in parallel with product and channel work, or as a whole-method pass. Choose using audience, alternatives, category comprehension, switching friction, distribution power, price elasticity, adoption stakes, evidence, and the consequence of under- or over-investing in positioning.
 
 ## Where Positioning Is Less Critical
 

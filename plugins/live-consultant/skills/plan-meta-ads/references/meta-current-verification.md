@@ -1,9 +1,11 @@
 # Current Meta verification registry
 
-Platform state and policy are time-sensitive. Recheck before each plan that
-depends on interface, availability, targeting, attribution, data use, or policy.
-Record URL, accessed date, applicable account/geography, and the exact claim it
-supports.
+Historical and current Meta methods remain available for complete explanation,
+analysis, comparison, and drafting at every verification status. Platform state
+and policy are time-sensitive, so a claim of current availability or policy and
+a recommendation or execution that depends on interface, targeting,
+attribution, data use, or policy receives a fresh check. Record URL, accessed
+date, applicable account/geography, and the exact claim it supports.
 
 Primary sources checked during plugin build on 2026-07-14:
 
@@ -24,7 +26,7 @@ Primary sources checked during plugin build on 2026-07-14:
 - Conversions API overview and privacy limitations:
   https://www.facebook.com/business/help/AboutConversionsAPI
 
-Verify before use:
+For current factual claims, recommendations, and external execution, verify:
 
 - objectives, Advantage+ modes, audience controls, placements, campaign budget,
   flexible/dynamic creative, ad limits, and learning behavior;

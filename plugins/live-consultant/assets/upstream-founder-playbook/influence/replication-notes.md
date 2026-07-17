@@ -30,7 +30,7 @@ Reality:
 
 **Cialdini's 1984 book repeats the myth.** Modern editions retain the framing.
 
-**This skill takes a clean stance:** We do NOT use Genovese as evidence. We use the Latane & Darley lab studies (smoke-in-the-room, etc.) which DO replicate. The underlying psychology (pluralistic ignorance, bystander diffusion) is real - just not as extreme as Genovese suggested. Modern updates (Fischer et al. 2011) show the bystander effect REVERSES in clear-emergency dangerous situations.
+**Evidence handling:** Preserve Genovese as a labeled historical and persuasion narrative. Use the Latane & Darley lab studies as efficacy evidence because they replicate. The underlying psychology (pluralistic ignorance, bystander diffusion) is real but less extreme than the myth suggests; Fischer et al. 2011 finds reversal in clearly dangerous emergencies.
 
 ## P1: Hofling 95% Original vs Modern Replications
 
@@ -43,7 +43,7 @@ Why the change:
 - "Phone order from unknown physician" protocols are standardized
 - Nursing education includes professional autonomy emphasis
 
-When citing Hofling, **always note this is the 1966 figure and that modern replications are much lower.** The principle (authority erodes professional judgment) is real; the specific 95% number is historical.
+A complete Hofling citation identifies 95% as the 1966 figure and includes the much lower modern replications. The principle (authority can erode professional judgment) remains available; the 95% magnitude is historical.
 
 ## P1: Drive Carefully 76% Condition Disambiguation
 
@@ -99,7 +99,7 @@ Driscoll's 1972 Colorado study (140 couples, parental opposition correlated with
 
 ## P2: "Because" Experiment Boundary Conditions
 
-Langer's Xerox-line experiment (94% with "because I'm in a rush" vs 60% without "because"). Effect collapses for higher-cost requests (e.g., when the line-cutter wants to make 20 pages, not 5). The placebic-information effect works only at low cost; once stakes are real, listeners process the reason content. **Don't use "because" as a magic word for high-stakes asks.**
+Langer's Xerox-line experiment (94% with “because I'm in a rush” vs 60% without “because”). The effect collapses for higher-cost requests (for example, 20 pages rather than 5) because listeners process reason quality when stakes rise. Preserve low-stakes and high-stakes “because” variants; label the boundary condition and test wording, cost, reason quality, and audience scrutiny.
 
 ## P2: DITF Backfire Condition
 

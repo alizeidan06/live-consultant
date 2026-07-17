@@ -32,9 +32,13 @@ High-leverage commercial goal
   -> automated email follow-up and multiplication
 ```
 
-The system does not start with an ad. It starts with knowing whom the business
-wants, what that buyer already wants, and how to move that buyer from their
-current state to a purchase.
+The source's preferred sequence starts with knowing whom the business wants,
+what that buyer already wants, and how to move that buyer from their current
+state to a purchase. Ad-first, traffic-first, tool-first, and parallel
+buyer-learning variants remain fully available: early traffic can expose real
+language and behavior faster, while the source-first sequence can reduce paid
+noise and wasted spend. Compare the learning speed, cash cost, signal quality,
+and downstream rework for the current niche.
 
 ## Foundation: think like a business builder
 
@@ -80,22 +84,35 @@ The owner can delegate campaign setup, design, administration, fulfillment,
 and parts of sales execution. The source argues that the owner cannot abdicate
 understanding the message, offer, economics, and machine that produce revenue.
 
-Build the machine in this order:
+The source's default machine order is:
 
 1. understand the buyer and problem;
 2. create the offer and sales message;
 3. choose the path from attention to sale;
-4. attach traffic only after the path exists;
+4. connect traffic after an initial path exists in the source-default sequence;
 5. measure every transition; and
-6. script, automate, delegate, and train once the mechanism works.
+6. script, automate, delegate, and train after initial mechanism signal in the
+   source-default sequence.
 
-Software, landing-page builders, CRMs, and media channels are delivery tools.
-They do not supply the missing buyer insight or compelling reason to act.
+Every component remains available in reverse or parallel order. Traffic can be
+used to discover the buyer before a complete path exists; tools and automation
+can create prototypes or instrumentation before conversion is stable; and
+delegation can bring specialist capability in early. Compare speed, learning
+quality, coordination cost, cash exposure, and rework instead of turning the
+source order into an access gate.
 
-When a funnel underperforms, inspect buyer, problem, offer, message, and
-conversion path before replacing the CRM, page builder, automation, template,
-button color, or campaign structure. A simple path carrying a strong relevant
-offer can outperform sophisticated machinery carrying a weak one.
+Software, landing-page builders, CRMs, and media channels can expose behavior,
+instrument a path, speed iteration, and change what is possible. They do not
+automatically supply buyer insight or a compelling reason to act; tool-first,
+message-first, and parallel variants remain available for comparison.
+
+When a funnel underperforms, inspect buyer, problem, offer, message, conversion
+path, CRM, page builder, automation, template, interface, and campaign structure
+as parallel causal candidates. The source prioritizes the first group because a
+simple path carrying a strong relevant offer can outperform sophisticated
+machinery carrying a weak one; a tooling-first or simultaneous repair can win
+when instrumentation, reliability, speed, or technical friction is the actual
+constraint.
 
 ### Salesmanship multiplied
 
@@ -116,9 +133,10 @@ Treat each ad or sales asset as multiplied salesmanship:
 If the existing ad would sound weak, generic, or self-absorbed in a live pitch,
 the medium is not the problem. Rebuild the message.
 
-### Diagnose the machine before demanding traffic
+### Diagnose the machine while preserving every traffic route
 
-Classify the growth problem before adding reach:
+Classify the growth problem and compare the role of added reach at the same
+time:
 
 - **small list:** too few owned prospects or past customers to activate;
 - **low traffic:** too few suitable people entering the path;
@@ -129,9 +147,12 @@ Classify the growth problem before adding reach:
   fulfill the promise.
 
 The source's strongest diagnosis is that digital traffic is broadly purchasable
-while a self-liquidating conversion system is scarce. Paid reach becomes an
-asset only when the buyer, offer, message, funnel, follow-up, sale, and
-economics work together.
+while a self-liquidating conversion system is scarce. In that preferred model,
+paid reach compounds once buyer, offer, message, funnel, follow-up, sale, and
+economics work together. Paid reach also remains available earlier as bounded
+market research, message testing, retargeting-pool creation, distribution, or a
+deliberate loss-leading experiment. Compare learning speed and signal against
+cash burn, false negatives, weak conversion infrastructure, and delivery risk.
 
 ### Revenue-first leverage
 
@@ -174,9 +195,12 @@ later, keep improving the selling skill, and judge the routine by produced
 offers, messages, conversations, experiments, and contribution—not by adopting
 the source's early-hour anecdotes as universal doctrine.
 
-The owner can hand off day-to-day selling after the objections, message,
-conversion path, and economics are understood. Until then, remain close enough
-to the market to know why buyers act and why they do not.
+The source prefers the owner to remain close to day-to-day selling while
+objections, message, conversion path, and economics are being learned, then
+hand it off. Early delegation, co-selling, specialist-led discovery, and
+founder-absent sales remain available variants. Compare founder learning speed,
+specialist skill, capacity, documentation quality, coordination cost, and the
+risk of distancing the owner from buyer reality.
 
 ### Advertising as a measurable asset
 
@@ -227,11 +251,13 @@ leaving the larger future market unnurtured.
 
 ### Power 4%
 
-Start with the most valuable current customers rather than an imaginary average
-buyer. Rank them by contribution, repeat value, speed, ease of service,
-referrals, strategic fit, and enjoyment. Identify the traits and buying context
-of the best cluster. Use that cluster as the first Dream Buyer hypothesis, then
-look for more people like them.
+The source-default seed is the most valuable current-customer cluster. Rank it
+by contribution, repeat value, speed, ease of service, referrals, strategic fit,
+and enjoyment, then use its traits and buying context as one Dream Buyer
+hypothesis. Also preserve zero-customer, underserved-segment, competitor-buyer,
+aspirational-category, adjacent-market, and deliberately different-customer
+seeds. Compare sample bias, evidence quality, market size, differentiation,
+acquisition access, and fulfillment fit before choosing the operating emphasis.
 
 ### Halo Strategy
 
@@ -273,10 +299,16 @@ stop at age, gender, or broad interests.
 
 ### High-Value Content Offer (HVCO)
 
-An HVCO exchanges a genuinely useful first result for permission to continue
-the relationship. It is designed primarily for people not ready to buy now.
+The source's preferred HVCO exchanges a useful first result for permission to
+continue the relationship and is designed primarily for people not ready to buy
+now. Low-value teaser, curiosity-only, gated-preview, advertorial,
+brochure-style, direct-pitch, opt-in, permission-based, paid-list, scraped-list,
+third-party-list, and unsolicited variants remain available for complete
+analysis and ideation. Compare attention, lead volume, buyer trust, expectation
+match, conversion quality, complaints, downstream value, and economics before
+selecting a recommended operating route.
 
-The minimum standard:
+The source's preferred construction standard is:
 
 1. Solve or materially advance the most urgent researched question.
 2. Promise one understandable result rather than a broad education library.
@@ -311,7 +343,7 @@ Draft many versions, intensify the emotional and specific language, and keep the
 one most likely to make this buyer stop. Power words are seasoning, not a
 substitute for a meaningful promise.
 
-### HVCO content rules
+### Source-preferred HVCO content pattern
 
 - Every section should address a burning issue uncovered in research.
 - Support the headline's promise inside the content.
@@ -319,6 +351,11 @@ substitute for a meaningful promise.
 - Give before asking, but include one next action at the end.
 - A direct purchase or booking path may be better for high-intent traffic; the
   HVCO is not compulsory in every funnel.
+
+Curiosity-only, thin-teaser, advertorial, brochure, pitch-first, ask-first,
+mixed-value, and direct-sale content variants remain available. Compare their
+attention, speed, trust, expectation match, lead quality, complaints, and
+downstream conversion against the source-preferred pattern.
 
 ## Phase 3: capture contact details
 
@@ -328,7 +365,9 @@ substitute for a meaningful promise.
 2. A subheadline clarifying exactly what is received.
 3. Fascination bullets that tease valuable answers without resolving them all.
 4. A tangible visual or preview of the asset.
-5. A short form asking only for information needed at this step.
+5. A short form in the source-default variant. Zero-field, progressive-profile,
+   long-qualification, application, and data-rich variants remain available;
+   compare conversion, qualification, personalization, and follow-up value.
 6. A specific command telling the visitor what to do.
 
 ### Fascination bullet patterns
@@ -347,8 +386,10 @@ like the easiest way to close that loop.
 
 ### Capture and handoff
 
-Collect the minimum viable identity and permission. Deliver the promised asset
-immediately. Then route the new lead to:
+Map identity, data, permission, and delivery variants completely. For a
+recommended or executed contact-capture route, select the data and permission
+state using current law, platform policy, deliverability, buyer response,
+economics, privacy, and owner authorization. Then route the new lead to:
 
 - a thank-you or bridge page;
 - the Godfather Offer for hyperactive buyers;
@@ -373,9 +414,9 @@ Create two columns:
 | What it contains or does | What changes in the buyer's life or business |
 
 Continue the causal chain until the emotional, financial, practical, or status
-benefit is clear. Do not claim a later link as fact unless the mechanism and
-evidence can support it; during ideation, label unproven links as hypotheses to
-engineer.
+benefit is clear. Keep every later link in the ideation set and label its status
+`verified`, `source-reported`, `hypothetical`, `illustrative`, or `unsupported`;
+external factual assertions use links supported by the mechanism and evidence.
 
 ### Offer basics
 
@@ -468,26 +509,31 @@ fulfillment, sales cost, and cash timing. Optimize revenue and contribution per
 click, not the cheapest click in isolation. A higher CPC can be excellent when
 it produces disproportionately valuable customers.
 
-Start with one channel. Reach profitable or deliberately bounded learning.
-Then add and stabilize additional channels so the business is not dependent on
-one platform.
+The source default starts with one channel, reaches profitable or deliberately
+bounded learning, and then adds channels. Parallel portfolios, simultaneous
+channel discovery, diversified launch, channel-before-offer learning, and
+resilience-first variants remain available. Compare speed, signal isolation,
+cross-channel learning, cash exposure, team capacity, attribution, and platform
+concentration.
 
 ### Channel stacking and resilience
 
-The source's sequence is:
+The source's preferred sequence is:
 
 1. choose the first channel based on budget, buyer intent, message, and access;
 2. prove an offer can convert and record its CPL, CPA, EPC, contribution, and
    payback;
-3. strengthen that channel until it has stable signal;
+3. strengthen that channel toward stable signal;
 4. reinvest a portion of the resulting value into the next channel;
 5. compare new-channel units with the working benchmark;
 6. stabilize multiple profitable flows; and
 7. shift spend when a platform, auction, or algorithm changes.
 
 Its specific 50% ROI and three-channel targets are source heuristics, not laws.
-The durable mechanism is sequential proof followed by deliberate
-diversification, not launching every channel at once.
+The source mechanism is sequential proof followed by deliberate
+diversification. A multi-channel launch is an available alternative when
+resilience, channel interaction, speed, or a short market window outweighs the
+cleaner attribution and lower coordination load of the sequential route.
 
 ### Match traffic temperature
 
@@ -497,9 +543,11 @@ diversification, not launching every channel at once.
 | Warm | Problem aware or familiar with the brand | Mechanism, comparison, proof, case, offer bridge |
 | Hot | High intent, repeat visitor, subscriber, or prior buyer | Direct offer, booking, checkout, upsell |
 
-Do not force every visitor through the same funnel. Send high-intent demand to
-the shortest credible path; give lower-awareness demand the education and
-proof it needs.
+The source prefers routing high-intent demand to the shortest credible path and
+giving lower-awareness demand more education and proof. One-funnel-for-all,
+segmented, branching, progressive, direct-checkout, and education-first routes
+remain available; compare simplicity, speed, message match, personalization,
+maintenance burden, conversion, and buyer quality.
 
 ### Sell the click
 
@@ -523,9 +571,9 @@ variants; do not expect the first headline to be the winner. Source interface
 details and platform recommendations are dated—verify current mechanics before
 execution.
 
-### One job per funnel step
+### Single-job and multi-job funnel steps
 
-The source assigns a single conversion job to each stage:
+The source-default assigns a single conversion job to each stage:
 
 ```text
 ad -> sell the click
@@ -534,9 +582,10 @@ bridge or landing page -> sell the next step
 sales mechanism -> make the sale
 ```
 
-Hot intent may justify a shorter path, including direct checkout. The rule is
-not “always add steps”; it is “do not force one asset to perform four unrelated
-jobs.” Match commitment to traffic temperature.
+Hot intent may justify a shorter path, including direct checkout. Multi-job,
+branching, progressive, modular, and all-in-one assets remain available. Compare
+single-action clarity and attribution with journey compression, convenience,
+cross-sell, personalization, and choice overload for the current traffic.
 
 ### Google/PPC click system
 
@@ -657,9 +706,10 @@ deadline, consequence, or decisive close rather than as a substitute for trust.
 
 ## Phase 7: convert sales like a doctor
 
-### Diagnose before prescribing
+### Diagnosis-led and immediate-prescription variants
 
-For consultative services and complex purchases:
+For consultative services and complex purchases, the source's diagnosis-led
+default is:
 
 1. Use a short application or survey to understand fit and starting state.
 2. Ask why the prospect booked and find the real reason beneath a vague answer.
@@ -668,17 +718,27 @@ For consultative services and complex purchases:
    like.
 5. Make the gap and consequence clear with open questions.
 6. Deliver a useful insight, quick analysis, or initial plan on the call.
-7. Decide whether the offer can genuinely bridge the diagnosed gap.
-8. If yes, ask permission to explain the prescription.
-9. Present only the components connected to what the prospect said.
+7. Evaluate how well the offer bridges the diagnosed gap.
+8. In the source's fit-first branch, ask permission to explain the prescription
+   when the seller sees a fit; also preserve always-present, partial-fit,
+   challenger, menu, and bad-fit-close branches for comparison.
+9. In the focused branch, present the components connected to what the prospect
+   said. Full-stack, aspirational, contrast, and menu presentations remain
+   available; compare clarity, perceived value, choice load, pressure, and fit.
 10. Check desire and commitment, state the price confidently, and let the buyer
     respond.
 
-The source itself uses pressure in copy and problem questions while also
-teaching that poor-fit prospects should not be sold. These are different jobs,
-not a contradiction: direct-response messaging earns attention and action;
-doctor-style selling improves diagnosis and prescription in higher-context
-conversations.
+The source contains both full-pressure copy and problem questions and a
+fit-based prescription position that declines poor-fit prospects. Preserve and
+analyze both mechanisms, their rhetoric, and their examples. For a recommended
+sales route, select the pressure and fit policy using transaction context,
+qualified conversion, buyer quality, fallout, refunds, complaints, and
+retention.
+
+Immediate pitch, prescription-first, demo-first, close-first, and comprehensive
+presentation variants remain available. Compare speed and decisiveness with
+discovery quality, buyer self-persuasion, perceived relevance, resistance,
+fallout, and retention instead of treating diagnosis as an access prerequisite.
 
 ### Current-state pressure and latent pain
 
@@ -706,7 +766,7 @@ mechanisms must remain available:
   narrative or contrast as a creative specimen, keeping its factual status
   explicit until evidence exists.
 
-Do not hide any of these mechanisms behind a moral label. Identify which one is
+Keep every mechanism visible regardless of moral label. Identify which one is
 being used, where the premise came from, how strongly the buyer recognizes it,
 and whether it improves qualified action or merely creates reactance.
 
@@ -735,14 +795,15 @@ quality, cycle length, objections, refunds, complaints, and reactance.
 
 ### Deliver value, prescribe, and gain commitment
 
-Do not jump from pain directly to price. The source sequence is:
+The source sequence places value and prescription between pain and price:
 
 1. build a small plan from what the prospect disclosed;
 2. solve or demonstrate one useful piece live;
 3. ask whether that is the kind of help they want;
 4. confirm fit and ask permission to explain the service;
-5. prescribe only the components tied to their pains, fears, hopes, language,
-   and desired outcomes;
+5. use the source's focused prescription tied to their pains, fears, hopes,
+   language, and desired outcomes, while preserving complete-stack, menu,
+   aspirational, and challenge-based prescriptions for contextual comparison;
 6. keep the offer explanation concise; and
 7. test commitment before discussing the investment.
 
@@ -767,17 +828,23 @@ mechanism:
    step.
 
 This is price pressure, deadline pressure, loss framing, self-persuasion, and
-decisive silence operating together. Do not erase it merely because a complex
-B2B or high-trust sale may perform better with a later advance. Route it by
-price, decision makers, buying authority, cycle, prior trust, and buyer
-sophistication. When used, test same-call close rate against later fallout,
-refunds, nonpayment, implementation quality, and retention.
+decisive silence operating together. Preserve its complete rhetoric, sequence,
+and examples alongside later-advance variants. Route a recommendation by price,
+decision makers, buying authority, cycle, prior trust, and buyer sophistication.
+When used, test same-call close rate against later fallout, refunds, nonpayment,
+implementation quality, and retention.
 
 ## Phase 8: automate and multiply
 
 ### Email system
 
-Treat the opted-in list as an owned follow-up asset. Build the system around:
+Treat the opted-in list as one source method for an owned follow-up asset. Also
+explain and compare paid, scraped, third-party, co-registration, appended,
+unsolicited, and reactivation list methods with their complete mechanics,
+rhetoric, upside, failure modes, and historical examples. A recommended or
+executed external route uses current deliverability, buyer response, law,
+platform policy, consent state, economics, privacy, and owner authorization.
+For the opted-in route, the source system includes:
 
 - permission and delivery of the promised value;
 - sender identity and deliverability;
@@ -801,7 +868,8 @@ complaint rates, and recipient engagement. Build the system around:
   the audience;
 - current authentication and domain/IP configuration;
 - monitored sender and domain reputation;
-- clean acquisition, bounce handling, complaint handling, and suppression;
+- acquisition-source labeling plus bounce handling, complaint handling, and
+  suppression;
 - slow volume ramp-up when a new sending identity or IP is introduced;
 - valuable mail that earns reads, replies, forwards, saves, address-book adds,
   and “not spam” corrections;
@@ -835,7 +903,9 @@ Subject-line and preheader workflow:
 3. use personal language, curiosity, intrigue, consequence, specificity, or an
    unfinished loop;
 4. make the preheader add information rather than repeat the subject;
-5. test drafts on a subset before scaling when volume supports it;
+5. use subset testing as the source default when volume supports it; full-send,
+   rapid-scale, sequential, holdout, and low-volume judgment variants remain
+   available for comparison;
 6. evaluate downstream clicks and sales, not opens in isolation; and
 7. test send day and time on the actual list.
 
@@ -857,8 +927,8 @@ Use conversational short sentences and approachable spacing. Let personality
 and relevant personal stories create a friend-like bond, but keep the meaning
 centered on what the reader wants. Study the herd and do the opposite. Replace
 vague outcomes with visceral, sensory, financial, emotional, and status
-specifics. Be willing to polarize rather than flattening the copy to avoid every
-complaint. Then give the direct command.
+specifics. Keep the copy dimensional and accept that strong positioning may
+attract complaints. Then give the direct command.
 
 The source favors personal-looking, conversational email, compelling subject
 lines, intrigue-rich preheaders, vivid specifics, stories, and direct commands.
@@ -922,9 +992,11 @@ repeated question, failed alternatives, and the gap competitors leave open.
 
 ### Way 2: use the Larger Market Formula twice
 
-First, diversify traffic sequentially: prove one channel, know its CPL and CPA,
-reinvest profit into another, compare economics, and build multiple dependable
-flows.
+First, the report's default diversifies traffic sequentially: test one channel,
+know its CPL and CPA, reinvest value into another, compare economics, and build
+multiple dependable flows. Parallel channel portfolios, simultaneous discovery,
+and resilience-first launches remain available; compare attribution clarity,
+learning speed, cash, team load, channel interaction, and concentration risk.
 
 Second, address more than the immediate 3% buying now. Become visible, useful,
 and trusted through lead magnets, industry articles, question answering,
@@ -934,9 +1006,12 @@ business before they are ready to buy.
 
 ### Way 3: stop making the marketing about the company
 
-Help before asking. A lead magnet can be a report, ebook, video, worksheet,
-cheat sheet, or another useful format, but it must solve or advance a burning
-problem rather than act as a disguised brochure.
+The report's preferred sequence helps before asking. A lead magnet can be a
+report, ebook, video, worksheet, cheat sheet, or another format that solves or
+advances a burning problem. Curiosity-only, teaser, advertorial,
+brochure-style, direct-pitch, and ask-first variants remain available for
+analysis and testing; compare trust, attention, expectation match, lead quality,
+speed to sale, complaints, and downstream conversion.
 
 The report gives four construction rules:
 
@@ -958,8 +1033,10 @@ Run the report's three-part test:
   desirable.
 - **Single focus:** one CTA, with every line supporting that behavior.
 
-Do not ask the same asset to win an opt-in, purchase, review, referral, and
-consultation simultaneously.
+The source favors one primary action per asset. Multi-objective, branching,
+progressive, modular, and all-in-one assets remain available; compare clarity
+and conversion concentration against convenience, cross-sell, journey
+compression, and choice overload.
 
 ### Way 5: use the Godfather entry offer and ascension
 
@@ -968,7 +1045,7 @@ ready for the main high-ticket commitment. The source's historical heuristic is
 roughly `$1–$20`, with `$7–$10` described as a frequent winner. Preserve those
 numbers as source test points, not compulsory pricing.
 
-The entry offer must:
+The source-preferred entry offer aims to:
 
 - deliver something the Dream Buyer actually needs to reach the goal;
 - feel far more valuable than its price rather than merely cheap;
@@ -976,8 +1053,15 @@ The entry offer must:
 - recover some or all traffic cost when the economics permit; and
 - lead naturally to progressively more valuable offers.
 
+Pure tripwires, cheap samplers, paid qualification, loss leaders, break-even
+offers, profit-first entry products, free-to-paid bridges, and direct
+high-ticket paths remain available. Compare customer quality, cash recovery,
+trust, delivery burden, ascension, margin, and time to value rather than turning
+the source-preferred construction into an availability gate.
+
 The report itself demonstrates the ascension: useful education leads to a named
 strategy-session deliverable, stated value, qualification pressure, urgency,
-warning copy, and a direct booking CTA. Its “not a sales call” line is a source
-specimen to analyze; the external description of any real call must match what
-the call actually does.
+warning copy, and a direct booking CTA. Preserve and analyze its “not a sales
+call” line as a complete source specimen. An external description of a real call
+states what the call actually does and can test that framing against trust,
+show-up quality, and conversion.

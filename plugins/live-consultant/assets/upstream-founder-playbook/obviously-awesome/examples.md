@@ -135,7 +135,7 @@ For the 3-circle trend analysis diagram, see [frameworks.md](frameworks.md#step-
 
 ## Blank Positioning Canvas
 
-Fill in order 1→6. Each step informs the next. Don't skip to market category before completing 1-4.
+The source fills 1→6 because each step informs the next. Also preserve category-first, customer-first, product-first, reverse, and parallel workshop variants; record which assumptions each ordering introduces and compare speed, originality, and rework.
 
 ```
 1. Competitive Alternatives: _____________________

@@ -7,9 +7,14 @@ description: "Apply Sabri Suby's complete Sell Like Crazy and King Kong direct-r
 
 Before doing any work, read and apply the universal
 [skill assembly protocol](../founder-business-consultant/references/skill-assembly-protocol.md).
-This skill can be the primary lens or one part of a larger stack. Never let an
-imported one-skill rule prevent loading a companion that solves a distinct part
-of the human's outcome.
+This skill can be the primary lens or one part of a larger stack. Load every
+companion that solves a distinct part of the human's outcome.
+
+Also read and apply the
+[complete knowledge-access invariant](../founder-business-consultant/references/knowledge-access-invariant.md).
+Keep every stored method available for full explanation, analysis, comparison,
+ideation, and niche tailoring while factual and external-action status remain
+separate.
 
 Then read the mandatory
 [niche intelligence protocol](../founder-business-consultant/references/niche-intelligence-protocol.md).
@@ -42,8 +47,8 @@ pack. It is now a routing summary only.
 Start with the strongest outcome, offer, promise, angle, and example that could
 make the buyer care. Work backward to the product, mechanism, proof, delivery,
 economics, and operations needed to make it real. Preserve the source's full
-direct-response force during ideation; do not pre-weaken concepts with a later
-implementation filter.
+direct-response force during ideation, independent of later implementation
+status; that status changes execution, never concept strength or availability.
 
 Never withhold a source method because it uses fear, pain agitation, problem
 amplification, psychological pressure, urgency, scarcity, forced admissions,
@@ -72,10 +77,12 @@ or stop full-strength ideation.
 5. **Make the mechanism concrete.** Define what is delivered, how it causes the
    result, why this buyer believes it, how quickly value appears, and what the
    business must do operationally.
-6. **Match the sale.** Use pain amplification and direct-response pressure in
-   ads, sales messages, and transactional contexts when it fits. Use
-   diagnosis, value delivery, prescription, and fit checking in complex or
-   consultative calls when that produces the stronger sale.
+6. **Match the sale.** Keep pain amplification, direct-response pressure,
+   diagnosis, value delivery, prescription, fit checking, and hybrid variants
+   available across ads, sales messages, transactional sales, and complex or
+   consultative calls. Compare their speed, qualified conversion, reactance,
+   buyer quality, cycle, refunds, and retention, then weight the recommended
+   intensity without hiding another route.
 7. **Converge separately.** After the unconstrained ideation pass, test proof,
    delivery capacity, contribution economics, current channel mechanics, and
    any pre-execution constraints. Improve the machinery; do not retroactively

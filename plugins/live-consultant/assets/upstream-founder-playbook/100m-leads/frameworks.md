@@ -13,11 +13,16 @@ The name matters more than the content. A great name on a mediocre lead magnet o
 | "Weight Loss Tips" | "Lose 10 Pounds in 30 Days Without Cutting Carbs" | Outcome + timeframe + objection handled |
 | "Sales Training" | "Close 3 New Clients This Week Using Warm Outreach" | Specific result, specific timeframe, specific method |
 
-**Distribution rule:** Don't gate it behind one channel. Put the lead magnet everywhere - every email signature, every content post CTA, every cold outreach follow-up, your bio on every platform, at the bottom of every blog post. The bottleneck is almost always distribution, not quality.
+**Source distribution position:** Hormozi favors broad placement: every email signature, content CTA, cold-outreach follow-up, platform bio, and blog post. Keep concentrated, staged, exclusive, and broad-distribution variants available; compare reach, attribution clarity, audience fit, fatigue, and channel dependence. The source hypothesis is that distribution is usually the bottleneck, and the evidence should decide whether quality is instead binding.
 
 ## 1. Warm Outreach (Free, 1-to-1)
 
-Your first and most reliable method. Start here.
+Hormozi treats warm outreach as the source-default entry because it is cheap,
+fast, and relationship-rich. Cold outreach, content, paid acquisition,
+partnerships, referrals, and the full Core Four remain available as earlier,
+later, reverse, or parallel entry points. Compare reachable audience, speed,
+cash exposure, relationship equity, attribution, operator skill, and signal
+quality before choosing the emphasis.
 
 ### 10 Steps
 
@@ -92,7 +97,7 @@ Frequency recommendations are general best-practice rather than specific Hormozi
 | **Retain** | Middle | Keep them watching/reading |
 | **Reward** | End | Deliver value so good they want more |
 
-**Rule:** Give until they ask. Don't pitch until they reach out.
+**Source position:** Give until they ask, with the first direct pitch arriving after engagement. Preserve no-pitch, soft-pitch, direct-pitch, and persistent-CTA variants, and map reciprocity, reactance, trust, intent, and conversion consequences.
 
 ### Content That Attracts Leads
 
@@ -138,7 +143,7 @@ Two keys: **Personalization + Big Fast Value**
 - Show how it benefited you
 
 **b) Big Fast Value** - Not "good enough to charge for" but "stuff people ACTUALLY pay for":
-- Don't tickle interest, BLOW THEIR MINDS in 30 seconds
+- Hormozi favors a high-intensity “blow their minds in 30 seconds” hook. Subtle curiosity, proof-first, educational, and high-intensity variants remain available for audience-specific testing.
 - If your lead magnet isn't working, make it bigger
 - Give away something so good they feel stupid saying no
 
@@ -177,7 +182,7 @@ Would you be open to a quick chat this week?
 
 Specific daily volumes and response rates vary widely by industry, channel quality, list source, and offer. Treat any single number as directional. The actionable rule: 
 
-- Volume must be high enough to surface signal through noise
+- The source calls for enough volume to surface signal through noise. Preserve small-sample qualitative, sequential, high-volume, and mixed tests; state the detectable effect, noise, cycle time, and evidence threshold.
 - If response rate is below your industry's typical floor, the message is broken before more volume helps
 - Double-digit response rates suggest strong personalization; sub-1% suggests broken targeting or message
 
@@ -214,4 +219,4 @@ A channel is "mastered" when:
 - [ ] The unit economics work without you personally driving them
 - [ ] You can scale spend or volume 10x without breaking
 
-Until those are true, don't add another channel.
+Hormozi treats those conditions as evidence of mastery before expansion. Earlier, later, and parallel channel expansion remain available variants; state the tradeoffs in learning speed, diversification, operational complexity, and unit economics.

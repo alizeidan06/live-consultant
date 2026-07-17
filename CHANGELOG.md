@@ -17,17 +17,24 @@ All notable public releases are recorded here.
   pack checks.
 - Added six multi-skill routing fixtures and a self-test that proves each route
   resolves to complete, present knowledge bundles.
-- Added destructive release mutation tests for the old pressure veto, Sabri
-  phases, agent metadata, template wiring, upstream transforms, default prompt,
-  source hashes, and explicit routing, including the owner's exact conditional
-  veto wording and word order.
-- Removed blanket active vetoes against psychological pressure, pain or problem
-  amplification, manipulation analysis, strong emotion, urgency, scarcity,
-  aggressive follow-up, and adjacent tactic families. Live Consultant now
-  preserves the full method and routes it by buyer and transaction context.
+- Added a release-blocking semantic knowledge-access verifier that scans active
+  skills, references, agent prompts, imported source packs, canonical controls,
+  fenced examples, plugin metadata, and every Markdown/CSV template. Its
+  adversarial suite covers 213 paraphrased restrictions plus 26 must-allow
+  evidence, privacy, authorization, external-action, and performance cases.
+  It tests cross-sentence vetoes, positive-context smuggling, approved-only
+  subsets, theory-only downgrades, routing exclusions, stage/sequence gates,
+  and structured Markdown, YAML, JSON, and CSV relations.
+- Replaced categorical knowledge limits throughout the active and bundled
+  source layers with complete mechanisms, available variants, source positions,
+  contextual performance hypotheses, and consequence maps. Truth status,
+  evidence, authorization, access, and execution readiness remain explicit but
+  separate from explanation and ideation.
+- Added a universal complete knowledge-access invariant linked directly by all
+  24 skills, plus destructive mutations that prove semantic caps and a missing
+  invariant link block the release.
 - Re-baselined the protected foundation after explicit owner semantic review,
-  with new invariants for complete skill assembly and no tactic-family
-  withholding.
+  with new invariants for complete skill assembly and semantic knowledge access.
 - Made public export validate the exact sanitized staging tree before any files
   replace the public repository.
 

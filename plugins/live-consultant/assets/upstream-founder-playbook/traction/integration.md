@@ -38,7 +38,7 @@
 - Lean Startup says "focus on one engine of growth." Traction says "test 3 channels, focus on 1." These are compatible - determine your engine (Lean Startup), then test specific channels within that engine (Traction).
 - Lean Startup's MVP-first approach can conflict with Traction's 50% rule. Resolution: the 50% rule doesn't mean building marketing before you have a product. It means thinking about distribution from day one and running traction tests in parallel with product development.
 
-**Integration rule:** Use Lean Startup to validate the product (value hypothesis + growth hypothesis). Use Traction to find and optimize the specific acquisition channels. Lean Startup's engine of growth tells you which CATEGORY of channels to explore; Traction's Bullseye tells you which SPECIFIC channel to test.
+**Source-default integration:** use Lean Startup to test value and growth hypotheses and Traction to select and optimize acquisition channels. Preserve channel-first product discovery, Bullseye-first engine selection, reverse, early or late validation, parallel product/channel cells, stage-overlapping, and complete-method variants. Choose using uncertainty, evidence maturity, channel cost, learning speed, attribution, runway, reversibility, and the consequence of validating a product without distribution or a channel without retention.
 
 ---
 
@@ -50,11 +50,11 @@
 |---|---|---|
 | **Focus** | Finding acquisition channels | The full customer development process |
 | **Scope** | Channel selection and testing | Discovery -> Validation -> Creation -> Building |
-| **When** | Throughout (50% rule) but especially post-validation | Customer Creation (Step 3) is the closest match |
+| **Source timing emphasis** | Throughout, with heavier emphasis after validation | Customer Creation, while both complete methods remain available before, during, and after validation and every Four Steps stage |
 | **Market Type** | Not addressed | The master variable that changes everything |
 
 **Where they align:**
-- Both say: don't wait until after launch to think about customers
+- Both favor customer and distribution work before launch; late-start and launch-first variants remain available with their speed and rework consequences
 - Both say: founders should be directly involved in early customer acquisition
 - Traction's Phase I/II/III maps loosely to Four Steps' four steps:
 
@@ -67,7 +67,7 @@
 **Where they complement:**
 - Four Steps provides the Market Type framework that Traction lacks. Market Type should INFORM channel selection:
 
-| Market Type | Best Traction Channels |
+| Market Type | Source-Emphasized Traction Channels (All 19 Remain Available) |
 |---|---|
 | **Existing** | SEM, SEO, Sales, Trade Shows (demand already exists) |
 | **New** | Content Marketing, Speaking, Community, Targeting Blogs (education needed) |
@@ -78,10 +78,15 @@
 - Four Steps' earlyvangelist profiles tell you WHO to target. Traction tells you WHERE to reach them.
 
 **Where they create tension:**
-- Four Steps says "no serious marketing spending until the company has a proven and repeatable sales roadmap." Traction says "spend 50% of your time on traction from day one."
-- Resolution: Traction's 50% rule during Phase I is about TESTING channels cheaply, not about spending heavily on marketing. The cheap tests (~$250) are compatible with Four Steps' cash-preservation advice. Scale spending only after validation (which aligns with Four Steps' Customer Creation step).
+- Four Steps' source default delays serious marketing spend until a repeatable sales roadmap; Traction allocates 50% of time to traction from day one.
+- Preserve cheap-test-first, serious pre-validation spend, land-grab, category-creation investment, channel-capacity reservation, launch blitz, and validation-first variants. Compare cash risk, learning, first-mover advantage, signal contamination, and reversibility. A loss cap and explicit hypothesis govern execution; ideation remains unrestricted.
 
-**Integration rule:** Use Four Steps to determine Market Type and validate the business model. Use Traction's Bullseye Framework within Customer Creation (Step 3) to systematically select and test acquisition channels. Market Type should be an input to channel selection.
+**Source-default integration:** Use Four Steps to form a Market Type hypothesis
+and apply Bullseye most heavily during Customer Creation. Bullseye before,
+during, and after validation, Market-Type-first, channel-test-first, reverse,
+parallel, and full-method variants remain available. Compare demand learning,
+cash exposure, category uncertainty, channel feedback, speed, and what each
+test can identify.
 
 ---
 
@@ -106,7 +111,11 @@
 - Traction is broad (19 channels); $100M Leads is deep (fewer channels, more detail)
 - $100M Leads covers "warm outreach" and "cold outreach" in more operational detail than Traction's Sales chapter
 
-**Integration rule:** Use Traction's Bullseye to select your channel. Use $100M Leads for the detailed execution playbook once you've committed to a channel. Traction is the strategist; $100M Leads is the operator.
+**Source-default integration:** Use Bullseye to select a channel and $100M Leads
+to deepen execution after focus. Also preserve execution-first channel
+discovery, $100M-Leads-first, Bullseye-first, reverse, rapid-rotation, parallel,
+and portfolio variants. Compare tactical speed, breadth, sample quality,
+attribution, coordination, and the cost of premature commitment.
 
 ---
 
@@ -122,7 +131,7 @@
 **Where they complement:**
 - Crossing the Chasm's beachhead strategy informs Traction's channel selection: which channels reach your beachhead segment specifically?
 - Traction's Bullseye can be run separately for pre-chasm (visionaries) and post-chasm (pragmatists) - different channels work for each
-- Crossing the Chasm's "whole product" concept affects which channels are viable: you can't scale a channel if the product isn't complete enough for mainstream
+- Crossing the Chasm's "whole product" concept affects channel viability: incomplete mainstream products usually leak conversion and retention, while pre-selling, concierge fulfillment, partnerships, promises, and strategic land-grabs can still scale attention before the whole product is complete
 
 **Pre-chasm vs. post-chasm channel differences:**
 
@@ -132,7 +141,11 @@
 | Unconventional PR, Offline Events | Content Marketing, Affiliate |
 | Direct founder outreach | Scalable, measurable channels |
 
-**Integration rule:** Determine whether you're pre-chasm or post-chasm (Crossing the Chasm). Run Traction's Bullseye with that context - the right channels differ dramatically based on which side of the chasm you're on.
+**Source-default integration:** Use the pre-/post-chasm hypothesis as one input
+to Bullseye. Chasm-first, channel-evidence-first, reverse, parallel,
+stage-agnostic, and separate-cohort variants remain available. Compare buyer
+behavior, channel access, proof burden, cycle time, CAC, and whether the market
+actually exhibits a chasm.
 
 ---
 
@@ -146,9 +159,14 @@
 **Where they complement:**
 - Obviously Awesome's positioning informs Traction's creative: ad copy, landing page messaging, PR angles, blog post topics
 - Traction's channel testing can validate positioning: does this positioning convert better in ads? In blog outreach? In sales conversations?
-- Poor positioning will cause every traction channel to underperform. Fix positioning first (Obviously Awesome), then test channels (Traction).
+- The source warns that weak positioning can depress every traction channel and therefore emphasizes positioning before large channel tests. Preserve channel-first positioning discovery, creative-first, reverse diagnosis, early or late positioning, parallel cells, and complete use of both methods. Compare positioning, offer, product, audience, and channel explanations using speed, test isolation, CAC exposure, message learning, evidence quality, and false-negative risk.
 
-**Integration rule:** Get positioning right BEFORE running Bullseye tests. If every channel test fails, the problem may be positioning, not channels. Use Obviously Awesome to craft the message, then Traction to find the delivery mechanism.
+**Source-default integration:** Establish a positioning hypothesis before large
+Bullseye tests. Position-first, channel-as-positioning-test, creative-first,
+reverse, parallel, and deliberately contrasting cells remain available. If
+every channel test fails, compare positioning, offer, product, audience, and
+channel explanations. Judge speed, test isolation, CAC exposure, message
+learning, and false-negative risk.
 
 ---
 
@@ -157,14 +175,14 @@
 | Dimension | Traction | Mom Test |
 |---|---|---|
 | **Focus** | Acquiring customers at scale | Learning from individual conversations |
-| **When** | Throughout, especially Phase II-III | Phase I (pre-product/market fit) |
+| **Source timing emphasis** | Throughout, especially Phase II-III | Phase I, while both complete methods remain available in every phase, early, late, reverse, and parallel |
 
 **Where they complement:**
 - Mom Test conversations during Phase I reveal WHERE customers currently look for solutions - this directly informs Bullseye brainstorming
 - Questions like "Where did you first hear about [competitor]?" and "What blogs/publications do you read?" give channel intelligence
 - Mom Test's "commitment and advancement" signals help validate whether a traction channel is producing REAL interest or just clicks
 
-**Integration rule:** Use Mom Test conversations to gather channel intelligence during customer discovery. Feed those insights into Traction's Bullseye brainstorm. The best channel is often one your customers tell you about during interviews.
+**Source-default integration:** use Mom Test conversations to gather channel intelligence and feed it into a Bullseye brainstorm. Preserve Bullseye-first interview design, channel-test-first discovery, reverse inference from behavior, early or late interviews, parallel cells, and complete-method use at every stage. Choose using customer access, channel observability, evidence quality, test cost, speed, bias, and the consequence of listening to stated channel habits versus measuring actual response.
 
 ---
 
@@ -180,7 +198,12 @@
 - SPIN provides the tactical methodology for executing Traction's Sales channel
 - Traction's funnel framework (Generate -> Qualify -> Close) maps to SPIN's progression
 
-**Integration rule:** If Sales is your winning traction channel (from Bullseye), use SPIN Selling as the execution methodology within that channel.
+**Source-default integration:** If Sales wins Bullseye, SPIN is a strong
+execution emphasis. SPIN remains available before channel selection as a
+customer-learning, qualification, offer, and message test; Bullseye remains
+available during sales execution. Preserve sales-first, SPIN-first, reverse,
+parallel, hybrid, and other sales-method variants. Compare deal size, cycle,
+buyer sophistication, learning value, close rate, and operator skill.
 
 ---
 
@@ -207,18 +230,22 @@
 | **Pricing** | Briefly covered (CPA/LTV math) | Core focus (WTP-based pricing) |
 
 **Where they complement:**
-- Monetizing Innovation's pricing determines LTV, which determines which traction channels are affordable (LTV must exceed CPA)
+- Monetizing Innovation's pricing shapes LTV and therefore channel economics. The self-funding default has LTV exceed CPA; loss leaders, cross-sell, data/network value, strategic subsidy, financing, and portfolio economics can justify a lower direct ratio with an explicit cap and recovery mechanism
 - Higher LTV (from better pricing) unlocks expensive traction channels (trade shows, direct sales, offline ads)
 - Lower LTV constrains you to cheap channels (viral, SEO, content)
 
-**Integration rule:** Set pricing (Monetizing Innovation) before testing channels (Traction). Your LTV determines which channels are economically viable.
+**Source-default integration:** Set a pricing and LTV hypothesis before scaling
+channel tests. Pricing-first, channel-first WTP discovery, provisional-price,
+reverse, parallel, loss-leader, subsidy, and portfolio-economics variants remain
+available. Compare CAC ceiling, conversion, price learning, channel access,
+cash exposure, and the cost of waiting for pricing certainty.
 
 ---
 
-## The Master Sequence
+## Source-Default Master Sequence and Cross-Phase Variants
 
 ```
-PHASE 1: SEARCH (Pre-product/market fit)
+PHASE 1 SOURCE EMPHASES: SEARCH (Pre-product/market fit)
 |-- Four Steps: Customer Discovery + Customer Validation
 |-- Lean Startup: Build-Measure-Learn loop, MVP
 |-- Mom Test: conversation technique (also gather channel intelligence)
@@ -226,19 +253,25 @@ PHASE 1: SEARCH (Pre-product/market fit)
 |-- Obviously Awesome: positioning (informs traction creative)
 +-- $100M Offers: offer design (informs traction tests)
 
-PHASE 2: LAUNCH (Post-validation, pre-mainstream)
+PHASE 2 SOURCE EMPHASES: LAUNCH (Post-validation, pre-mainstream)
 |-- Four Steps: Customer Creation
 |-- Traction: Full Bullseye Framework, Phase II channels
 |-- $100M Leads: tactical execution within chosen channel
 |-- Monetizing Innovation: pricing (determines LTV, constrains channel choice)
 +-- Crossing the Chasm: beachhead selection (informs channel targeting)
 
-PHASE 3: SCALE (Mainstream growth)
+PHASE 3 SOURCE EMPHASES: SCALE (Mainstream growth)
 |-- Four Steps: Company Building
 |-- Traction: Re-run Bullseye for scaling channels, Phase III
 |-- Crossing the Chasm: bowling alley expansion
 +-- Blue Ocean Strategy: market space analysis (if commoditizing)
 ```
+
+Every listed method remains available in every phase: early, late, reverse,
+parallel, recursive, challenger, and full-stack variants can produce useful
+evidence or performance. Use the phase map as an emphasis hypothesis and
+compare uncertainty, buyer behavior, cash and capacity, time to signal,
+reversibility, channel economics, and the consequence of delaying a method.
 
 ---
 

@@ -1,6 +1,6 @@
 ---
 name: four-steps
-description: "Applies Steve Blank's Customer Development methodology from The Four Steps to the Epiphany. Use when a startup is searching for customers and a business model before scaling. Covers the four-step process: Customer Discovery (find if anyone wants what you're building), Customer Validation (prove you can sell it repeatably), Customer Creation (drive demand matched to Market Type), and Company Building (transition from learning org to execution org). Triggers include 'we built it but no one's buying', 'should we hire salespeople yet', 'how do we find our first customers', 'we're burning cash and sales aren't scaling', 'are we in a new or existing market', 'when do we scale'. NOT for companies that have already crossed the chasm into mainstream (use Crossing the Chasm instead), not for optimizing an existing sales funnel, not for product development methodology (this is its companion, not replacement)."
+description: "Applies and adapts Steve Blank's Customer Development methodology from The Four Steps to the Epiphany. Use when a startup is searching for customers and a business model, deciding when or how to scale, optimizing an existing funnel, comparing pre- and post-chasm behavior, or integrating customer development with product development. Covers Customer Discovery, Customer Validation, Customer Creation, and Company Building while preserving alternative sequences, full marketing and sales variants, fit labels, evidence needs, and consequence analysis."
 ---
 
 > **Note:** This skill is independent analysis and commentary, not a reproduction of the original text. It synthesizes the book's core ideas with modern startup practice, surfaces where frameworks are outdated or incomplete, and integrates perspectives from adjacent disciplines. For the full argument and context, read the original book.
@@ -14,11 +14,11 @@ description: "Applies Steve Blank's Customer Development methodology from The Fo
 
 ```
 Are you searching for customers and a business model (not executing a known one)?
-├─ YES → This skill is for you
+├─ YES → Source emphasis: foreground Customer Discovery and Validation; the complete four-step method remains available
 └─ NO  → You have paying customers and a repeatable sales process?
-         ├─ YES, but stuck before mainstream → Use Crossing the Chasm
-         ├─ YES, scaling fine → You're past this. Use Company Building concepts only
-         └─ NO, still pre-product → Start here at Customer Discovery
+         ├─ YES, but stuck before mainstream → Source emphasis: add Crossing the Chasm while retaining the complete Four Steps method
+         ├─ YES, scaling fine → Company Building is the source's primary lens; retain Discovery, Validation, Creation, and combined lenses when new segments, products, channels, or evidence gaps make them useful
+         └─ NO, still pre-product → Source emphasis: foreground Customer Discovery; all four steps remain available
 
 Have you validated that people will pay for your product?
 ├─ NO  → Start at Customer Discovery (Step 1)
@@ -28,6 +28,8 @@ Have you validated that people will pay for your product?
                   ├─ NO  → You're in Customer Creation (Step 3)
                   └─ YES → Company Building (Step 4)
 ```
+
+This tree records source-default emphases, not framework eligibility or a required starting point. Preserve discovery-first, validation-first, creation-first, company-building-first, reverse, parallel, stage-overlapping, recovery, and complete four-step variants. Choose using uncertainty type, evidence maturity, market type, customer access, sales-cycle length, current traction, runway, reversibility, team capacity, and the consequence of applying a step too early or too late.
 
 ---
 
@@ -86,8 +88,8 @@ Customer Development is a **companion** to Product Development, not a replacemen
 |---|---|---|---|---|
 | **Existing** | Higher performance than what's currently offered | Known incumbents define the market | 12-18 months | Cost of entry (Lanchester rules) |
 | **New** | Enables something customers couldn't do before | Non-consumption / other startups | 3-7 years | Market may never materialize |
-| **Resegmented (Low-cost)** | "Good enough" at substantially lower price | Incumbents who abandon low margins | 18-36 months | Must be profitable at low price |
-| **Resegmented (Niche)** | Radical enough to change the rules for a subset | Incumbents who defend profitable core | 18-36 months | Segmentation must be spot-on |
+| **Resegmented (Low-cost)** | "Good enough" at substantially lower price | Incumbents who abandon low margins | 18-36 months | Source risk: low price can destroy contribution margin; compare profitable-low-cost, subsidized-entry, loss-leader, and cross-subsidy variants |
+| **Resegmented (Niche)** | Radical enough to change the rules for a subset | Incumbents who defend profitable core | 18-36 months | Source risk: a weak segment boundary diffuses positioning; compare narrow, adjacent, multi-segment, and evolving-segment variants |
 
 > "Market Type changes everything a company does."
 
@@ -99,7 +101,7 @@ Are there existing companies selling comparable products?
 │        (No competitors, but also no existing customers)
 └─ YES → Are you competing on the same basis (features, performance)?
          ├─ YES → EXISTING MARKET
-         │        (You must be better on known dimensions)
+         │        (Source route: outperform on known dimensions; also test parity-plus-distribution, price, service, brand, bundling, and category-redesign variants)
          └─ NO  → Are you targeting a subset of customers?
                   ├─ YES, at lower price → RESEGMENTED (LOW-COST)
                   └─ YES, for a specific need → RESEGMENTED (NICHE)
@@ -119,11 +121,9 @@ Same team, same CEO (Donna Dubinsky), same product category, three years apart:
 
 > Public release note: longer quoted source wording was omitted; the surrounding analysis preserves the operational point.
 
-### What You Are NOT Doing
-- Collecting feature lists from prospects
-- Running focus groups to define the product
-- Writing a Marketing Requirements Document
-- Understanding the needs of ALL customers
+### Source-Deprioritized Activities and Complete Variants
+
+Blank deprioritizes collecting feature lists, using focus groups to define the product, writing a Marketing Requirements Document, and understanding every customer during early discovery. Preserve each method as a variant and state whether it tests demand, preferences, language, requirements, or the founder's vision; map leading-bias, breadth, speed, and signal-quality consequences.
 
 ### What You ARE Doing
 - Testing whether your **founders' vision** matches a real, painful problem
@@ -147,7 +147,7 @@ Not all early customers are equal. You need **earlyvangelists** - visionary cust
 The customer pain hierarchy:
 
 ```
-"What problem?"                    → Latent need. Useless for 2 years.
+"What problem?"                    → Source label: latent need, often a multi-year education path.
 "Yes, terrible. I hand out water." → Active, but only papering symptoms.
 "Losing $500K/yr. Need X by Y."   → Visualized solution. Getting warm.
 "Wrote a req to IT, they cobbled   → HAS A HOMEMADE SOLUTION. YES.
@@ -175,9 +175,9 @@ The customer pain hierarchy:
 
 ### Pass/Fail
 
-> "If, and only if, you are successful in this step do you proceed to Customer Validation."
+> **Source sequencing rule:** “If, and only if, you are successful in this step do you proceed to Customer Validation.”
 
-Passing means: founders' vision matches a real, painful, paid-for problem. Failing means: iterate within Discovery or exit.
+Passing means the founders' vision matches a real, painful, paid-for problem. Preserve strict sequencing, provisional validation, parallel sales tests, pivot, and exit variants; label what unverified assumptions each carries and what evidence would update them.
 
 ---
 
@@ -189,11 +189,9 @@ Passing means: founders' vision matches a real, painful, paid-for problem. Faili
 
 Build a **repeatable sales roadmap** - "the playbook of the proven and repeatable sales process that has been field-tested by successfully selling the product to early customers."
 
-### What You Are NOT Doing
-- Staffing a sales team
-- Executing a sales plan
-- Executing a "sales strategy"
-- Generating revenue (that's a side effect, not the goal)
+### Source-Deprioritized Activities and Complete Variants
+
+Blank deprioritizes staffing a sales team, executing a mature sales plan or strategy, and optimizing revenue during Customer Validation. Preserve founder-led, closer-assisted, team-led, plan-led, revenue-led, and learning-led variants; compare burn, signal distortion, speed, and roadmap quality.
 
 > "Building a roadmap to sales success, rather than building a sales organization, is the heart of Customer Validation."
 
@@ -205,7 +203,7 @@ A **roadmap** answers: Who influences? Who recommends? Who decides? Who has budg
 
 > "It is impossible to build a sales pipeline without first having developed a sales roadmap."
 
-### Core Questions Customer Validation Must Answer
+### Core Questions the Source Uses to Evaluate Customer Validation
 
 1. Do we have product/market fit?
 2. Do we understand the sales process?
@@ -218,9 +216,9 @@ A **roadmap** answers: Who influences? Who recommends? Who decides? Who has budg
 
 ### The Validation Team
 
-**Founders/CEO must be in front of customers through at least the first iteration.** Delegating to VP of Sales is often fatal.
+**Source position:** founders or the CEO stay in front of customers through at least the first iteration because delegation can filter learning. Preserve founder-led, founder-plus-closer, delegated, shadowed, and instrumented-team variants; compare learning fidelity, founder capacity, sales skill, and speed.
 
-- In enterprise/B2B, if no founder can close: hire a **"Sales Closer"** (NOT a VP of Sales)
+- In enterprise/B2B, Blank's preferred fallback when no founder can close is a **"Sales Closer"** rather than an organization-building VP of Sales. A VP, fractional leader, player-coach, agency, founder training, or hybrid remains available; label the stage assumptions and the risk of scaling an unproven process.
 - Sales Closer profile: regional-manager background, great Rolodex, comfortable with ambiguity, not interested in building an org
 
 ### Pass/Fail - The Canonical Pivot
@@ -240,13 +238,13 @@ This is the **pivot** - predating the term's popularization. Failure here is not
 
 > Public release note: longer quoted source wording was omitted; the surrounding analysis preserves the operational point.
 
-### Why It Comes AFTER Validation
+### Source Sequencing and Parallel Variants
 
 > "No serious spending in marketing until the company has a proven and repeatable sales roadmap."
 
-Cash protection: this step is placed after Validation to move heavy marketing spending after the point where a startup has its first customers.
+Cash protection is the source rationale for placing heavy marketing after Validation. Preserve pre-validation spend, bounded demand tests, staged spend, partner-funded promotion, and post-validation scale; model learning value, cash exposure, and false-negative/false-positive risk.
 
-### The Fatal Error
+### Source-Labeled Failure and Competing Variants
 
 Most startups execute the same launch playbook regardless of Market Type. **This is the #1 Customer Creation mistake.**
 
@@ -265,7 +263,7 @@ Military operations research applied to market entry:
 
 | Leader's Market Share | Implication | Cost of Entry |
 |---|---|---|
-| **≥74%** (monopoly) | Do NOT attack head-on | 3× their budget - unaffordable |
+| **≥74%** (monopoly) | Source preference: wedge or resegment rather than attack head-on; preserve direct attack, coalition, and category-creation variants | Source estimate: 3× their budget, often unaffordable |
 | **≥41%** (clear leader) | Very difficult | Resegment or create new market |
 | **26-41%** (unstable) | Some opportunity | 1.7× weakest player's budget |
 | **<26%** (fragmented) | Market ripe for entry | Affordable entry possible |
@@ -282,7 +280,7 @@ Golder & Tellis (1993), 500 brands in 50 categories:
 
 ### The Three Launch Types
 
-**Onslaught (Existing Market)**: Full-frontal assault. Maximum exposure. Heavy upfront spending. Only correct for capturing share in an existing market.
+**Onslaught (Existing Market)**: Full-frontal assault, maximum exposure, and heavy upfront spending. Blank places this variant in an existing market where the aim is rapid share capture. Preserve bounded onslaughts, niche wedges, education-led launches, stealth entry, partnerships, and hybrids; compare burn, incumbent reaction, reach, and learning.
 
 **Early Adopter (New Market)**: Targeted, low-cost. Goal is mind share, not market share. Education campaign targeting earlyvangelists. Create a "tipping point." New markets take **3-7 years** to become profitable.
 
@@ -345,7 +343,7 @@ Both are wrong. The answer is a **mission-centric organization** - the third alt
 Five components:
 1. **Mission Intention** - every mission has tasks AND intention. Intention is more enduring.
 2. **Employee Initiative** - taking initiative is part of the implicit employment contract.
-3. **Mutual Trust** - good news fast, bad news faster. Never punish the messenger.
+3. **Mutual Trust** - good news fast, bad news faster. The source favors protecting the messenger; preserve punitive, neutral, protected, anonymous, and incentive-designed reporting variants with information-quality consequences.
 4. **"Good Enough" Decision-Making** - "A good plan violently executed now is better than a perfect plan next week." (Patton)
 5. **Mission Synchronization** - peer-wise cross-departmental coordination, not top-down staff meetings.
 
@@ -366,26 +364,28 @@ Blank rejects the "kick the founder out" reflex:
 
 ```
 Do you know who your customers are and what problem you solve?
-├─ NO  → CUSTOMER DISCOVERY (Step 1)
+├─ NO  → Source emphasis: CUSTOMER DISCOVERY; Validation, Creation, Company Building, reverse, and parallel work remain available
 └─ YES → Can you sell repeatably at a profit?
          ├─ NO  → Have you sold to anyone?
-         │        ├─ NO  → Still CUSTOMER DISCOVERY
-         │        └─ YES → CUSTOMER VALIDATION (Step 2)
+         │        ├─ NO  → Source emphasis: CUSTOMER DISCOVERY; all four steps remain available
+         │        └─ YES → Source emphasis: CUSTOMER VALIDATION; all four steps remain available
          └─ YES → Are you driving demand and growing?
-                  ├─ NO  → CUSTOMER CREATION (Step 3)
-                  └─ YES → COMPANY BUILDING (Step 4)
+                  ├─ NO  → Source emphasis: CUSTOMER CREATION; all four steps remain available
+                  └─ YES → Source emphasis: COMPANY BUILDING; all four steps remain available
 ```
 
 ### "Should we hire salespeople?"
 
 ```
 Do you have a proven, repeatable sales roadmap?
-├─ NO  → DO NOT HIRE SALESPEOPLE
-│        Founders sell. Maybe one Sales Closer.
+├─ NO  → Source default: founders sell, perhaps with one Sales Closer
+│        Also compare expert-hire-first, small-team, agency, and fractional variants.
 └─ YES → Are you past Customer Validation?
-         ├─ NO  → Still NO. Iterate first.
-         └─ YES → Now you can staff a sales org.
+         ├─ NO  → Source default remains founder-led; compare bounded staffing variants.
+         └─ YES → Source emphasis: staff a sales organization; preserve founder-led, closer-only, fractional, agency, pod, delayed, reverse, parallel, and hybrid variants
 ```
+
+These trees assign source-default foregrounds, not method-access or staffing gates. Preserve every Four Steps phase, market-type lens, and sales-ownership model in every branch, including early, late, reverse, parallel, stage-overlapping, recovery, and complete-method variants. Choose using evidence maturity, market type, process repeatability, sales complexity, founder capacity, urgency, burn, reversibility, organizational learning, and the consequence of staffing or sequencing too early or too late.
 
 ### "What Market Type are we?"
 
@@ -430,13 +430,15 @@ Can customers already do what your product does (via competitors)?
 
 ---
 
-## Common Failure Patterns
+## Source-Labeled Failure Patterns and Competing Variants
+
+Preserve each criticized tactic for analysis and ideation. Compare its mechanism, possible upside, evidence, and consequences with Blank's proposed cure.
 
 | Pattern | Mechanism | Cure |
 |---------|-----------|------|
 | **"Build it and they will come"** | No customer development process; assume product launch = customer acquisition | Customer Discovery before scaling |
 | **Premature scaling** | Hiring full sales/marketing orgs before validating customers | Stay lean through Steps 1-2; "staff that fits in a phone booth" |
-| **Death spiral** | Premature scaling → burn rate → missed numbers → fire VPs → fire CEO | Don't scale until you have a repeatable sales roadmap |
+| **Death spiral** | Premature scaling → burn rate → missed numbers → fire VPs → fire CEO | Source cure: delay scale until a repeatable roadmap; preserve bounded, staged, aggressive, and externally funded scale variants with burn and learning effects labeled |
 | **Wrong Market Type** | Using existing-market tactics in a new market (or vice versa) | Definitively determine Market Type; match every activity to it |
 | **Onslaught in new market** | Massive launch spending for customers who don't exist yet | Early adopter launch; preserve cash; focus on adoption not share |
 | **Branding as strategy** | Substituting "brand" for precise Customer Creation activities | Market Type-matched positioning, launch, and demand creation |
@@ -489,7 +491,7 @@ The framework's core ideas are durable. The specific examples and some assumptio
 - Customer Development as a parallel, recursive process alongside Product Development
 - Market Type as the master variable that changes everything
 - Premature scaling as the default killer of startups
-- Founders must be in front of customers, not behind desks
+- Source principle: founders stay directly exposed to customers; preserve delegated, mixed, and instrumented-customer-learning variants with signal and opportunity-cost consequences
 - The pivot from Customer Validation back to Customer Discovery
 - "No facts inside the building, only opinions"
 
@@ -544,6 +546,8 @@ The four steps are iterative, not linear. Going backwards is learning, not failu
 
 > "You cannot create a market or customer demand where there isn't any customer interest."
 
+Treat this as Blank's source position, not an ideation veto. Preserve demand capture, demand shaping, category education, subsidy, social proof, distribution, and long-horizon market-creation variants; distinguish absent interest from latent, unarticulated, or costly-to-create interest and model the evidence, time, and capital required.
+
 ---
 
 ## Supporting Files
@@ -565,4 +569,4 @@ The four steps are iterative, not linear. Going backwards is learning, not failu
 - **Successor work:** *The Startup Owner's Manual* (2012) is Blank's updated, more prescriptive version. *The Lean Startup* (Eric Ries, 2011) formalized many concepts with Build-Measure-Learn and MVPs.
 - **Author's context:** Blank was a serial entrepreneur (8 startups including E.piphany), then became a professor at Stanford, Berkeley, and Columbia. The book emerged from his teaching.
 
-The framework is foundational. The specific tactics and examples are dated. The core thesis - that customer and market discovery is a separate, iterative process that must run in parallel with product development - remains as true in 2026 as it was in 2005.
+The framework is foundational. The specific tactics and examples are dated. Its core thesis treats customer and market discovery as a separate, iterative process running in parallel with product development. Preserve parallel, discovery-led, product-led, alternating, and milestone-gated variants; compare feedback latency, build waste, founder attention, and evidence quality in the current context.

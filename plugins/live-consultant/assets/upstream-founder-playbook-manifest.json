@@ -1,90 +1,96 @@
 {
   "audited_at": "2026-07-14",
   "commit": "67f25d1852547a131cd5b6b43b2fbf44d08ed8ec",
+  "derivative_review": {
+    "owner_directive": 31,
+    "reviewed_at": "2026-07-17",
+    "rule": "Categorical knowledge, ideation, routing, and application limits are normalized into source positions, available variants, contextual performance hypotheses, and consequence maps while mechanisms, evidence notes, cases, examples, and execution metadata remain preserved.",
+    "scope": "all packaged Markdown in the pinned source snapshot"
+  },
   "files": [
     {
-      "bytes": 9188,
+      "bytes": 13777,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "100m-leads/SKILL.md",
-      "sha256": "bb88a76b747c48ad91cb3d4af83da42dcfb198fd7d01183ed26c8cbd1b07cdda"
+      "sha256": "784512410f5f43d3fa68d510a87f60ef078609e2a539fc1cec8018344cd7b004"
     },
     {
-      "bytes": 7478,
+      "bytes": 9854,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "100m-leads/cases.md",
-      "sha256": "4dc43c4da0d2c0ff4e8aeb5838a9e2ad66a27e5f2619cab34e2b9cb1df1b50cc"
+      "sha256": "dc214873228a17da4caca072b7a7b1d69934e0884a1abc9ed2c26eacea848fac"
     },
     {
-      "bytes": 9301,
+      "bytes": 9578,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "100m-leads/examples.md",
-      "sha256": "4dd2f2cce0fd365238d9230708c5897e3fcb9e35edce61a46f5520b8a4dbd2bb"
+      "sha256": "9ca5a1e999e17d15c7f25e86f9e8748845cf5c5905aa7bb2f9c1b61f550dca75"
     },
     {
-      "bytes": 8011,
+      "bytes": 9226,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "100m-leads/frameworks.md",
-      "sha256": "7aed27778fffd4df5f63a87a6efd3e5fc00d7b2aa2af1aa8e3d2e6e48f33b71b"
+      "sha256": "414f3d1e7895ea811a8a5edae5ae7f743659a0ceccd3d72ef72e6ad570715080"
     },
     {
-      "bytes": 8107,
+      "bytes": 10770,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "100m-leads/integration.md",
-      "sha256": "831b7170a15d0b1377b81995750f80d2c4936f89da3a571cdacbaa83ae8c5c09"
+      "sha256": "1acff45a30ac0594ad1360ba85d983d32b2bdbb8cc33fdb3b9a498e4f9cf1f85"
     },
     {
-      "bytes": 8642,
+      "bytes": 10356,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "100m-leads/lead-getters.md",
-      "sha256": "f9144f928b6c43da47d52262329c8f777cebb00be7347cfda1e4ca3807f4e96d"
+      "sha256": "aef7f1fd852f993b93b03dfc19d0aa9e99beebac46ebbbdf6ec29726771b4268"
     },
     {
-      "bytes": 6806,
+      "bytes": 8343,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "100m-leads/paid-ads.md",
-      "sha256": "7db83f6f4428b0d9f1453473c80471cb05c51d8c0343c4dbe2bd487fd01143f3"
+      "sha256": "126ff494d4ac094facb0238f22ee075a5d184bdd3a0b387d645b365cbebc2494"
     },
     {
-      "bytes": 10785,
+      "bytes": 14762,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "100m-offers/SKILL.md",
-      "sha256": "4576e30fac76fdb2297f6aa2a36b6d26fac1d42b25cd6eb587b39ff7a81da123"
+      "sha256": "1b86db0590e590496b2c540f8ae6d3c45728db0d7de4147b54edf628d9744bd5"
     },
     {
-      "bytes": 5561,
+      "bytes": 5855,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "100m-offers/cases.md",
-      "sha256": "57b893d894cc5b5b06fc17294d1fb85d150ffd9d1cc5cab6ad5a92f39bcd30c2"
+      "sha256": "c3c27ba232f2e2e94de0a595c0e2a776f3dbf96cb415f3aeda75baf50cf24f85"
     },
     {
-      "bytes": 9713,
+      "bytes": 9905,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "100m-offers/examples.md",
-      "sha256": "b38c8f366cbdbfc9e198fa35578e9d3fd327ddf7115b0030db9eba2480ee6497"
+      "sha256": "ef5cdbdb6b431e0356b309b33bb463361fc36c5a85d6363cc3e54650bd7696a3"
     },
     {
-      "bytes": 8340,
+      "bytes": 9749,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "100m-offers/frameworks.md",
-      "sha256": "573b04374005f7d0992e5a503417d53a9766dc28f7456e4d7351366d76f01c85"
+      "sha256": "d4d11f67ebfefb0d5afcc6bf072a225d53d43430bd22cb85fd6fb1e698f3e787"
     },
     {
-      "bytes": 7196,
+      "bytes": 10163,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "100m-offers/integration.md",
-      "sha256": "9533ac95cfe9b4ed8281ea0fe0d042a0f59255da554b4cb4a1709c2e423bd69d"
+      "sha256": "d75c2909bf27fb843d7ef2ae73e86b3759c6053338c78643e3d4c95fc621507a"
     },
     {
       "bytes": 1066,
@@ -94,46 +100,46 @@
       "sha256": "25dd3389bfc55f463f9745c6fa3f4193bb31b58157a6861836b62bf91f6b76e5"
     },
     {
-      "bytes": 12148,
+      "bytes": 13449,
       "packaged": false,
       "packaging_note": "public release omission: upstream packaging README not required",
       "path": "README.md",
-      "sha256": "7359e705a351b13ee15d51ca7c12a869c600d7e54cf3af127697df670c882065"
+      "sha256": "28e7a562a9f6e1438677a7ed2f7afc0bd8cb16e3b5663d40920a090bcbbfc962"
     },
     {
-      "bytes": 12378,
+      "bytes": 15175,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "blue-ocean-strategy/SKILL.md",
-      "sha256": "e95dfbc03437f660c1752621b9131de5e54bb13c998da79ed2b79a286b91fd78"
+      "sha256": "a09f6ea4468bde30117a573a3877ed995820e74f78123b07432c02e0a55ddc41"
     },
     {
-      "bytes": 7910,
+      "bytes": 7976,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "blue-ocean-strategy/cases.md",
-      "sha256": "e0e88fa62e1bd8696bc33b75c7cf74bf510c90203d160d81443f6304eb277f6d"
+      "sha256": "f54abe324df6a4fdca0ec3df741ffe1d30be538ba2daf81abfac26daaa56e06c"
     },
     {
-      "bytes": 7347,
+      "bytes": 8050,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "blue-ocean-strategy/examples.md",
-      "sha256": "4e953f6574c530a6ebd2e743e3a8ec3433210b06cf856f5867a92d508b981f8d"
+      "sha256": "808d87adcfd2671b0f7dc8d27532a80e90e190d6a4ae3916cd2f0459fc429db4"
     },
     {
-      "bytes": 7572,
+      "bytes": 8258,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "blue-ocean-strategy/frameworks.md",
-      "sha256": "4177078ae443a97e24a952d804325370b947171044e5e0eed3d2c0125d6babb1"
+      "sha256": "8f2fa92cc49d68ddb3dba8202113d076579db12671878cd95562c6dd955c4391"
     },
     {
-      "bytes": 8876,
+      "bytes": 9636,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "blue-ocean-strategy/integration.md",
-      "sha256": "e5d6578cff9bd410994b3fd786b116d25f390b634b4bf576bbc314a3253c895b"
+      "sha256": "a241a41d20459a0f84bfbf52d52f1224f8ec0cea6736f8c4a49760b161a742c9"
     },
     {
       "bytes": 51830,
@@ -241,60 +247,60 @@
       "sha256": "f14d2a30fc3b5031009665fb3c2288196a46d36e326234d9942dc3209bbd4411"
     },
     {
-      "bytes": 21852,
+      "bytes": 26166,
       "packaged": true,
       "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
       "path": "crossing-the-chasm/SKILL.md",
-      "sha256": "d8c2aeff4f90a81269ea34f2281071231a5076d4cc94802d8e3039f99af79a5d"
+      "sha256": "8e76bad3aaf035c3214660517d978be5fda6b9e73d15f513c0900d7dfa16e950"
     },
     {
-      "bytes": 11103,
+      "bytes": 11590,
       "packaged": true,
-      "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "crossing-the-chasm/cases.md",
-      "sha256": "59048e3369770fc65e0b8e7c745b1ebb0c697d2a27b7133c1317947b4ca59fab"
+      "sha256": "508496167f0a467a34608e3b6648b2eeac4cf4674baaa47c0ee2e09a5d9e9075"
     },
     {
-      "bytes": 11058,
+      "bytes": 11994,
       "packaged": true,
       "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
       "path": "crossing-the-chasm/examples.md",
-      "sha256": "ace3f493b67dec71a0201b1d82b51e22269a71ebe748f0076dd1a1dcc187d194"
+      "sha256": "83da07cb943fd4b4f233c3054d53482c3ffa7250d8d62a83ae525c0c941c7aae"
     },
     {
-      "bytes": 12416,
+      "bytes": 14903,
       "packaged": true,
       "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
       "path": "crossing-the-chasm/frameworks.md",
-      "sha256": "6c0a4c74a28cadb229a09eef56f6aa99cbfdc4d0112f26ecc9cc6d23c80f9fdc"
+      "sha256": "7a17e25ce6d170804b01b6095e2b94241c6edbd0dbff646c807ea5e155ac9816"
     },
     {
-      "bytes": 17380,
+      "bytes": 20613,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "crossing-the-chasm/integration.md",
-      "sha256": "356786e0ea1737525850832078b0458cee58ace0f94f6659707988e7607d2e43"
+      "sha256": "e6ba7120d4962145dad54c750b5c4ff812f5b31ab0ce9e1eb3dbd06724eae674"
     },
     {
-      "bytes": 10031,
+      "bytes": 10331,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "diagnose/SKILL.md",
-      "sha256": "b5e5285f71a31fe8a1959a479f0f7440f013dfd965d9a68244b2420ef14fd369"
+      "sha256": "90386398d06e1f9103401649ca83fdf67cb2d3f470bca1631658f7447787c21c"
     },
     {
-      "bytes": 15774,
+      "bytes": 16392,
       "packaged": false,
       "packaging_note": "public release omission: verbatim third-party community posts not required",
       "path": "experiments/real-founder-problems.md",
-      "sha256": "9157aac48dc25c7888566c9283d8f4bb2e61453ca69030dd39540be893226703"
+      "sha256": "78f7566c744914d501f855e08369558d7172be38be9f7445dbd52d1caf326936"
     },
     {
-      "bytes": 30181,
+      "bytes": 34577,
       "packaged": true,
       "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
       "path": "four-steps/SKILL.md",
-      "sha256": "fd022d0d4130015eb740b9542d9596fba1e7de80b248cbe736e10fce9a1372bf"
+      "sha256": "1fc17930272b029de41e1d0a209e939ac2894ef092ce6087c66b11f08fa1df7c"
     },
     {
       "bytes": 11087,
@@ -304,67 +310,67 @@
       "sha256": "bfb7e569591346b370f488ec685c1f37186a04d98b52eb644eae72a360523ab8"
     },
     {
-      "bytes": 18623,
+      "bytes": 19731,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "four-steps/examples.md",
-      "sha256": "e7caa399d548b96807151ce2ffd1ef5f5f3e04bab5aa6d32b8733901e255e9e3"
+      "sha256": "adb353b36fd7e7c5e39809fbe84513b8f30a497e00643fc73e9c14c483fd44cd"
     },
     {
-      "bytes": 15741,
+      "bytes": 18124,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "four-steps/frameworks.md",
-      "sha256": "4cbc22914a00f1ec9926ded22ab6eae4801b0baeee53899eeb23189a571202e3"
+      "sha256": "a0fcb7b6b7f967f5071dbeb67bbdfd22fda0186d47000fceefd10ae392f4fbc7"
     },
     {
-      "bytes": 11817,
+      "bytes": 14845,
       "packaged": true,
       "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
       "path": "four-steps/integration.md",
-      "sha256": "ad9804e7b9606d5e55eaad89886e69b4c9742569b6e58dce040a21caf79a3de6"
+      "sha256": "f5b4c5433f455fe6bb888bf9703e00ae043ecb993ca563f4859c1efbed4ec756"
     },
     {
-      "bytes": 16028,
+      "bytes": 17501,
       "packaged": true,
       "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
       "path": "influence/SKILL.md",
-      "sha256": "b6191c945f50ffb9cb139de70542ad5b366639b92a2cc17a79af5cc2f43c0874"
+      "sha256": "4a2d5d5260b824fa0e494cc6af4ffd3efcedacb0d4fde7c54a26911356eef686"
     },
     {
-      "bytes": 5873,
+      "bytes": 7414,
       "packaged": true,
-      "packaging_note": "Live Consultant derivative: complete source knowledge retained; blanket pressure prohibitions reframed as contextual performance hypotheses under owner directive 29",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "influence/integration.md",
-      "sha256": "afeb892f3a6b6ad9c3478bfba20632e2204550b684364d833d8263ff1b5cde22"
+      "sha256": "85f1b507a943980e6d51b55e0c7b6073342e48fb45728b5cff41ba46a8f58d55"
     },
     {
       "bytes": 3398,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "influence/pre-suasion.md",
       "sha256": "d0f8509dfc0ee998a3385ebfb97a2d01184277d52a2499f00e365473efcb368b"
     },
     {
-      "bytes": 23762,
+      "bytes": 23806,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "influence/principles.md",
-      "sha256": "a504e28ca0575d8502b8f1245cfa1746cfe87fcf3d1918ec9bdab7d2b718d7e9"
+      "sha256": "bd92016b9eb59ac5eb167503bc6b7b5541ca972c9833e1a581f691552403270d"
     },
     {
-      "bytes": 8948,
+      "bytes": 8949,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "influence/replication-notes.md",
-      "sha256": "886661fc05a25ce3f75db96591c2977bfb7597955fe5b0fc9b76b7774ae211bf"
+      "sha256": "7941f4093d557e88c1bbbb0bdfe55b4b0076de97fc8a276707497f2784c0f97a"
     },
     {
-      "bytes": 18324,
+      "bytes": 20777,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "lean-startup/SKILL.md",
-      "sha256": "24f04c7f0bd736b5ea19cd7424dc8286e781e871a65a515d0bb93ebf7cd591d2"
+      "sha256": "112d23e386c8e14e9cb05cc8609235fd46cfc9c5838d2702ac3074b4dbc7c3a6"
     },
     {
       "bytes": 18436,
@@ -374,282 +380,282 @@
       "sha256": "596f04f4d0b9072326ae218f4cf15a0757a2dcc1f645acfe1773f5e86e06ece5"
     },
     {
-      "bytes": 18441,
+      "bytes": 18879,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "lean-startup/examples.md",
-      "sha256": "ccb6c8f59eb0407b258dafe25904a476d0fc87f40edf865320614aee8ba2b9b1"
+      "sha256": "6839b31e8cf124f3f020f6b0985803e32ff4eb38caec8fab3c28a36898b5bb78"
     },
     {
-      "bytes": 20857,
+      "bytes": 22634,
       "packaged": true,
       "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
       "path": "lean-startup/frameworks.md",
-      "sha256": "3dcd68344bf057e9b506f6679411b551c195628a5e3cd949ae1b47c6aa8b645a"
+      "sha256": "d4b8989b0073517cc5cd2ddcddd83c30f01d3ff3e9ae1906588969d45669910f"
     },
     {
-      "bytes": 17710,
+      "bytes": 21745,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "lean-startup/integration.md",
-      "sha256": "b0bb3f66232783bdc1a8063d183224705aaec5b98c46390c05e72059dbaa1a53"
+      "sha256": "762b5095d668bed2e77c25d7525d801c7c40648017c5803b97c2847189855c70"
     },
     {
-      "bytes": 16092,
+      "bytes": 17107,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "made-to-stick/SKILL.md",
-      "sha256": "fc16b74b64fb14cc40405f108afcc1a5e6050ad5203dc5145d0703e44aa6b44d"
+      "sha256": "162b6b6f845433090c01b8de26f51bd6f116aee048dc960fdc0997e8b8a5c2da"
     },
     {
-      "bytes": 14440,
+      "bytes": 14771,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "made-to-stick/cases.md",
-      "sha256": "6bf440d9e3a5c997a9c263d0023dd36b3a5469901e2da1e8456701a58bc14c96"
+      "sha256": "2b4d1a20c9e57ea500b4c21103a47a48249a929132db4db4c2b39196112ce83b"
     },
     {
-      "bytes": 13571,
+      "bytes": 14405,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "made-to-stick/examples.md",
-      "sha256": "dbaa55ea317d6f94bc07ac57a6f2022263b301d44429576d5445d656c390ae60"
+      "sha256": "b5c441a500a426fc824607015074ed4765b0d1b955f31f5e00e35fb0702f45e9"
     },
     {
-      "bytes": 18114,
+      "bytes": 19896,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "made-to-stick/frameworks.md",
-      "sha256": "c524e7e222c8d292132801db1cc6cee5b32cfc5f1839f331266e7f44e68bc8ce"
+      "sha256": "753e37e086d513151b19012e9f744fa1d392071ae5a9fc3374e557a0dc6daec5"
     },
     {
-      "bytes": 12378,
+      "bytes": 15498,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "made-to-stick/integration.md",
-      "sha256": "f7bc68a9dbd9b60b4780444d94e3a874f93d4130f0b4711d3c47cba7a9be565a"
+      "sha256": "5eb7505784d30dd54b5259fe0355e3f8467e4045a66a1e73a88c546438cd95e6"
     },
     {
-      "bytes": 9181,
+      "bytes": 12429,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "mom-test/SKILL.md",
-      "sha256": "4af80c78a64830d70ea33431c02375ee7f0b882392bc27812984a618ae583079"
+      "sha256": "40a5d9f1016ee912851f841cd58584977774b1f91a26b12828104f3139e841cd"
     },
     {
       "bytes": 4624,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "mom-test/cases.md",
       "sha256": "029a0607fa89eac759f6394a855147274d41c2fa520466a8663921d9c6a3a5ff"
     },
     {
-      "bytes": 6892,
+      "bytes": 7229,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "mom-test/examples.md",
-      "sha256": "b2ddc4cc4afcaa16b93222425809d71135a488c48cd4fce34cae7b0ec62b5f05"
+      "sha256": "c8269d576653a263bdfde7494882b5f02f8e3ea3944e7c8c9cdadc8569251077"
     },
     {
-      "bytes": 3695,
+      "bytes": 4464,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "mom-test/frameworks.md",
-      "sha256": "adcdeda2c5446b0ea8117bfb8fa8b3d175d2b19a23e48b5e1c029f6cccc8f5af"
+      "sha256": "d95f9a84384c2e3c5cba1c15f8962856dc7bc1b6bb76caa26e1efeb90cfbaaf1"
     },
     {
-      "bytes": 5319,
+      "bytes": 7774,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "mom-test/integration.md",
-      "sha256": "29915a2f562aea82599887476386ae0e6c91602f2f8555173b8b7fada7a5cbd6"
+      "sha256": "b421952214b1d645cdfec76b42b1eac39dbe20f6278f419b49dad9f79ab97d38"
     },
     {
-      "bytes": 11717,
+      "bytes": 15791,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "monetizing-innovation/SKILL.md",
-      "sha256": "a9daaec29a943f40fe4bd4816a951d9400b03193f158e6778d260def34c00995"
+      "sha256": "3bcceb89c593f681242fc1f96ae95bddea970519cb5d3f3ba3e9a75cee1ae45d"
     },
     {
-      "bytes": 6853,
+      "bytes": 7021,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "monetizing-innovation/cases.md",
-      "sha256": "c4cd177373d40c2167ca0e0a8a76ce3ea45331de807cb6ae9d55c57a58dba94c"
+      "sha256": "450fac52e5f855453e5f12750a9c7851a0603799b1192407c412ec14c0ec5037"
     },
     {
-      "bytes": 8867,
+      "bytes": 9816,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "monetizing-innovation/examples.md",
-      "sha256": "899104a1d8448afbd8fb2edad6e8ab17bccbf641ec2fed19db18483d99ac6fa6"
+      "sha256": "9062ee266c130ac48b52f487389295783172f9aa92d4581ee41036a2e8c6bd1b"
     },
     {
-      "bytes": 18201,
+      "bytes": 21712,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "monetizing-innovation/frameworks.md",
-      "sha256": "17f9e6c8108dabb0d70a29e84c434003b77ed2863c0f07d65a6fe879aab877f9"
+      "sha256": "b7eeece3cb01c6a6ddf755d5d15f0737749462c76765571271040c42f261bcc8"
     },
     {
-      "bytes": 8226,
+      "bytes": 13287,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "monetizing-innovation/integration.md",
-      "sha256": "1254d124cbb4bcbf575cba8d5b7b41a9e9451f82d7f64804616eaa6c773bd904"
+      "sha256": "b5e6a885e0f3acfc81f81a91c376deff2e17b6fe5de44995093125713e809cd3"
     },
     {
-      "bytes": 14571,
+      "bytes": 19217,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "obviously-awesome/SKILL.md",
-      "sha256": "81757b552d8fafeea9238a3a1107bd0e81c7466fc1f75c32ff657a34bf7c1171"
+      "sha256": "ecbcbd6aa1cdfe4dd4e63e12566cbf97864d2746545c5a5c29f1db812edde05f"
     },
     {
-      "bytes": 5302,
+      "bytes": 5463,
       "packaged": true,
       "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
       "path": "obviously-awesome/cases.md",
-      "sha256": "12b0c96b40e7b0c885978258b84564bec50f87c196ae26255fa0546d6ac98f26"
+      "sha256": "e4d811b6cfcf86b86a3339564ad5c6c0ce77f051d895f5b74353ac605c4ec983"
     },
     {
-      "bytes": 6685,
+      "bytes": 6838,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "obviously-awesome/examples.md",
-      "sha256": "7033e7e31a6cbc28ceabc1d4cae1ba5d5e16c8c45e911aeef4d324db9a4dcc0e"
+      "sha256": "1287752669f6c40514ad23441439ae8553480d1eba5551d11cd4d7870e01f52c"
     },
     {
-      "bytes": 9654,
+      "bytes": 13225,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "obviously-awesome/frameworks.md",
-      "sha256": "da0aa4135c38ea298985c77f3613b6f03fe7e6b4fc758a61fad4fac0cc5b6634"
+      "sha256": "1881b9085f6df32e6cebc59ce63d5e0bdc7c460736fc449823422c3b1f7f490c"
     },
     {
-      "bytes": 5300,
+      "bytes": 6371,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "obviously-awesome/integration.md",
-      "sha256": "05569b7d191fd964c613632c8b0572ad8919164949e2284ffded5386d72e4c48"
+      "sha256": "533ae15ce5463a61f7dfb33e52d3d89fd5d914b54ec1f981a98a0b3fafed0edf"
     },
     {
-      "bytes": 19501,
+      "bytes": 24567,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "spin-selling/SKILL.md",
-      "sha256": "124392733ae32f8947fab1d61d370d927d6f9bc2e6f6c59510cc478e05a0e1e5"
+      "sha256": "08d14ca5a2651025e3d76ea14d072cb58cab3724a87c4073903c4ec126c093b0"
     },
     {
-      "bytes": 10128,
+      "bytes": 11134,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "spin-selling/cases.md",
-      "sha256": "ded0d1efcb2b1cc26675b07bb573ed62efb423d05c5842e30e50cff178b53548"
+      "sha256": "9bde41013e701a4f6508311beade538314cd09ea8c0b3b9be0a3a9e057b74393"
     },
     {
-      "bytes": 10124,
+      "bytes": 11336,
       "packaged": true,
       "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
       "path": "spin-selling/examples.md",
-      "sha256": "668252db821d8891fcdce22d88e8b07645b6d8c166abb25decb9aaf51d380366"
+      "sha256": "225efd8ca973126bbce73b55d982dbb0abc1b47d9e335e7bee7005b45685c5fe"
     },
     {
-      "bytes": 11345,
+      "bytes": 13241,
       "packaged": true,
       "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
       "path": "spin-selling/frameworks.md",
-      "sha256": "5ba53947d3d980ae3f5e6ad2bdbd9ce2f7a6520fc8062facf113f3dab867f489"
+      "sha256": "b19a505aacaf216cfab2fd93cfd2c009e6f9ce0799f529012a21c598aba00d0a"
     },
     {
-      "bytes": 14566,
+      "bytes": 18505,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "spin-selling/integration.md",
-      "sha256": "72fd674e6a290efee8791191b7e078ac36d817daeb3ea04288114d2b5301bbd2"
+      "sha256": "a604446641009850de88b1043d722053615e16bd3e858bbf67f0359e375c3c76"
     },
     {
-      "bytes": 13946,
+      "bytes": 16340,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "storybrand/SKILL.md",
-      "sha256": "8fa75ea2712c94fb4a43563b4b167eccd0654209a9009d27785cd8a1b17c0734"
+      "sha256": "a47c6f5e0d505e8c617961eff83392ec14c879d83d1a0052e5d471bd2bb42254"
     },
     {
       "bytes": 10394,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "storybrand/cases.md",
       "sha256": "2d3d30ec4bf9dd016cd34049f84dac83403afc9d18017019f11c9ce2c6f83351"
     },
     {
-      "bytes": 14018,
+      "bytes": 14417,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "storybrand/examples.md",
-      "sha256": "5bbb69d608ca0f8ca34ada27c0666b9d1e8e682f00358bfd94b847dc5b3ad369"
+      "sha256": "5e47d60978faa56bd0c147049fd9d31ebc273afaf79500f1049a1073fea82e86"
     },
     {
-      "bytes": 13970,
+      "bytes": 16213,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "storybrand/frameworks.md",
-      "sha256": "929c8bb94ae0bcbf63212610e021c10d794447b8cfe27f267bc879a24f761219"
+      "sha256": "3b3f3c5d624c77f2a409a9e0a8d4e5656d1efe11535c7f10740c66c96bb8cf43"
     },
     {
-      "bytes": 11793,
+      "bytes": 12862,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "storybrand/integration.md",
-      "sha256": "f4b0e29ae64f0e13d4c252f06e7c29c29665937691547b32fb82f791ed125ce6"
+      "sha256": "ac183ba2f31d4a4a04ae287af4a12f9d732691d743f77c5e16d225ea184ee69d"
     },
     {
-      "bytes": 20982,
+      "bytes": 23868,
       "packaged": true,
       "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
       "path": "traction/SKILL.md",
-      "sha256": "e0e7b44e5d211955608c4e23a44e01a3890c2f3d156e026f94ba1cd68b4c3797"
+      "sha256": "a9054b86226a779192cc9394def0f8f46118ca439c63eb0e4175ffdebe292864"
     },
     {
-      "bytes": 17381,
+      "bytes": 17515,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "traction/cases.md",
-      "sha256": "9dfdce11556d704e150ff6b577d2417878389cd80c99747ea4849de999767282"
+      "sha256": "06e2a464461b814eb3b0365900b3edaab3a3c9741d52c0691133795586fe0620"
     },
     {
-      "bytes": 18889,
+      "bytes": 19356,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "traction/examples.md",
-      "sha256": "6612bf2df7dd8b2888fc2e9b8df8fb60cfe51a0bc839bd3637580d86554ad015"
+      "sha256": "13aa4e140b654dd855e198057bbf834c4fef86261f095c43257d423cb494ced5"
     },
     {
-      "bytes": 21686,
+      "bytes": 24279,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "traction/frameworks.md",
-      "sha256": "2abc297005c29d7628a072f9f84beab74fd8826276762962d4fa7d1c36deda80"
+      "sha256": "c4550b43a2c98c70167dbc40e4b1f04a3fcdd1f9fe455b99015fe4b7593131c3"
     },
     {
-      "bytes": 14214,
+      "bytes": 17241,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: source mechanisms retained; categorical access controls normalized into source positions, available variants, and context/consequence analysis under owner directive 31",
       "path": "traction/integration.md",
-      "sha256": "afa7503e3f59c08416e4f2d1c8445d394f1bc3f7081122519b7d6df4d33e8df6"
+      "sha256": "e7756c24305fdace3e93a34e670e7915c1fcf56404a60df33ed3f7a213f33dc1"
     }
   ],
   "public_release_transform": {
-    "block_quote_passages_omitted": 26,
+    "block_quote_passages_omitted": 24,
     "excluded_paths": [
       "README.md",
       "experiments/real-founder-problems.md"
     ],
     "inline_case_quote_passages_omitted": 7,
     "long_quote_word_limit": 25,
-    "quote_passages_omitted": 33,
-    "transformed_files": 14
+    "quote_passages_omitted": 31,
+    "transformed_files": 13
   },
   "schema_version": 1,
   "source": "https://github.com/getagentseal/founder-playbook.git",

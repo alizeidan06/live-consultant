@@ -37,7 +37,7 @@
 - Made to Stick says "stories are the most powerful element" and encourages long-form narrative. StoryBrand says "very few words" on websites. Resolution: use StoryBrand's concise structure for websites and ads. Use Made to Stick's full story principles for emails, presentations, case studies, and sales conversations.
 - Made to Stick's "Unexpected" principle (violate schemas) can conflict with StoryBrand's predictable story structure. Resolution: use the SB7 structure as the container, but make individual elements surprising (unexpected villain, counterintuitive success picture).
 
-**Integration rule:** Structure with SB7. Polish with SUCCESs. Every BrandScript element should pass the SUCCESs quality check.
+**Source-default integration:** Structure with SB7 and polish each element with SUCCESs. Preserve SUCCESs-first ideation, SB7-first, reverse diagnosis, early or late polish, parallel drafting, and complete use of both methods on every message. Choose using audience familiarity, medium, attention budget, category complexity, production speed, test cost, and the consequence of memorable confusion versus forgettable clarity.
 
 ---
 
@@ -65,7 +65,7 @@
 **Where they create tension:**
 - Obviously Awesome sometimes requires complex positioning nuances (competitive alternatives, market context). Made to Stick demands simplicity. Resolution: do the complex positioning analysis (Obviously Awesome), then distill it into a simple, sticky message (Made to Stick). The analysis informs the message; the analysis IS NOT the message.
 
-**Integration rule:** Position first (Obviously Awesome), then make it stick (Made to Stick). Use generative analogies and high-concept pitches to compress complex positioning into sticky formats.
+**Source-default integration:** Establish positioning and then compress it with SUCCESs, generative analogies, and high-concept pitches. Preserve sticky-message-first positioning discovery, reverse diagnosis from audience recall, early or late positioning, parallel iteration, and complete use of both methods. Choose using evidence maturity, category ambiguity, message-test speed, customer access, reversibility, and the costs of premature compression or unmemorable accuracy.
 
 ---
 
@@ -94,7 +94,7 @@
 
 - Traction testing can validate message stickiness: if the same message works across multiple channels, it's sticky. If it fails everywhere, the message (not the channel) may be the problem.
 
-**Integration rule:** Select channels (Traction). Then craft sticky messages for each channel (Made to Stick). If channel tests fail, diagnose whether the problem is channel fit or message stickiness.
+**Source-default integration:** Select channels and craft sticky messages for each selected channel, diagnosing failed tests for channel fit and message stickiness. Preserve message-first channel discovery, reverse diagnosis, early cross-channel message tests, channel-first, parallel portfolio tests, and full-method cycles. Choose using channel constraints, existing audience, creative throughput, signal quality, budget, test duration, and the consequence of confounding message and distribution.
 
 ---
 
@@ -113,7 +113,7 @@
   - Time Delay → Make Concrete ("results in 30 days" not "fast results")
   - Effort & Sacrifice → Make Unexpected ("zero effort required" violates schema)
 
-**Integration rule:** Design the offer ($100M Offers), then make it sticky (Made to Stick). The offer determines value. The messaging determines whether anyone remembers and shares that value.
+**Source-default integration:** Design the offer and then make its value memorable with SUCCESs. Preserve sticky-promise-first offer invention, reverse design from a memorable claim, early or late message craft, parallel offer-message cells, and full use of both methods. Choose using offer maturity, proof, category attention, creative constraints, test cost, fulfillment capacity, and the consequence of a memorable weak offer versus an invisible strong one.
 
 ---
 
@@ -131,9 +131,9 @@
 - Innovation accounting presentations to stakeholders need Made to Stick principles to be persuasive
 
 **Where they create tension:**
-- Lean Startup says "move fast, test quickly." Made to Stick requires craft and iteration on messaging. Resolution: for MVP-stage tests, a rough application of SUCCESs is enough (concrete, simple, one story). Save polished application for post-validation messaging.
+- Lean Startup says "move fast, test quickly." Made to Stick requires craft and iteration on messaging. Source-default resolution: use a rough SUCCESs pass for MVP-stage tests and increase polish after validation. Preserve full SUCCESs before validation, polish-first, experiment-first, reverse, parallel, alternating, and stage-independent variants when message quality is itself the hypothesis or credibility threshold. Compare learning speed, production cost, signal contamination, trust, reach, reversibility, and the consequence of testing the product through weak communication.
 
-**Integration rule:** In early stages, use Simple + Concrete from Made to Stick to ensure landing pages and MVPs clearly communicate value. Save the full SUCCESs treatment for post-validation messaging and fundraising.
+**Source-default integration:** Early work foregrounds Simple and Concrete, while later messaging and fundraising foreground the complete SUCCESs treatment. The full method remains available early, late, in reverse, in parallel with product experiments, or at equal intensity throughout. State the message-risk, evidence, audience, medium, time, production capacity, and downside that justify the chosen intensity.
 
 ---
 
@@ -150,7 +150,7 @@
   - Better to let the customer tell THEIR story of success (Emotional + Stories), then support with numbers (Credible)
 - SPIN's Implication questions map to Made to Stick's "gap theory" - they open a knowledge/emotional gap the customer wants to close
 
-**Integration rule:** Use SPIN to structure the conversation. Use Made to Stick principles to make each stage more impactful: Unexpected questions in Situation/Problem stages, Emotional deepening in Implication, Stories in Need-Payoff.
+**Source-default integration:** Use SPIN as the conversation structure and SUCCESs as a quality layer across it. Preserve SUCCESs-first question invention, SPIN-first, reverse diagnosis, stage-reordered, parallel, blended, and full-method variants. Choose using sale complexity, buyer attention, trust, time, evidence needs, emotional stakes, and the consequence of a memorable question that distorts discovery or a precise question nobody retains.
 
 ---
 
@@ -166,7 +166,7 @@
 - These exact phrases become the sticky elements in your messaging
 - Mom Test's focus on specific past behavior (not hypothetical opinions) naturally produces Concrete material
 
-**Integration rule:** Use Mom Test to gather the raw material. Use Made to Stick to craft it into sticky messages. The best sticky messages use the customer's own concrete, emotional language.
+**Source-default integration:** Gather lived customer language with Mom Test and craft it with SUCCESs. Preserve message-first interviews, reverse research from a draft, early or late crafting, parallel collection and testing, and complete use of both methods. Choose using access, evidence maturity, message-test speed, bias risk, segment diversity, and the consequence of delaying a draft versus hardening invented language.
 
 ---
 
@@ -185,7 +185,7 @@
 
 - Made to Stick's anti-authority concept (Pam Laffin) extends Influence's authority principle: sometimes the most persuasive authority is not the expert but the person with real experience
 
-**Integration rule:** Use Influence to determine which persuasion lever to pull. Use Made to Stick to ensure the lever pull is memorable. A persuasion technique nobody remembers doesn't produce lasting behavior change.
+**Source-default integration:** Select an Influence lever and make its delivery memorable with SUCCESs. Preserve sticky-idea-first lever selection, reverse diagnosis, early or late persuasion design, parallel lever-message tests, blended principles, and full use of both methods. Choose using audience state, relationship, medium, recall horizon, action friction, evidence, and the consequence of memorable persuasion versus durable trust.
 
 ---
 
@@ -209,11 +209,11 @@
 | **New Market** | Simple (explain the category) + Concrete (make the abstract tangible) |
 | **Resegmented** | Unexpected (reframe the category) + Stories (show the new perspective) |
 
-**Integration rule:** Determine Market Type (Four Steps). Then emphasize the SUCCESs principles most needed for that market type. New markets need simplicity and concreteness. Existing markets need credibility and surprise.
+**Source-default integration:** Use Market Type to emphasize likely SUCCESs needs—simplicity and concreteness in new markets, credibility and surprise in existing markets. Preserve SUCCESs-first market discovery, reverse inference from message response, early or late market typing, parallel tests, cross-type principle mixes, and complete use of both methods. Choose using market ambiguity, audience knowledge, competitive noise, test speed, evidence quality, and the cost of an incorrect type assumption.
 
 ---
 
-## The Communication Stack
+## Source-Default Communication Stack and Complete Variants
 
 ```
 LAYER 1: STRATEGY (what to communicate)
@@ -241,3 +241,5 @@ LAYER 4: DELIVERY (where to communicate)
 ```
 
 Made to Stick is Layer 3 - the quality assurance layer that sits between strategy/structure (what you say and how it's organized) and delivery (where you say it). It ensures that whatever comes out of Layers 1 and 2 is actually memorable by the time it reaches Layer 4.
+
+The displayed layers record the source-default conceptual stack, not a required production order. Every layer and complete method remains available at the beginning, middle, end, in reverse, in parallel, as a feedback loop, or as a whole-system pass. Choose the order using the binding uncertainty, evidence maturity, audience, channel constraints, production capacity, reversibility, coordination cost, and the consequence of optimizing one layer before seeing another.

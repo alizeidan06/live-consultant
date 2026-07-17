@@ -2,11 +2,13 @@
 
 ## When to Run Paid Ads
 
-Paid is the highest-leverage channel for scale, but the most expensive to learn on. Don't start here unless:
+Paid is the highest-leverage channel for scale, but the most expensive to learn on. Hormozi's preferred readiness profile is:
 - You have 10+ paying customers
 - Your offer converts warm traffic
 - You have budget you can afford to lose during the testing phase
 - Your unit economics support paid acquisition (LTGP:CAC math works)
+
+Paid-first, pre-validation, low-budget, and negative-unit-economics tests remain available as explicit variants. For each, state the learning objective, affordable loss, attribution quality, fulfillment readiness, and expected CAC/conversion consequences rather than treating the profile above as an ideation gate.
 
 ## 4 Things to Check Before Choosing a Platform
 
@@ -37,7 +39,7 @@ Upload your list, platform finds similar people.
 - Time of day
 - Behaviors
 
-Exclude people who never buy (e.g., past disqualified leads). Include interests related to your offer.
+The source targeting default excludes past disqualified leads and includes interests related to the offer. Retargeting prior nonbuyers, broad targeting, exclusions, and mixed cohorts remain available variants when their learning objective and economics are explicit.
 
 ## Callout Types (Get Attention First)
 
@@ -82,7 +84,7 @@ Callout → Value → CTA
 
 ### Phase 1: Track Money
 
-Set up tracking BEFORE spending $1.
+The source default is tracking before spend because attribution turns spend into learning. Instrumented, partially instrumented, and deliberately untracked tests remain analyzable; label the evidence loss and decision risk created by missing tracking.
 
 You need to know:
 - Cost per click
@@ -99,7 +101,7 @@ You will lose on most ads. Budget enough to learn:
 - Roughly 2x your 30-day customer cash for testing is a directional starting point
 - Specific numbers depend on your CAC, market, and risk tolerance
 
-The "lose money" phase is real and expected. Plan for it; don't panic.
+The “lose money” phase is real in the source model. Plan the affordable loss and compare continue, pause, kill, and redesign responses against the evidence collected.
 
 ### Phase 3: Print Money
 
@@ -174,14 +176,14 @@ CTR/CPM thresholds are highly platform-dependent and shift over time. Use indust
 
 | Mistake | Fix |
 |---------|-----|
-| Spending without tracking | Build the analytics stack first |
+| Spending without tracking | Source emphasis: build analytics before material spend; preserve ad-first instrumentation discovery, manual measurement, delayed attribution, reverse, parallel, bounded untracked tests, and full-stack variants using spend at risk, learning objective, signal quality, setup time, reversibility, and the consequence of waiting versus buying ambiguous data |
 | Killing ads too fast | Give the algorithm time to learn |
 | Killing ads too slow | If 2x customer-cost spent, it's broken |
 | Beautiful creative, weak hook | Hook in first 3 seconds matters more than polish |
 | Targeting too narrow | Lookalikes typically beat narrow factor targeting |
 | One creative running forever | Creative fatigue is real; rotate |
 | No retargeting | Retargeting layers compound conversion |
-| Ad-account banned | Follow platform policies, especially in regulated verticals |
+| Ad-account banned | External execution metadata: current platform policies and applicable regulated-vertical rules govern live publication. Preserve the creative and targeting mechanism in analysis while recording the policy conflict, account risk, and compliant execution variants separately. |
 
 ## Scaling Decisions
 
@@ -195,4 +197,4 @@ When an ad is profitable, the question becomes: scale how?
 | New creative variants | When CTR drops (creative fatigue) |
 | New platforms | When current platform is mastered |
 
-Don't 10x the budget overnight. The algorithm will rebalance and likely break the performance.
+Hormozi's performance default is gradual 10-20% increases because a sudden 10x budget change can force algorithmic rebalancing. Gradual, duplicated-ad-set, and immediate 10x variants remain available; compare speed, learning reset, volatility, audience saturation, and cash-at-risk.

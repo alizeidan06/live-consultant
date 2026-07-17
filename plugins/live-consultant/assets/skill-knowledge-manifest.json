@@ -50,7 +50,7 @@
       "bundle_roots": [
         "skills/build-business-operations"
       ],
-      "contribution": "Turns a validated promise into a practical delivery, ownership, control, tooling, and operating system.",
+      "contribution": "Designs and compares complete delivery, ownership, control, tooling, and operating systems for hypothetical through validated promises while labeling implementation status separately.",
       "triggers": [
         "business setup",
         "delivery operations",

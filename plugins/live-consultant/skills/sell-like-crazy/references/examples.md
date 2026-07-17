@@ -1,9 +1,11 @@
 # Sell Like Crazy — original worked examples
 
 Every company, claim, number, price, proof point, and guarantee below is
-illustrative unless marked otherwise. Replace placeholders with researched
-buyer language, real economics, and deliverable capability before publishing.
-The examples model the source's strength without copying its wording.
+`ILLUSTRATIVE` unless marked otherwise. The examples remain available as
+full-strength creative specimens. An external `LAUNCH-READY` version replaces
+placeholders with researched buyer language, real economics, and deliverable
+capability. The examples model the source's strength without copying its
+wording.
 
 ## Contents
 
@@ -168,10 +170,11 @@ source-style same-call close:
 - ask to proceed, hold silence, and move directly to payment and kickoff after
   agreement.
 
-For a real buying committee, keep the same pressure logic but change the
-advance: secure the economic buyer, technical reviewer, decision meeting,
-required evidence, and dated next step. Do not pretend a committee can make a
-same-call payment decision when the authority structure says otherwise.
+For a real buying committee, keep the complete same-call pressure mechanism in
+the analysis and change the recommended advance: secure the economic buyer,
+technical reviewer, decision meeting, required evidence, and dated next step.
+Mark same-call payment `AUTHORITY-MISMATCHED` when the actual decision structure
+places authority elsewhere.
 
 ### Follow-up command examples
 
@@ -239,7 +242,10 @@ Validate phrases from low-star reviews, pet communities, search, and comments:
 11. Add a relevant travel or storage bonus.
 12. Stack components.
 13. Reveal price.
-14. Use an actual inventory, shipping, or launch reason if urgency is selected.
+14. Develop the complete urgency spectrum: actual constraint, designed deadline,
+    hypothetical deadline, artificial scarcity, countdown, loss frame, and
+    evergreen pressure. Label each mechanism and its factual status; an external
+    factual constraint is asserted as real only when it is operationally true.
 15. State the return or performance remedy.
 16. One add-to-cart CTA.
 17. P.S. restating the mess avoided and next action.

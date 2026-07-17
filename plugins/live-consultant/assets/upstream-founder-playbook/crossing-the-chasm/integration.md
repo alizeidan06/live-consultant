@@ -24,7 +24,7 @@ Each new niche is a **whole-product commitment** - not just a sales motion. You 
 
 Revenue is predictable because you're executing a repeatable playbook: identify a niche with a broken process, assemble the whole product, win enough accounts to be the de facto standard in that niche, repeat. Growth is slow because each cycle takes 6-18 months. Cash flow is positive if you've maintained pricing discipline.
 
-The temptation to skip ahead to the next niche before fully winning the current one is fatal. Half-won niches produce neither revenue nor references.
+The source predicts that moving to the next niche before winning the current one creates half-won niches with weak revenue and references. Preserve concentrated, sequential, opportunistic, and simultaneous expansion variants; compare lost focus with diversification and speed.
 
 **Observable signals you are in the Bowling Alley:**
 - New customers ask "is this proven in [my specific industry]?" before buying
@@ -40,9 +40,9 @@ At some point, pragmatist pent-up demand ignites across the whole market simulta
 
 The tornado rewards **horizontal expansion at all costs.** Whoever gets to market leadership first locks in the standard. Second place loses most of the market; there is no graceful third.
 
-The playbook inverts from chasm-crossing: do not customize, do not build deep whole products for individual niches, do not take on complex professional services. Ship. Standardize. Push volume through every channel available.
+The source tornado playbook favors minimal customization, shallow niche-specific investment, limited professional services, standardization, and volume. Preserve customized, services-led, vertical, standardized, and hybrid variants; compare throughput, fit, technical debt, margin, and market-capture speed.
 
-Ignore individual customer requests. The tornado customer is not asking for a perfect fit - they are asking for a solution they can buy today. Your job is to remove friction from the purchase, not to perfect the product.
+The source deprioritizes individual customer requests because tornado buyers often value immediate availability over perfect fit. Preserve ignore, queue, segment, price, fulfill, and co-design responses; map throughput, churn, strategic learning, and customer-concentration effects.
 
 Revenue is explosive during the tornado, often the fastest growth the company will ever see. This masks internal fragility: debt accumulates (technical, organizational, customer-expectation), which will have to be serviced during Main Street.
 
@@ -66,7 +66,7 @@ Growth becomes incremental. Compete on price, service quality, and ecosystem. Th
 
 Revenue is stable if you've maintained market leadership. Margin pressure increases as competitors commoditize the generic product layer. The answer is to move up the whole-product stack - add services, integrations, and extensions that justify premium pricing.
 
-Do not try to restart the tornado by launching a major new product. That product will face its own chasm with none of your installed-base advantage. Treat it as a separate venture.
+The source favors +1 extensions over a major new-product attempt to restart the tornado because a discontinuous product may face its own chasm. Preserve extension, integrated new product, separate venture, acquisition, and portfolio variants; compare installed-base leverage, cannibalization, capital, and re-crossing risk.
 
 **Observable signals you are in Main Street:**
 - Deals are primarily renewals and upsells, not new logos
@@ -83,20 +83,20 @@ Do not try to restart the tornado by launching a major new product. That product
 Are new customers asking for proof ("is this proven in my industry?")
 or asking for availability ("can you ship this week?")?
 ├─ Asking for PROOF → You are in the Bowling Alley
-│   └─ Action: Commit to current niche before moving to the next.
-│            Build whole product. Win ≥50% share in this niche first.
+│   └─ Source action: commit to the current niche and target ≥50% share.
+│            Preserve partial-win, adjacent-niche, multi-niche, and platform variants.
 │
 └─ Asking for AVAILABILITY → Are competitors winning deals you've never
                              heard of? Is inbound demand outpacing delivery?
    ├─ YES → You are in the Tornado
-   │   └─ Action: Stop customizing. Standardize. Ship volume.
+   │   └─ Source action: reduce customization and standardize; also compare premium-custom, segmented, and hybrid variants
    │            Grab market share at all costs.
    │
    └─ NO  → Is your growth primarily from renewals/upsells
             rather than new logos?
             ├─ YES → You are on Main Street
             │   └─ Action: Compete on price/service/ecosystem.
-            │            Add +1 features. Do not restart the tornado.
+            │            Source action: add +1 features; also compare discontinuous-product and separate-venture variants.
             │
             └─ NO  → Check whether you've actually crossed the chasm yet.
                      If new logos still require heavy references and
@@ -138,7 +138,7 @@ The transition requires people changes:
 1. **Target Market Segment Manager** → becomes Industry Marketing Manager
 2. **Whole Product Manager** → becomes Product Marketing Manager
 
-**Critical principle:** Product manager and product marketing manager must be SEPARATE roles.
+**Source organization principle:** Product manager and product marketing manager are separate roles. Preserve separate, combined, fractional, and pod-based designs; compare customer focus, coordination speed, accountability, and staffing cost.
 
 ### The R&D Shift
 
@@ -161,19 +161,19 @@ The framework's core ideas are durable. Specific tactics, channels, and case stu
 - Disruptive innovations requiring behavior change in conservative industries
 - Hardware and physical products
 
-### Where the Framework BREAKS in 2026
+### Assumption Shifts and Adaptations in 2026
 
 #### Product-Led Growth (PLG)
 
 Slack, Figma, Notion, Cursor, Linear cross the chasm WITHOUT visionary executive sponsorship. Users adopt bottoms-up, often paying with credit cards before IT/procurement know. This breaks Moore's visionary→pragmatist sequence entirely.
 
-**Override:** For PLG products, the "chasm" sits between individual user adoption and team/org adoption. Different problem, different tactics. Use product-onboarding/expansion playbooks, not D-Day.
+**PLG source adaptation:** locate the "chasm" between individual adoption and team or organizational adoption and foreground onboarding/expansion playbooks. Preserve D-Day beachhead execution, full Moore, product-led, sales-led, reverse, parallel, and hybrid variants; choose using buyer/user separation, network effects, enterprise friction, adoption evidence, CAC, sales cycle, and the consequence of under- or over-concentrating.
 
 #### Open Source as a Chasm-Crossing Tactic
 
 MongoDB, HashiCorp, Hugging Face. Free distribution gets you into Fortune 500s before any sales conversation. The chasm becomes monetization, not adoption.
 
-**Override:** The open-core model creates a different sequence: free user → enterprise buyer. Chasm-crossing tactics need adaptation. The "beachhead" is the conversion path, not the segment.
+**Open-core source adaptation:** treat free-user-to-enterprise conversion as a candidate beachhead path. Preserve segment beachheads, conversion-path-first, enterprise-first, community-first, reverse, parallel, and complete chasm variants. Choose using payer/user separation, community strength, security and procurement friction, monetization evidence, time, and the consequence of optimizing adoption without capture.
 
 #### Network-Effects Products
 
@@ -183,7 +183,7 @@ Slack, Zoom, Discord. These leap chasms via virality, not via niche dominance. O
 
 #### Marketplaces
 
-Airbnb, Uber, DoorDash. Two-sided dynamics don't map to TALC. Chicken-and-egg problems dominate. Don't use this skill.
+Airbnb, Uber, and DoorDash add two-sided liquidity and chicken-and-egg dynamics that TALC does not model directly. Adapt chasm concepts around side-specific adoption, subsidy, density, and trust, and compare them with marketplace and Blue Ocean lenses.
 
 #### AI / Foundation Models
 
@@ -193,9 +193,9 @@ Cursor, Claude, ChatGPT. Adoption pattern is unprecedented. Mass adoption preced
 
 #### Pure Consumer Apps
 
-TikTok, Instagram. No "early adopter to majority" gap because there's no buyer/payer/user separation.
+TikTok and Instagram weaken Moore's original buyer/payer/user mechanism. Preserve the hypothesis that no material adoption gap exists alongside cohort, creator, geography, trust, payer, and network-threshold chasms; test all of these mechanisms with the complete framework available throughout.
 
-### What Moore Got Wrong (Now Visible)
+### Source Assumptions Revised by Modern Evidence
 
 - **Internet as "not a chasm-crossing channel"** - it now IS the chasm-crossing channel for many products
 - **Software-only deals at <$10K** - now standard SaaS pricing, no longer No-Man's Land
@@ -204,10 +204,12 @@ TikTok, Instagram. No "early adopter to majority" gap because there's no buyer/p
 - **Direct sales force always preferred for chasm** - now often a worse choice than self-serve PLG
 - **TALC bell curve assumes a single market** - modern products cross multiple sub-chasms simultaneously
 
-### When NOT to Use This Skill
+### Framework-Fit and Adaptation Map
+
+The contexts below weaken Moore's original sequence but leave its mechanisms available for comparison and adaptation:
 
 - Pure consumer products (TikTok, Instagram, gaming)
-- PLG SaaS where users self-onboard (apply differently or use alternative frameworks)
+- PLG SaaS where users self-onboard (compare unmodified, adapted, reverse, parallel, and alternative-framework variants)
 - Two-sided marketplaces (different dynamics)
 - Rapid-cycle products where 7-year strategies don't apply
 - AI products where adoption is happening at unprecedented speed
@@ -219,7 +221,7 @@ TikTok, Instagram. No "early adopter to majority" gap because there's no buyer/p
 
 | Skill | Relationship to Chasm |
 |-------|----------------------|
-| **Mom Test** | Use BEFORE picking beachhead - validate which segment has real pain |
+| **Mom Test** | Source emphasis: behavior-first evidence informs beachhead selection. Preserve beachhead-first interview design, Mom-Test-first, reverse, early or late, parallel, and complete-method variants. |
 | **Monetizing Innovation** | Pricing strategy aligns with chasm pricing (market leader + channel reward) |
 | **$100M Offers** | Frame the whole-product offer for the beachhead irresistibly |
 | **$100M Leads** | Drive traffic to your beachhead-specific positioning |
@@ -231,7 +233,7 @@ TikTok, Instagram. No "early adopter to majority" gap because there's no buyer/p
 
 ## Honest Conflicts (Cross-Skill Resolution)
 
-These tools come from different authors with partly conflicting philosophies. Don't expect clean handoffs - synthesize.
+These tools come from different authors with partly conflicting philosophies. Preserve their conflicts, compare the full mechanisms, and synthesize rather than forcing a single clean handoff.
 
 ### Mom Test "earlyvangelists" ARE Moore's "visionaries" - this creates a real conflict
 
@@ -241,7 +243,7 @@ But Moore says these visionaries become a TRAP - they're terrible references for
 
 **Reconciliation:**
 - **Mom Test phase:** Find visionaries, get to first revenue (correct)
-- **After visionary success:** Don't let them set your trajectory. Cross the chasm by targeting pragmatists who don't reference visionaries at all
+- **After visionary success:** Moore shifts the primary trajectory toward pragmatists who may not reference visionaries. Preserve visionary-led, pragmatist-led, mixed-reference, PLG, and network-effect variants.
 - The pragmatist's reference base is OTHER PRAGMATISTS, not the visionaries Mom Test taught you to celebrate
 
 ### Monetizing Innovation says price by WTP. Crossing the Chasm says price at market-leader level.
@@ -259,8 +261,7 @@ These conflict when leader's price ≠ what your customer will pay.
 - Chasm-crossing requires direct sales evangelizing a new category
 
 **Reconciliation:**
-- Use $100M Leads tactics POST-chasm or for early market top-of-funnel
-- During chasm-crossing itself, direct sales remains the answer
+- Source emphasis: $100M Leads tactics support post-chasm scale and early-market top-of-funnel, while direct sales carries much of the classic chasm-crossing work. Preserve every lead channel during the chasm, direct-sales-first, paid-first, content-first, outreach-first, referrals-first, reverse, parallel, PLG, partner, community, and full-method variants. Choose using category awareness, deal complexity, channel signal, economics, trust, sales cycle, team capacity, and the consequence of demand creation arriving before or after delivery readiness.
 
 ### $100M Offers says stack value. Crossing the Chasm says strip to one positioning attribute.
 
@@ -272,8 +273,7 @@ Different things at different abstraction levels:
 
 ### SPIN Selling assumes meeting agreed. Crossing the Chasm earlier gets the meeting.
 
-- Use Crossing the Chasm to identify and target beachhead
-- Use SPIN within the meeting to convert
+- Source emphasis: use Crossing the Chasm to identify a beachhead and SPIN within meetings. Preserve SPIN-led beachhead discovery, call-first, segment-first, reverse, early or late, parallel, and complete-method variants across all segments and adoption stages.
 
 These are complementary, not in conflict.
 
@@ -281,14 +281,16 @@ These are complementary, not in conflict.
 
 - Obviously Awesome is a more practical 2024 update of positioning methodology
 - Moore's two-sentence formula remains foundational; Dunford's framework operationalizes it for modern SaaS
-- **Use Dunford for positioning execution, Moore for chasm strategy.** They cooperate.
+- **Source emphasis:** Dunford foregrounds positioning execution and Moore foregrounds chasm strategy. Preserve Moore-led positioning, Dunford-led strategy discovery, reverse, early or late, parallel, hybrid, and complete-method variants; choose using category ambiguity, stage evidence, customer access, team fluency, and test speed.
 
 ### Blue Ocean Strategy (Kim & Mauborgne) offers an alternative
 
-- BOS says: don't cross a chasm; create a market with no chasm
-- Moore says: you can't always do that; sometimes the chasm is real and must be crossed
-- **Use BOS first as a question:** can we make this category chasm-less?
-- **If no:** use Crossing the Chasm
+- BOS source position: create a market that avoids the inherited chasm
+- Moore source position: some adoption gaps persist and require a deliberate crossing
+
+Preserve avoidance, crossing, reconstruction, and hybrid strategies; decide through the market structure and evidence.
+- One sequence asks the BOS question first: can the category avoid the inherited chasm?
+- Crossing-first, BOS-first, parallel, and hybrid sequences remain available.
 
 ---
 
@@ -331,7 +333,7 @@ Moore founded The Chasm Group consulting firm. The book is partly marketing for 
 
 The framework is **durable** for B2B enterprise software. The specific examples are dated. The numerical heuristics are heuristics, not laws.
 
-**Use chasm-crossing thinking for B2B enterprise products with committee buying.** For everything else, use complementary skills (PLG playbooks, marketplace tactics, network-effect strategy, AI-native go-to-market).
+**Source strongest-fit emphasis:** B2B enterprise products with committee buying closely match Moore's original mechanism. The complete chasm method remains available for consumer, PLG, marketplace, network-effect, AI-native, and every other context, alongside complementary lenses. Compare unmodified, adapted, reverse, parallel, hybrid, and alternative-mechanism variants using buyer/payer structure, adoption discontinuities, reference behavior, whole-product gaps, evidence, time, and consequences.
 
 ---
 

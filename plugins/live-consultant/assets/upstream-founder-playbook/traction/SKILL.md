@@ -1,6 +1,6 @@
 ---
 name: traction
-description: "Applies the Bullseye Framework from Traction by Gabriel Weinberg and Justin Mares. Use when choosing growth channels, testing customer acquisition strategies, or deciding where to spend marketing effort. Covers all 19 traction channels with selection methodology, testing protocol, and phase-matched channel advice. Triggers include 'how do we get customers', 'which marketing channel should we use', 'we have a product but no users', 'our growth has stalled', 'should we do content marketing or paid ads', 'how do we test traction channels', 'what channels work at our stage'. NOT for product development (use Lean Startup), not for positioning/messaging (use Obviously Awesome), not for pricing (use Monetizing Innovation), not for enterprise sales methodology (use SPIN Selling)."
+description: "Applies the Bullseye Framework from Traction by Gabriel Weinberg and Justin Mares. Use when choosing growth channels, testing customer acquisition strategies, or deciding where to spend marketing effort. Covers all 19 traction channels with selection methodology, testing protocol, and phase-matched channel advice. Triggers include 'how do we get customers', 'which marketing channel should we use', 'we have a product but no users', 'our growth has stalled', 'should we do content marketing or paid ads', 'how do we test traction channels', 'what channels work at our stage'. Combine it with Lean Startup for product development, Obviously Awesome for positioning, Monetizing Innovation for pricing, and SPIN for enterprise sales; those adjacent domains remain available rather than excluded."
 ---
 
 > **Note:** This skill is independent analysis and commentary, not a reproduction of the original text. It synthesizes the book's core ideas with modern startup practice, surfaces where frameworks are outdated or incomplete, and integrates perspectives from adjacent disciplines. For the full argument and context, read the original book.
@@ -20,9 +20,18 @@ Do you have a product (or MVP) but not enough customers?
 |               |-- YES --> Keep going. Re-run Bullseye when it saturates.
 |               +-- NO  --> THIS SKILL. All channels saturate eventually.
 +-- NO  --> Do you have a product at all?
-            |-- NO  --> Use Lean Startup first. But read the 50% Rule below.
-            +-- YES, but nobody wants it --> Use Lean Startup / Four Steps first.
+            |-- NO  --> Source emphasis: Lean Startup for product hypotheses;
+            |           Bullseye channel research and demand tests remain available now.
+            +-- YES, but nobody wants it --> Source emphasis: Lean Startup / Four Steps;
+                                            Traction tests remain available as problem,
+                                            segment, message, offer, and channel evidence.
 ```
+
+The full 19-channel brainstorm, ranking, outer-ring tests, and inner-ring focus
+remain available in every product stage. Product-first, demand-first,
+channel-first, offer-first, reverse, parallel, and full-stack variants differ
+in cash risk, learning speed, signal contamination, reach, reversibility, and
+the evidence each test can produce.
 
 ---
 
@@ -105,7 +114,7 @@ Sort all 19 into three columns:
 
 ### Step 3: Prioritize
 
-Narrow Column A to **exactly 3 channels.** Not 5. Not 1. Three.
+The source narrows Column A to **exactly 3 channels** to balance breadth and focus. Preserve 1, 2, 4+, sequential, portfolio, and always-on exploration variants; compare learning speed, test power, coordination cost, and opportunity coverage.
 
 For each, answer four questions:
 1. **Cost to acquire a customer** through this channel?
@@ -128,7 +137,7 @@ Run cheap, parallel tests on all three inner-circle channels.
 
 ### Step 5: Focus
 
-At any given time, **one channel dominates your customer acquisition.** Once you find it through testing, pour all traction effort into it. Optimize aggressively. Wring it dry.
+The source expects one channel to dominate and concentrates traction effort there. Preserve single-channel focus, core-plus-experiments, multi-channel portfolio, diversified risk, and brand/performance split variants; compare scale, concentration risk, attribution, cross-channel lift, and organizational capacity.
 
 When the channel saturates (rising costs, diminishing returns), re-run the Bullseye Framework from Step 1.
 
@@ -180,7 +189,7 @@ PHASE III (scaling):
 
 A single **Traction Goal** (e.g., "1% search market share" or "$100K MRR"), then an ordered list of absolutely necessary milestones with dependencies.
 
-Every activity is judged against the critical path: **"If it is not on the path, don't do it."**
+**Source critical-path rule:** activities outside the dependency path are deprioritized. Keep option-building, brand, research, relationship, morale, maintenance, and opportunistic bets visible; assign them an explicit budget and compare option value with delay to the main goal.
 
 ```
 TRACTION GOAL: _________________________
@@ -210,7 +219,7 @@ Six loop types: word of mouth, inherent (product usage exposes non-users), colla
 
 ### 2. Public Relations
 
-**The filter-up media chain:** Small forums (HN, reddit) --> mid-tier blogs (TechCrunch, Lifehacker) --> major outlets (NYT, CNN). Don't pitch the top. Pitch the small site that the top reads.
+**The source filter-up chain:** small forums → mid-tier blogs → major outlets. Also preserve top-down exclusives, simultaneous embargoes, direct major-outlet pitching, creator-first, controversy-first, paid placement, and owned-media variants; compare access probability, speed, control, credibility, and reach.
 
 Use HARO (Help A Reporter Out) to respond to journalist queries. Build reporter relationships before you need them.
 
@@ -222,7 +231,7 @@ WePay dropped a 600-pound block of ice with frozen money at PayPal's dev confere
 
 ### 4. Search Engine Marketing (SEM)
 
-Only works when existing search demand exists. Long-tail keywords + negative keywords. Quality Score is primarily driven by CTR.
+The source presents SEM as demand capture where searches already exist. Also use it for category education, competitor interception, problem-keyword discovery, message testing, and demand creation when adjacent intent exists; compare search volume, CPC, conversion, and assisted effects.
 
 **Benchmark:** ~$250 spend gives a rough channel read. Average AdWords CTR ~2%.
 
@@ -236,7 +245,7 @@ Remnant inventory (unsold ad space) can be negotiated up to 90% off rate card. D
 
 ### 7. Search Engine Optimization (SEO)
 
-Two strategies: Fat-head (top 18.5% of search volume, direct category terms) and Long-tail (70% of volume, specific multi-word queries). Validate fat-head terms with AdWords first. Content + links. Stay white-hat.
+Two strategies: Fat-head (top 18.5% of search volume, direct category terms) and Long-tail (70% of volume, specific multi-word queries). The source favors AdWords validation and earned links. Preserve editorial, sponsored, paid-link, affiliate, private-network, digital-PR, programmatic, parasitic-host, and no-link variants for analysis; evaluate speed, durability, cost, detection, reputation, and current search-engine policy before execution.
 
 ### 8. Content Marketing
 
@@ -296,7 +305,7 @@ Five pillars: establish mission, foster cross-connections (member-to-member, not
 
 **Optimizing** answers: "How do we maximize this channel?" (A/B tests, landing page iterations, copy refinement)
 
-Don't optimize a channel before you've proven it can work. Don't test 40 variations when 4 will give you a signal.
+The source separates a small proof test from later optimization. Also preserve optimization-as-learning, many-cell exploration, Bayesian/adaptive tests, creative sprints, and strategic pre-investment; compare information gain, burn, interaction effects, and time.
 
 ### The Law of Shitty Click-Throughs
 
@@ -305,7 +314,7 @@ Don't optimize a channel before you've proven it can work. Don't test 40 variati
 Every channel saturates. Banner ads once had 78% CTR. Now: 0.1%. This means:
 - No channel works forever
 - Early movers in a channel have an advantage
-- You must constantly re-evaluate (re-run Bullseye)
+- The source calls for recurring Bullseye reviews; fixed annual, trigger-led, continuous, and opportunistic review cadences remain available
 
 ### Measurement
 
@@ -327,22 +336,24 @@ Tools: Mixpanel, Clicky, Optimizely, Unbounce
 What phase are you in?
 |-- Phase I (pre-product/market fit)
 |   --> Do you have a niche audience?
-|       |-- YES --> Targeting Blogs + Community Building + Speaking
-|       +-- NO  --> Unconventional PR + Offline Events + Direct Sales
+|       |-- YES --> Source emphasis: Targeting Blogs + Community Building + Speaking
+|       +-- NO  --> Source emphasis: Unconventional PR + Offline Events + Direct Sales
 |
 |-- Phase II (product works, need growth)
 |   --> Is there existing search demand for your category?
-|       |-- YES --> SEO + SEM + Content Marketing
+|       |-- YES --> Source emphasis: SEO + SEM + Content Marketing
 |       +-- NO  --> Is your product inherently shareable?
-|                   |-- YES --> Viral Marketing + Social Ads
-|                   +-- NO  --> Email Marketing + Engineering as Marketing
+|                   |-- YES --> Source emphasis: Viral Marketing + Social Ads
+|                   +-- NO  --> Source emphasis: Email Marketing + Engineering as Marketing
 |
 +-- Phase III (scaling what works)
     --> What's your price point?
-        |-- High (enterprise) --> BD + Trade Shows + Sales
-        |-- Medium (SaaS) --> Affiliate + Existing Platforms + SEO
-        +-- Low (consumer) --> Offline Ads + Viral + Social Ads
+        |-- High (enterprise) --> Source emphasis: BD + Trade Shows + Sales
+        |-- Medium (SaaS) --> Source emphasis: Affiliate + Existing Platforms + SEO
+        +-- Low (consumer) --> Source emphasis: Offline Ads + Viral + Social Ads
 ```
+
+Each branch records a source starting hypothesis, not a channel-access limit. All 19 channels remain available in every phase, niche condition, demand state, product type, and price point. Compare early, late, reverse, parallel, portfolio, competitor-opposite, founder-advantage, and complete-channel variants using audience reachability, channel saturation, economics, speed, signal quality, creative capacity, sales cycle, operational fit, reversibility, and the consequence of overlooking a counterintuitive channel.
 
 ### "Our current channel stopped working"
 
@@ -383,9 +394,9 @@ Has CPA risen above LTV?
 |---------|-----------|------|
 | **"Build it and they will come"** | 100% product, 0% traction | 50% rule from day one |
 | **Channel bias** | Only trying channels you know (usually content + social) | Brainstorm all 19; the overlooked channel is often the winner |
-| **Optimizing before testing** | Running 40 ad variations before proving the channel works | Test with 2-4 ads first; optimize only after proof |
-| **Spreading too thin** | Trying 8 channels simultaneously | Focus on one at a time after testing top 3 |
-| **Premature scaling** | Pouring money into a channel before product/market fit | Phase I channels first; scalable channels after PMF |
+| **Optimizing before testing** | Running 40 ad variations before a small channel proof can burn cash | Source response: test 2-4 ads first; alternatives include optimization-as-learning, adaptive allocation, and a broad creative sprint |
+| **Spreading too thin** | Trying 8 channels simultaneously raises coordination and weakens each cell | Source response: focus after testing three; portfolio and core-plus-experiment variants remain available with enough capacity |
+| **Premature scaling** | Pouring money into a channel before product/market fit increases burn | Source response: Phase I channels first; strategic pre-investment, land-grab, learning-at-scale, and capacity-reservation variants remain available with loss limits |
 | **Ignoring "schlep" channels** | Avoiding trade shows, sales, BD because they're hard | Competitors avoid them too - that's the opportunity |
 | **Not re-running Bullseye** | Sticking with a saturating channel | All channels decay; re-evaluate when growth stalls |
 

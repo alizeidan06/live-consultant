@@ -1,6 +1,6 @@
 ---
 name: build-business-operations
-description: Turn a validated business or internal initiative into a practical operating system covering ownership, business model, fulfillment, quality, customer support, finance controls, legal and professional-review boundaries, tooling, website and checkout requirements, sales operations, analytics, SOPs, capacity, risk, and continuous improvement. Use when setting up or systematizing a business, preparing to launch, removing founder bottlenecks, or making execution durable.
+description: Turn a hypothetical, test-stage, validated, or operating business or internal initiative into a status-labeled practical operating system covering ownership, business model, fulfillment, quality, customer support, finance controls, legal and professional-review boundaries, tooling, website and checkout requirements, sales operations, analytics, SOPs, capacity, risk, and continuous improvement. Use when explaining or comparing operating models, setting up or systematizing a business, preparing to launch, removing founder bottlenecks, or making execution durable; evidence changes implementation status, not access to the architecture.
 ---
 
 # Build Business Operations
@@ -9,8 +9,13 @@ Before doing any work, read and apply the universal
 [skill assembly protocol](../founder-business-consultant/references/skill-assembly-protocol.md).
 Identify every skill that contributes a distinct part of the requested outcome,
 load each selected skill's complete declared knowledge bundle, resolve the niche,
-and synthesize one answer. Do not answer from this entrypoint alone when the
-human's outcome requires additional stored knowledge.
+and synthesize one answer from the full selected stack.
+
+Also read and apply the
+[complete knowledge-access invariant](../founder-business-consultant/references/knowledge-access-invariant.md).
+Keep every stored method available for full explanation, analysis, comparison,
+ideation, and niche tailoring while factual and external-action status remain
+separate.
 
 At the start of every invocation, read and apply the mandatory
 [Live Consultant communication voice](../founder-business-consultant/references/communication-voice.md).
@@ -23,12 +28,15 @@ Infer the niche from available context first. Ask only questions whose answers
 could change the research route or recommendation; otherwise proceed with a
 labeled reversible assumption.
 
-Build only what the current proof and stage require. A business operating system
-must survive when no agent is running.
+Implementation depth follows the current proof and stage, while complete
+operating architectures remain available for explanation, comparison, and
+drafting. A business operating system must survive when no agent is running.
 
-## Confirm the build is authorized
+## Assign build authorization status
 
-Before implementation, verify:
+Mark explanations, architecture, and local drafts `DRAFTABLE`. Mark connected,
+published, purchased, credentialed, customer-data, and externally communicated
+work `IMPLEMENTATION-AUTHORIZED` only after verifying:
 
 - the offer and buyer state;
 - the approved scope, jurisdiction, budget, and decision owner;
@@ -36,9 +44,10 @@ Before implementation, verify:
 - dependencies requiring credentials, professional review, contracts, payment
   processing, customer data, or external communication.
 
-Do not treat entity, tax, employment, insurance, contract, privacy, or regulated
-advice as universal. Use [business-setup-checklist.md](references/business-setup-checklist.md)
-to create questions and evidence for qualified local review.
+Label entity, tax, employment, insurance, contract, privacy, and regulated
+advice by jurisdiction and evidence status. Use
+[business-setup-checklist.md](references/business-setup-checklist.md) to create
+questions and evidence for qualified local review.
 
 ## Design from the customer promise backward
 
@@ -49,8 +58,10 @@ to create questions and evidence for qualified local review.
 3. Assign one owner, one input, one output, one service level, and one exception
    path to each step.
 4. Model capacity and failure modes before acquisition volume.
-5. Add the minimum systems that reduce real risk or recurring cost; avoid an
-   automation stack without a defined process.
+5. Keep manual, minimal-system, automation-first, and full-stack operating
+   architectures available. Compare them by process clarity, speed, recurring
+   cost, error rate, reversibility, integration burden, and current capacity,
+   then weight the recommended build without hiding the other architectures.
 
 ## Establish controls
 

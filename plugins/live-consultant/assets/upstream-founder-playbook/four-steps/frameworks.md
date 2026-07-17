@@ -80,7 +80,7 @@ Three verification checks:
 2. **Verify the product** - Does your solution address the problem?
 3. **Verify the business model** - Can you make money solving this problem for these customers?
 
-Decision rule: If all three verify → proceed to Customer Validation. If any fail → iterate within Discovery or exit.
+Source decision rule: if all three verify, proceed to Customer Validation; if any fail, iterate within Discovery or exit. Preserve provisional validation, parallel selling, bounded pilots, pivot, and exit variants; label unsupported assumptions and exposure.
 
 ---
 
@@ -94,7 +94,7 @@ Activities:
 - Build a channel plan
 - Develop a preliminary sales roadmap
 
-The sales roadmap must answer:
+The source evaluates a sales roadmap through questions such as:
 - Who are the target earlyvangelists?
 - What is the organizational map (buyer, user, influencer, saboteur)?
 - What is the buying process?
@@ -105,13 +105,13 @@ The sales roadmap must answer:
 
 In B2B sales, the person with the problem is rarely the person who signs the check. Mapping all stakeholders before your first meeting prevents deals from dying in the final stage.
 
-**Economic Buyer:** Controls the budget. This is the only person who can say YES and mean it. Often NOT the person experiencing the problem day-to-day. Find them by asking: "Who approves purchases over $X at your company?" Do not leave a sales process without knowing who this person is.
+**Economic Buyer:** Controls the budget. This is the only person who can say YES and mean it. Often not the person experiencing the problem day-to-day. Find them by asking: “Who approves purchases over $X at your company?” The source prioritizes identifying this role early; preserve mapped, partially mapped, champion-led, bottom-up, and procurement-led variants with deal-risk consequences.
 
-**Champion:** Your internal advocate inside the account. Must have two things: (1) the problem or direct exposure to it, and (2) organizational influence (people listen to them). Train your champion to sell internally - give them the deck, the ROI math, the objection answers. Without a champion, you are selling blind.
+**Champion:** Your internal advocate inside the account. The source profile combines (1) the problem or direct exposure to it and (2) organizational influence. Preserve pain-led, influence-led, executive-sponsored, committee-led, seller-led, and no-champion variants; compare access, internal persuasion, cycle time, and deal visibility. Equipping a champion with a deck, ROI math, and objection answers is one enablement variant, not a universal requirement.
 
-**Technical Buyer / Gatekeeper:** IT, security, legal, procurement. Can say NO but cannot say YES. Do not try to sell to them - neutralize them. Address their concerns directly and early (security questionnaire, SOC 2, insurance certificates). Stalling here is the most common cause of late-stage deal death.
+**Technical Buyer / Gatekeeper:** IT, security, legal, procurement. Can say NO but cannot say YES. The source favors neutralizing objections rather than selling value to them. Preserve neutralize, persuade, collaborate, bypass, escalate, and co-design variants; map authority, trust, delay, and deal-risk consequences. Address concerns such as security questionnaires, SOC 2, and insurance evidence according to the actual transaction.
 
-**Saboteur:** Benefits from the status quo. The most common saboteur is the person whose manual process, job function, or internal tool your product replaces. Identify them early by asking: "Who built the current solution? Who owns it?" Do not ignore saboteurs - they will surface objections you never heard in the demo.
+**Saboteur:** Benefits from the status quo. The most common saboteur is the person whose manual process, job function, or internal tool your product replaces. The source identifies them early by asking, “Who built the current solution? Who owns it?” Preserve engage, acknowledge, augment, neutralize, bypass, escalate, and ignore variants; map hidden-objection, political, trust, and implementation consequences.
 
 **End User:** Actually uses the product daily. Different from the buyer. Their enthusiasm is necessary but not sufficient to close a deal. If end users hate the product, the deal will churn fast even if you close it.
 
@@ -119,7 +119,7 @@ In B2B sales, the person with the problem is rarely the person who signs the che
 |---|---|---|---|
 | Economic Buyer | "Who approves purchases over $X?" | ROI, risk, budget fit | Quantify the cost of the problem |
 | Champion | Who brings you into meetings, forwards your emails | Being right, looking smart to their org | Arm them to sell internally |
-| Technical Gatekeeper | Shows up uninvited to security/legal reviews | Risk, compliance, integration burden | Pre-empt with documentation; never fight them |
+| Technical Gatekeeper | Shows up uninvited to security/legal reviews | Risk, compliance, integration burden | Source move: pre-empt with documentation; also compare persuasion, negotiation, escalation, and conflict variants |
 | Saboteur | Built or owns the thing you're replacing | Job security, status quo | Acknowledge their work; reframe your product as augmentation |
 | End User | Attends the demo, asks feature questions | Ease of use, not losing their workflow | Get them involved in pilot design |
 
@@ -136,7 +136,7 @@ Activities:
 
 Rules:
 - **Founders sell.** Not the VP of Sales, not salespeople. Founders.
-- If founders cannot close, hire **one Sales Closer** (not a VP of Sales)
+- Source emphasis when founders cannot close: hire one Sales Closer before building a sales organization. Preserve VP-first, player-coach, fractional leader, agency, founder-training, specialist pod, reverse, parallel, and hybrid variants; choose using process evidence, founder capacity, deal complexity, urgency, burn, learning fidelity, and the consequence of organizational scale arriving before or after repeatability.
 - No free products. Betas pay.
 - "The smallest/least complicated problem the customer will pay for" defines the first release.
 
@@ -145,7 +145,7 @@ Rules:
 Activities:
 - Based on customer feedback, refine company and product positioning
 - Test positioning in subsequent sales conversations
-- Present to industry analysts for feedback (NOT for press coverage)
+- Present to industry analysts; the source purpose is feedback, while press, analyst-relations, proof-building, and mixed-purpose variants remain available with bias and exposure consequences
 - Formalize advisory boards (Technical, Customer, Industry)
 
 ### Phase 4: Verify
@@ -156,7 +156,7 @@ Four verification checks:
 3. **Verify the channel** - Can the distribution model work at scale?
 4. **Verify the financial model** - Does unit economics work?
 
-Decision rule: All four pass → proceed to Customer Creation. Any fail → **pivot back to Customer Discovery** (the canonical pivot).
+Source decision rule: all four pass → proceed to Customer Creation; any failure → pivot to Customer Discovery. Preserve strict pivot, bounded creation, parallel validation, staged launch, and exit variants with exposure and learning value labeled.
 
 ---
 
@@ -176,9 +176,9 @@ Score each potential customer 1-5 on each characteristic:
 
 **Score ≥ 20 = strong earlyvangelist candidate.**
 **Score 15-19 = possible, investigate further.**
-**Score < 15 = not an earlyvangelist. Move on.**
+**Score < 15 = not an earlyvangelist under the source model.** Preserve move-on, nurture, educate, resegment, and deliberate latent-market variants.
 
-Earlyvangelists live only at the top of the pain hierarchy. Don't waste time on latent-need customers during Steps 1-2.
+The source concentrates Steps 1-2 on the top of the pain hierarchy. Preserve earlyvangelist-first, latent-market education, mixed-cohort, and market-creation variants; compare time, CAC, learning, and demand-shaping cost.
 
 ---
 
@@ -192,8 +192,8 @@ Research published market share data for your target market.
 
 | If... | Then... | Your Minimum Budget |
 |---|---|---|
-| Single player ≥74% | Monopoly - don't attack head-on | 3× their S&M budget (likely unaffordable) |
-| Top 2 combined ≥74%, within 1.7× of each other | Duopoly - also unassailable | Don't enter this market directly |
+| Single player ≥74% | Source label: monopoly; source preference is a wedge over head-on attack | Source estimate: 3× their S&M budget; preserve direct attack, coalition, resegmentation, and category-creation variants |
+| Top 2 combined ≥74%, within 1.7× of each other | Source label: duopoly with high entry resistance | Preserve direct entry, wedge, partnership, resegmentation, and adjacent-market variants with required advantage and spend |
 | One player ≥41%, ≥1.7× the next | Clear leader | Resegment or create new market |
 | Biggest player 26-41% | Unstable market | 1.7× weakest relevant player's budget |
 | Biggest player <26% | Fragmented | Lowest cost of entry; market ripe for innovation |
@@ -260,7 +260,7 @@ Two subtypes:
 
 ### Phase 2: Position Company and Product
 
-1. **Select PR agency** - hire for strategic communications capability, not just "how to get press." They must understand Market Type.
+1. **Select PR capability** - Blank favors an agency with strategic communications capability and Market Type understanding rather than press placement alone. Preserve specialist PR, generalist agency, in-house, founder-led, analyst-relations, and no-PR variants; compare category fluency, cost, speed, and control.
 2. **Conduct audits:**
    - External: PR firm + founders call customers and messengers (analysts, press, influencers). Establish perception baseline.
    - Internal: Same questions to founding team. Expect to discover "a cacophony of voices."
@@ -271,14 +271,14 @@ Two subtypes:
 1. **Select launch type** - onslaught / early adopter / niche (matched to Market Type)
 2. **Select audiences** - the narrow group that carries the most influence, not "everyone"
 3. **Select messengers** - experts, evangelists, connectors
-4. **Craft messages** - must be memorable and "sticky." For new markets, create a TLA or memorable phrase.
+4. **Craft messages** - the source favors memorable, "sticky" language and proposes a TLA or phrase for new markets. Preserve plain, technical, narrative, category-educating, repetitive, and subtle variants; test comprehension, recall, credibility, and action.
 5. **Understand context** - same message succeeds or fails depending on external conditions
 6. **Select media** - based on what early customers actually rely on, not readership numbers
 7. **Measure success** - re-run audits post-launch, compare to baseline, press audit for message pickup
 
 ### Phase 4: Create Demand
 
-1. **Align demand-creation goals with sales goals** - they must be identical
+1. **Relate demand-creation goals to sales goals** - Blank favors identical goals to reduce handoff conflict. Preserve identical, nested, leading-indicator, brand-plus-revenue, and deliberately distinct goals; state how each affects attribution, coordination, and time horizon.
 2. **Work backwards from revenue target** - units needed → active customers → qualified leads → raw leads → cost per lead
 3. **Measure and iterate** - "Mistakes were accepted as part of the normal learning process. Covering them up or not having a method to measure was grounds for termination."
 
@@ -298,8 +298,8 @@ Before staffing any department, answer:
 
 | Department | Existing Market | New Market | Resegmented Market |
 |---|---|---|---|
-| **Sales** | Build org for repeatable execution; comp plan rewards consistency | Don't scale on earlyvangelist roadmap; use earlyvangelists as beachhead fulcrum | Dual track: sell into existing market + find new differentiated customers |
-| **Marketing** | Shift to execution: qualified leads, competitive analysis, case studies, sales training | Identify mainstream customers, design chasm-crossing strategy; do NOT spend on demand creation yet | Drive positioning + branding to peel off existing customers into new segment |
+| **Sales** | Build org for repeatable execution; comp plan rewards consistency | Source default: delay scale and use earlyvangelists as a beachhead; preserve bounded, staged, and aggressive scale variants | Dual track: sell into existing market + find new differentiated customers |
+| **Marketing** | Shift to execution: qualified leads, competitive analysis, case studies, sales training | Source default: identify mainstream customers and design chasm strategy before major demand spend; preserve bounded, staged, partner-funded, and aggressive spend variants | Drive positioning + branding to peel off existing customers into new segment |
 | **Bus Dev** | Assemble "whole product" via partnerships (not a synonym for sales) | Alliances congruent with beachhead niches; build whole product | Unique partnerships that constitute the differentiating whole product |
 
 ### OODA Loop at Department Level

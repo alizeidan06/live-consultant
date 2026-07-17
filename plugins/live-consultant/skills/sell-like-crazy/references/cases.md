@@ -2,8 +2,9 @@
 
 These cases are paraphrased from the supplied sources. Outcomes are
 `source-reported`, not independently verified, unless a future live check is
-explicitly added. Use the mechanism and transfer conditions; do not repeat a
-reported result as a promise for a different business.
+explicitly added. Preserve the mechanism, rhetoric, result, and transfer
+conditions as source context; an external promise for a different business uses
+that business's own factual status and evidence.
 
 ## Contents
 
@@ -29,7 +30,8 @@ Each case records:
 - **Problem:** what the old marketing missed;
 - **Mechanism:** the source method applied;
 - **Source-reported outcome:** what the source says happened;
-- **Transfer conditions:** what must be true before modeling it;
+- **Transfer variables:** context, performance, and consequence variables to
+  compare while the case and all constructed variants remain modelable;
 - **Locator:** PDF page and printed book page.
 
 ## 1. Merrill Lynch educational lead generation
@@ -45,9 +47,11 @@ Each case records:
 - **Source-reported outcome:** The book reports 5,000 leads from a regional test
   and roughly three million leads over the life of the campaign, contributing
   to broad awareness for Merrill Lynch.
-- **Transfer conditions:** The content must answer real high-stakes questions;
-  the headline must make the information feel valuable; the next step must be
-  clear; length only earns its place while the reader remains engaged.
+- **Transfer variables:** The source-preferred version answers high-stakes
+  questions, makes the information feel valuable, and gives a clear next step.
+  Thin-teaser, advertorial, pitch-first, ambiguous-CTA, and intentionally long
+  variants remain available; compare attention, trust, engagement, lead quality,
+  and conversion.
 - **Locator:** `SELL LIKE CRAZY`, PDF 110–118 / printed 109–117.
 
 ## 2. Astro-Logical Love retitling
@@ -60,9 +64,11 @@ Each case records:
   content unchanged.
 - **Source-reported outcome:** The book says the renamed edition sold 2.3 million
   copies in its first 18 months.
-- **Transfer conditions:** The underlying product must satisfy the newly stated
-  promise. The lesson is offer/title leverage, not that renaming repairs a weak
-  product.
+- **Transfer variables:** External assertion status depends on whether the
+  underlying product satisfies the newly stated promise. Title-only,
+  product-redesign, aspirational, mismatch, and illustrative renaming variants
+  remain available for analysis; compare attention, expectation, trust,
+  conversion, refunds, and product-change cost.
 - **Locator:** PDF 121–122 / printed 120–121.
 
 ## 3. Casper mattress offer comparison
@@ -77,9 +83,11 @@ Each case records:
 - **Source-reported outcome:** The source attributes more than $600 million in
   sales over the first four years and cites tens of thousands of reviews at the
   time of writing.
-- **Transfer conditions:** A trial must be operationally supportable; return
-  logistics and unit economics must work; current figures require live
-  verification before reuse.
+- **Transfer variables:** Operational support, return logistics, and unit
+  economics change the recommended scale and external status of a trial.
+  Support-first, learn-while-building, bounded-loss, outsourced, and
+  scale-first trial variants remain available; current figures require live
+  verification before factual reuse.
 - **Locator:** PDF 164–165 / printed 163–164.
 
 ## 4. Enso Homes deadline guarantee
@@ -93,9 +101,11 @@ Each case records:
   promise appeared consistently across the website, landing pages, and HVCO.
 - **Source-reported outcome:** The source reports that Enso Homes went from no
   deposits to more than $7 million in revenue in its first eight months.
-- **Transfer conditions:** The builder needs scheduling control, exclusion
-  definitions, supply contingency, a measurable completion event, cash reserve,
-  and a promise aligned with the buyer's actual timing risk.
+- **Transfer variables:** Scheduling control, exclusion definitions, supply
+  contingency, completion measurement, cash reserve, and timing-risk alignment
+  change the guarantee's expected performance and external status. Fixed,
+  conditional, aspirational, cash-remedy, outsourced-risk, and deliberately
+  aggressive variants remain available for analysis and ideation.
 - **Locator:** PDF 165–166 / printed 164–165.
 
 ## 5. King Kong performance guarantee
@@ -109,9 +119,11 @@ Each case records:
   remedy, turning the buyer's fear into the center of the offer.
 - **Source-reported outcome:** The author connects the offer to King Kong's rapid
   company growth and external growth rankings.
-- **Transfer conditions:** Define the result precisely; control or qualify the
-  keyword and technical conditions; design delivery to meet the promise; do not
-  transfer the old wording to a new service without the capability behind it.
+- **Transfer variables:** Result precision, keyword and technical control,
+  delivery design, capability, and evidence change expected performance and
+  external claim status. Broad, narrow, qualified, unconditional, aspirational,
+  continued-work, cash-remedy, and illustrative variants remain available; the
+  old wording stays a complete source specimen.
 - **Locator:** PDF 167 / printed 166.
 
 ## 6. Opt-in examples across five niches
@@ -122,28 +134,34 @@ Each case records:
   top question, or create enough specificity to earn contact details.
 - **Mechanism:** Each page used a clearly named audience, numerical scope,
   problem-specific title, fascination bullets, and a visual of the content.
-- **Source-reported outcome:** These are presented as real-life examples, but
-  the pages do not provide controlled result data for each.
-- **Transfer conditions:** Use the structure, not the subject matter. The title
-  must arise from current niche research and the asset must deliver the promised
-  answer.
+- **Source-reported outcome:** These are presented as real-life examples; each
+  carries the evidence status `uncontrolled source report`.
+- **Transfer variables:** The source-preferred adaptation uses current niche
+  research and delivers the promised answer. Generic-subject, curiosity-only,
+  brochure, overpromise, illustrative, and direct-pitch adaptations remain
+  available; compare attention, expectation match, trust, lead quality,
+  complaints, and downstream conversion.
 - **Locator:** PDF 145–150 / printed 144–149.
 
 ## 7. Breathe Education channel stacking
 
 - **Context:** An education business that first proved one acquisition path and
   then diversified.
-- **Problem:** Adding channels before the offer and funnel converted would have
-  multiplied uncertainty rather than sales.
-- **Mechanism:** Start with one channel, measure the offer's economics, then add
-  SEO, Facebook, and other sources step by step after the underlying funnel is
-  profitable.
+- **Problem:** In this case, adding channels before the offer and funnel
+  converted could have multiplied uncertainty rather than sales.
+- **Mechanism:** The source case starts with one channel, measures the offer's
+  economics, then adds SEO, Facebook, and other sources step by step. Parallel
+  portfolios, simultaneous discovery, and resilience-first variants remain
+  available; compare attribution clarity and lower coordination load with
+  learning speed, channel interaction, cash exposure, and concentration risk.
 - **Source-reported outcome:** The book reports growth from approximately
   $200,000 to $2 million and cites varying funnel returns for each dollar of
   traffic.
-- **Transfer conditions:** Use contribution and cash data, not gross revenue
-  alone. Stabilize measurement and delivery before scaling. Treat cited return
-  figures as historical source claims.
+- **Transfer variables:** Contribution, cash, gross revenue, measurement quality,
+  and delivery capacity all inform scale. Measurement-first, learn-while-scaling,
+  bounded-loss, portfolio, and scale-first variants remain available; compare
+  learning speed, cash exposure, attribution, delivery failure, and upside.
+  Treat cited return figures as historical source claims.
 - **Locator:** PDF 208 / printed 207.
 
 ## 8. PR consultant Magic Lantern sequence
@@ -153,13 +171,16 @@ Each case records:
 - **Problem:** A hard pitch immediately after a download would demand trust
   before the consultant had earned it.
 - **Mechanism:** The source maps the buyer's current state to press coverage via
-  milestones. Example assets include a social-presence audit, mistakes to avoid
-  when approaching influencers, an outreach template, and a press-release step.
+  milestones. Example assets include a social-presence audit, a guide to common
+  influencer-approach mistakes, an outreach template, and a press-release step.
   Each asset creates progress and bridges to a strategy offer.
 - **Source-reported outcome:** The sequence is a worked conceptual example; it
   illustrates the mechanism rather than reporting a controlled case result.
-- **Transfer conditions:** Every milestone must help the buyer do something
-  real, reveal the next gap, and remain naturally connected to the paid service.
+- **Transfer variables:** The source-preferred milestone creates progress,
+  reveals the next gap, and connects to the paid service. Entertainment-first,
+  teaser, hard-pitch, disconnected-value, direct-booking, and mixed-value
+  sequences remain available; compare trust, speed, completion, qualified
+  action, and conversion.
 - **Locator:** PDF 256–270 / printed 255–269.
 
 ## 9. Guarantee pattern library
@@ -172,9 +193,11 @@ Each case records:
 - **Source-reported outcome:** The section argues that guarantees can materially
   improve response and may be invoked less often than sellers fear. Those
   general figures are source claims, not universal forecasts.
-- **Transfer conditions:** Match the remedy to the feared loss, define a
-  measurable trigger, estimate claim rate and adverse selection, and build the
-  fulfillment process before scaling.
+- **Transfer variables:** Remedy-to-loss match, trigger clarity, claim rate,
+  adverse selection, and fulfillment capacity change expected guarantee
+  performance and external scale status. Full, partial, unconditional,
+  conditional, outsourced-fulfillment, learn-while-scaling, and deliberately
+  aggressive variants remain available for comparison.
 - **Locator:** PDF 179–189 / printed 178–188, especially PDF 187–188.
 
 ## 10. Obama campaign email testing
@@ -188,9 +211,11 @@ Each case records:
 - **Source-reported outcome:** The book cites $690 million raised online and
   attributes much of it to email, while noting a sophisticated writing and
   analytics operation.
-- **Transfer conditions:** The recognizable sender and political moment were
-  major causal factors. Model the testing discipline and personal relevance,
-  not the exact subject lines or the outcome magnitude.
+- **Transfer variables:** The recognizable sender and political moment were
+  major causal factors. Exact-copy, structural, personal-relevance,
+  high-volume-testing, low-volume, and deliberately different variants remain
+  available; compare transferability without treating the historical outcome
+  magnitude as current fact.
 - **Locator:** PDF 309–312 / printed 308–311.
 
 ## 11. Five Ways to Double Sales report as a funnel specimen
@@ -206,9 +231,12 @@ Each case records:
 - **Source-reported outcome:** The document opens with a cumulative sales claim
   for King Kong's work but does not provide a controlled result for this report
   itself.
-- **Transfer conditions:** The educational asset must be useful without the
-  call, the promised consultation must have concrete standalone value, and any
-  number or business result needs independent evidence before publication.
+- **Transfer variables:** The source-preferred asset and consultation each have
+  standalone value. Teaser, brochure, advertorial, pitch-first, direct-booking,
+  and call-dependent variants remain available; compare trust, consumption,
+  show-up quality, sales speed, and conversion. Numbers or business results keep
+  their factual status separate and need independent evidence before external
+  publication.
 - **Locator:** `5waystodoublesales (1).pdf`, PDF 1–24; CTA specimen PDF 24.
 
 ## How to use a case
@@ -223,5 +251,5 @@ observed buyer problem
   -> metric and failure condition
 ```
 
-Do not transfer only the headline. The mechanism and operating conditions are
-what made the case strategically useful.
+Transfer the complete mechanism and operating conditions alongside the
+headline; those elements make the case strategically useful.

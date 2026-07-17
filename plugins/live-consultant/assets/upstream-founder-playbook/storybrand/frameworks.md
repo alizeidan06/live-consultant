@@ -19,14 +19,14 @@ TOO MANY:           "Save time, save money, get organized, reduce stress, increa
 JUST RIGHT:         "A retirement plan they actually understand"
 ```
 
-**The survival filter:** Every desire must connect to survival (physical, emotional, relational, or spiritual). If you can't trace your offer back to a survival need, the customer's brain won't prioritize it.
+**Source survival filter:** Miller maps desires to physical, emotional, relational, or spiritual survival. Preserve non-survival motives such as curiosity, beauty, play, transgression, novelty, mastery for its own sake, and technical fascination; compare salience, audience fit, and purchase intent.
 
 **Desire selection exercise:**
 1. List every desire your customers have (brain dump)
 2. For each, ask: "Does this relate to survival/thriving?"
-3. Eliminate any that don't
-4. Of the remaining, which ONE creates the strongest story gap?
-5. That's your hero's desire
+3. Label survival-linked and non-survival motives rather than deleting either
+4. Compare one dominant desire, a hierarchy, a bundle, and audience-specific desires
+5. Choose a narrative structure based on clarity, emotional force, and actual response
 
 ---
 
@@ -36,9 +36,11 @@ JUST RIGHT:         "A retirement plan they actually understand"
 
 The villain is the root cause of your customer's problem. A good villain:
 - Is relatable (customers immediately recognize it)
-- Is singular (one villain, not twelve)
-- Is real (not fabricated or exaggerated)
+- Is singular in the source default; multi-villain and systemic-conflict variants remain available
+- Is grounded in a real customer conflict in the source default; disclosed composite, hypothetical, analogy, satire, fiction, exaggeration, and invented antagonist variants remain available
 - Is something your product can defeat
+
+For publication, label fictional or composite material and substantiate factual accusations. Those truth and permission controls govern the external artifact, not generation or comparative analysis.
 
 | Industry | Villain | External | Internal | Philosophical |
 |----------|---------|----------|----------|---------------|
@@ -62,7 +64,7 @@ Research by Amy Cuddy at Harvard shows that when humans meet someone new, they a
 1. "Can I trust this person?" (warmth/empathy)
 2. "Can I respect this person?" (competence/authority)
 
-Your brand must answer both. In that order.
+The source answers empathy and authority in that order. Authority-first, empathy-first, dominance, peer, mystery, and alternating variants remain available.
 
 **Empathy statements - formula:**
 ```
@@ -83,8 +85,8 @@ Your brand must answer both. In that order.
 
 **Common mistakes:**
 - Leading with authority before empathy (arrogant)
-- Overloading testimonials (3-4 strong ones beat 40 weak ones)
-- Using generic testimonials ("Great company!" = useless)
+- Testimonial volume: the source favors 3-4 strong examples; dense walls of proof, rotating libraries, one flagship story, and none remain variants
+- Testimonial specificity: generic praise is weak diagnostic proof but can still contribute familiarity, volume, status, or visual social proof
 - Forgetting that the guide is a supporting character, not the star
 
 ---
@@ -151,7 +153,7 @@ Agreement plans address fears. List the top 3-5 fears customers have about doing
 - Solves a real (small) problem immediately
 - Demonstrates expertise
 - Positions your product as the natural next step
-- Is genuinely valuable on its own (not a veiled sales pitch)
+- Source default: valuable on its own and openly connected to the next step. Also preserve overt pitch, soft pitch, veiled pitch, product demo, advertorial, curiosity gap, and pure-value variants; compare lead quality, trust, conversion, and expectation mismatch. Before publication, external framing is checked against the actual offer and applicable disclosure requirements.
 
 ---
 
@@ -170,7 +172,7 @@ JUST RIGHT:
 Meanwhile, competitors who clarify their message steal your customers."
 ```
 
-**The "one of three" rule:** In any piece of marketing (webpage, email, brochure), reference failure only once for every three references to success. Failure opens the story gap. Success closes it. The overall tone should be aspirational, not fearful.
+**The "one of three" source rule:** one failure reference per three success references creates an aspirational tone. Preserve zero-failure, equal, fear-dominant, shock, repeated-loss, and audience-adaptive ratios; test urgency, recall, conversion, reactance, and trust.
 
 **Failure language patterns:**
 - "Without [your solution], most [customer type] end up [specific negative outcome]"
@@ -227,18 +229,17 @@ The most compelling brands don't just solve problems - they transform identity.
 +----------------------------------------------------------+
 ```
 
-**Headline rules:**
-- States what you offer in 5-8 words max
-- Connects to a survival need
-- NOT your company name, NOT a clever slogan
+**Headline source defaults and variants:**
+- State the offer in 5-8 words; also test long, narrative, curiosity, technical, founder-led, and manifesto headlines
+- Connect to a survival need or deliberately use a non-survival motive
+- Offer-led is the source default; company-name, clever slogan, mystery, category claim, and provocative assertion variants remain available
 - Good: "A Website That Brings You Customers"
 - Bad: "Welcome to Acme Digital Solutions - Innovating Since 2005"
 
-**Image rules:**
-- Show the end state, not the process
-- Show people (not product screenshots unless the product IS the end state)
-- Show happiness, success, resolution
-- NOT your office, NOT your team photo, NOT abstract stock photos
+**Image source defaults and variants:**
+- The source shows the end state; process, product, founder, team, office, abstract, symbolic, problem-state, and before/after variants remain available
+- People and resolved emotion are the default; screenshots, diagrams, evidence, spectacle, mystery, and negative emotion can serve other promises
+- Compare comprehension, identification, credibility, novelty, and conversion
 
 ### Section 2: Stakes + Value
 
@@ -254,11 +255,11 @@ One short paragraph that empathizes with the customer's pain and positions you a
 
 ### Section 5: Video (Optional)
 
-If you use video, keep it under 2 minutes. Follow the SB7 structure within the video.
+The source favors video under 2 minutes with SB7 structure. Also test micro-clips, 2-10 minute explainers, webinars, documentary stories, demos, founder monologues, and long-form sales videos by attention source and decision complexity.
 
 ### Section 6: Price/Product Breakdown
 
-If you have multiple offerings, show them as simple categories. Don't overwhelm.
+For multiple offerings, the source favors simple categories. Dense catalogs, guided selectors, comparison tables, personalized paths, and premium complexity remain available when breadth or choice is part of the value.
 
 ### Section 7: Bottom CTA
 
@@ -315,16 +316,13 @@ Repeat the direct CTA. Different phrasing is fine. Same action.
 | 6 | Value | More tips, establish ongoing relationship |
 
 **Rules:**
-- Nurture emails: 80% of sends. No selling, just value.
-- Sales emails: 20% of sends. Clear offer, clear CTA.
+- Nurture/sales ratio: the source suggests 80% value and 20% sales. Preserve all-value, all-sales, launch-heavy, daily pitch, alternating, event-triggered, and segmented ratios; compare revenue, unsubscribe, trust, and list fatigue.
 - Every email should be short, scannable, and have ONE focus.
 - Subject lines should create curiosity (Unexpected principle from Made to Stick applies here).
 
 ### Task 4: Transformation Testimonials
 
-**Don't collect:** "Great service!" / "5 stars!" / "Would recommend!"
-
-**Do collect:** Before/after stories using this prompt:
+**Source-preferred collection:** before/after stories using this prompt. Also retain generic praise, star ratings, feature-specific quotes, quantified outcomes, objection-handling quotes, status endorsements, and no-testimonial variants; compare credibility, diagnostic value, and creative fit:
 ```
 1. What was the problem you were dealing with before you found us?
 2. What did the frustration feel like as you tried to solve it?

@@ -22,7 +22,7 @@ April Dunford's IBM DB2 example: an engineer filled it in as "FOR people who wan
 
 ### Step 1: Understand the Customers Who LOVE Your Product
 
-Don't start with the product. Start with best-fit customers.
+The source starts with best-fit customers. Product-first, founder-vision-first, competitor-first, category-first, and speculative-future-first variants remain available; compare evidence quality, originality, speed, and risk of circular assumptions.
 
 **Best-Fit Customer Checklist:**
 1. Understood the product quickly
@@ -36,19 +36,19 @@ Talk to these customers. Decode WHY they love you. That's the positioning founda
 **The trap:** Designing positioning for the customers you wish you had instead of customers who already love you.
 
 **The circular dependency:**
-- Can't position for target until you know who loves you
-- Can't know who loves you without selling first
-- Can't sell without some positioning
-- **Solution:** Cast wide early ("fishing-net analogy"). Don't position narrowly until signal exists. Then narrow to best-fit.
+- Target positioning improves with evidence about who loves the product
+- Love and use evidence often comes from selling or deployment
+- Selling often begins with provisional positioning
+- **Source solution:** cast wide early ("fishing-net analogy"), then narrow after signal. Also test narrow-first and multiple-positioning cells when focus or speed matters more than broad learning.
 
-If no happy customers yet → use Mom Test for problem validation first. Don't position what you haven't built.
+If no happy customers exist, Mom Test is a useful source-default first step. Provisional positioning for an unbuilt product remains available from founder insight, analogues, concept tests, or category hypotheses; label capabilities as planned and test them before external factual claims.
 
 ### Step 2: Form a Positioning Team
 
 Positioning is NOT a marketing job.
 
 **Required participants:**
-- CEO/Founder/Business owner (mandatory - they own positioning)
+- CEO/Founder/Business owner (source-preferred owner); delegated executive sponsor, marketing-led, sales-led, customer-led, and specialist-facilitated variants remain available
 - Marketing
 - Sales
 - Customer Success
@@ -58,7 +58,7 @@ Positioning is NOT a marketing job.
 
 Why cross-functional: Each function has different positioning baggage and different customer signals. Marketing alone produces marketing-flavored positioning that doesn't survive sales conversations.
 
-**Pro tip:** Use an external facilitator. Internal people can't challenge their own assumptions.
+**Source facilitation emphasis:** use an external facilitator to challenge entrenched assumptions. Preserve internal facilitation, founder-led, rotating, adversarial, asynchronous, customer-assisted, AI-assisted, no-facilitator, parallel, and hybrid variants; choose using trust, politics, cost, context depth, independence, speed, and the consequence of internal blind spots versus external context loss.
 
 ### Step 3: Align Vocabulary, Let Go of Positioning Baggage
 
@@ -89,10 +89,12 @@ Common true alternatives:
 - "Build it ourselves"
 
 **Filtering:**
-- Focus on best-fit customers only
+- Source emphasis: foreground best-fit customers; also preserve broad-market, outlier, lost-customer, non-customer, worst-fit, aspirational, adjacent, and mixed-signal variants
 - Rank most-common to least-common
-- Drop alternatives with low real mindshare
+- Source emphasis: deprioritize alternatives with low current mindshare; retain emerging, low-frequency/high-impact, aspirational, internal, future, category-creating, and contrarian alternatives when they reveal a strategic option
 - Cluster into 2-5 groups
+
+Treat this as a source-default filtering pass, not an exclusion rule. Compare narrow, broad, reverse, long-tail-first, future-first, parallel-segment, and complete-set analyses using signal quality, segment economics, market change, sample bias, research cost, reversibility, and the consequence of omitting a weak but strategically important alternative.
 
 ### Step 5: Isolate Your Unique Attributes
 
@@ -107,15 +109,15 @@ Things your product/company has or does that alternatives don't:
 - Distribution
 - Even seemingly "negative" attributes (e.g., "on-site install" can be a strength for high-touch buyers)
 
-**Critical rule:** "Your opinion of your own strengths is irrelevant without proof."
+**Source evidence rule:** self-assessed strengths are weak positioning evidence without proof. They remain useful as hypotheses and bold creative claims; classify them as observed, customer-reported, benchmarked, inferred, or aspirational.
 
 Convert vague claims into provable facts:
 - "24/7 phone support with avg 30-second response time"
 - "Net Promoter Score of 82 vs industry avg of 31"
 - Third-party validation
-- Approved customer quotes
+- Customer quotes, with approval and provenance recorded before public attribution
 
-**Don't include retention-only attributes** (things customers care about AFTER buying). Focus on consideration attributes (drive the buying decision).
+**Source focus:** prioritize consideration attributes that drive purchase. Also preserve retention-only, expansion, implementation, status, and post-purchase attributes when they improve trust, lifetime value, referrals, or a land-and-expand story.
 
 ### Step 6: Map Attributes to Value Themes
 
@@ -141,8 +143,10 @@ Chain: **Feature → Benefit → Value (in customer-goal terms).**
 
 Segmentation is the most-misunderstood marketing concept after positioning.
 
-**Bad segmentation:** Demographics or firmographics ("CMOs at companies with 500+ employees in tech")
-**Good segmentation:** "Easily identifiable characteristics that make them really care about what you do"
+**Source-lower-signal segmentation:** demographics or firmographics alone ("CMOs at companies with 500+ employees in tech")
+**Source-preferred segmentation:** "Easily identifiable characteristics that make them really care about what you do"
+
+Demographic, firmographic, behavioral, attitudinal, needs-based, trigger-based, and hybrid variants all remain available. Compare predictive power, reachability, stability, and sales usability.
 
 Behavioral, contextual, capability-based:
 - "Companies with 100+ remote employees"
@@ -164,7 +168,7 @@ Behavioral, contextual, capability-based:
 1. Big enough for business goals
 2. Shared important unmet need
 
-**Narrow > broad.** Tie segment width to current sales targets. Only broaden if best-fit can't hit them.
+**Source default:** narrow positioning often produces clarity; tie segment width to current sales targets. Broad-first, portfolio, platform, and deliberately mass-market variants can win through scale, network effects, distribution, or category leadership. Compare reach, conversion, CAC, sales capacity, and strategic option value.
 
 **Real example - appointment scheduling:**
 - First pass: "Companies with lots of locations" - too vague
@@ -189,7 +193,7 @@ See SKILL.md for the three styles (Head to Head / Big Fish, Small Pond / Create 
 Trends amplify positioning when they intersect with:
 - Your product strengths
 - Customer-relevant context
-- A real, durable trend (not a flash)
+- A durable trend in the source default; flash, speculative, manufactured, contrarian, and counter-trend variants remain available with different attention and credibility profiles
 
 **3-circle intersection:**
 
@@ -206,13 +210,13 @@ Trends amplify positioning when they intersect with:
     Position at the intersection
 ```
 
-**Decision rule:** "It's always better to be a little boring than completely baffling."
+**Source heuristic:** "It's always better to be a little boring than completely baffling." Also test bold, polarizing, mysterious, technical, and category-inventing frames; compare comprehension, recall, earned media, qualified response, and trust.
 
 Trends are OPTIONAL. Many great companies don't need them.
 
 ### Step 10: Capture Positioning So It Can Be Shared
 
-Don't use the traditional 1-sentence positioning statement. Instead:
+The source favors richer artifacts over the traditional one-sentence statement. Keep one-line, canvas, multi-page, manifesto, category narrative, sales story, and audience-specific variants; use the smallest form that preserves the needed distinctions:
 
 1. **Detailed positioning document** (multi-page)
 2. **One-page positioning canvas**
@@ -228,7 +232,9 @@ This canvas drives all messaging downstream.
 
 ---
 
-## After Positioning: The Sales Story (6 Stages)
+## Sales Story: Source-Default Timing and Complete Variants (6 Stages)
+
+The source places this story after positioning. Story-first positioning discovery, provisional stories, early, late, reverse, parallel, iterative, and complete-method variants remain available; choose using positioning confidence, customer access, channel urgency, test cost, and the risk of premature lock-in or abstract analysis.
 
 | # | Stage | Content |
 |---|-------|---------|
@@ -239,7 +245,7 @@ This canvas drives all messaging downstream.
 | 5 | Value Themes | The 1-4 ways we deliver value |
 | 6 | Next Steps | What to do now |
 
-Then write a master messaging document.
+Source-default next step: write a master messaging document. Preserve documentation-first, messaging-first, reverse, parallel, continuous, campaign-level, and late-documentation variants using team size, change rate, consistency risk, speed, and maintenance cost.
 
 ---
 
@@ -263,7 +269,7 @@ If you reposition: start at Step 4 (you already know customers and team).
 
 If you have many products, you have multiple positioning challenges. Dunford's explicit rule:
 
-**Each product needs its own positioning. The COMPANY can have positioning. The individual products each have their own. Don't conflate the two.**
+**Source position:** each product has its own positioning while the company can have a separate position. Also preserve master-brand, endorsed-brand, product-only, house-of-brands, and intentionally unified variants; compare clarity, trust transfer, cross-sell, cost, and reputational coupling.
 
 Examples:
 - Microsoft (company) ≠ Word ≠ Excel ≠ Teams ≠ Azure

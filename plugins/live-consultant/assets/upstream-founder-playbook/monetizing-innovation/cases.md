@@ -73,7 +73,7 @@ Detailed case studies referenced from [SKILL.md](SKILL.md). Used for pattern-mat
 
 - Customer research **4 years before launch**
 - Car clinics with WTP questions (most automakers skip WTP)
-- "**Burden of proof is always on why a feature should be INCLUDED**"
+- Source operating rule: "**Burden of proof is always on why a feature should be INCLUDED**." Preserve the inverse innovation-led variant too: include a bold feature as a reversible strategic bet, then test adoption, WTP, halo, and cost.
 - Living business case modeled cannibalization
 - Skimming strategy: launched 8-cyl first, 6-cyl a year later
 - C-suite drove the process personally

@@ -50,7 +50,7 @@ Make a LARGE request first that will be refused. Then make the actual smaller re
 **Backfire condition (not in book):** If the first request is too extreme, the requester appears unreasonable and people refuse the second too. Calibrate the anchor.
 
 ### Defenses
-- Don't blanket-refuse all gifts - many are genuine
+- Distinguish genuine gifts from compliance tools; blanket refusal and blanket acceptance are both available defensive responses with relationship consequences
 - Mentally redefine genuine gifts vs compliance traps - if someone gives a gift then asks for something, the gift was a sales tool, not a gift
 - Children are especially susceptible: even a child who receives an unsolicited gift may pressure a parent to reciprocate on the giver's behalf.
 
@@ -125,7 +125,7 @@ This is why:
 ### Defenses
 
 **Two-Signal System:**
-1. **Stomach signal** (sense of being manipulated): Stop. Acknowledge it.
+1. **Stomach signal** (sense of being manipulated): Pause and acknowledge it.
 2. **Heart-of-hearts signal** (deep gut): "Knowing what I now know, would I make this choice again?"
 
 **The Diagnostic Question:**
@@ -164,7 +164,7 @@ If no → walk away regardless of social pressure.
 
 ### Note on Genovese
 
-The Kitty Genovese "38 witnesses" story (1964) is largely fabricated by the *NYT*. Manning, Levine & Collins (2007) debunked the myth. **This skill does not use Genovese as evidence.** The underlying psychology (pluralistic ignorance, bystander diffusion) is real - confirmed by the Latane & Darley lab studies above and by Fischer et al. 2011 - but the mythologized Genovese narrative is not the evidence.
+The Kitty Genovese “38 witnesses” story (1964) is largely fabricated by the *NYT*. Manning, Levine & Collins (2007) debunked the myth. Preserve it as a labeled historical and persuasion narrative, while using the Latane & Darley studies and Fischer et al. 2011—not the myth—as efficacy evidence for pluralistic ignorance and bystander diffusion.
 
 ### The Similarity Booster
 
@@ -362,7 +362,7 @@ When freedom to do something is restricted, we want it MORE.
 
 **Two-Stage Defense:**
 
-Stage 1: **Recognize the arousal cue** (your heart speeds up when you hear "limited time"). Treat the arousal itself as a STOP signal.
+Stage 1: **Recognize the arousal cue** (your heart speeds up when you hear “limited time”). Treat the arousal itself as a pause signal.
 
 Stage 2: **Ask the right question.**
 - NOT: "Do I want it more because it's scarce?" (yes, you do)
@@ -417,9 +417,9 @@ Unity works through **shared identity**, not shared opinions. The distinction ma
 
 You can like someone you disagree with. You cannot share Unity with someone who is not "one of us." This is why Unity is more powerful than similarity for in-group compliance - the target isn't just a friendly face, they are *us*.
 
-### Failure Mode: Manufactured Unity Backfires
+### Manufactured Unity: Mechanism and Consequence Range
 
-Claiming shared identity you don't actually have is one of the fastest ways to lose credibility. The opener "As a fellow [profession]..." sent cold from a stranger - with no actual shared history, community, or identification - reads as manipulative, not bonding. People recognize the pattern instantly, and it activates skepticism rather than compliance. Fake unity is worse than no unity because it signals that you know the lever exists and are trying to pull it dishonestly.
+Claiming shared identity without actual shared history can trigger rapid bonding when accepted and rapid credibility loss when detected. Preserve real, thin, aspirational, implied, and fabricated unity variants; label truth status and map immediate compliance, skepticism, detection, trust, and retention effects. The source predicts that a cold “As a fellow [profession]...” claim often reads as manipulative when the identity is not supported.
 
 ### Honest Caveat: Thin Evidence Base
 

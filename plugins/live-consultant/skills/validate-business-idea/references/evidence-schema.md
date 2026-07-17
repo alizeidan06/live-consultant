@@ -6,9 +6,9 @@ Use one row per source occurrence.
 candidate_id,buyer_role,trigger,problem_scope,source_type,source_url_or_path,locator,observed_at,event_date,access_state,exact_buyer,material_consequence,completed_spend,current_behavior,price_currency,repeat_cadence,alternative,value_gap,disconfirming_signal,commercial_source,redaction_status,coder_rationale
 ```
 
-Do not infer buyer identity, recency, payment, currency, recurrence, consequence,
-or failed alternatives from a label. Record them only when the source supports
-them.
+Record buyer identity, recency, payment, currency, recurrence, consequence, and
+failed alternatives as `SUPPORTED` only when the source provides that evidence;
+otherwise retain `UNKNOWN`.
 
 Grade evidence:
 

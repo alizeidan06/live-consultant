@@ -4,13 +4,13 @@
 
 | Skill | Relationship |
 |-------|--------------|
-| **Mom Test** | Use BEFORE - validate problem before positioning a solution |
-| **Crossing the Chasm** | Chasm picks beachhead, OA positions in that beachhead. Pair them: Chasm = strategic targeting, OA = tactical messaging |
-| **Blue Ocean Strategy** | BOS reframes the GAME. OA positions WITHIN the chosen game. Use BOS first if existing categories are a trap, OA second to communicate |
+| **Mom Test** | Source emphasis: behavior-first validation informs positioning. Preserve positioning-first interview design, Mom-Test-first, reverse, early or late, parallel, and complete-method variants. |
+| **Crossing the Chasm** | Source emphasis: beachhead choice informs positioning. Preserve OA-led beachhead discovery, chasm-first, reverse, early or late, parallel, and complete-method variants. |
+| **Blue Ocean Strategy** | Source emphasis: BOS reframes the game and OA communicates it. Preserve OA-first strategy discovery, BOS-first, reverse, early or late, parallel, and whole-method variants. |
 | **Monetizing Innovation** | OA's Step 6 (value themes) informs MI's value-based pricing |
-| **$100M Offers** | OA's positioning + Hormozi's offer stacking are complementary - position for the right market, then stack value within that frame |
-| **$100M Leads** | OA tells you WHAT to say in your ads/content. Leads tells you HOW to drive traffic |
-| **SPIN Selling** | OA's positioning gives the strategic frame; SPIN gives the tactical sales conversation within that frame |
+| **$100M Offers** | Source emphasis: position the market frame and stack offer value within it. Preserve offer-first positioning creation, reverse, early or late, parallel, and complete-method variants. |
+| **$100M Leads** | Source emphasis: positioning informs what channels say and Leads informs traffic. Preserve channel-led positioning discovery, reverse, early or late, parallel, and complete-method variants. |
+| **SPIN Selling** | Source emphasis: positioning frames the sales conversation. Preserve SPIN-led positioning discovery, reverse, early or late, parallel, and complete-method variants. |
 | **Influence** | Authority + social proof from OA's segment = positioning evidence for Cialdini-style persuasion |
 
 ## Honest Conflicts
@@ -29,21 +29,21 @@
 - **OA:** positioning clarity (less = clearer mental real estate)
 - **Hormozi:** offer perceived value (more = bigger value stack)
 
-**Resolution:** Use OA at the POSITIONING level (1-4 themes drive your category fit). Use Hormozi at the OFFER level (stack value WITHIN that positioning frame). Don't conflate market position with offer construction.
+**Source synthesis:** OA can govern positioning while Hormozi stacks value within that frame. Also preserve an integrated "offer creates the position" variant, a position-first sequence, an offer-first sequence, and parallel tests; compare clarity, value density, speed, and market feedback.
 
 ### OA says: best-fit customers hold the key. Crossing the Chasm says: visionaries are TERRIBLE references for pragmatists.
 
 **Critical conflict for chasm-stage products.** If you're pre-chasm and your "best-fit customers" are visionaries, applying OA's methodology will give you positioning that ATTRACTS MORE VISIONARIES - the opposite of what you need to cross the chasm.
 
-**Resolution:** Use Crossing the Chasm to identify your beachhead pragmatist segment FIRST. Then use OA's methodology with those targeted pragmatists (or extrapolated pragmatist personas) as your best-fit signal source.
+**Source-default resolution:** use Crossing the Chasm to hypothesize a beachhead pragmatist segment and apply OA with that segment as the weighted signal source. Preserve OA-first beachhead discovery, visionary-first, pragmatist-first, reverse, early or late, parallel-segment, and complete-method variants. Choose using adoption stage, referenceability, segment evidence, access, revenue urgency, positioning test cost, and the consequence of attracting the wrong adoption cohort.
 
 ### OA says: focus on best-fit customers. Mom Test says: talk to anyone with the problem.
 
 **No real conflict.** Mom Test is METHODOLOGY (how to talk). OA is ANALYSIS (whose answers to weight). Use Mom Test methodology when interviewing OA's best-fit customers.
 
-### OA mentions "check in periodically." Crossing the Chasm says: don't broaden beachhead prematurely.
+### OA periodic checks versus Crossing the Chasm's source warning about premature broadening
 
-**Don't actually conflict.** OA = tactical messaging refresh. Chasm = strategic targeting discipline. Different scopes.
+They can operate at different scopes: OA as a tactical messaging refresh and Chasm as targeting discipline. They can also conflict when a refresh changes the audience. Preserve hold-beachhead, broaden, adjacent-segment, and dual-positioning variants and compare referenceability, revenue ceiling, CAC, and focus.
 
 ## When OA Is Less Critical
 
@@ -78,7 +78,7 @@ Modern counter-examples to "positioning is foundational":
 
 ### Multi-Product Companies (Critical Rule)
 
-Each product needs its own positioning. The COMPANY can have positioning. The individual products each have their own. Don't conflate the two.
+The source favors distinct company and product positioning. Preserve master-brand, endorsed-brand, house-of-brands, product-only, and deliberately conflated category variants; compare transfer of trust, clarity, cost, cross-sell, and reputational coupling.
 
 Examples:
 - Microsoft (company) ≠ Word ≠ Excel ≠ Teams ≠ Azure

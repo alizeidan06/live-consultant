@@ -28,7 +28,8 @@ Build date: 2026-07-14.
 - Active use: 15 namespaced wrapper skills load the complete upstream packs and
   apply Live Consultant's assembly, niche, evidence-status, economics,
   currentness, and permission context. Ethical or contextual labels may remain
-  as source description, but they never operate as knowledge-withholding rules.
+  as analytical source descriptions, with the complete knowledge set fully
+  available throughout.
 
 This confirms the pinned snapshot only. Future upstream commits are not
 silently included and must be re-audited before promotion.

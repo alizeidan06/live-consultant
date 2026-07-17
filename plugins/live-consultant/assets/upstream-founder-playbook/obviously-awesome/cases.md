@@ -74,7 +74,7 @@ Dunford's hypothetical: take Coke and reposition for the pet-treat subsegment ("
 
 **The point:** Sometimes a subsegment IS available; you just have to look creatively. The product (Coke) is "a lot like Coke" - brown and fizzy - but does something Coke doesn't (tastes like bones, which dogs really, really want).
 
-This is the conceptual model for Big Fish, Small Pond: don't change the product, change the segment and positioning.
+This is the source's conceptual model for Big Fish, Small Pond: hold the product constant while changing segment and positioning. Product-change, segment-change, position-change, and combined variants remain available; the held-constant version isolates the positioning effect.
 
 ---
 

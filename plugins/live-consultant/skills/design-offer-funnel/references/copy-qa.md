@@ -21,7 +21,7 @@ guarantee, scarcity, urgency, endorsement, compliance, or price anchor.
 - Create specific numerical concepts freely, then distinguish a target or
   example from a measured fact before external use.
 - Explore the full feature-to-benefit chain. Mark unproved causal links as
-  hypotheses to engineer rather than deleting them from the creative pass.
+  hypotheses to engineer and retain them in the creative pass.
 - Match real proof to buyer, offer, geography, time, and claim; keep invented
   proof specimens explicitly illustrative until the evidence exists.
 - Testimonials, messages, charts, reviews, endorsements, news presentations,
@@ -40,8 +40,8 @@ guarantee, scarcity, urgency, endorsement, compliance, or price anchor.
   cancellation, refund, and support information legible without weakening the
   earlier creative concept.
 
-This review classifies truth and execution readiness. It never prevents the
-consultant from sharing, analyzing, or drafting the full tactic.
+This review classifies truth and execution readiness. The consultant retains the
+full tactic for explanation, analysis, comparison, and drafting.
 
 ## Message match
 

@@ -20,11 +20,18 @@ description: Validates business ideas through customer conversations using Rob F
 
 ```
 Need customer feedback?
-├─ Pre-product, no idea what to build → Mom Test (this skill)
-├─ Have validated market, packaging product → 100m-offers
-├─ Have offer, need traffic → 100m-leads
-└─ Selling enterprise → spin-selling
+├─ Pre-product, no idea what to build → Mom Test is the source emphasis
+├─ Have validated market, packaging product → Pair Mom Test with $100M Offers
+├─ Have offer, need traffic → Pair Mom Test with $100M Leads for channel and buyer intelligence
+└─ Selling enterprise → Pair Mom Test with SPIN Selling
 ```
+
+The complete Mom Test method remains available in every branch for discovery,
+win/loss work, segment change, churn, channel intelligence, message research,
+and assumption checks. Early, late, reverse, confirmatory, adversarial,
+sales-embedded, and parallel interview variants remain available. Compare
+signal purity, realism, bias, buyer access, cycle length, and whether the
+conversation is meant to discover, persuade, qualify, or close.
 
 ```
 In a customer conversation?
@@ -34,13 +41,15 @@ In a customer conversation?
 └─ They're committing nothing → PRESS for time/reputation/money
 ```
 
-## Bad Questions (Never Ask)
+## Source-Labeled Low-Signal Questions and Their Variants
+
+Fitzpatrick treats the following as low-signal discovery questions because respondents can please the interviewer without revealing behavior. Preserve that source position, while keeping adjacent uses available: hypotheticals can test comprehension or concept reactions; direct willingness-to-pay questions can establish a negotiating range; and opinion questions can expose language, objections, or status dynamics. Compare each answer against observed behavior, commitments, and actual transactions rather than treating any one question form as universally forbidden.
 
 | Question | Why It Fails |
 |----------|--------------|
-| "Do you think it's a good idea?" | Only the market can tell. Opinions are worthless. |
-| "Would you buy a product which did X?" | Everyone says yes. Hypotheticals are lies. |
-| "How much would you pay for X?" | Numbers feel rigorous but are still lies. |
+| "Do you think it's a good idea?" | In pure discovery, approval is weak evidence; in concept testing, it can reveal vocabulary and objections. |
+| "Would you buy a product which did X?" | Hypothetical intent commonly overstates action, but can still compare concepts when paired with a concrete choice or later behavioral test. |
+| "How much would you pay for X?" | Stated price is weaker than a transaction, yet useful as one input to a range, auction, conjoint, or negotiation exercise. |
 | "Do you ever..." / "Would you ever..." | Invites fluff and future-tense promises. |
 
 ## Good Questions (Use These)
@@ -89,11 +98,11 @@ Real interest = giving up something valuable. Compliments cost nothing.
 
 **They own the problem. You own the solution.**
 
-You aren't allowed to tell them what their problem is. They aren't allowed to tell you what to build.
+The source default separates roles: customers supply evidence about the problem and founders own solution design. Also keep diagnostic naming, expert-led prescription, co-design, and customer-request-led development available. The tradeoff is independence of evidence versus speed, expertise, and customer ownership; label which conversation mode is in use.
 
 ## The Filter Test
 
-If they haven't even Googled for a solution, they don't actually care enough to pay for yours.
+The source uses prior search as a strong urgency signal. Lack of a Google search can also mean the buyer lacks vocabulary, expects an internal solution, uses a closed professional network, faces a novel problem, or has not yet reached a trigger event. Treat search behavior as one weighted signal alongside cost, frequency, workarounds, budget, authority, and commitment.
 
 ## Customer Slicing
 
@@ -110,7 +119,7 @@ If they haven't even Googled for a solution, they don't actually care enough to 
 3. What are they already doing to solve it?
 4. Where can we find them?
 
-**Good segment test:** A segment is useful only if you know WHERE to find them.
+**Source segment test:** a segment becomes more operationally useful when you know where to find it. Preserve strategically important but hard-to-reach, emerging, hidden, proxy-reachable, partner-reachable, broad, narrow, and discovery-stage segments; compare value, reachability, acquisition cost, evidence quality, timing, and the consequence of excluding a strong segment because access is not solved yet.
 
 ## Conversation Length Guide
 
@@ -163,20 +172,27 @@ If they haven't even Googled for a solution, they don't actually care enough to 
 Rules not already captured in the tables and checklists above:
 
 1. Customer conversations are bad by default. Your job to fix them.
-2. People know problems but not solutions. Don't ask what to build.
+2. The source weights problem evidence above solution requests. Preserve both problem-led questioning and solution co-design; evaluate requests by underlying motivation, expertise, generalizability, and willingness to commit.
 3. You should be terrified of at least one question you're asking (terrified of the answer, not the asking).
 4. There's more reliable information in a "meh" than a "Wow!"
 5. It's not a real lead until you've given them a concrete chance to reject you.
 
 ## Timeline
 
-Spend a week, maybe two. Get your bearings, then give them something to commit to. Don't spend months theorizing.
+The source recommends a one- or two-week discovery sprint followed by a commitment test. Also model longer ethnographic research, regulated procurement discovery, enterprise buying-process mapping, and continuous discovery. Choose among them by uncertainty, cost of error, access cadence, and the reversibility of the next build decision.
 
 ## Context: Founders vs. Product Teams
 
-This framework is written for founders validating whether a new idea is worth pursuing at all. If you're a product manager at an established company, your situation is different: you already know customers want the product. Your interviews are doing problem discovery (what's broken?) or feature discovery (which direction next?) with existing users - not testing whether a market exists. The "press for commitment" and customer-slicing sections are largely irrelevant. The core questioning mechanics (past behavior, avoid hypotheticals, anchor fluff) still apply directly.
+This framework is written for founders validating whether a new idea is worth
+pursuing at all. In an established product team, the source emphasis shifts
+from market-existence discovery toward problem, feature, retention, expansion,
+and workflow discovery. Press-for-commitment, customer slicing, past behavior,
+hypothetical, opinion, concept-test, co-design, confirmatory, and adversarial
+questioning all remain available. Compare them by the decision, buyer power,
+signal quality, realism, persuasion contamination, relationship cost, and what
+an answer can establish.
 
-## When This Doesn't Apply
+## Context Adaptations and Alternative Modes
 
 - **Formal B2B/Enterprise:** Some contexts require formal protocols
 - **Regulated industries:** Healthcare, finance may need different approaches
@@ -184,9 +200,9 @@ This framework is written for founders validating whether a new idea is worth pu
 - **Cultural contexts:** Japan, Germany, formal corporate cultures expect different protocols
 - **Domain experts:** Expert opinions about THEIR domain carry weight (the rule is about opinions on YOUR IDEA)
 
-## Red Flags (Customers to Avoid)
+## High-Divergence Customer Signals and Response Options
 
-Even enthusiastic, paying customers can derail you:
+Even enthusiastic, paying customers can pull a roadmap toward a narrow use case. Options include declining the request, pricing it as custom work, isolating it as a service, using it as a design-partner wedge, or deliberately repositioning around that customer. Compare generalizability, margin, learning value, strategic fit, and opportunity cost:
 - Needs so specific they'll pull you off-course
 - Demand custom work that doesn't generalize
 - "Visionaries" who want something completely different from your vision
@@ -201,7 +217,7 @@ Even enthusiastic, paying customers can derail you:
 
 ## The Nuance
 
-- "Talk less" means don't pitch your solution, not don't talk at all. Strategic questions and redirections are talking.
+- "Talk less" is the source's discovery default, not a ban on presenting. Keep pure listening, disclosed concept testing, hybrid discovery-sales, and direct pitching as distinct modes so their evidence is interpreted correctly.
 - "Be terrified of a question" means terrified of the ANSWER (it might invalidate your idea), not asking aggressive questions.
-- "Press for commitment" doesn't mean be pushy. Know when to back off. Burning a contact is worse than no commitment.
+- "Press for commitment" ranges from a soft next step through an explicit deposit request. Compare pressure levels by signal quality, conversion, relationship cost, and audience expectation. Consent, truthful framing, and authority to transact remain pre-execution controls, not knowledge filters.
 - "They can't tell you what to build" doesn't mean ignore domain experts. Sophisticated users may know implementation better than you - understand the WHY.

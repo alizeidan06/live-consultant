@@ -108,7 +108,7 @@ The object contains only these top-level fields:
     "summary": "The consultant skipped capacity and contribution checks."
   },
   "proposal": {
-    "rule": "Check contribution and fulfillment capacity before prescribing more acquisition.",
+    "rule": "Keep every acquisition method available; use contribution and fulfillment capacity to weight scale, test size, downside, and expected consequences.",
     "applicability": "When lead volume is already increasing but profit is not.",
     "exceptions": ["The acquisition data itself is unreliable."],
     "foundation_effect": "strengthen"
@@ -153,8 +153,8 @@ a stable candidate ID, UTC timestamp, redaction summary, and recurrence events
 without copying raw conversation text. Candidate and decision records are
 HMAC-signed with a project-local integrity key created at consent time. The
 event ledger is sequence-chained to a signed head so editing, removing,
-truncating, or reordering current records fails closed. Skill IDs are restricted
-to the plugin's actual skill allowlist. Runtime rules are returned only through
+truncating, or reordering current records fails closed. Every accepted skill ID
+belongs to the plugin's actual skill allowlist. Runtime rules are returned only through
 the verifier command; direct file edits fail closed.
 
 ## Promotion input
@@ -167,8 +167,8 @@ Use `promote --input -` with:
   "target": "local-rule",
   "decision": "Adopt this rule for the current project.",
   "evidence_summary": "One measured outcome plus a reproduced routing failure.",
-  "regression_test": "Future scale advice checks contribution and capacity first.",
-  "countercase": "Do not apply when the acquisition measurement is invalid.",
+  "regression_test": "Future scale advice preserves acquisition options and weights contribution and capacity alongside them.",
+  "countercase": "When acquisition measurement is invalid, keep the rule as an unweighted hypothesis and compare the full method set.",
   "owner_approved": true,
   "independent_contexts": 1,
   "measured_outcomes": 1,
@@ -187,7 +187,7 @@ the audit event.
 `core-proposal`. `finalize-contribution` requires the preview's exact SHA-256
 digest after the user reviews it. Neither command contains networking code.
 
-Public packets include only the version, affected skill and foundation IDs,
+Public packets contain these public-safe fields: version, affected skill and foundation IDs,
 paraphrased mistake, expected behavior, coarse context, evidence class and
 count, proposed rule, exceptions, regression test, and countercase. They never
 include local event files, raw evidence, attribution, private paths, identifiers,

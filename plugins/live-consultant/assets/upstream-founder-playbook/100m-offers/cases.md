@@ -115,10 +115,10 @@ A founder sees low conversion, panics, drops the price 30%. Conversion improves 
 
 A product team responds to low conversion by adding 20 features over 6 months. Conversion barely moves.
 
-**Why it's wrong:** More features ≠ more perceived value. The 20 new features included most low-value, high-cost components that should have been cut. The offer got bloated, not better.
+**Observed consequence:** More features did not create more perceived value. The 20 new features were mostly low-value, high-cost components, so this variant increased bloat and delivery cost without improving conversion. A trimmed, modular, or differently packaged variant provides the comparison.
 
 ### "Build a Grand Slam Offer for an unvalidated market"
 
 A founder spends 2 months crafting a beautifully stacked offer for a problem nobody actually has. The offer is technically perfect. Nobody buys.
 
-**Why it's wrong:** The framework assumes product-market fit. Without a validated market, even a perfect offer fails. Use mom-test first.
+**Observed consequence and variant rule:** The framework assumes product-market fit. Here, the unvalidated input produced a false offer premise. Keep full offer ideation available in hypothesis mode, label the unsupported ingredients, and use Mom Test or a live market test to compare the premise against buyer evidence.

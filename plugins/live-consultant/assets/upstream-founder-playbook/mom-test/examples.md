@@ -149,7 +149,7 @@ After each conversation, score yourself:
 - [ ] Did I get a real commitment (time/reputation/money)?
 - [ ] Did I keep my mouth mostly shut?
 - [ ] Was I terrified of any answer I might hear?
-- [ ] Did I avoid pitching?
+- [ ] Did I use the intended conversation mode (pure discovery, concept test, hybrid, or pitch) and label the resulting evidence correctly?
 
 5+ checks = good conversation. <3 = redo it.
 
@@ -176,8 +176,8 @@ The team reviews all write-ups from the past week together. Each person calls ou
 **Step 3 - Track belief changes on a shared doc.**
 Maintain a living belief tracker. Before each batch of interviews, record what the team currently believes. After the batch, record what (if anything) changed and why. This makes drift visible and prevents the team from unconsciously moving the goalposts.
 
-**Step 4 - Only update product direction on convergence.**
-A single interview, no matter how compelling, is not signal. Only update roadmap or positioning when multiple interviews, from different people with no reason to coordinate, point at the same problem or behavior. One data point is an anecdote. Three is a pattern.
+**Step 4 - Weight convergence and exceptional signals explicitly.**
+The source default updates roadmap or positioning after independent interviews converge on the same problem or behavior. Keep single-signal moves available for high-cost incidents, strategic bets, rare expert insight, early-warning events, or reversible experiments. Record why the evidence threshold changed, how reversible the move is, and what would confirm or reverse it. One data point is usually an anecdote; three independent observations begin a pattern, not a guarantee.
 
 **Belief Tracker Template**
 

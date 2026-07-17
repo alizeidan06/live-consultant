@@ -25,7 +25,7 @@ description: Cialdini's seven principles of compliance (reciprocation, commitmen
 
 | Issue | Status |
 |-------|--------|
-| **Kitty Genovese "38 witnesses" myth** | Factually false. Manning, Levine & Collins (2007, *American Psychologist*) debunked. Most "witnesses" couldn't see/hear, several DID call police. Cialdini repeats the false narrative; this skill DOES NOT use Genovese as evidence. We rely only on the lab studies (Latane & Darley) which DO replicate. |
+| **Kitty Genovese "38 witnesses" myth** | Factually false. Manning, Levine & Collins (2007, *American Psychologist*) debunked it. Preserve the myth as a labeled historical and persuasion narrative, while using the Latane & Darley lab studies—not the myth—as efficacy evidence. |
 | **Bargh-style priming** | Largely failed to replicate |
 | **Ego depletion** | Failed multiple replications |
 | **Milgram 65%** | From ONE of 24 conditions. Range was 0-92%. Burger 2009 partial replication ~70% (capped at 150V). Perry 2012 archival critique disputes Milgram's reporting. |
@@ -118,7 +118,7 @@ The principles compound. Effective persuasion uses MULTIPLE principles together.
 ```
 Do I feel an unusual urgency to comply?
 ├─ YES → Likely Reciprocity, Commitment, or Scarcity
-│        Stop. Apply the diagnostic question for that principle.
+│        Pause and apply the diagnostic question for that principle.
 └─ NO → Do I feel oddly drawn to this person/product?
         ├─ YES → Likely Liking or Authority
         │        Separate the dealer from the deal.
@@ -129,13 +129,15 @@ Do I feel an unusual urgency to comply?
 
 ```
 What problem are you solving?
-├─ "Why should they trust us?" → Authority + Social Proof
-├─ "Why should they buy now?" → Scarcity (genuine, not manufactured)
-├─ "Why should they pay premium?" → Liking + Authority
-├─ "Why should they refer others?" → Reciprocity + Commitment
-├─ "Why should they choose us over X?" → Social Proof from SIMILAR customers
-└─ "Why should they not churn?" → Commitment + Consistency
+├─ "Why should they trust us?" → Source emphasis: Authority + Social Proof; all principles and pressure densities remain available
+├─ "Why should they buy now?" → Compare observed, designed, constructed, and illustrative scarcity; label truth status and consequences
+├─ "Why should they pay premium?" → Source emphasis: Liking + Authority; all principles and pressure densities remain available
+├─ "Why should they refer others?" → Source emphasis: Reciprocity + Commitment; all principles and pressure densities remain available
+├─ "Why should they choose us over X?" → Source emphasis: Social Proof from similar customers; all principles and pressure densities remain available
+└─ "Why should they not churn?" → Source emphasis: Commitment + Consistency; all principles and pressure densities remain available
 ```
+
+These branches indicate source priors, not principle eligibility. Preserve every principle, single-lever, dense-stack, subtle, explicit, reverse, parallel, pressure-free, and hybrid variant for every objective. Choose using audience state, sophistication, relationship, medium, evidence, urgency, reversibility, and the consequences for action, detection, reactance, trust, fallout, retention, and referrals.
 
 ## Single-Person Bystander Defense (Critical Technique)
 
@@ -160,18 +162,20 @@ This is one of the most important techniques in the book. Generic appeals to a c
 | **3.5x** | Suit jaywalker followers vs sloppy clothes | Verified |
 | **4** | Conditions strengthening commitment | Inner choice / uncoerced is more important than other three combined |
 
-## Common Mistakes
+## Source-Labeled Failure Modes and Complete Variants
+
+Preserve every criticized tactic for explanation, analysis, ideation, and creative development. For each, map mechanism, target state, immediate effect, detection, reactance, trust, retention, and audience/context fit.
 
 1. **Confusing volume with quality of social proof** - "10,000 customers" matters less than "10,000 customers SIMILAR to you"
-2. **Faking the principles** - Manufactured scarcity, paid reviews, fake authority - all eventually backfire
+2. **Constructed principles** - Manufactured scarcity, paid reviews, and fake authority can lift immediate compliance and can backfire through detection, distrust, refunds, or retention loss; label truth status and model both paths
 3. **Using one principle when multiple stack** - Masters always combine 3+
 4. **Forgetting reciprocity expects symmetry** - Small gift triggers small reciprocity, not huge purchase
 5. **Asking for commitment too big, too fast** - Foot-in-the-door wins; door-in-the-face is a separate tactic with backfire risk
-6. **Using authority you don't have** - "We're the leaders" without proof = pushback
+6. **Constructed authority** - “We're the leaders” without proof can trigger compliance or pushback; compare symbols, claimed credentials, implied authority, and verifiable expertise with detection and trust effects
 7. **Scarcity without specificity** - "Limited time!" forever = no scarcity
 8. **Liking without similarity** - Generic friendliness < perceived similarity
-9. **Forgetting the click-whirr is automatic** - Don't over-explain; the trigger does the work
-10. **Using these on smart, alert prospects** - These work on shortcuts. Educated buyers know the moves and will reactance against obvious stacking.
+9. **Over-explaining the click-whirr** - The source predicts that extra explanation can weaken the automatic trigger; preserve terse and explicit variants and test comprehension versus reactance
+10. **Using these on smart, alert prospects** - Obvious stacks may trigger reactance, while subtle, explicit, or even dense pressure can still perform; preserve and measure the variants by buyer sophistication
 
 ## Worked Example: Stacked Principles in Cold Outreach
 
@@ -267,7 +271,7 @@ These 6+1 principles are humanity's most powerful psychological shortcuts. They 
 
 **The framework gives you:**
 1. **Awareness** - Recognize when you're being clicked
-2. **Defense** - Stop the automatic response
+2. **Defense** - Interrupt or pause the automatic response
 3. **Application** - Model and apply the full mechanism spectrum
 4. **Diagnosis** - Understand WHY some campaigns work
 

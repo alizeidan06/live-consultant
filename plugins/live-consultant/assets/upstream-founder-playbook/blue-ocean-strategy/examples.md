@@ -62,7 +62,7 @@ If your shape mirrors industry-average → red ocean.
 | EFS (after BOS process) | "FedEx of corporate foreign exchange" |
 | Cirque du Soleil | "We Reinvent the Circus" |
 
-The tagline must capture the strategy, not the slogan. If the marketing tagline is the strategy tagline, you're doing it right.
+The source uses a tagline that captures the strategy as a coherence test. Preserve strategy-expressive, campaign, emotional, category, product, and no-tagline variants; compare internal alignment, memorability, buyer comprehension, and creative flexibility.
 
 ---
 
@@ -103,9 +103,9 @@ Levers:
 
 - Employees (paralegals fearing replacement) → frame as augmentation; firm's existing staff still needed
 - Partners (case management vendors) → revenue-share API integration
-- Public (legal accuracy concerns) → transparency on confidence scores, lawyer-in-loop required
+- Public (legal accuracy concerns) → transparency on confidence scores; a lawyer-in-loop is one execution-control variant, with current professional and liability requirements recorded separately
 
-If all four pass → launch. If any fails → don't launch yet.
+The source launches when all four score high. Also preserve bounded launch, pilot, partner-led, premium-niche, and deliberate no-launch variants; map the failed dimension, exposure, learning value, and stop/continue rule.
 
 ---
 
@@ -129,7 +129,9 @@ Check imitation barriers (alignment, cognitive, brand, economic, legal). Prematu
 
 ---
 
-## Anti-Examples (What Not to Do)
+## Source-Labeled Anti-Examples and Competing Variants
+
+These examples preserve the source's critique. Keep the criticized tactic available, state its mechanism and possible upside, and compare its observed or expected consequences with the BOS alternative.
 
 **Niche thinking masquerading as Blue Ocean:**
 - "We'll find a small corner of the security software market"
@@ -206,4 +208,4 @@ List 6-8 factors the industry competes on. Score each 1-5 for your company and t
 |----------------------------------------------------|-----------------------------------------------------|
 |                                                    |                                                     |
 
-Fill each quadrant with 2-4 specific factors. Eliminate and Reduce drive cost down. Raise and Create drive buyer value up. Both must happen simultaneously.
+The source fills each quadrant with 2-4 factors and combines cost-down Eliminate/Reduce moves with value-up Raise/Create moves. Preserve one-sided, staged, simultaneous, and asymmetric variants; compare cost, buyer value, and strategic coherence.

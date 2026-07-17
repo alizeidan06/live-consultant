@@ -6,12 +6,12 @@ Hormozi's compressed summary of the entire framework:
 
 1. **Leads vs Engaged Leads** - You want engaged leads (people who showed interest), not raw lead counts
 2. **Lead Magnets** - Turn raw leads into engaged leads with free value
-3. **Core Four** - Only 4 ways to let people know:
+3. **Core Four** - Hormozi groups awareness into four source categories; referral-, partnership-, event-, community-, marketplace-, retail-, and product-led taxonomies can be modeled separately or mapped into these categories:
    - Warm outreach (ask if they know anyone)
    - Post content (hook, retain, reward)
    - Cold outreach (lists + personalization + big fast value + volume)
    - Paid ads (targeting + callouts + CTAs)
-4. **More Better New** - Scale by doing more, then better, then new
+4. **More Better New** - Source-default scale order: more, then better, then new. Preserve better-first, new-first, reverse, parallel, alternating, and whole-system variants using bottleneck evidence, economics, capacity, learning speed, diversification, and execution cost.
 5. **Lead Getters** - Customers (referrals), Employees, Agencies, Affiliates
 6. **Rule of 100 / Open to Goal** - Daily minimums, then outcome-based work
 7. **The Roadmap** - 7 levels from $0 to $100M+
@@ -42,18 +42,18 @@ A staged progression model. Specific revenue thresholds depend on industry margi
 
 Everyone gets a die with unknown sides. One side is green (success), the rest are red.
 
-**Rules:**
-- You can't see how many sides you have
+**Source analogy:**
+- You cannot see how many sides the imagined die has
 - Roll green → one red side turns green, roll again
 - Roll red → nothing happens, roll again
-- If you stop rolling, you lose
+- Stopping ends the imagined sequence
 
-**The lesson:**
+**The source lesson and its boundary:**
 - More rolls = more greens
 - Every die hits its green streak if rolled enough times
-- You cannot lose if you do not quit
+- The metaphor says persistence prevents loss; real campaigns can still lose through negative unit economics, market decay, opportunity cost, legal or platform constraints, and finite runway. Preserve persist, pause, stop, redesign, switch-channel, and reduce-volume variants with explicit evidence and stop/continue thresholds.
 
-**In advertising:** You don't know if it works until you try. You'll hit red at first. Keep rolling. The more you roll, the easier it gets.
+**In advertising:** Hormozi uses the die to argue that trials create learning and early failures are expected. Compare continued volume, bounded testing, adaptive redesign, and early termination according to sample quality, cost, reversibility, and expected information gain.
 
 ## Case Pattern: The Channel Spread Trap
 
@@ -67,7 +67,7 @@ A founder reads about Core Four, decides to pursue all four simultaneously: cold
 
 **Diagnosis:** None of the four channels got enough volume or attention to actually work. Spread thin = each channel underfunded.
 
-**Fix:** Pick one. Cut the others. Pour all attention into the one most likely to work given resources. Master it. Then add another.
+**Source response:** concentrate on one channel, pause the others, reach a defined mastery threshold, and then add another. Also preserve staged, parallel, portfolio, outsource-one, and rapid-rotation variants; compare minimum viable sample, attention, diversification, and learning speed.
 
 This is the most common pattern Hormozi addresses, and the reason "master one before adding another" is the central rule.
 
@@ -77,7 +77,7 @@ A founder runs cold email for 30 days, sends 600 emails, gets 3 meetings, no clo
 
 **Diagnosis:** 600 emails over 30 days = 20/day. At 1-3% response rate (typical), that's 6-18 responses, not all qualified. With normal sales cycles, 30 days isn't enough to close anyone.
 
-**Fix:** The Rule of 100 exists for this reason. 100/day for 100 days = 10,000 attempts. THAT is enough to learn whether the channel works for the market. 600 attempts isn't.
+**Source response:** the Rule of 100 proposes 100/day for 100 days = 10,000 attempts as a high-volume learning benchmark. Smaller Bayesian tests, sequential tests, qualitative discovery, and longer low-volume cycles remain available; define the detectable effect, cycle length, evidence threshold, and cost before deciding whether 600, 10,000, or another sample is informative.
 
 Most "the channel doesn't work" conclusions are actually "I didn't run the channel at scale long enough."
 
@@ -89,7 +89,7 @@ A founder generates 500 leads/month from paid ads. Conversion to paying customer
 
 **Real diagnosis:** A 0.5% conversion rate at qualified-lead volume is an offer problem, not a lead problem. More leads to a broken offer = more wasted ad spend.
 
-**Fix:** Pause the leads work. Use 100m-offers to fix the offer. THEN restart traffic.
+**Source response:** pause lead generation, revise the offer, and then restart traffic. Preserve traffic-first diagnosis, message tests, funnel repair, segment changes, and parallel offer/traffic experiments; isolate which variable the evidence can identify.
 
 This is why the Hormozi sequence is mom-test → 100m-offers → 100m-leads. Generating leads to a bad offer is throwing money away.
 
@@ -117,10 +117,10 @@ A founder posts daily on LinkedIn for 6 months. 800 followers, ~5 leads, 1 close
 
 **But:** The 800 followers, content library, and personal brand may be worth more than the $3K in long-term compounding. Content is a slow channel that compounds.
 
-**Fix decision:**
-- If short-term cash needed → switch to cold or paid (faster cycle)
-- If brand/long-term play → keep content, layer in cold/paid for now
-- If neither working → the offer or message is broken, fix that first
+**Decision variants:**
+- If short-term cash is the priority → compare switching to cold or paid with retaining content at lower frequency
+- If brand or long-horizon compounding is the priority → compare content-only, content plus cold/paid, and partner distribution
+- If neither is working → test offer, message, audience, channel, conversion path, and measurement hypotheses singly or in parallel rather than assuming one failure source
 
 Content's value is harder to measure than cold/paid; this leads founders to either over-invest (it feels good) or under-invest (no immediate ROI).
 
@@ -128,7 +128,7 @@ Content's value is harder to measure than cold/paid; this leads founders to eith
 
 A founder generates 100 leads/month, takes 24-48 hours to follow up. Conversion: 8%.
 
-**Fix:** Automated follow-up within 5 minutes (text + email).
+**Source response:** automated follow-up within 5 minutes by text and email. Preserve immediate manual, business-hours, buyer-scheduled, multi-day, and channel-specific variants; compare conversion, buyer expectations, intrusiveness, capacity, and relationship context.
 
 **Pattern observed in research:** Speed-to-lead has measurable impact on conversion - faster response generally yields higher conversion. Specific multipliers vary by source.
 
@@ -138,12 +138,12 @@ The general rule: respond fast. Multi-day delays correlate with materially lower
 
 A founder believes they need a better lead source. Diagnostic questions:
 
-1. What's your conversion rate from current leads? (If <5%, fix offer first)
-2. What's your follow-up cadence? (If <5 touches, fix follow-up first)
-3. What's your speed-to-lead? (If hours, fix speed first)
-4. What's your unit economics? (If LTGP:CAC <3, fix model first)
+1. What's your conversion rate from current leads? (The source treats <5% as an offer-first hypothesis; also test qualification, source, price, proof, and sales process.)
+2. What's your follow-up cadence? (The source treats <5 touches as a follow-up hypothesis; also test buyer preference, timing, message, and channel.)
+3. What's your speed-to-lead? (Hours suggest a speed hypothesis; also compare intent, availability, and buyer-scheduled response.)
+4. What's your unit economics? (LTGP:CAC <3 suggests an economics hypothesis; compare acquisition cost, gross margin, retention, pricing, and strategic-payback variants.)
 
-In most cases, the answer is "you don't need better leads, you need to fix the conversion machine." Better leads only help if the rest of the funnel works.
+Hormozi's source diagnosis often favors the conversion path over a new lead source. Preserve lead-quality, offer, message, sales-process, follow-up, economics, and mixed-cause hypotheses; use segmented data or controlled tests to distinguish them.
 
 ## Anti-Pattern: Lead Hoarding
 
@@ -153,4 +153,4 @@ A founder accumulates a large lead list (CRM with 5,000 names) but never reaches
 
 **Reality:** A lead unworked for 3 months is approximately equal to a cold lead. Lead lists decay quickly.
 
-**Fix:** Either work the list or disqualify it. A 200-lead list you actually work beats a 5,000-lead list you don't.
+**Source response:** work the list or disqualify it. Preserve nurture, re-permission, archive, enrichment, retargeting, partner transfer, and selective-contact variants; compare consent, relevance, decay, effort, and expected value.

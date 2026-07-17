@@ -2,8 +2,9 @@
 
 Use the [skill assembly protocol](skill-assembly-protocol.md) and
 `assets/skill-knowledge-manifest.json`. Select every skill with a distinct job;
-remove only true duplication. A “primary” names the spine of the answer, not a
-limit on companion knowledge.
+consolidate exact duplication while preserving every distinct contribution. A
+“primary” names the spine of the answer, and all companion knowledge remains
+available.
 
 ## Need-to-skill map
 

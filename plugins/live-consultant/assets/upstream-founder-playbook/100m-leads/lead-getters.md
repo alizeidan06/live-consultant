@@ -48,7 +48,7 @@ A referral program needs:
 2. **Easy to do** - One-click sharing, pre-written messages
 3. **Clear reward** - Specific dollar amount or unambiguous benefit
 4. **Tracking** - You know who referred whom
-5. **Speed** - Reward delivered fast (don't wait 90 days)
+5. **Speed** - The source favors a fast reward; compare immediate, milestone, delayed, and recurring payout variants against motivation, fraud, and cash flow
 
 ### Example Reward Structures
 
@@ -68,8 +68,8 @@ Source note: Specific dollar amounts and the "100/100/100" framing are coaching-
 
 Customers refer when benefits to them outweigh risk of hurting friendship. Make referrals EASY (one-click) and REWARDING (clear value).
 
-If your referral program isn't working, usually:
-- The product isn't actually delight-level (fix product first)
+If your referral program isn't working, investigate these as competing or interacting hypotheses rather than a fixed repair order:
+- The product may not be delight-level. Source emphasis: improve it before scaling referrals; preserve referral-first feedback collection, ask-first, reward-first, tracking-first, reverse diagnosis, parallel tests, and full-system variants using severity, evidence, test cost, reversibility, and the consequence of amplifying a weak experience.
 - The ask is awkward (smooth the experience)
 - The reward is too small (test bigger)
 - Tracking is broken (referrers don't trust they'll get credit)
@@ -78,11 +78,12 @@ If your referral program isn't working, usually:
 
 Your team gets leads while you focus elsewhere.
 
-### When to Hire Each Lead-Gen Role
+### Source Hiring Sequence and Available Role Variants
 
-Specific revenue thresholds vary by industry, margin, and labor cost. Below are directional staging guidelines:
+Specific revenue thresholds vary by industry, margin, and labor cost. Below are
+the source's directional staging emphases, not role-access gates:
 
-| Stage | Action |
+| Stage | Source Emphasis |
 |-------|--------|
 | Solo founder, early | You do warm outreach |
 | Some traction | Add content OR cold outreach |
@@ -92,7 +93,13 @@ Specific revenue thresholds vary by industry, margin, and labor cost. Below are 
 | Growing | Agency or affiliate management |
 | Mature | All four channels run by team, you steer |
 
-Don't hire someone for a channel you haven't mastered yourself. They'll have nothing to copy.
+Founder-led, expert-first, agency-first, affiliate-first, employee-first,
+fractional, automated, hybrid, and full-team variants remain available at every
+stage. Compare management ability, knowledge transfer, speed, fixed versus
+variable cost, incentive alignment, attribution, channel skill, offer
+economics, and the consequences of learning internally versus buying access.
+
+Hormozi's source default is founder mastery before delegation so the hire has a proven playbook to copy. Founder-first, expert-hire-first, agency-first, and co-learning variants remain available; compare speed, knowledge transfer, management burden, and performance risk.
 
 ### Training Employees: The 3Ds
 
@@ -176,7 +183,7 @@ Partners with audiences who refer customers for commission.
 |---------|--------|
 | Commission rate | Usually 20-40% for digital products; lower for physical |
 | Cookie window | 30-90 days typical |
-| Tracking | Must be reliable; fights happen over attribution |
+| Tracking | Reliable attribution is the source preference because ambiguity creates disputes; preserve manual, probabilistic, last-touch, multi-touch, coupon, self-reported, and deliberately untracked variants with payout and trust consequences |
 | Materials | Provide swipe copy, banners, landing pages |
 | Reporting | Real-time dashboards |
 | Payout terms | Net 30 typical; faster wins more affiliates |
@@ -217,10 +224,10 @@ Agencies (specialist scale)
 
 Each layer compounds. The mature business has all five generating leads simultaneously.
 
-## When NOT to Add Lead Getters
+## Lead-Getter Readiness and Consequence Map
 
-- You haven't mastered the channel yourself
-- Unit economics don't support paying others
-- No tracking infrastructure to measure their work
-- Customer experience is poor (referrals will burn out fast)
-- The offer doesn't convert
+- **Channel still unmastered:** an expert may accelerate learning or amplify confusion; state the management and attribution plan.
+- **Weak unit economics:** adding others can widen loss or create leverage; model compensation, marginal CAC, and lifetime gross profit.
+- **No tracking infrastructure:** delegation remains possible, but attribution disputes and weak learning become explicit costs.
+- **Poor customer experience:** referrals may burn out faster; model service repair, qualification, and reputation effects.
+- **Low offer conversion:** lead getters can supply test volume or amplify waste; bound the experiment and state what result changes the offer.

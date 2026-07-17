@@ -145,7 +145,8 @@ Use the following labels:
 - **Live Consultant synthesis:** an integration, conflict resolution, output
   schema, or niche adaptation created by this plugin.
 
-Never upgrade a source-reported outcome to a current fact by repetition.
+Keep every source-reported outcome labeled `SOURCE-REPORTED` until current
+evidence supports a different factual status.
 
 ## Currentness map
 

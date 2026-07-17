@@ -1,6 +1,6 @@
 ---
 name: validate-business-idea
-description: Validate, compare, reframe, park, or reject business ideas and offers before costly building or promotion. Use for idea audits, niche selection, customer discovery, proof-of-demand research, willingness-to-pay tests, offer selection, competitor interpretation, MVP or specimen design, and deciding whether a candidate has enough buyer, capability, economics, and compliance evidence to advance.
+description: Validate, compare, reframe, park, or reject business ideas and offers through buyer, capability, economics, and compliance evidence. Use for idea audits, niche selection, customer discovery, proof-of-demand research, willingness-to-pay tests, offer selection, competitor interpretation, MVP or specimen design, and evidence-backed build or promotion decisions.
 ---
 
 # Validate Business Idea
@@ -9,8 +9,13 @@ Before doing any work, read and apply the universal
 [skill assembly protocol](../founder-business-consultant/references/skill-assembly-protocol.md).
 Identify every skill that contributes a distinct part of the requested outcome,
 load each selected skill's complete declared knowledge bundle, resolve the niche,
-and synthesize one answer. Do not answer from this entrypoint alone when the
-human's outcome requires additional stored knowledge.
+and synthesize one answer from the full selected stack.
+
+Also read and apply the
+[complete knowledge-access invariant](../founder-business-consultant/references/knowledge-access-invariant.md).
+Keep every stored method available for full explanation, analysis, comparison,
+ideation, and niche tailoring while factual and external-action status remain
+separate.
 
 At the start of every invocation, read and apply the mandatory
 [Live Consultant communication voice](../founder-business-consultant/references/communication-voice.md).
@@ -38,8 +43,9 @@ Record one candidate per lane:
 - channel hypothesis, geography, jurisdiction, and regulated status;
 - assumptions that must be true.
 
-Do not merge buyer roles, sources, seller cohorts, or different problem scopes
-to manufacture proof.
+Keep buyer roles, sources, seller cohorts, and different problem scopes separate
+in the evidence record; combined views retain their component labels and cannot
+manufacture independent proof.
 
 ## Run the proof gates
 
@@ -57,8 +63,9 @@ Read [proof-gates.md](references/proof-gates.md) and use
    promise at acceptable quality.
 6. **Economics:** contribution, CAC range, payback, cash timing, capacity, and
    downside can work under conservative inputs.
-7. **Compliance:** no unresolved legal, privacy, platform, claims, IP, payment,
-   or data-use blocker.
+7. **Compliance:** `COMPLIANCE-CLEARED` means legal, privacy, platform, claims,
+   IP, payment, and data-use blockers are resolved for the proposed external
+   step.
 
 Competition is evidence that a category may transact. It is neither a kill
 condition nor proof that this segment and offer will win.
@@ -78,8 +85,10 @@ primary-source observation
 → scale test
 ```
 
-Do not use final copy, a public funnel, paid ads, checkout integration, or a
-full product to simulate evidence that earlier gates lack.
+Final copy, public-funnel drafts, paid-ad drafts, checkout sandboxes, and full
+product specimens remain available as test artifacts. Label them `ARTIFACT`,
+not substitutes for evidence missing at earlier gates; external use follows the
+status authorized by the test sequence.
 
 ## Decide
 

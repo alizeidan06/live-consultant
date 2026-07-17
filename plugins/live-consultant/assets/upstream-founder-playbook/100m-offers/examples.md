@@ -227,7 +227,7 @@ Before sending the offer to prospects:
 - [ ] Whole offer named with MAGIC formula
 - [ ] Total value > 5x price (rule of thumb)
 - [ ] Guarantee is specific and risk-reversing
-- [ ] Scarcity is real (not invented)
+- [ ] Scarcity variant is explicit: observed, constructed, hypothetical, or absent; truth status is labeled and immediate conversion, detection, reactance, trust, refund, repeat-purchase, and retention consequences are considered
 - [ ] Urgency has true deadline
 - [ ] Display shows three numbers (value/price/savings)
 - [ ] CTA is single and unambiguous

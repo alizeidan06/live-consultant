@@ -1,6 +1,6 @@
 # Mom Test - Integration with Other Skills
 
-## Sequencing with Other Skills
+## Source Sequencing and Complete Variants
 
 ```
 mom-test → 100m-offers → 100m-leads
@@ -8,11 +8,17 @@ mom-test → 100m-offers → 100m-leads
  discovery   packaging     traffic
 ```
 
-| Stage | Use | Why |
+| Stage | Source Emphasis | Why and Available Variants |
 |-------|-----|-----|
-| Pre-validation | mom-test | Find a problem worth solving |
-| Validated, no offer | 100m-offers | Package the solution |
-| Validated, has offer | 100m-leads | Drive traffic |
+| Pre-validation | Mom Test | Find a problem worth solving; full offers, traffic probes, and sales conversations can also make the hypothesis testable |
+| Validated, no offer | $100M Offers | Package the solution; continued discovery, traffic-first, price-first, and parallel variants remain available |
+| Validated, has offer | $100M Leads | Drive traffic; discovery, offer iteration, and channel research remain available |
+
+The source sequence is discovery → packaging → traffic. Reverse, offer-first,
+traffic-first, price-first, sales-first, recursive, parallel, and full-stack
+variants remain available. Compare speed, evidence quality, sample access,
+persuasion bias, CAC exposure, rework, and the cost of waiting for a preceding
+stage.
 
 If your business has products but no paid customers, you're almost always missing offer work (step 2).
 
@@ -31,7 +37,10 @@ Mom Test extracts the customer's actual language about their dream outcome. Use 
 
 ### mom-test + spin-selling
 
-Spin Selling structures questions for in-person enterprise sales calls. Mom Test structures questions for early-stage idea validation. They share DNA (past-behavior, problem-implication-need-payoff) but operate at different stages.
+SPIN Selling is the source emphasis for in-person enterprise sales calls, while
+Mom Test is the source emphasis for early-stage idea validation. They share DNA
+(past behavior, problem, implication, need-payoff), and both complete methods
+remain available before, during, and after product definition and sales.
 
 | Question Type | Mom Test | SPIN |
 |---------------|----------|------|
@@ -40,52 +49,56 @@ Spin Selling structures questions for in-person enterprise sales calls. Mom Test
 | Solution fit | "Have you tried solving this?" | Need-Payoff |
 | Commitment | "Would you put money on this?" | Closing/Advancing |
 
-Use Mom Test for discovery interviews. Switch to SPIN once you have a product to sell into a defined buying process.
+The source-default handoff emphasizes Mom Test for discovery interviews and
+SPIN after a product enters a defined buying process. Preserve Mom-Test-led,
+SPIN-led, reverse, alternating, blended, sales-embedded discovery, and parallel
+cells. Compare truth-seeking versus persuasion goals, buyer sophistication,
+deal complexity, prompt bias, commitment quality, and cycle time.
 
 ### mom-test + obviously-awesome
 
-Mom Test reveals which segment is "the one." Obviously Awesome positions for that segment. Sequence: interview → identify segment with most pain + most willingness to pay → position around that segment's worldview.
+Mom Test can reveal a high-pain, high-WTP segment and Obviously Awesome can
+position for it. That is the source-default sequence. Provisional-positioning-
+first, founder-vision-first, broad-market, reverse, iterative, multi-segment,
+and parallel variants remain available. Compare focus, learning speed,
+selection bias, reach, conversion, and the cost of premature narrowing.
 
 ### mom-test + crossing-the-chasm
 
-Crossing the Chasm distinguishes early-adopter behavior from mainstream behavior. Mom Test interviews can mislead if you only talk to early adopters - their needs differ. Use Mom Test on both groups separately, label which is which, don't average them.
+Crossing the Chasm distinguishes early-adopter behavior from mainstream behavior. Mom Test interviews can mislead when early-adopter and mainstream needs differ. The source-compatible default is to analyze the groups separately. Also preserve pooled averages, weighted models, and deliberate bridge segments; compare them on interpretability, sample size, market continuity, and the decision being made.
 
 ## Conflicts and Tensions
 
-### Conflict 1: "Don't tell them what their problem is" vs domain expertise
+### Conflict 1: Customer-Led Problem Language vs Domain Expertise
 
-**Mom Test rule:** They own the problem. Don't put words in their mouths.
+**Mom Test source position:** They own the problem; unprompted language is cleaner discovery evidence.
 
 **Reality:** In some industries (medical, technical, regulatory), customers genuinely don't have the vocabulary or framework to articulate their problem. A radiologist can describe symptoms but may not articulate "we need a workflow tool that auto-prioritizes urgent scans."
 
-**Resolution:** Lead with open questions. If they describe a workflow that obviously has a problem, name it carefully ("It sounds like X is slowing you down - is that right?") rather than imposing it ("You need an X tool, right?").
+**Full method:** Keep open observation, reflective naming, confirmatory questioning, expert diagnosis, provocative reframing, and co-design available. Open questions reduce interviewer contamination; stronger prompts surface tacit problems faster but make agreement weaker evidence. Label the mode and validate consequential claims with independent behavior or results.
 
 ### Conflict 2: Mom Test caution vs Lean Startup speed
 
-**Mom Test:** Be careful, don't pitch, take weeks.
+**Mom Test source position:** Separate discovery from pitching and run a focused learning period.
 **Lean Startup:** Build-measure-learn loops fast.
 
-**Resolution:** They're not opposed. Mom Test interviews complement build-measure-learn. Use Mom Test for the discovery loop ("What problem matters?"), Lean Startup for the validation loop ("Does my solution work?").
-
-Don't use Mom Test endlessly to avoid building. Don't use Lean Startup to skip listening.
+**Full method:** They can run sequentially, in alternating loops, or in parallel. Pure discovery protects evidence quality; early prototypes and direct offers accelerate behavioral evidence; a hybrid call trades some diagnostic purity for speed. Track which claim each activity tests and set an explicit build-versus-interview decision date.
 
 ### Conflict 3: "Talk less" vs sales/closing skills
 
 **Mom Test:** The more you're talking, the worse you're doing.
 **Sales:** Persuasion requires articulating value.
 
-**Resolution:** Different stages. In discovery (Mom Test), shut up. In sales (after you have a product and validated market), articulate. Don't conflate them. A "discovery call" that's secretly a pitch fails at both.
+**Full method:** Different stages favor different talk ratios, but all modes remain available: listener-led discovery, consultative diagnosis, teaching-led discovery, disclosed hybrid sales-discovery, and an intentionally concealed pitch for comparative analysis. Concealment can produce surprise or access but damages consent, trust, and data interpretation; external use requires truthful framing and applicable permission. Measure learning quality, conversion, relationship cost, and follow-up behavior.
 
 ### Conflict 4: Hypothesis-driven vs ethnographic
 
 **Hypothesis-driven:** Form a specific belief, design questions to test it.
 **Ethnographic:** Observe without preconceptions.
 
-**Resolution:** Mom Test leans ethnographic but accepts hypotheses. The trick is: have hypotheses, don't lead the witness. "I think founders struggle with X" → "Walk me through your week" (open observation), then check if X comes up unprompted.
+**Full method:** Mom Test leans ethnographic, while confirmatory and adversarial interviews deliberately expose a hypothesis. Use neutral, progressively prompted, confirmatory, falsification-seeking, and provocative variants. An unprompted mention is stronger discovery evidence; a prompted response can still test comprehension, salience, objections, and causal mechanisms. Record the prompt level so evidence is not overstated.
 
-If you have to lead them to your hypothesis, the hypothesis is probably wrong.
-
-## When to Stop Using Mom Test
+## Transition Signals and Continued-Use Options
 
 You're past the discovery phase when:
 
@@ -95,10 +108,10 @@ You're past the discovery phase when:
 - You can name a single, specific, findable customer segment
 - You have at least one earlyvangelist actively pushing for the product
 
-At that point, switch from interviews to building, and use sales conversations (SPIN, etc.) instead of discovery conversations.
+At that point, the source default shifts emphasis from interviews to building and sales conversations. Continued discovery, longitudinal interviews, win/loss research, and mixed discovery-sales calls remain available when the market, use case, or buyer process is still changing.
 
 ## Anti-Pattern: "I've done 50 interviews and still don't know what to build"
 
-This is a customer slicing problem, not a question quality problem. Going to interview 51 won't help.
+The source diagnoses this primarily as a customer-slicing problem. Other plausible causes include weak questions, inaccessible decision-makers, a genuinely fragmented market, premature solution constraints, or insufficient observation. Interview 51 can help when it is selected to discriminate among those explanations.
 
-**Fix:** Stop interviewing. Look at your notes. Find the segment whose pain was most visceral, most expensive, most concrete. Re-interview only that segment. Almost always, you've been mixing 3+ segments and averaging into mush.
+**Source move and variants:** Pause broad interviewing, analyze the notes, then focus on the segment with the most visceral, expensive, concrete pain. Alternatives are to continue broad mapping, deliberately compare three segments, change the question protocol, add observational data, or run small paid tests in parallel. Choose using information value, time, sample quality, and cost of a false focus.

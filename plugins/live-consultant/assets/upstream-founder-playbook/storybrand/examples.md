@@ -260,7 +260,7 @@ Body:
 - One sentence of empathy ("We know [problem] is frustrating")
 - One sentence positioning you as guide ("We've helped [X] people solve this")
 - Sign off warmly
-- NO selling
+- Source nurture mode: no selling. Also test soft CTA, overt pitch, product mention, urgency, and direct-response variants.
 ```
 
 **Email 2: Value** (Send Day 3)
@@ -270,7 +270,7 @@ Body:
 - Provide a genuinely useful tip or insight
 - Connect it to the problem they downloaded the lead generator for
 - Keep it short (150-250 words)
-- NO selling
+- Source nurture mode: no selling. Also test soft CTA, overt pitch, product mention, urgency, and direct-response variants.
 ```
 
 **Email 3: Story** (Send Day 5)
@@ -290,7 +290,7 @@ Subject: [Another useful insight]
 Body:
 - Another tip, resource, or perspective
 - Build trust and demonstrate expertise
-- NO selling
+- Source nurture mode: no selling. Also test soft CTA, overt pitch, product mention, urgency, and direct-response variants.
 ```
 
 **Email 5: Sales** (Send Day 11)
@@ -388,7 +388,7 @@ Score each element 1-5 (1 = missing, 5 = crystal clear):
 [ ] Customer's desire is stated in the first line of the website     ___/5
 [ ] The villain/problem is named explicitly                          ___/5
 [ ] The internal problem (feeling) is addressed, not just external   ___/5
-[ ] Brand is positioned as guide (empathy + authority), not hero     ___/5
+[ ] Narrative role is deliberate: customer-hero/source guide default, brand-hero, product-hero, shared-hero, antihero, or ensemble     ___/5
 [ ] There's a clear plan (3 steps or similar)                        ___/5
 [ ] Direct CTA is visible and repeated                               ___/5
 [ ] Stakes are clear (what happens if they don't act)                ___/5

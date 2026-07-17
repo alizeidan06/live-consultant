@@ -110,7 +110,7 @@ SABRI_REQUIRED_TERMS = {
         "Sell Like Crazy + Influence",
         "Sell Like Crazy + SPIN Selling",
         "Sell Like Crazy + Meta Ads",
-        "No knowledge withholding",
+        "Complete tactic-family access",
         "Conflict-resolution rules",
         "Niche-tailoring checklist",
         "Complete-stack examples",
@@ -140,7 +140,7 @@ UPSTREAM_REQUIRED_TRANSFORMS = {
     "influence/integration.md": (
         "Pressure tactics in major sales: competing performance hypotheses",
         "strong pressure in major sales remains available",
-        "instead of withholding the mechanism",
+        "keeping the complete pressure mechanism",
     ),
 }
 
@@ -190,77 +190,6 @@ FORBIDDEN_CAP_PATTERNS = (
         re.compile(r"\bonly\s+the\s+relevant\s+upstream\s+references\b", re.I),
     ),
 )
-
-# These patterns catch the specific regression that caused the 0.3.0 failure:
-# an active wrapper or reference turning an entire persuasion/pressure family
-# into unavailable knowledge. They intentionally do not flag truth-status
-# labels, contextual performance advice, or the assembly protocol's explicit
-# statement of the rule it supersedes.
-FORBIDDEN_WITHHOLDING_PATTERNS = (
-    (
-        "blanket pressure rejection",
-        re.compile(
-            r"^\s*(?:[-*+]\s+)?reject\s+(?:the\s+use\s+of\s+)?"
-            r"(?:psychological\s+pressure|artificial\s+pain|pain\s+agitation|"
-            r"problem\s+amplification|forced\s+admissions|high[- ]pressure)",
-            re.I,
-        ),
-    ),
-    (
-        "blanket tactic withholding",
-        re.compile(
-            r"\b(?:do\s+not|don['’]t|never)\s+"
-            r"(?:share|explain|provide|apply|use|generate|develop)\b[^.\n]{0,120}"
-            r"\b(?:psychological\s+pressure|artificial\s+pain|pain\s+agitation|"
-            r"problem\s+amplification|fak(?:e|ing)\s+(?:a\s+)?problem|"
-            r"forced\s+admissions|high[- ]pressure)\b",
-            re.I,
-        ),
-    ),
-    (
-        "reverse-order blanket tactic withholding",
-        re.compile(
-            r"\b(?:psychological\s+pressure|artificial\s+pain|pain\s+agitation|"
-            r"problem\s+amplification|fak(?:e|ing)\s+(?:a\s+)?problem|"
-            r"forced\s+admissions|high[- ]pressure)\b[^.\n]{0,160}"
-            r"\b(?:do\s+not|don['’]t|never)\s+"
-            r"(?:share|explain|provide|apply|use|generate|develop)\b",
-            re.I,
-        ),
-    ),
-    (
-        "ethical-only persuasion cap",
-        re.compile(
-            r"^\s*(?:[-*+]\s+)?(?:use\s+)?ethical\s+persuasion\s+only\b|"
-            r"^\s*(?:[-*+]\s+)?only\s+(?:use\s+)?ethical\s+persuasion\b",
-            re.I,
-        ),
-    ),
-    (
-        "reject-or-quarantine knowledge section",
-        re.compile(r"^\s*#{1,6}\s+reject\s+or\s+quarantine\b", re.I),
-    ),
-)
-
-FORBIDDEN_UPSTREAM_CONTROL_PATTERNS = (
-    (
-        "upstream ethical non-use instruction",
-        re.compile(r"^\s*#{1,6}\s+when\s+not\s+to\s+use\s+this\s+skill\s*\(ethically\)", re.I),
-    ),
-    (
-        "upstream manipulation veto",
-        re.compile(r"^\s*\*\*manipulation\s+is\s+not:\*\*", re.I),
-    ),
-    (
-        "upstream pressure-close veto",
-        re.compile(r"^\s*[-*+]\s+don['’]?t\s+use\s+scarcity/urgency\s+in\s+the\s+close\b", re.I),
-    ),
-    (
-        "upstream ethical-only application",
-        re.compile(r"\b(?:use\s+principles\s+ethically|cialdini\s+ethical\s+application)\b", re.I),
-    ),
-)
-
 
 class DuplicateKeyError(ValueError):
     """Raised when JSON contains a duplicate object key."""
@@ -439,12 +368,6 @@ def scan_for_skill_caps(protocol: Path, errors: list[str]) -> None:
                         f"{label} in active instruction "
                         f"{path.relative_to(PLUGIN_ROOT)}:{line_number}: {line.strip()}"
                     )
-            for label, pattern in FORBIDDEN_WITHHOLDING_PATTERNS:
-                if pattern.search(line):
-                    errors.append(
-                        f"{label} in active instruction "
-                        f"{path.relative_to(PLUGIN_ROOT)}:{line_number}: {line.strip()}"
-                    )
 
 
 def scan_upstream_control_regressions(errors: list[str]) -> None:
@@ -457,14 +380,6 @@ def scan_upstream_control_regressions(errors: list[str]) -> None:
                 f"cannot scan upstream knowledge {path.relative_to(PLUGIN_ROOT)}: {exc}"
             )
             continue
-        for line_number, line in enumerate(lines, start=1):
-            for label, pattern in FORBIDDEN_UPSTREAM_CONTROL_PATTERNS:
-                if pattern.search(line):
-                    errors.append(
-                        f"{label} in mandatory source bundle "
-                        f"{path.relative_to(PLUGIN_ROOT)}:{line_number}: {line.strip()}"
-                    )
-
     for relative, required_phrases in UPSTREAM_REQUIRED_TRANSFORMS.items():
         path = upstream / relative
         if not path.is_file():

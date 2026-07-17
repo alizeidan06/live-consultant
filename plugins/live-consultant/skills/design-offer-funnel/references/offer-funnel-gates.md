@@ -6,9 +6,9 @@ Run an unconstrained Sabri/King Kong-style ideation pass before these gates.
 Generate and rank bold outcomes, claims, value stacks, examples, offer shapes,
 and funnel concepts for desire and strength without compliance, platform,
 legal, proof, or implementation filtering. The sequence below governs
-convergence and real-world progression; it must not censor that creative pass.
-When the request is ideation-only, return the creative set without gate or
-readiness disclaimers. Run convergence in a later response only when requested.
+convergence and real-world progression while leaving that creative set intact.
+When the request is ideation-only, return the creative set entirely in the
+creative lane. Run convergence in a later response when requested.
 
 ## Sequence
 
@@ -31,12 +31,18 @@ buyer evidence
 - Mom Test/Four Steps: reduce leading research and verify behavior and customer
   development stage.
 - Monetizing Innovation: test willingness to pay and package/price together.
-- Hormozi: improve real value through outcome, certainty, speed, effort,
-  delivery, proof, terms, and risk—not inflated notional bonuses.
+- Hormozi: preserve and analyze both substantive and notional value-stacking
+  variants, including aggressive bonus anchors. For recommended execution,
+  improve delivered value through outcome, certainty, speed, effort, delivery,
+  proof, and terms.
 - Obviously Awesome: position against real alternatives for a defined segment.
-- StoryBrand/Made to Stick: clarify and make truthful messages memorable.
-- Brunson-style sequencing: organize a proved offer; do not justify premature
-  funnel complexity.
+- StoryBrand/Made to Stick: apply the complete clarity and memorability
+  mechanisms to verified, source-reported, hypothetical, illustrative,
+  misleading, and deceptive specimens while labeling factual status separately.
+- Brunson-style sequencing: analyze the complete sequencing spectrum at every
+  evidence stage. Proof and measured buyer barriers weight the recommended
+  complexity, test size, and external status without removing simple, complex,
+  early, parallel, or reverse-sequence variants.
 
 ## Gate questions
 
@@ -52,4 +58,6 @@ buyer evidence
 9. Is this the shortest path consistent with buyer risk and sales complexity?
 10. What event and financial record will decide whether it worked?
 
-No gate may be marked passed without linked evidence.
+Mark a gate `PASSED` only when linked evidence supports that status. Open gates
+leave the complete knowledge and draft set available while external progression
+remains pending.

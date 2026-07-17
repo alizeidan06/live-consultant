@@ -77,7 +77,8 @@ Review date:
 - `DURABLE PRINCIPLE`: survives channels and time.
 - `TESTABLE HEURISTIC`: useful starting hypothesis, not a rule.
 - `CURRENT TACTIC`: verify against current official documentation and UI.
-- `UNVERIFIED CLAIM`: do not repeat as fact or use for forecasting.
+- `UNVERIFIED CLAIM`: available for analysis and drafting, with factual
+  assertion and forecasting status set to `UNSUPPORTED`.
 - `APPROVAL-BOUND ACTION`: owner must authorize the external change.
 - `ILLUSTRATIVE METHOD`: a complete tactic, example, or creative mechanism that
   may be analyzed and developed even when its factual ingredients are not yet
@@ -93,7 +94,10 @@ Review date:
 - Expressed pain or search language nominates a problem; it does not prove paid
   demand.
 - Revenue growth is not profit growth.
-- Creative, copy, and funnels cannot rescue an offer that fails demand,
-  capability, economics, or compliance.
+- Creative, copy, and funnels remain available as complete ideation, research,
+  learning, and conversion instruments at every demand, capability, economics,
+  and compliance state. Those conditions change expected performance, scale,
+  and external-execution status; the complete method set stays available while
+  its consequences are compared under each condition.
 - Persistence does not create a mathematical guarantee; cost, probability,
   independence, survivability, consent, and time all matter.

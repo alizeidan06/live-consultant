@@ -89,7 +89,7 @@ How are things at [their company / project]?
 [Optional: specific reference to last interaction]
 ```
 
-Don't pitch in this message. The point is to re-warm.
+The source version uses this message only to re-warm and omits the pitch. Also generate soft-ask and direct-ask variants when useful, with relationship warmth, clarity, response rate, and reactance consequences labeled.
 
 ### After Reconnect, Soft Ask
 
@@ -132,7 +132,7 @@ folks. (ASK)
 ### Long Post Structure
 
 ```
-[Hook - first line, 1-2 sentences, must stop scroll]
+[Hook - source goal: earn attention in the first 1-2 sentences; compare interruption, curiosity, specificity, proof, empathy, education, and direct-offer variants]
 
 [Promise - what reader will learn]
 

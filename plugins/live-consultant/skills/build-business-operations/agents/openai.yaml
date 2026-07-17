@@ -1,4 +1,4 @@
 interface:
   display_name: "Build Business Operations"
   short_description: "Set up a practical founder operating system"
-  default_prompt: "Use $build-business-operations to turn this validated business into an executable operating system."
+  default_prompt: "Use $build-business-operations to design the complete operating system for this business at its current evidence stage, then label what is draftable versus implementation-ready."

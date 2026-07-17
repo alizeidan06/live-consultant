@@ -1,6 +1,6 @@
 ---
 name: storybrand
-description: "Applies the StoryBrand SB7 Framework from Building a StoryBrand by Donald Miller. Use when writing website copy, crafting brand messaging, creating marketing materials, building sales funnels, or designing email campaigns. The SB7 Framework positions the customer as the hero and the brand as the guide across 7 story elements. Triggers include 'how should we write our website', 'our messaging is confusing', 'customers don't understand what we do', 'how do I write a tagline', 'what should our homepage say', 'nobody reads our emails', 'how do I create a lead generator', 'our marketing isn't working but our product is good'. NOT for growth channel selection (use Traction), not for product positioning against competitors (use Obviously Awesome), not for pricing (use Monetizing Innovation)."
+description: "Applies the StoryBrand SB7 Framework from Building a StoryBrand by Donald Miller. Use when writing website copy, crafting brand messaging, creating marketing materials, building sales funnels, or designing email campaigns. The SB7 Framework positions the customer as the hero and the brand as the guide across 7 story elements. Triggers include 'how should we write our website', 'our messaging is confusing', 'customers don't understand what we do', 'how do I write a tagline', 'what should our homepage say', 'nobody reads our emails', 'how do I create a lead generator', 'our marketing isn't working but our product is good'. For channel selection, competitive positioning, or pricing, combine it with Traction, Obviously Awesome, and Monetizing Innovation rather than treating those domains as unavailable."
 ---
 
 > **Note:** This skill is independent analysis and commentary, not a reproduction of the original text. It synthesizes the book's core ideas with modern startup practice, surfaces where frameworks are outdated or incomplete, and integrates perspectives from adjacent disciplines. For the full argument and context, read the original book.
@@ -18,14 +18,23 @@ Is your marketing underperforming despite a good product?
 |   |-- NO  --> THIS SKILL. You have a clarity problem.
 |   +-- YES --> Do they understand why they should care?
 |               |-- NO  --> THIS SKILL. You're not connecting to their story.
-|               +-- YES --> Problem is elsewhere. Try Traction (channels) or
-|                           Obviously Awesome (competitive positioning).
+|               +-- YES --> Source emphasis may shift to Traction or Obviously
+|                           Awesome; StoryBrand diagnosis and challenger messages remain available.
 +-- NO  --> Is your product actually good?
-            |-- NO  --> Fix product first (Lean Startup / Four Steps).
+            |-- NO  --> Source emphasis: Lean Startup / Four Steps for product
+            |           learning; StoryBrand can still clarify the hypothesis,
+            |           sell a concept, recruit research, or test comprehension.
             +-- YES --> Are customers finding you?
-                        |-- NO  --> Use Traction. Distribution problem, not messaging.
+                        |-- NO  --> Source emphasis: Traction for distribution;
+                        |           StoryBrand remains available for channel creative and message tests.
                         +-- YES but not converting --> THIS SKILL.
 ```
+
+The complete SB7 method remains available in every branch. Product-first,
+message-first, distribution-first, positioning-first, offer-first, reverse,
+parallel, and full-stack variants can isolate different causes. Compare traffic
+quality, comprehension, product value, conversion, channel-message fit,
+learning speed, and the cost of changing the wrong layer.
 
 ---
 
@@ -62,11 +71,11 @@ Seven story elements. Get them right and your marketing works. Get them wrong an
 
 ### 1. A Character (The Customer)
 
-The hero wants something. You must define what.
+The source asks the hero to want something clearly defined.
 
 **Rules:**
-- Choose ONE desire related to your offering (not twenty)
-- The desire must be a survival-related need (physical, emotional, or aspirational)
+- The source favors ONE desire related to the offering; multi-desire, layered, portfolio, and deliberately abundant narratives remain available
+- The source maps desire to a survival-related need; curiosity, aesthetics, play, absurdity, novelty, technical fascination, and non-instrumental desire remain valid variants
 - Open a "story gap" between where they are and where they want to be
 
 **The 7 survival categories** (all desire maps to these):
@@ -95,13 +104,13 @@ Three layers:
 | **Internal** | How the problem makes them FEEL | "I feel confused and overwhelmed" |
 | **Philosophical** | Why this is WRONG or UNJUST | "Retirement shouldn't be this complicated" |
 
-**The Villain:** Every problem needs a villain - a root cause. Not a person necessarily, but a force: complexity, inefficiency, frustration, wasted time, unfair pricing.
+**The Villain:** The source gives every problem a villain or root cause. Also preserve no-villain, multiple-villain, system-as-villain, competitor-as-villain, customer-as-own-opponent, and ambiguous-conflict narratives; compare clarity, emotional force, blame, polarization, and credibility.
 
 **Critical insight:** Companies sell solutions to external problems. Customers buy solutions to internal problems. The internal problem is where the sale happens.
 
 ### 3. And Meets a Guide (You)
 
-The brand enters the story not as another hero but as the guide - the Yoda to their Luke Skywalker.
+The source casts the brand as guide rather than hero. Keep customer-hero, brand-hero, product-hero, founder-hero, shared-hero, antihero, and ensemble narratives available; compare identification, authority, aspiration, distinctiveness, and audience resistance.
 
 **Two qualities of a guide:**
 
@@ -110,7 +119,7 @@ The brand enters the story not as another hero but as the guide - the Yoda to th
 | **Empathy** | "I understand your pain" | "We know what it's like to..." |
 | **Authority** | "I can actually help" | Testimonials, stats, logos, awards |
 
-**Authority without empathy = arrogance.** Empathy without authority = weakness. You need both.
+**Source balance:** authority without empathy can read as arrogance, while empathy without authority can read as weakness. Authority-only, empathy-only, mystery, dominance, peer, challenger, and balanced-guide variants remain available for different audiences and categories.
 
 **Four ways to show authority:**
 1. Testimonials (strongest)
@@ -129,7 +138,7 @@ Customers don't take action when they're confused. A plan removes confusion.
 | **Process Plan** | Shows the path from here to there | 3-6 numbered steps |
 | **Agreement Plan** | Removes fear of doing business with you | List of commitments/guarantees |
 
-**Process plan rule:** 3-6 steps maximum. If it takes more, you're overcomplicating it. Name the plan something catchy if possible.
+**Source plan heuristic:** 3-6 visible steps reduce cognitive load. One-step, long-form, branching, checklist, diagnostic, concierge, and deliberately sophisticated plans remain available; compare comprehension, qualification, perceived rigor, and completion.
 
 **Agreement plan examples:** Money-back guarantee, "No spam ever," "Cancel anytime," satisfaction pledges.
 
@@ -142,8 +151,8 @@ Customers don't take action when they're confused. A plan removes confusion.
 | **Direct** | The sale. The thing you want them to do. | "Buy Now," "Schedule a Call," "Get Started" |
 | **Transitional** | For people not ready to buy yet. | Free PDF, webinar, trial, assessment |
 
-**Rules for direct CTAs:**
-- One primary CTA, everywhere, always visible
+**Source defaults for direct CTAs:**
+- One primary CTA, repeated and visible. Also test multiple equal CTAs, audience-routed CTAs, no-CTA brand work, progressive commitments, and contextual calls to action.
 - Use a different color button than everything else on the page
 - Repeat it multiple times on every page
 
@@ -154,9 +163,9 @@ Customers don't take action when they're confused. A plan removes confusion.
 
 ### 6. That Helps Them Avoid Failure
 
-People are more motivated by fear of loss than desire for gain (loss aversion = 2-3x stronger). Your messaging must answer: "What happens if they DON'T engage with you?"
+The source cites loss aversion and asks what happens without action. Preserve gain-only, neutral, low-fear, moderate-fear, high-fear, shock, shame, anger, status-loss, and mixed variants; compare attention, action, reactance, trust, and downstream regret.
 
-**The "salt in the recipe" rule:** Use just enough failure/stakes to create urgency, but don't overdo it. Too much fear = paralysis. Too little = no urgency.
+**The "salt in the recipe" source rule:** moderate stakes often create urgency without paralysis. High-intensity fear can outperform in immediate, severe, or saturated contexts and can also trigger distrust or avoidance; low-intensity and success-only frames trade urgency for comfort. Test the full intensity ladder.
 
 **Four-step fear appeal:**
 1. Make the reader know they're vulnerable to a threat
@@ -236,7 +245,7 @@ A visitor should be able to answer three questions within 5 seconds of landing o
 | Obvious calls to action | Two buttons: direct CTA (bold color) + transitional CTA (less prominent) |
 | Images of success | Show end state, not process. Happy outcomes, not product screenshots. |
 | Bite-sized revenue breakdown | Break complex offerings into simple categories |
-| Very few words | Ruthlessly cut copy. If it doesn't serve the story, kill it. |
+| Copy depth | Source favors very few words; compare short, long-form, layered, technical, story-led, and proof-dense versions by comprehension, persuasion, SEO, and conversion. |
 
 ---
 
@@ -246,8 +255,8 @@ After completing the BrandScript, execute these five tasks to build a complete m
 
 1. **Create a One-Liner** - Your elevator pitch. Use everywhere.
 2. **Create a Lead Generator** - Free resource that solves a small problem (PDF, quiz, video series, webinar). Gate it with an email capture.
-3. **Create an Automated Email Drip Campaign** - Nurture sequence: deliver value, then make an offer. Mix nurture emails (tips, stories) with sales emails.
-4. **Collect Transformation Testimonials** - Not "great product!" testimonials. Before/after stories: "Before I was [problem]. After working with [brand], I am [transformation]."
+3. **Create an Automated Email Drip Campaign** - Source-default nurture sequence: deliver value, then make an offer. Preserve offer-first, value-first, reverse, alternating, parallel, sales-dense, nurture-dense, event-triggered, and full-sequence variants; choose using audience temperature, trust, buying urgency, proof, list source, economics, unsubscribe risk, and the consequence of delaying or accelerating the ask.
+4. **Collect and compare testimonial types** - The source favors before/after transformation stories. Generic praise, feature-specific, status, quantified, founder, anonymous, composite, and no-testimonial variants can serve different proof and creative roles. Real-person attribution and outcome claims require provenance and permission before publication, not before ideation.
 5. **Create a Referral System** - Give existing customers a reason and a mechanism to refer others.
 
 Detailed implementation guides: see [frameworks.md](frameworks.md).

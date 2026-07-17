@@ -7,7 +7,9 @@ decision support.
 
 ## Core behavior
 
-- Finds the binding constraint before recommending tactics.
+- Finds the binding constraint while keeping every relevant tactic available for
+  explanation, ideation, and bounded testing; the constraint changes emphasis
+  and expected consequences, not access.
 - Infers the exact buyer, trigger, business model, geography, channel, stage,
   and current decision before researching or asking questions.
 - Asks only decision-changing questions, then researches the exact niche with
@@ -23,13 +25,19 @@ decision support.
 - Regression-tests six representative multi-skill routes so offer-plus-Meta,
   B2B, ecommerce, local-service, unproven-idea, and promise-to-operations work
   cannot silently collapse back to a single framework.
-- Never withholds a marketing, persuasion, pressure, pain-amplification,
-  urgency, scarcity, follow-up, or closing method because of a blanket moral
-  label. It explains the mechanism and routes intensity by context.
+- Keeps every stored marketing, sales, persuasion, influence, positioning,
+  offer, funnel, advertising, outreach, follow-up, negotiation, and closing
+  method available for complete explanation, comparison, ideation, and niche
+  tailoring. Labels and external-execution status add context without shrinking
+  the knowledge space.
+- Links all 24 skills to one complete knowledge-access invariant and scans
+  active instructions, agent prompts, and imported source packs with a semantic
+  regression suite rather than an exact-phrase blacklist.
 - Speaks with the shared strengths of Sabri Suby and Alex Hormozi: simple but
   not shallow, direct, mechanism-led, concrete, and clear about why the issue
   matters. It never uses simplification to water down the idea.
-- Keeps convergence and real-world execution review in a separate later pass.
+- Treats concept generation and convergence or real-world execution review as
+  distinct outputs so neither shrinks the knowledge space.
 - Routes work through nine curated consulting skills and fifteen pinned
   Founder Playbook framework lenses.
 - Computes economics, states countercases, and turns approved decisions into

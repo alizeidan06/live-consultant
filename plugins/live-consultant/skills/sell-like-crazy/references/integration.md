@@ -78,7 +78,9 @@ Influence explains reciprocity, commitment, social proof, authority, liking,
 scarcity, unity, and pre-suasion. Sell Like Crazy supplies the direct-response
 sequence where those mechanisms operate.
 
-Do not apply a blanket “ethical persuasion only” filter that hides methods.
+Apply complete method access across every ethical or persuasion label. Treat
+those labels as analytical metadata while preserving each mechanism, variant,
+rhetorical form, and example.
 Explain offensive and defensive uses, context, expected mechanism, failure
 mode, and how the buyer or business would experience them. Keep hypothetical
 proof labeled hypothetical until it exists.
@@ -109,22 +111,26 @@ Route by context:
 | High-ticket service with one owner-buyer | Hybrid: strong pre-call copy and qualification, then doctor-style diagnosis and prescription |
 | Complex $50K+ B2B, multiple stakeholders, long cycle | SPIN-led discovery, implication tied to evidence, advances, stakeholder alignment |
 | High-trust professional advice | Diagnosis, demonstrated value, precise prescription; use pressure in consequence clarity rather than theatrical force |
-| Hot ecommerce or repeat buyer | Direct offer and checkout; do not add unnecessary educational friction |
+| Hot ecommerce or repeat buyer | Direct offer and checkout are the default emphasis; educational, proof-rich, and story-led routes remain available and can win when trust, novelty, risk, or cross-sell depth matters |
 
 These are performance hypotheses, not moral categories. Test actual conversion,
 refund, sales-cycle, retention, complaint, and buyer-quality outcomes.
 
 ### Sell Like Crazy + Traction
 
-Sell Like Crazy says start with one channel, prove economics, then diversify.
-Traction says enumerate channels, run cheap tests, and focus on what shows
-signal. Combine them:
+Sell Like Crazy's source default starts with one channel, learns its economics,
+then diversifies. Traction enumerates channels, runs cheap tests, and focuses on
+what shows signal. Preserve that sequential synthesis alongside parallel
+portfolio, simultaneous discovery, resilience-first, and channel-before-offer
+variants:
 
 1. enumerate plausible channels;
 2. choose the channel matching awareness and access;
 3. test the offer and funnel cheaply;
-4. focus until economics and delivery are stable;
-5. add a second and third channel deliberately.
+4. weight focus as economics and delivery signal develops; and
+5. add, retain, or run a second and third channel in sequence or parallel based
+   on attribution needs, cash, capacity, speed, channel interaction, and
+   concentration risk.
 
 ### Sell Like Crazy + Meta Ads
 
@@ -141,8 +147,12 @@ environment.
 
 Sell Like Crazy generates a bold price, payment path, guarantee, and offer.
 Monetizing Innovation tests what distinct segments value and will pay for.
-Run willingness-to-pay research after the strongest offer concepts exist; do
-not let research reduce the ideation range before buyers react.
+Willingness-to-pay research can run before, during, or after the strongest offer
+concepts are created. The source-preferred sequence ideates first to prevent
+early research from narrowing the range; an early or parallel research variant
+can expose price language, segment differences, and non-obvious packages sooner.
+Compare anchoring risk, creative range, learning speed, and evidence quality,
+while keeping every offer concept available.
 
 ## Conflict-resolution rules
 
@@ -160,11 +170,11 @@ When sources appear to disagree, check whether they address different moments:
 
 Do not average two methods into blandness. Name which method owns which moment.
 
-### No knowledge withholding
+### Complete tactic-family access
 
-No active Live Consultant instruction may reject an entire tactic family merely
-because it involves psychological pressure, pain, fear, urgency, scarcity,
-qualification, or manipulation. Load it, explain it, and route it.
+Every tactic family remains fully available for loading, explanation, and
+routing, including psychological pressure, pain, fear, urgency, scarcity,
+qualification, and manipulation.
 
 Truth status remains explicit:
 
@@ -199,7 +209,8 @@ Pass B — make it real:
 - current channel mechanics;
 - final execution wording and owner approvals.
 
-Do not use Pass B to rewrite history and claim the Pass A concept was weak.
+Pass B preserves the historical strength of the Pass A concept and assigns its
+current factual, recommendation, and external-execution status separately.
 State what machinery is required to earn it.
 
 ## Niche-tailoring checklist

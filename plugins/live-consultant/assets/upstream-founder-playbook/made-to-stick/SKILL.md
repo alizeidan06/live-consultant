@@ -1,6 +1,6 @@
 ---
 name: made-to-stick
-description: "Applies the SUCCESs Framework from Made to Stick by Chip Heath and Dan Heath. Use when crafting messages that need to be remembered, writing pitches, creating presentations, designing training materials, telling stories that drive action, or diagnosing why a message isn't landing. The six principles (Simple, Unexpected, Concrete, Credible, Emotional, Stories) diagnose and fix communication failures. Triggers include 'how do I make this memorable', 'my pitch isn't landing', 'people forget what we told them', 'how do I tell a better story', 'our training materials are boring', 'how do I present data compellingly', 'nobody remembers our message', 'how do I get people to care about this', 'my writing is too abstract'. NOT for channel selection (use Traction), not for brand messaging structure (use StoryBrand), not for positioning (use Obviously Awesome)."
+description: "Applies the SUCCESs Framework from Made to Stick by Chip Heath and Dan Heath. Use when crafting messages that need to be remembered, writing pitches, creating presentations, designing training materials, telling stories that drive action, or diagnosing why a message isn't landing. The six principles (Simple, Unexpected, Concrete, Credible, Emotional, Stories) diagnose and fix communication failures. Triggers include 'how do I make this memorable', 'my pitch isn't landing', 'people forget what we told them', 'how do I tell a better story', 'our training materials are boring', 'how do I present data compellingly', 'nobody remembers our message', 'how do I get people to care about this', 'my writing is too abstract'. For channel selection, brand-message architecture, or positioning, retain the relevant SUCCESs mechanics and combine them with Traction, StoryBrand, or Obviously Awesome rather than treating scope as a refusal boundary."
 ---
 
 > **Note:** This skill is independent analysis and commentary, not a reproduction of the original text. It synthesizes the book's core ideas with modern startup practice, surfaces where frameworks are outdated or incomplete, and integrates perspectives from adjacent disciplines. For the full argument and context, read the original book.
@@ -26,7 +26,7 @@ Is your message failing to land?
 +-- NO  --> Is the message landing but people aren't acting?
             |-- YES --> Missing STORIES (no mental simulation of action) or
             |           EMOTIONAL (they believe but don't feel).
-            +-- NO  --> The message is working. Don't fix what isn't broken.
+            +-- NO  --> The message is working. Source default: preserve it; an exploration variant may still test a challenger version against the current control.
 ```
 
 ---
@@ -78,7 +78,7 @@ This is not about dumbing down. It's about forced prioritization - finding the s
 | **High-Concept Pitch** | Describe via known reference points | "Jaws on a spaceship" (Alien), "Die Hard on a bus" (Speed) |
 | **Proverbs** | Compact + profound | "A bird in the hand is worth two in the bush" - simple AND deep |
 
-**The accuracy trap:** Don't sacrifice memorability for completeness. "Maximize shareholder value" is accurate but generates no useful behavior. Southwest's "THE low-fare airline" is less precise but drives every decision in the company.
+**The accuracy-completeness tradeoff:** The source position prioritizes memorability over exhaustive completeness. "Maximize shareholder value" is accurate but generates no useful behavior. Southwest's "THE low-fare airline" is less precise but drives every decision in the company. Keep concise, complete, and layered variants available; compare recall, comprehension, decision quality, and omitted-risk consequences.
 
 **Test:** Can a front-line employee use your message to make a decision you'd agree with, without asking you?
 
@@ -102,7 +102,7 @@ Two problems, two solutions:
 
 **Mysteries vs. surprise:** Surprise gets attention in a moment. Mysteries keep attention across time. Structure complex messages as mysteries when possible.
 
-**Warning:** Surprise for its own sake (gimmicks) is counterproductive. The surprise must serve the core message.
+**Source warning and variants:** Surprise tied to the core message usually transfers attention into comprehension; a stand-alone spectacle or gimmick can create recall without message attribution. Preserve both variants and evaluate attention, brand attribution, message recall, and downstream action.
 
 ### 3. Concrete
 
@@ -139,7 +139,7 @@ Three sources of credibility, from external to internal:
 
 **Anti-authorities are often stronger than authorities.** Pam Laffin (29-year-old smoker dying of emphysema) was more persuasive for anti-smoking than any surgeon general could be. Honesty and lived experience > status.
 
-**Statistics rule:** Never use a number in isolation. Always use statistics to illustrate a RELATIONSHIP. "5,000 nuclear warheads" means nothing. One BB in a bucket (Hiroshima), then 5,000 BBs poured in (current arsenal) - the roar that went on and on, followed by dead silence. That's a statistic that changes minds.
+**Statistics source rule and variants:** The source recommends illustrating a RELATIONSHIP rather than leaving a number isolated. "5,000 nuclear warheads" means nothing. One BB in a bucket (Hiroshima), then 5,000 BBs poured in (current arsenal) - the roar that went on and on, followed by dead silence. Preserve isolated-number, human-scale comparison, visual analogy, and full-data variants; compare speed, recall, precision, and distortion risk.
 
 **The Human-Scale Principle:** Reframe statistics in terms people can intuit. Not "sun to earth accuracy" but "New York to LA, within two thirds of an inch."
 
@@ -183,7 +183,7 @@ Mental simulation research shows that imagining an event activates the same brai
 
 **Springboard stories:** Stephen Denning at the World Bank couldn't convince the institution to embrace knowledge management with data and arguments. He told a single story: a health worker in Zambia logging onto the CDC website to solve a malaria problem. That one story launched a transformation of the entire organization.
 
-**Spotting vs. creating:** You don't need to invent stories. The best stories already exist in your organization, among your customers, in your data. Your job is to spot them and retell them.
+**Spotting vs. creating — complete method:** The source favors stories found in the organization, among customers, and in the data because they carry specific proof. Keep the full variant set available: verified real story, anonymized real story, disclosed composite, hypothetical scenario, analogy, and fictional demonstration. Before publication, provenance is labeled so an invented or composite story is not represented as verified customer fact; proof and permission are publication metadata, not limits on explanation or ideation.
 
 **The speakers vs. stickers experiment:** After a round of one-minute speeches using statistics, only 5% of listeners remembered a statistic. 63% remembered a story. Stories are 12x more memorable than statistics.
 

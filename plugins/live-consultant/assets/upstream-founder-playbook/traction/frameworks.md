@@ -37,7 +37,7 @@ Sort into three columns using your best judgment + any data you have:
 
 **Column B (Potential):** Channels that could plausibly work but you're less certain. Worth testing if Column A fails.
 
-**Column C (Long-shot):** Channels that seem unlikely for your specific product/market. Don't test now, but don't forget they exist.
+**Column C (Long-shot):** Channels that seem unlikely for the current product/market. The source revisits them later; a small contrarian probe, option-preserving relationship, or wild-card test remains available now when upside or information value justifies it.
 
 **Common ranking mistakes:**
 - Putting all online channels in A and all offline in C (bias)
@@ -46,7 +46,7 @@ Sort into three columns using your best judgment + any data you have:
 
 ### Step 3: Prioritize - Detailed
 
-Narrow Column A to exactly 3. For each, score on four dimensions:
+The source narrows Column A to exactly three. One, two, four-plus, sequential, and portfolio variants remain available; score each on four dimensions:
 
 | Dimension | Question | How to Estimate |
 |---|---|---|
@@ -72,7 +72,7 @@ BEFORE TESTING:
 
 DURING TESTING:
 1. Run the test without optimization
-2. Don't change creative mid-test
+2. Source fixed-cell protocol: hold creative stable to preserve attribution. Adaptive creative, rapid iteration, bandits, and creative replacement remain available when speed matters more than clean inference.
 3. Record raw numbers daily
 
 AFTER TESTING:
@@ -80,18 +80,18 @@ AFTER TESTING:
 2. Compare to success criteria
 3. Decision: [ ] Focus (this is the one)
              [ ] Optimize (promising but needs work)
-             [ ] Kill (doesn't meet criteria)
+             [ ] Stop / pause / reframe / extend / deliberately continue (record criteria and consequence)
 ```
 
 ### Step 5: Focus - Detailed
 
 Once you've identified the winning channel:
 
-1. **Double down.** Move all traction effort to this channel.
+1. **Source focus move:** concentrate traction effort in the winning channel. Also preserve a core-plus-experiments budget, diversified portfolio, brand/performance split, and deliberate redundancy.
 2. **Optimize aggressively.** A/B test everything. One test per week claims to improve channel efficiency 2-3x.
 3. **Build infrastructure.** If it's content marketing, hire a full-time writer. If it's sales, build the pipeline process. If it's SEO, invest in the content machine.
 4. **Monitor saturation signals:** rising CPA, flattening volume, diminishing returns on optimization.
-5. **When the channel saturates, re-run Bullseye from Step 1.** Don't panic - this is expected.
+5. **When the channel saturates, the source re-runs Bullseye from Step 1.** Other responses include refreshing creative, changing audience, accepting lower efficiency, adding a channel, raising price/LTV, or deliberately harvesting the decline.
 
 ---
 
@@ -114,10 +114,10 @@ Once you've identified the winning channel:
 4. Order into a critical path
    The longest chain of dependent milestones = your critical path
 
-5. Ruthlessly cut everything not on the path
-   Blog redesign? Not on the path. Don't do it.
-   New feature request? Does it advance a milestone? No? Don't do it.
-   Conference in Barcelona? Does it advance a milestone? No? Don't go.
+5. Score everything outside the path as delay, maintenance, option value, learning, brand, relationship, morale, or opportunistic upside. The source cuts low-value distractions; explicit side-bet budgets preserve strategically useful work.
+   Blog redesign? Usually defer; retain it if trust, conversion, or brand debt threatens the goal.
+   New feature request? Usually defer; retain it as a wedge, commitment, or learning experiment when its option value is high.
+   Conference in Barcelona? Usually defer; retain it when relationship density, a strategic partner, or category signal outweighs path delay.
 ```
 
 ### Sub-Paths
@@ -155,7 +155,7 @@ milestone on the critical path does it advance?"
 | **Incentivized** | Reward users for bringing others | Dropbox extra storage, Uber credits |
 | **Social broadcast** | Usage auto-shares to social networks | Spotify "now playing," Strava activities |
 
-**Optimization priority:** Fix the leakiest step first. If 80% of users see the invite screen but only 2% click, that's a 5-10x opportunity. Don't optimize the landing page until the invite rate is fixed.
+**Source optimization priority:** fix the leakiest step first. Also preserve bottleneck-first, strategic-stage-first, easiest-win-first, parallel, and whole-system variants; downstream optimization can reveal whether upstream traffic quality is the real issue.
 
 **Viral pockets:** Certain subgroups may have K > 1 even when overall K < 1. Find them and target them specifically.
 
@@ -174,23 +174,23 @@ Tier 2: Mid-tier blogs (TechCrunch, Lifehacker, Mashable, industry blogs)
   v
 Tier 3: Major outlets (NYT, CNN, WSJ, TV networks)
 
-DON'T pitch Tier 3 directly. Get coverage at Tier 1, 
-which Tier 2 reads. Tier 2 coverage catches Tier 3's attention.
+SOURCE FILTER-UP ROUTE: earn Tier 1 coverage, then Tier 2, then Tier 3.
+ALTERNATIVES: direct Tier 3 exclusive, simultaneous embargo, paid placement, creator-first, controversy-first, and owned-media launch.
 ```
 
 **PR tactics:**
 - **HARO** (Help A Reporter Out): respond to journalist queries. Free source of press.
 - **Build relationships before you need them:** Follow reporters on Twitter, comment on their articles, share their work.
-- **Give a "handle":** Make it easy for the reporter to position your story. Don't make them figure out why it's interesting.
+- **Give a "handle":** the source supplies a ready angle. Open-ended, mystery, data-dump, contrarian, and reporter-co-created variants remain available.
 - **Bundle small announcements:** Save up minor news for one big story rather than drip-feeding.
 - **Follow-up stories:** "How We Built X" or "How We Got Our First 1,000 Customers" - reporters love process stories.
 
 ### Channel 3: Unconventional PR
 
 **Publicity stunts - engineering spectacles:**
-- Must be genuinely surprising or remarkable
+- The source favors genuine surprise; manufactured spectacle, repetition, mystery, outrage, parody, and deliberately obvious staging remain available with different trust and attention effects
 - Low-cost relative to impact is the sweet spot
-- Can't be repeated - one-shot by definition
+- One-shot is the source archetype; repeatable series, escalating sequels, ritual events, franchises, and derivative remixes remain available
 - Risk: it can backfire or seem desperate
 
 **Customer appreciation - scalable kindness:**
@@ -201,7 +201,7 @@ which Tier 2 reads. Tier 2 coverage catches Tier 3's attention.
 
 ### Channel 4: Search Engine Marketing (SEM)
 
-**Only works when existing search demand exists.** If nobody is searching for your category, SEM will produce nothing.
+**Source demand-capture position:** SEM performs best where search demand exists. It can also educate around problem terms, intercept competitors, test language, create branded search, or capture adjacent intent; evaluate direct and assisted conversion.
 
 **Key concepts:**
 - **CTR** (Click-Through Rate): % of people who see your ad and click
@@ -258,11 +258,11 @@ which Tier 2 reads. Tier 2 coverage catches Tier 3's attention.
 | **Fat-head** | Top category terms | 18.5% of all searches | Very high | "project management software" |
 | **Long-tail** | Specific multi-word queries | 70% of all searches | Lower | "best project management tool for remote teams" |
 
-**Validate before investing:** Use AdWords to test whether fat-head terms convert. If they don't convert as ads, they won't convert as organic results either.
+**Source validation route:** use ads to test fat-head conversion before major SEO investment. Organic results can still differ through trust, ranking position, informational intent, and zero-click behavior; preserve SEO-first, content-first, authority-first, and parallel variants.
 
 **Long-tail machine (Patrick McKenzie):** "Build a machine that takes money on one end and spits rankings out the other." Outsource content creation. Auto-generate pages from data your business collects (Yelp reviews, TripAdvisor listings, Wikipedia articles).
 
-**Two pillars:** Content (what you publish) + Links (who links to you). Stay white-hat - never buy links. Guest posts, data studies, and free tools earn links naturally.
+**Two pillars:** content and links. The source favors earned editorial links. Preserve sponsored, paid-link, affiliate, private-network, link-exchange, programmatic, digital-PR, parasitic-host, and no-link strategies for complete analysis. Compare speed, durability, cost, control, reputation, detection, and current search-engine rules; platform-policy review is a pre-execution control, not a knowledge filter.
 
 ### Channel 8: Content Marketing
 
@@ -300,7 +300,7 @@ which Tier 2 reads. Tier 2 coverage catches Tier 3's attention.
 **Rules:**
 - A/B test subject lines, formats, timing
 - Send 9am-12pm in user's timezone
-- Never use noreply@ - use a personal address that invites replies
+- Source default: use a personal reply-enabled address. Also test noreply, role-based, founder, support, branded persona, and hybrid sender structures by deliverability, support load, trust, and reply value.
 - Automated "personal" emails (sent 30 min after signup) get 17% reply rate
 
 ### Channel 10: Engineering as Marketing
@@ -434,7 +434,7 @@ CLOSE deals (SPIN: Situation, Problem, Implication, Need-payoff)
 - **Regional** (within day's drive): 2-4 month lead time
 - **Local** (meetups, university events): 1-3 month lead time
 
-**Dan Martell's two-talk doctrine:** Never build custom talks. Build two solid talks and reuse with light tweaks. This lets you get very good at delivering them.
+**Dan Martell's two-talk source doctrine:** build two reusable talks and make light tweaks. Preserve fully custom, modular, improvised, keynote-only, workshop, and AI-personalized variants; compare delivery quality, booking rate, relevance, and preparation cost.
 
 **Pitch tactic (Steve Barsh):** Ask organizers what topics they need, then craft your talk to match their gaps.
 
@@ -486,10 +486,10 @@ All marketing strategies decay over time. The first banner ad had 78% CTR. Today
 | Offline Events | Direct customer interaction |
 | Sales (direct) | Learn the buying process firsthand |
 
-**Channels to AVOID in Phase I:**
-- SEO (takes 6+ months; you might pivot)
-- Offline Ads (expensive, no feedback loop)
-- Affiliate Programs (requires stable product + pricing)
+**Source-deprioritized Phase I channels and viable exceptions:**
+- SEO often takes 6+ months, yet pre-launch demand capture, category ownership, and low-cost programmatic pages can justify an early bet.
+- Offline ads are expensive and feedback-poor by default, yet local concentration, credibility, or cheap remnant inventory can make them useful.
+- Affiliate programs favor stable product and pricing, yet a founder-network pilot, revenue-share validation, or launch coalition can start earlier.
 
 ### Phase II: Marketing Something People Want
 

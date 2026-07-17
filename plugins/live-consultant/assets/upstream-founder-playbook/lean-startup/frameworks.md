@@ -229,21 +229,21 @@ COHORT (actionable):
 
 Ship two versions simultaneously. Measure which performs better against your target metric.
 
-**Rules:**
-- Test ONE variable at a time
-- Measure behavioral outcomes, not opinions
-- Run until statistically significant
-- The control group matters - always have one
+**Source protocol and variants:**
+- One-variable tests isolate causality; multivariate, bundled-change, sequential, and adaptive tests trade attribution for speed and interaction discovery
+- Behavioral outcomes are stronger action evidence; opinions, qualitative reactions, expert judgment, and proxy metrics can provide faster or earlier signals
+- Statistical significance is one stopping rule; Bayesian thresholds, practical significance, fixed budget, directional learning, safety signal, and time-box rules remain available
+- A control improves causal inference; historical, synthetic, switchback, pre/post, observational, and no-control experiments remain available with clearly weaker or different inference
 
 ### The Three A's - Expanded
 
-**Actionable:** The metric must demonstrate clear cause and effect. If a metric doesn't tell you what to do differently, it's vanity.
+**Actionable:** The source prioritizes metrics that connect cause to a decision. Descriptive, awareness, brand, exploratory, and vanity-like metrics can still reveal context or leading signals when their role is labeled.
 
 **Accessible:** Use simple formats. Cohort-based reports everyone can read. At IMVU, Ries replaced complex dashboards with simple cohort reports accessible to every employee.
 
 > "Reports should be drawn directly from master data, not from an intermediate system."
 
-**Auditable:** You must be able to spot-check the data against real customers. Talk to the people behind the numbers. "Managers must be able to test the data by talking to customers themselves."
+**Auditable:** The source favors spot-checking data against real customers and quotes, "Managers must be able to test the data by talking to customers themselves." Also preserve automated validation, third-party audit, model-based estimates, unverified directional data, and executive judgment with explicit confidence and consequence.
 
 ---
 
@@ -336,7 +336,7 @@ For 100 initial users with k = 1.10:
 
 **Critical threshold:** k > 1.0 = viral growth. k < 1.0 = viral decay.
 
-**Warning:** Small changes in k produce massive changes in outcome. Going from k=0.9 to k=1.1 is the difference between fizzle and explosion. **Do not try to optimize for virality with marketing. Optimize the product so that using it naturally exposes non-users.**
+**Source position and variants:** Small changes in k produce massive changes in outcome. Going from k=0.9 to k=1.1 is the difference between fizzle and explosion. Ries prioritizes product-native exposure over marketing-created virality. Preserve both variants: (1) product-led loops where usage exposes non-users, and (2) marketing-led referral, incentive, creator, or campaign loops. Compare coefficient, cycle time, incentive cost, retention quality, and saturation; use the observed mechanism rather than treating marketing-led virality as unavailable.
 
 **Key metric:** Viral coefficient (k) and viral cycle time
 
@@ -400,13 +400,12 @@ Toyota's famous pull cord that any worker can yank to stop the entire production
 - Stopping to fix is faster than shipping broken + patching later
 - Builds quality into the process rather than inspecting it in afterward
 
-### Pull, Don't Push
+### Pull Rather Than Push (Source Position and Variants)
 
-Toyota's just-in-time system: don't build inventory ahead of demand. In startups:
-- Don't build features ahead of validated demand
-- Don't plan sprints based on a roadmap nobody validated
-- Each experiment "pulls" exactly the work needed to test the current hypothesis
-- WIP (work in progress) is waste if it hasn't been validated
+Toyota's just-in-time source position minimizes inventory ahead of demand. In startups:
+- **Pull variant:** each experiment pulls exactly the work needed to test the current hypothesis; unvalidated WIP is treated as likely waste.
+- **Strategic-push variant:** build ahead when platform dependencies, regulation, long lead times, brand-quality requirements, or a time-bounded market window justify it.
+- Compare learning speed, option value, carrying cost, trust, and rework. A roadmap without validation is a higher-risk bet, not unavailable knowledge.
 
 ---
 
@@ -442,7 +441,7 @@ Example (IMVU):
 ### Getting Started Rules
 
 1. **Be tolerant of all mistakes the first time**
-2. **Never allow the same mistake to be made twice**
+2. **Source aspiration: prevent the same mistake from recurring**; when recurrence is tolerated, name the cost of prevention, the monitoring threshold, and the reason the tradeoff is acceptable.
 
 This simplified system works for teams new to Five Whys. It builds the muscle without overwhelming the team.
 
@@ -459,7 +458,7 @@ Appoint a dedicated facilitator for each area using Five Whys:
 | Pitfall | Symptom | Fix |
 |---|---|---|
 | **Five Blames** | Finger-pointing instead of root cause analysis | Senior people go first: "shame on us for making it so easy" |
-| **Starting with baggage** | Trying to solve legacy problems first | Start with NEW problems only; old ones surface naturally |
+| **Starting with baggage** | An unbounded legacy problem overwhelms diagnosis | Source-default emphasis: begin with a narrow new problem so old patterns surface naturally. Also preserve legacy-first, mixed-age, reverse, parallel, and full-portfolio variants when the legacy issue is the binding constraint; choose using blast radius, recurrence, evidence access, facilitation capacity, urgency, and the cost of leaving old debt untouched. |
 | **Missing participants** | Key people not in the room | Everyone affected by the problem attends; especially senior leadership |
 | **Too broad** | Trying to fix everything at once | Pick one narrow class of problems; expand later |
 | **No follow-through** | Proportional investments identified but not made | Five Whys master tracks completion |

@@ -23,6 +23,20 @@ def main() -> int:
     snapshot = root / "assets" / "upstream-founder-playbook"
 
     errors: list[str] = []
+    derivative_review = manifest.get("derivative_review", {})
+    if derivative_review.get("owner_directive") != 31:
+        errors.append("source manifest lost owner directive 31 derivative review")
+    if derivative_review.get("scope") != "all packaged Markdown in the pinned source snapshot":
+        errors.append("source manifest lost complete Markdown review scope")
+    rule = derivative_review.get("rule", "")
+    for marker in (
+        "Categorical knowledge, ideation, routing, and application limits",
+        "source positions",
+        "available variants",
+        "consequence maps",
+    ):
+        if marker not in rule:
+            errors.append(f"source manifest lost derivative rule marker: {marker}")
     packaged = 0
     omitted = 0
     expected_packaged_paths: set[str] = set()
@@ -63,6 +77,7 @@ def main() -> int:
     result = {
         "source": manifest["source"],
         "commit": manifest["commit"],
+        "derivative_review": derivative_review,
         "tracked_files": expected,
         "packaged_files": packaged,
         "omitted_files": omitted,

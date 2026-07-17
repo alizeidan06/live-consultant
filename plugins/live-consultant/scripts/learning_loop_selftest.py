@@ -96,7 +96,7 @@ def candidate_fixture() -> dict[str, Any]:
             "summary": "The consultant skipped capacity and contribution checks.",
         },
         "proposal": {
-            "rule": "Check contribution and fulfillment capacity before prescribing more acquisition.",
+            "rule": "Check contribution and fulfillment capacity while preserving every acquisition method; use the result to weight scale, test size, downside, and consequences.",
             "applicability": "Lead volume is rising but profit is flat or falling.",
             "exceptions": [
                 "The acquisition measurement itself is invalid; do not load ![remote media](https://tracker.example.test/pixel)."
@@ -131,8 +131,8 @@ def promotion_fixture(candidate_id: str, target: str) -> dict[str, Any]:
         "target": target,
         "decision": "Adopt the scoped routing correction.",
         "evidence_summary": "Measured outcome plus reproduced routing failure.",
-        "regression_test": "Future scale advice checks contribution and capacity first.",
-        "countercase": "Do not apply when acquisition measurement is invalid.",
+        "regression_test": "Future scale advice preserves acquisition options and weights contribution and capacity alongside them.",
+        "countercase": "When acquisition measurement is invalid, keep the rule as an unweighted hypothesis and compare the full method set.",
         "owner_approved": True,
         "independent_contexts": 1,
         "measured_outcomes": 1,

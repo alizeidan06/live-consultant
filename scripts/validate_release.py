@@ -36,10 +36,13 @@ REQUIRED_ROOT_FILES = {
     Path("plugins/live-consultant/assets/foundation-lock.json"),
     Path("plugins/live-consultant/assets/skill-knowledge-manifest.json"),
     Path("plugins/live-consultant/assets/skill-routing-fixtures.json"),
+    Path("plugins/live-consultant/assets/upstream-founder-playbook-manifest.json"),
     Path("plugins/live-consultant/assets/templates/niche-context.md"),
     Path("plugins/live-consultant/assets/templates/sell-like-crazy-system-brief.md"),
     Path("plugins/live-consultant/scripts/verify_foundation_integrity.py"),
+    Path("plugins/live-consultant/scripts/verify_knowledge_access.py"),
     Path("plugins/live-consultant/scripts/verify_skill_assembly.py"),
+    Path("plugins/live-consultant/scripts/verify_source_coverage.py"),
     Path("plugins/live-consultant/scripts/learning_loop.py"),
     Path("plugins/live-consultant/scripts/learning_loop_selftest.py"),
     Path("plugins/live-consultant/scripts/release_mutation_selftest.py"),
@@ -48,6 +51,7 @@ REQUIRED_ROOT_FILES = {
     Path("plugins/live-consultant/skills/improve-live-consultant/references/foundation-invariants.md"),
     Path("plugins/live-consultant/skills/improve-live-consultant/references/learning-protocol.md"),
     Path("plugins/live-consultant/skills/founder-business-consultant/references/niche-intelligence-protocol.md"),
+    Path("plugins/live-consultant/skills/founder-business-consultant/references/knowledge-access-invariant.md"),
     Path("plugins/live-consultant/skills/founder-business-consultant/references/skill-assembly-protocol.md"),
     Path("plugins/live-consultant/skills/sell-like-crazy/SKILL.md"),
     Path("plugins/live-consultant/skills/sell-like-crazy/agents/openai.yaml"),
@@ -235,6 +239,18 @@ def main() -> int:
     record(errors, isinstance(prompts, list) and 1 <= len(prompts) <= 3, "defaultPrompt must contain one to three entries")
 
     public_transform = source_manifest.get("public_release_transform", {})
+    derivative_review = source_manifest.get("derivative_review", {})
+    record(
+        errors,
+        derivative_review.get("owner_directive") == 31,
+        "source manifest lost semantic knowledge-access review directive",
+    )
+    record(
+        errors,
+        derivative_review.get("scope")
+        == "all packaged Markdown in the pinned source snapshot",
+        "source manifest lost complete Markdown review scope",
+    )
     record(
         errors,
         public_transform.get("excluded_paths")
@@ -323,6 +339,11 @@ def main() -> int:
             "skill-assembly-protocol.md" in skill_file.read_text(encoding="utf-8"),
             f"skill lost universal knowledge assembly: {skill_file.relative_to(ROOT)}",
         )
+        record(
+            errors,
+            "knowledge-access-invariant.md" in skill_file.read_text(encoding="utf-8"),
+            f"skill lost universal complete knowledge access: {skill_file.relative_to(ROOT)}",
+        )
     record(errors, skill_count == 24, f"expected 24 skills, found {skill_count}")
 
     voice_path = (
@@ -406,6 +427,17 @@ def main() -> int:
             f"{skill_assembly.stdout}{skill_assembly.stderr}"
         )
 
+    knowledge_access = subprocess.run(
+        [sys.executable, str(PLUGIN / "scripts" / "verify_knowledge_access.py")],
+        text=True,
+        capture_output=True,
+    )
+    if knowledge_access.returncode != 0:
+        errors.append(
+            "knowledge access failed: "
+            f"{knowledge_access.stdout}{knowledge_access.stderr}"
+        )
+
     routing_selftest = subprocess.run(
         [sys.executable, str(PLUGIN / "scripts" / "skill_routing_selftest.py")],
         text=True,
@@ -458,6 +490,7 @@ def main() -> int:
         "block_quotes_checked": block_quote_count,
         "inline_case_quotes_checked": inline_quote_count,
         "learning_selftest": learning_selftest.stdout.strip(),
+        "knowledge_access": knowledge_access.stdout.strip(),
         "release_mutation_selftest": mutation_selftest.stdout.strip(),
         "skills": skill_count,
         "skill_assembly": skill_assembly.stdout.strip(),

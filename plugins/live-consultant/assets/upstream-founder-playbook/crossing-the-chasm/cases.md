@@ -71,7 +71,7 @@ Notes never crossed the chasm into mass-market collaboration. It eventually lost
 ### The Lesson
 
 - **Visionaries enable the early market.** Find them. Cherish them.
-- **Visionaries do not auto-bridge to pragmatists.** You still must cross the chasm separately.
+- **Source consequence:** Visionaries do not automatically bridge to pragmatists. Preserve visionary-led, separate-pragmatist, PLG, network-effect, and mixed-reference variants and compare how each transmits trust.
 
 ---
 
@@ -194,9 +194,9 @@ Microsoft NEVER followed niche/D-Day strategy. They use the **"Evel Knievel appr
 - Fast-followers, not first-movers (Windows from Mac, IE from Netscape)
 - Own the client side - "permanent enclave on the pragmatist side of the chasm"
 
-### Why You Cannot Copy This
+### Replication Conditions and Consequences
 
-If you don't have IBM-scale platform inheritance, the chasm is real for you. Microsoft's playbook is unreplicable for startups. Don't be misled by their public success.
+The source attributes Microsoft's result to IBM-scale platform inheritance and treats direct startup imitation as low-probability. Preserve the fast-follow/platform-leverage mechanism and specify the installed base, distribution, capital, timing, and downside required for closer or weaker replications.
 
 ### The Lesson
 
@@ -221,7 +221,7 @@ These four companies all crossed their chasms successfully. They all died (or st
 
 ### The Lesson
 
-Chasm-crossing is necessary, not sufficient. After the beachhead, you must read the signals correctly:
+Moore treats chasm-crossing as necessary but insufficient and emphasizes reading the next-stage signals. Preserve each transition variant:
 - Continue bowling-pin expansion within similar verticals (if vertical advantage holds)
 - OR transition to platform play (if commoditization is approaching)
 - OR sell while you can (if neither path works)
@@ -264,13 +264,13 @@ You become a lifestyle business in a small market. Sometimes that's fine; someti
 
 ### The Lesson
 
-The 9-factor target selection has "Next target customer" for a reason. **The bowling pin must connect to the next pin.** A standalone niche is sometimes a trap, even if you "win" it.
+The source strongly prefers a bowling pin connected to the next pin because adjacency enables expansion. Preserve connected, standalone, portfolio, acquisition, and lifestyle-business variants with growth and capital consequences.
 
 ---
 
-## When NOT to Cross - Stay in Early Market
+## Crossing, Staying, and Growth Variants
 
-> Public release note: longer quoted source wording was omitted; the surrounding analysis preserves the operational point.
+> **Source position:** “Sometimes the right answer is to remain in early-market mode, keep burn rate low, and keep searching rather than force a crossing or growth push.”
 
 This is intellectual honesty rare in growth-strategy books. Some products will never have a chasm-crossable beachhead. Forcing a crossing kills the company faster than staying small.
 
@@ -281,4 +281,4 @@ This is intellectual honesty rare in growth-strategy books. Some products will n
 - Are all niches already fortified by competitors?
 - Is our whole product unworkable within 3 months for any niche?
 
-If multiple yeses, **don't try to cross.** Stay in early market, keep burn rate low, search for a better beachhead, or acknowledge this is a lifestyle business.
+If multiple answers are yes, the source favors staying in the early market. Preserve crossing now, crossing later, partner-led crossing, low-burn search, and lifestyle-business variants; compare runway, capital loss, learning value, and upside.

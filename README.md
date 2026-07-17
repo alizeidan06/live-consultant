@@ -34,6 +34,8 @@ Start a new Codex task after installation. For a reproducible install, replace
   coverage and foundation verification, and privacy-preserving learning.
 - A universal niche-intelligence protocol and reusable niche context card.
 - A machine-verified skill assembly protocol and complete knowledge manifest.
+- A universal complete knowledge-access invariant and semantic regression
+  verifier covering active instructions, agent prompts, and bundled sources.
 - Six release-tested multi-skill routing fixtures covering common consulting
   systems from offer-plus-Meta through promise-driven operations repair.
 
@@ -65,12 +67,17 @@ Buyer and Halo research, the Larger Market Formula, HVCOs, opt-in capture,
 Godfather Offers, the 17-step sales message, traffic economics, Magic Lantern
 nurture, doctor-style sales conversion, and email automation.
 
-Live Consultant does not hide a marketing or sales method because it uses
-pressure, pain amplification, fear, urgency, scarcity, manipulation, aggressive
-follow-up, or a hard close. It explains the complete mechanism and routes its
-intensity by buyer, price, stakes, channel, and sales motion. Illustrative
-evidence remains labeled illustrative until it is real; that truth status does
-not block access to the tactic.
+Every stored marketing, sales, persuasion, influence, positioning, offer,
+funnel, advertising, outreach, follow-up, negotiation, and closing method stays
+available for complete explanation, comparison, ideation, and niche tailoring.
+Ethical, manipulative, artificial, aggressive, risky, legal, policy,
+compliance, platform, and similar labels are context to analyze rather than
+knowledge controls. Imported categorical commands become source positions and
+performance hypotheses with all variants and consequences preserved.
+
+Truth status, evidence quality, account access, authorization, and execution
+readiness remain explicit and separate. They govern factual assertions and
+external actions without shrinking the knowledge or creative space.
 
 ## Continuous learning
 
@@ -150,7 +157,7 @@ python3 scripts/validate_release.py
 The validator checks marketplace and plugin manifests, skill entry points,
 complete knowledge-bundle assembly, the Sell Like Crazy source pack, local
 links, routing fixtures, source coverage, script compilation, the complete learning-loop
-self-test, nine destructive mutation regressions, forbidden private paths,
+self-test, 21 destructive mutation regressions, forbidden private paths,
 secret signatures, symlinks, and disallowed
 binary/source-document files.
 

@@ -201,7 +201,7 @@ RESULTS:
 VERDICT:
   [ ] FOCUS - This is our channel. Double down and optimize.
   [ ] OPTIMIZE - Promising but needs work. Run 2 more weeks.
-  [ ] KILL - Doesn't meet criteria. Move to next channel.
+  [ ] STOP / PAUSE / REFRAME / EXTEND / CONTINUE - Record which criterion failed, upside retained, loss limit, and next evidence.
   [ ] INCONCLUSIVE - Need more data. Extend test with $_____ more.
 
 NOTES:
@@ -233,9 +233,9 @@ CRITICAL PATH (longest dependency chain):
   #___ --> #___ --> #___ --> #___ --> TRACTION GOAL
 
 THINGS I'M CURRENTLY DOING THAT ARE NOT ON THIS PATH:
-  1. _________________________ --> STOP or DEFER
-  2. _________________________ --> STOP or DEFER
-  3. _________________________ --> STOP or DEFER
+  1. _________________________ --> STOP / DEFER / SIDE-BET / MAINTAIN, with reason and budget
+  2. _________________________ --> STOP / DEFER / SIDE-BET / MAINTAIN, with reason and budget
+  3. _________________________ --> STOP / DEFER / SIDE-BET / MAINTAIN, with reason and budget
 ```
 
 ---
@@ -264,13 +264,13 @@ HEALTH CHECK:
 
   [ ] LTV / CPA > 3x --> Channel is working. Scale it.
   [ ] LTV / CPA 1-3x --> Channel works but margins are thin. Optimize.
-  [ ] LTV / CPA < 1x --> Channel is unprofitable. Fix or kill.
+  [ ] LTV / CPA < 1x --> Direct economics are negative. Options: stop, fix, reprice, cross-sell, treat as a loss leader, value learning/brand effects, or continue with a capped strategic subsidy.
 
 PAYBACK PERIOD:
   CPA / (monthly revenue × margin) = _____ months to payback
   [ ] < 3 months --> Great. Can grow aggressively.
   [ ] 3-12 months --> OK. Monitor cash flow.
-  [ ] > 12 months --> Dangerous. Long payback = slow growth + cash risk.
+  [ ] > 12 months --> High cash exposure in the source model. It can still fit long contracts, strong retention, cheap capital, strategic land-grab, or portfolio economics; model runway and downside.
 ```
 
 ---
