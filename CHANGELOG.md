@@ -2,6 +2,18 @@
 
 All notable public releases are recorded here.
 
+## 0.4.1 - 2026-07-17
+
+- Added a fail-closed release path from reviewed private `main` to a validated
+  public pull request, public `main`, an immutable version tag, and a GitHub
+  Release so accepted updates cannot remain stranded on a feature branch.
+- Added private release-readiness checks, public release metadata validation,
+  serialized publishing, monotonic-version enforcement, and exact source-commit
+  reconciliation across the private source and public export.
+- Documented the existing-user update path and moved Ali's local marketplace to
+  track public `main`; installed Codex tasks still require a new task after an
+  upgrade because running tasks keep their loaded skill registry.
+
 ## 0.4.0 - 2026-07-17
 
 - Added the first-class `$sell-like-crazy` skill with the complete eight-phase
