@@ -54,7 +54,7 @@ Drawing the canvas isn't a desk exercise. The book prescribes a structured group
 
 ### Step 4: Visual Communication
 - One-page before/after profile
-- Only aligned projects funded
+- Source portfolio rule: fund projects aligned to the selected strategy. Preserve strict alignment, experimental allocation, barbell, legacy-support, opportunistic, and multi-strategy portfolios; compare coherence, option value, coordination, and capital dilution.
 - Communicates strategy across the org
 
 **EFS case:** This process produced 30% revenue boost and the tagline "FedEx of corporate foreign exchange."
@@ -125,7 +125,7 @@ Three levers to hit target cost:
 |-------------|--------|-------------|
 | Employees | Job security threats | Education, transparency |
 | Partners | Disrupted relationships | Win-win design (SAP's ASAP partner program) |
-| Public | Ethical/safety concerns | Education, transparency |
+| Public | Ethical/safety concerns | Source response: education and transparency; also map redesign, mitigation, acceptance, opposition, and non-adoption variants with their consequences and current external constraints |
 
 Failure example: Merrill Lynch failed to address employee fears about online trading; Netflix succeeded with the same kind of disruption.
 
@@ -140,7 +140,7 @@ Simple test of an idea's commercial viability:
 | **Cost** | Cost structure meets target? |
 | **Adoption** | Adoption hurdles addressed upfront? |
 
-**All four must score "High"** for commercial viability. Mixed scores = back to the drawing board.
+The source defines “High” on all four as commercial viability. Preserve mixed-score launch, pilot, niche, subsidy, partner, redesign, and no-launch variants; state which dimension is weak and model its cost, adoption, trust, and learning consequences.
 
 - Philips CD-i: High Cost, Low Utility, Low Price, Low Adoption → failed
 - Motorola Iridium: Low Utility, Low Price, Low Adoption → failed despite genius engineering
@@ -177,7 +177,7 @@ HIGH MARGIN              COMMODITY
 
 - **Single business:** Monitor your strategy canvas. When competitors' value curves CONVERGE with yours, renew.
 - **Multi-business:** Maintain Pioneer-Migrator-Settler balance.
-- **Don't renew while your curve still has Focus, Divergence, and Tagline.** Premature renewal destroys current value.
+- **Source timing position:** renew after the curve loses focus, divergence, or tagline power. Earlier, continuous, defensive, and delayed renewal remain available variants; compare cannibalization, imitation, opportunity cost, and current-value erosion.
 
 ### Apple's Pattern
 

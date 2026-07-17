@@ -19,8 +19,9 @@ user's existing structure; otherwise initialize the templates under
 
 ## Learning rule
 
-Do not claim model-weight retraining, universal memory, hidden telemetry, or
-automatic cross-user learning. Apply the
+Represent the learning boundary accurately as scoped records and reviewed
+promotion rather than model-weight retraining, universal memory, hidden
+telemetry, or automatic cross-user learning. Apply the
 [Live Consultant learning protocol](../../improve-live-consultant/references/learning-protocol.md).
 Session self-checking is automatic and ephemeral. Persistent adaptation uses
 explicitly enabled, reviewable project files:
@@ -36,5 +37,5 @@ Unpromoted candidates never affect behavior. Public-core promotion is a
 separate, sanitized, opt-in, maintainer-reviewed, versioned release process; an
 installed plugin never edits itself at runtime.
 
-Never store raw private transcripts, credentials, customer lists, or secrets in
-the learning ledger. Store redacted operational signals only.
+Store only redacted operational signals in the learning ledger; raw private
+transcripts, credentials, customer lists, and secrets remain outside it.

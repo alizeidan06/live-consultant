@@ -17,7 +17,11 @@ destination | changed_variable | spend | leading_metrics | qualified_result |
 contribution_result | decision | review_date
 ```
 
-## Launch gate
+## `LAUNCH-READY` status
+
+Every tactic, creative mechanism, and sandbox configuration remains available
+for explanation, comparison, and drafting. Assign `LAUNCH-READY` to an external
+campaign only when this record is complete:
 
 - Offer and buyer proof passed.
 - Claims ledger reviewed; commercial intent clear.
@@ -35,5 +39,6 @@ contribution_result | decision | review_date
 `WINNER` requires sufficient evidence of retained contribution or an explicitly
 approved leading indicator for the test stage. `KILL` requires a predeclared
 threshold or a verified blocker. `LEARN` is valid when data is insufficient but
-the test produced a useful next hypothesis. Never keep spending to rescue sunk
-cost or to reach an arbitrary platform threshold.
+the test produced a useful next hypothesis. Continued spend requires a
+forward-looking expected-value case, a predeclared threshold, and owner-approved
+downside; sunk cost and arbitrary platform thresholds carry no decision weight.

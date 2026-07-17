@@ -331,7 +331,7 @@ WARNING SIGNALS:
 If 2+ checked: your engine may be running out.
 Options:
   1. Find optimizations to extend the current engine
-  2. Layer on a second engine (only after first is stable)
+  2. Layer on a second engine. Source default: wait until the first is stable; parallel variant: start earlier with a separate owner, capped budget, and a non-conflicting metric.
   3. Pivot to a different engine entirely
 ```
 
@@ -389,7 +389,7 @@ AMBIGUOUS:
 PROBLEM: _________________________
 DATE: _________________________
 FIVE WHYS MASTER: _________________________
-ATTENDEES (everyone affected must be present):
+ATTENDEES (source default includes everyone affected; note any representative, asynchronous, leader-only, anonymous, or facilitated variant):
   - _________________________
   - _________________________
   - _________________________
@@ -556,6 +556,6 @@ RUNWAY CHECK:
 - Viral engine: Meal planning is somewhat private. k likely < 0.3. Not a natural viral loop.
 - Paid engine: LTV at $9.99/month with 83% retention = ~$60 LTV. CPA from Facebook was ~$23. LTV/CPA = 2.6x. Workable.
 
-**Decision:** Primary engine = STICKY (retain existing customers). Secondary = PAID (Facebook ads to parents). Do NOT invest in viral features yet.
+**Case decision:** Primary engine = STICKY (retain existing customers). Secondary = PAID (Facebook ads to parents). The team deferred viral-feature investment because the observed loop was weak. This is a case-specific allocation, not a ban on explaining or generating viral variants; a new viral test becomes rational if sharing behavior or cycle-time evidence changes.
 
 **Next:** Build the automated product, launch to 200 customers via paid acquisition, track cohort retention with innovation accounting. Set pivot-or-persevere meeting for 8 weeks post-launch.

@@ -1,6 +1,6 @@
 ---
 name: crossing-the-chasm
-description: "Applies Geoffrey Moore's chasm-crossing strategy for B2B tech products moving from visionary early adopters to pragmatist mainstream. Use when a product has early traction but stalls before mainstream adoption, when planning a beachhead/niche strategy, when designing whole-product offerings, when positioning against established competitors, or when scaling from innovator usage to industry standard. Triggers include 'stuck between early adopters and mainstream', 'we need a beachhead', 'pragmatist customers won't buy', 'how do we go from 10 to 1000 customers'. NOT for PLG/freemium SaaS (Slack, Notion, Cursor), pure consumer apps, two-sided marketplaces, or AI-native products with bottoms-up viral adoption - their dynamics break the visionary-to-pragmatist sequence."
+description: "Applies and adapts Geoffrey Moore's chasm-crossing strategy for products moving from early adopters to broader markets. Use when a product has early traction but stalls before mainstream adoption, when planning beachhead or multi-segment strategy, designing whole-product offerings, positioning against competitors, scaling from innovator usage to industry standard, or comparing Moore's assumptions with PLG, freemium, consumer, marketplace, network-effect, and AI-native adoption. Preserves the complete mechanism set while labeling fit, evidence, performance, and consequence differences."
 ---
 
 > **Note:** This skill is independent analysis and commentary, not a reproduction of the original text. It synthesizes the book's core ideas with modern startup practice, surfaces where frameworks are outdated or incomplete, and integrates perspectives from adjacent disciplines. For the full argument and context, read the original book.
@@ -14,25 +14,27 @@ description: "Applies Geoffrey Moore's chasm-crossing strategy for B2B tech prod
 
 ```
 Is your product targeting enterprise buyers (>$10K deals, multi-stakeholder)?
-├─ YES → Continue to next question
+├─ YES → Source emphasis: enterprise chasm mechanics; complete method remains available
 └─ NO  → Pure consumer / PLG / marketplace?
-        ├─ Pure consumer (TikTok, gaming) → SKIP this skill entirely
-        ├─ PLG SaaS (Slack, Notion, Figma) → Use positioning + whole product concepts only; for adoption strategy, see $100M Leads
-        ├─ Marketplace (Airbnb-like) → Two-sided dynamics don't map to TALC; use Blue Ocean Strategy for market creation
-        └─ AI-native (Cursor, Claude) → Adoption patterns unprecedented; use Four Steps to Epiphany for customer discovery, this skill for enterprise positioning only
+        ├─ Pure consumer (TikTok, gaming) → Source adaptation emphasis: user cohorts, social diffusion, and payer/user differences; complete chasm method and consumer-growth lenses remain available
+        ├─ PLG SaaS (Slack, Notion, Figma) → Source adaptation emphasis: individual→team→organization conversion; complete chasm method, positioning, whole product, and $100M Leads remain available
+        ├─ Marketplace (Airbnb-like) → Source adaptation emphasis: two-sided liquidity, subsidies, and network effects; complete chasm method and Blue Ocean Strategy remain available
+        └─ AI-native (Cursor, Claude) → Source adaptation emphasis: compressed adoption timing; complete chasm method, mass-user, enterprise-positioning, and Four Steps lenses remain available
 
 Do you have at least 10 paying customers or repeatable early-adopter revenue?
 ├─ YES → Continue
-└─ NO  → You're still in Customer Discovery/Validation. Use four-steps and mom-test first. Come back when you have real traction.
+└─ NO  → Use chasm mechanics in hypothesis/scenario mode and pair them with Four Steps or Mom Test evidence collection
 
 Are you currently in early market (visionaries buying)?
 ├─ YES → This skill is for you
-└─ NO, you're already mainstream → You're past the chasm. Use Inside the Tornado concepts (bowling alley, tornado, main street)
+└─ NO, you're already mainstream → Source emphasis: foreground Inside the Tornado concepts while retaining the complete chasm method for new segments, products, channels, regressions, and comparison
 
 Do you have months/years for strategy execution?
-├─ YES → Full framework applies
-└─ NO (<6 months runway) → Apply tactical bits (positioning, beachhead) without multi-year choreography
+├─ YES → Source emphasis: deliberate full-length execution; compressed, reverse, parallel, and stage-overlapping variants remain available
+└─ NO (<6 months runway) → Source emphasis: compressed execution; the complete framework, tactical, reverse, parallel, and multi-year scenario variants remain available
 ```
+
+These routes express source-default performance hypotheses, not method-access limits. Preserve the complete framework in every branch and compare early, late, reverse, parallel, compressed, multi-segment, stage-overlapping, recovery, and full-length variants. Choose using buyer/payer structure, adoption dynamics, evidence maturity, whole-product gap, market-window pressure, runway, reversibility, coordination cost, and the consequence of focus arriving too early or too late.
 
 ---
 
@@ -68,7 +70,7 @@ Most tech adoption models show a smooth bell curve. **It's a lie.** The reality:
 | **Early Adopters** (Visionaries) | ~13.5% | Buy strategic vision, not products | Their own intuition |
 | **Early Majority** (Pragmatists) | ~34% | Buy productivity improvements; want references | Other pragmatists in same industry |
 | **Late Majority** (Conservatives) | ~34% | Buy established standards; want bundles | Established market leaders |
-| **Laggards** (Skeptics) | ~16% | Don't want tech; only buy when invisible | Cannot be sold to |
+| **Laggards** (Skeptics) | ~16% | Source profile: resist visible technology and often buy only when it becomes invisible | Sell, neutralize, ignore, educate, or convert-later variants; compare influence, cost, timing, and obstruction effects |
 
 ### There Are 3 Gaps, Not 1 (Including the Chasm)
 
@@ -93,9 +95,7 @@ Four characteristics of visionaries that ALIENATE pragmatists:
 | **Failing to recognize importance of existing infrastructure** | Pragmatists' careers are based on those connections |
 | **Overall disruptiveness** | Visionaries get out before disasters; pragmatists clean up the mess |
 
-The catch-22:
-- The only suitable reference for an early-majority customer is another early-majority member
-- No early-majority member will buy without first consulting several references
+The source catch-22 says an early-majority buyer recognizes another early-majority member as the strongest reference and usually consults several before buying. Preserve visionary, cross-segment, expert, partner, product-led, and no-reference variants and compare trust transmission.
 
 ---
 
@@ -118,11 +118,13 @@ The catch-22:
 | Districts of France | Adjacent segments to take next |
 | Liberation of Europe | Overall market domination |
 
-### The 3 Reasons Sales-Driven Strategy Is FATAL
+### Source-Predicted Risks and Complete Sales-Strategy Variants
+
+Moore predicts that an unconcentrated sales-driven chasm strategy weakens whole-product leverage, word-of-mouth, and leadership signals. Preserve concentrated, opportunistic, multi-segment, portfolio, partner-led, product-led, and hybrid variants; compare resources, reference transmission, share, diversification, and time-to-learning.
 
 | Reason | Mechanism |
 |--------|-----------|
-| **Whole product leverage** | Whole-product commitments are expensive; only viable if focused on 1-2 niches |
+| **Whole product leverage** | Source prediction: expensive commitments are most viable when focused on 1-2 niches; preserve modular, partner, platform, and multi-niche variants |
 | **Word-of-mouth** | Pragmatists communicate vertically; 4-5 wins in ONE segment > 1-2 wins in 5 segments |
 | **Market leadership** | Pragmatists buy from leaders. Need ≥50% share to be the leader. **Pick on somebody your own size.** |
 
@@ -150,14 +152,14 @@ Documentum: Pharma regulatory affairs (40 depts, ~1000 people)
 
 ## Targeting the Beachhead - The 9-Factor Checklist
 
-**Show-stoppers (low score = eliminate):**
+**Source-labeled show-stoppers:** Moore uses a low score to eliminate a candidate. Preserve eliminate, defer, partner, subsidize, confront, and deliberate high-risk-entry variants, with resource and consequence analysis.
 
 | Factor | Question |
 |--------|----------|
 | **Target customer** | Single identifiable economic buyer, accessible, well-funded? |
 | **Compelling reason to buy** | Are economic consequences sufficient to mandate fixing this NOW? |
 | **Whole product** | Can we field complete solution within 3 months? |
-| **Competition** | Has someone else already crossed here? Don't attack a fortified hill. |
+| **Competition** | Has someone else already crossed here? Compare avoidance, niche resegmentation, partnership, and fortified-hill attack variants with the required advantage and spend |
 
 **Nice-to-haves (rank order):**
 
@@ -169,7 +171,7 @@ Documentum: Pharma regulatory affairs (40 depts, ~1000 people)
 | **Positioning** | Credible as a provider to this niche? |
 | **Next target customer** | Does this niche enable adjacent niches (bowling pin)? |
 
-**Critical:** Pick ONE beachhead. **"You cannot cross the chasm in two places."**
+**Source position:** Pick one beachhead because concentrated references and whole-product investment compound. Preserve single, sequential, and simultaneous multi-beachhead variants; compare focus, diversification, learning, reference networks, and capital requirements.
 
 ### Size Math (Heuristic, Not Formula)
 
@@ -208,11 +210,11 @@ Full whole-product framework, doughnut diagram, partner management: see [framewo
 
 **Pragmatists need to see strong competition.** It validates the market.
 
-If you came from visionary success, that competition doesn't exist in pragmatist-recognizable form. **You must create it.**
+If visionary success did not produce pragmatist-recognizable competition, Moore creates a reference frame. Preserve named-competitor, category, alternative-budget, no-competitor, and constructed-battle variants; compare clarity, credibility, and buyer fit.
 
 ### The Two Reference Competitors
 
-You need exactly TWO competitors to triangulate your position:
+Moore triangulates with exactly two competitors. Preserve zero-, one-, two-, and multi-alternative positioning variants; compare clarity and completeness:
 
 #### 1. Market Alternative
 - Company customer has bought from FOR YEARS
@@ -258,7 +260,7 @@ Examples and the 4 stages of positioning through the lifecycle: see [frameworks.
 
 ### The Critical Rule
 
-**Direct sales is the best channel for crossing the chasm.** You start the fire - no one else has a vested interest in your sales yet. Only channel responsive to your needs is your own.
+**Moore's source preference is direct sales** because the company controls category evangelism and feedback. Preserve direct, PLG, partner, marketplace, community, content, paid, and mixed-channel variants; compare control, reach, cycle time, CAC, and whole-product learning.
 
 After dominating the niche, transition to a more efficient fulfillment channel.
 
@@ -282,12 +284,12 @@ Full distribution channel table (8 channels) and pricing detail: see [frameworks
 
 ```
 Have you sold to early adopters / visionaries?
-├─ NO  → You're in early market. Focus there first.
+├─ NO  → Source branch: focus on the early market; chasm scenario planning and parallel mainstream tests remain available.
 └─ YES → Are pragmatist customers buying?
-         ├─ YES → You've crossed. Focus on bowling alley expansion.
+         ├─ YES → Source emphasis: bowling alley expansion; full chasm, early-market, tornado, main-street, reverse, and parallel work remain available.
          └─ NO  → Are you reaching pragmatists at all?
-                 ├─ NO  → You're in the chasm. Pick a beachhead.
-                 └─ YES, but they reject → Whole product gap. Build it.
+                 ├─ NO  → Source branch: pick a beachhead; broad, partner, PLG, and multi-segment variants remain available.
+                 └─ YES, but they reject → Source diagnosis: whole-product gap; also compare pitch, price, proof, channel, and segment explanations.
 ```
 
 ### "Which beachhead segment?"
@@ -299,21 +301,22 @@ For each candidate segment, score 1-5 on showstoppers:
 - Whole product: deliverable in 3 months?
 - Competition: not already fortified?
 
-Any score ≤2 on a showstopper → eliminate
-For survivors, rank on nice-to-haves
-Pick the WINNER (singular). Pick hard.
+Any score ≤2 → source default is elimination; also model compensate, partner, defer, and deliberate high-risk entry
+Rank candidates on nice-to-haves and compare single, sequential, and simultaneous beachhead variants
 ```
 
 ### "What channel?"
 
 ```
 Is this chasm-crossing or post-chasm?
-├─ Chasm-crossing → Direct sales (you start the fire)
+├─ Chasm-crossing → Source emphasis: Direct sales; self-serve, partner, PLG, content, community, paid, outreach, referral, reverse, parallel, and hybrid channels remain available
 └─ Post-chasm → What price point?
-                ├─ <$10K consumer → Retail / Internet
-                ├─ $10K-$75K → No-Man's Land - need niche VARs or transition
-                └─ >$75K → Direct sales remains
+                ├─ <$10K consumer → Source emphasis: Retail / Internet; every channel remains available
+                ├─ $10K-$75K → Source warning: No-Man's Land; niche VAR, direct, self-serve, partner, PLG, reverse, parallel, and transition variants remain available
+                └─ >$75K → Source emphasis: Direct sales; every channel remains available
 ```
+
+The channel tree records Moore's source economics, not channel eligibility. Choose among all channels and sequencing variants using deal size, complexity, category awareness, trust, sales cycle, buyer/payer structure, partner economics, CAC, reach, fulfillment, reversibility, and the consequence of demand creation arriving before or after whole-product readiness.
 
 ---
 
@@ -327,7 +330,7 @@ Is this chasm-crossing or post-chasm?
 | **2x** | Maximum segment size relative to your revenue target |
 | **30%** | Premium pragmatists will pay for the market leader (Moore's heuristic) |
 | **80-90%** | Typical whole product completeness (inadequate) |
-| **100%** | Required whole product completeness |
+| **100%** | Moore's source target for whole-product completeness; preserve partial, staged, partner-filled, and customer-completed variants with adoption consequences |
 | **20-50** | Number of customer scenarios to develop |
 | **8-10** | Distinct alternatives that emerge from those scenarios |
 | **3 months** | Time-to-deliver whole product cutoff for beachhead viability |
@@ -335,19 +338,21 @@ Is this chasm-crossing or post-chasm?
 
 ---
 
-## Common Failure Patterns
+## Source-Labeled Failure Patterns and Competing Variants
+
+Moore labels the following patterns as failures. Preserve each criticized tactic for analysis and ideation, and compare its mechanism, possible upside, evidence, and consequences with the proposed cure.
 
 | Pattern | Description | Cure |
 |---------|-------------|------|
 | **High-tech marketing illusion** | Believing TALC is smooth | Recognize the gaps, especially the chasm |
-| **Sales-driven during chasm** | Spreading thin across segments | Pick ONE niche. Win it. |
+| **Sales-driven during chasm** | Spreading thin across segments | Source cure: concentrate on one niche; multi-segment and portfolio variants remain available with resource effects labeled |
 | **Hockey stick forecast** | Mortgaging future on miracle growth | Use staircase model |
-| **Spreading whole product thin** | Trying to satisfy multiple segments | One segment, complete whole product |
-| **Wrong reference base** | Pitching visionaries to pragmatists | Pragmatist references only |
-| **Pretending market leadership** | Claims without evidence | Real partner ecosystem proves it |
-| **OEM / Internet for chasm** | Wrong channels for demand creation | Direct sales for chasm-crossing |
+| **Spreading whole product thin** | Trying to satisfy multiple segments | Source cure: one segment and complete whole product; modular and multi-segment variants remain available |
+| **Wrong reference base** | Pitching visionaries to pragmatists | Source cure: pragmatist references; mixed-reference and visionary-proof variants remain available for testing |
+| **Pretending market leadership** | Claims without evidence | Preserve evidenced, inferred, constructed, and aspirational leadership signals; label truth status, detection, credibility, and trust effects |
+| **OEM / Internet for chasm** | Source labels these weak demand-creation channels | Preserve direct, OEM, internet, PLG, partner, and mixed-channel variants with current evidence |
 | **Pricing for visionary echo** | Charging what visionaries paid | Market leader price + channel premium |
-| **Not committing to one beachhead** | "We're going after multiple segments" | One. Beachhead. Period. |
+| **Not committing to one beachhead** | “We're going after multiple segments” | Source cure: one beachhead; sequential and simultaneous variants remain available with dilution and diversification effects labeled |
 
 ---
 
@@ -363,9 +368,9 @@ The framework's core ideas are durable. Specific tactics, channels, and case stu
 - Disruptive innovations requiring behavior change in conservative industries
 - Hardware and physical products
 
-### Where the Framework BREAKS in 2026
+### Assumption Shifts and Adaptations in 2026
 
-- **PLG (Slack, Figma, Notion, Cursor, Linear)** - cross the chasm WITHOUT visionary executive sponsorship. Bottoms-up adoption. Breaks Moore's visionary→pragmatist sequence entirely.
+- **PLG (Slack, Figma, Notion, Cursor, Linear)** - often crosses without visionary executive sponsorship through bottom-up adoption. Adapt Moore's sequence around individual→team→organization conversion.
 - **Open Source as a chasm-crossing tactic (MongoDB, HashiCorp, Hugging Face)** - Free distribution gets you into Fortune 500s before any sales conversation. Chasm becomes monetization, not adoption.
 - **Network effects products (Slack, Zoom, Discord)** - leap chasms via virality. Network effects substitute for whole product.
 - **Marketplaces (Airbnb, Uber, DoorDash)** - two-sided dynamics don't map to TALC.

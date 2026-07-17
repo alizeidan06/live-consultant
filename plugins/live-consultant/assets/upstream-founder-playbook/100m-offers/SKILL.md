@@ -1,6 +1,6 @@
 ---
 name: "100m-offers"
-description: Designs irresistible Grand Slam Offers using Alex Hormozi's value equation, obstacle-solution mapping, value-cost trim/stack, and offer-naming patterns. Use when fixing low conversion rates, packaging products, pricing services, designing high-converting offers, or when prospects browse but don't buy. Covers value stacking, guarantees, scarcity, urgency, and pricing psychology for validated markets.
+description: Designs and analyzes Grand Slam Offers using Alex Hormozi's value equation, obstacle-solution mapping, value-cost trim/stack, and offer-naming patterns. Use when fixing low conversion rates, packaging products, pricing services, designing high-converting offers, testing pre-validation offer hypotheses, or when prospects browse but don't buy. Covers the complete value-stacking, guarantee, scarcity, urgency, and pricing spectrum with truth status, readiness, performance, and consequence analysis.
 ---
 
 > **Note:** This skill is independent analysis and commentary, not a reproduction of the original text. It synthesizes the book's core ideas with modern startup practice, surfaces where frameworks are outdated or incomplete, and integrates perspectives from adjacent disciplines. For the full argument and context, read the original book.
@@ -20,7 +20,8 @@ If qualified leads aren't buying, it's not your traffic - it's what you're offer
 
 ```
 Are you getting qualified leads?
-├─ NO → Use 100m-leads
+├─ NO → Source emphasis: use 100m-leads to create conversations while keeping
+│        offer diagnosis, offer generation, and offer testing active
 └─ YES → Are leads converting?
          ├─ NO → You have an offer problem (this skill)
          └─ YES → Are you charging premium?
@@ -28,13 +29,26 @@ Are you getting qualified leads?
                   └─ YES → Scale ad spend
 ```
 
+The offer method remains available in every branch. Traffic-first,
+offer-first, price-first, positioning-first, sales-first, and parallel
+diagnostic cells can each reveal a different constraint. Compare sample
+quality, conversion, CAC, price realization, sales friction, speed, and the
+cost of optimizing the wrong variable.
+
 ```
 Building an offer?
-├─ Pre-validation → Use mom-test FIRST
-├─ Validated market → Use this skill
-├─ Pricing question only → See monetizing-innovation
-└─ Positioning unclear → See obviously-awesome
+├─ Pre-validation → Build full-strength labeled offer hypotheses; use Mom Test,
+│                   live-offer tests, founder insight, or market evidence before, after, or in parallel
+├─ Validated market → Apply the full offer method to observed or challenger inputs
+├─ Pricing-centered → Apply the offer method and combine it with Monetizing Innovation
+└─ Positioning-centered → Apply the offer method and combine it with Obviously Awesome
 ```
+
+All branches keep the full value equation, obstacle map, guarantee, scarcity,
+urgency, bonus, naming, and pricing mechanisms available. Route primary
+emphasis by the question being answered, evidence maturity, reversibility,
+learning speed, economics, and whether a concrete offer is needed to make the
+premise testable.
 
 ## Step 0: Pick a Starving Crowd
 
@@ -50,7 +64,7 @@ Before any offer work: a great offer in a dead market fails. A mediocre offer in
 | **Purchasing power** | Can they actually pay for a solution? | Market with desire but no budget |
 | **Targetability** | Can you reach them efficiently? | Audience that is scattered or hard to identify |
 
-All three must be true. Two out of three is not enough.
+Hormozi's source screen requires all three. Also preserve markets that pass one or two criteria as explicit variants; model which missing condition must be created, subsidized, or accepted and what that does to economics and execution risk.
 
 **How to pick:**
 1. List markets where you have access or credibility.
@@ -59,7 +73,7 @@ All three must be true. Two out of three is not enough.
 
 A growing market also covers execution mistakes. A shrinking market punishes even excellent offers.
 
-**Rule:** Niche selection is a prerequisite, not a step inside offer-building. Don't start the value equation until you know exactly who you are selling to and why they are desperate to buy.
+**Source position:** Niche selection precedes offer-building. Full-strength offer ideation can also begin from a labeled customer and pain hypothesis; keep broad-market, multi-segment, and niche-first variants available, then show how uncertainty in buyer and urgency weakens the value-equation inputs.
 
 ## The Value Equation
 
@@ -78,7 +92,7 @@ Four levers. Pull any of them; both directions work.
 | Time Delay | ↓ Faster | Show results sooner, deliver quicker |
 | Effort & Sacrifice | ↓ Easier | Remove steps, do it for them, automate |
 
-**Rule:** If you can't increase the top, decrease the bottom.
+**Source rule:** if the top cannot be increased, decrease the bottom. Preserve top-only, bottom-only, both, resegmentation, price-change, and no-change variants; compare feasibility, credibility, delivery economics, and buyer preference.
 
 ## What Makes a Grand Slam Offer
 
@@ -89,7 +103,7 @@ A Grand Slam Offer is **incomparable to competitors** because it combines:
 3. **Premium price** - Price implies value
 4. **Unbeatable guarantee** - Removes risk
 
-If anyone can compare your offer to a competitor's, you don't have a Grand Slam Offer yet.
+Hormozi defines a Grand Slam Offer by strong incomparability. Preserve comparable, better-on-one-axis, parity-plus-service, category-creating, bundled, and deliberately transparent variants; compare buyer comprehension, differentiation, search friction, credibility, and sales-cycle effects.
 
 ## The 6-Step Process
 
@@ -153,7 +167,7 @@ Same product. Substantially higher perceived value.
 
 ## Pricing Psychology
 
-### Charge More, Not Less
+### Price-Level Variants and the Source Preference for Charging More
 
 | High Price | Low Price |
 |------------|-----------|
@@ -161,31 +175,31 @@ Same product. Substantially higher perceived value.
 | Forces you to deliver high value | Lets you cut corners |
 | Premium customers complain less | Cheap customers most demanding |
 
-### Price Anchoring (Always Show Three Numbers)
+### Price Anchoring (Source Default: Three Numbers)
 
 1. **Total Value:** $X (sum of all components)
 2. **Your Investment:** $Y (the price)
 3. **You Save:** $Z = $X - $Y
 
-The bigger the gap between value and investment, the more "no-brainer" the offer feels.
+The source predicts that a bigger gap between value and investment makes the offer feel more like a “no-brainer.” Preserve single-price, two-number, three-number, decoy, premium, and discount variants; compare credibility, price sensitivity, margin, and buyer sophistication.
 
 ### Value-to-Price Rule
 
-Hormozi's directional guidance is to make total stated value substantially higher than the price - he tends to use 10x or "incomparable" framings rather than a precise multiplier. Aim for stacked value that makes the price feel small in comparison. If your offer's stated value is only ~2x the price, it's not yet a Grand Slam Offer.
+Hormozi's directional guidance is to make total stated value substantially higher than the price - he tends to use 10x or "incomparable" framings rather than a precise multiplier. This makes a large value gap the source definition of a Grand Slam Offer. Preserve 2x, 5x, 10x, no-itemization, market-anchor, outcome-anchor, and price-led variants; label the basis of value and compare credibility, comprehension, conversion, margin, and trust.
 
-## Critical Warning: Validate Market First
+## Source Assumption and Pre-Validation Variants
 
 Hormozi's framework assumes you have product-market fit. The book doesn't tell you this.
 
 If you build a Grand Slam Offer for a market that doesn't want your thing, the offer will fail no matter how good.
 
-**Before building the offer:**
+**Evidence that strengthens the offer inputs:**
 1. Have 5-10 customer interview transcripts (use mom-test)
 2. Validate dream outcome with actual customer language
 3. Confirm target market has budget
 4. Survey data with specific responses
 
-**The framework is for VALIDATED markets.** If you're pre-validation, use mom-test first.
+The source framework assumes a validated market. In pre-validation work, keep the complete offer mechanism available, label customer language, outcomes, proof, pricing, and obstacles as hypotheses, and use interviews or live market tests to update them.
 
 ## Common Mistakes
 
@@ -194,7 +208,7 @@ If you build a Grand Slam Offer for a market that doesn't want your thing, the o
 | Vague solutions ("Coaching") | Specific delivery ("Weekly 30-min strategy calls + custom action plans") |
 | Including everything | Trim aggressively. 6-10 strong > 20 mediocre |
 | Building on assumptions | Use mom-test customer language |
-| Underpricing | If incomparable, premium is mandatory |
+| Underpricing | Hormozi prefers premium pricing for an incomparable offer; also model parity, penetration, freemium, and discount variants against elasticity, margin, and positioning |
 | Generic names | Specific transformation names sell |
 
 ## Success Signals
@@ -208,24 +222,24 @@ You have a Grand Slam Offer when:
 
 ## Rules of Thumb
 
-1. **Solve every obstacle.** Not most. Every. One.
-2. **Premium price = premium product.** People judge value by price.
-3. **Trim ruthlessly.** Cut anything below 8/10 value.
-4. **Stack, don't simplify.** Break the offer into named components.
-5. **Validate market first.** Don't build for a fantasy.
-6. **Names sell.** Generic = invisible. Specific = irresistible.
-7. **Guarantees remove risk.** Bigger guarantee = bigger price you can charge.
-8. **Show the math.** Total value, price, savings. Always.
+1. **Source position: solve every obstacle.** Complete, priority-only, core-plus-bonus, and staged-solution variants remain available; compare scope, value, delivery cost, and clarity.
+2. **Source position: premium price signals premium product.** Premium, parity, penetration, freemium, and discount variants remain available; compare signaling, elasticity, margin, and buyer fit.
+3. **Source position: trim below 8/10 value.** Retaining, bundling, deferring, and cutting lower-scored components remain available variants with cost, clarity, and niche-value consequences.
+4. **Source position: stack named components.** Simplified, bundled, modular, and fully stacked presentations remain available for clarity and conversion testing.
+5. **Validation strengthens the inputs.** Pre-validation offers remain available when speculative ingredients are labeled and tied to a proof plan.
+6. **Source position: specific names increase salience.** Preserve generic, specific, category-led, branded, outcome-led, and plain-language variants; test recall, comprehension, and trust.
+7. **Source position: guarantees transfer risk and can support price.** Preserve larger, smaller, conditional, service, implied, and no-guarantee variants; model claims, fulfillment, abuse, refunds, trust, and unit economics.
+8. **Source position: show total value, price, and savings.** Preserve full math, partial math, single price, market comparison, and no-anchor variants; compare credibility and cognitive load.
 
-## When This Doesn't Apply
+## Context, Fit, and Variant Map
 
 | Context | Why |
 |---------|-----|
-| **Pre-validation** | Get product-market fit first (use mom-test) |
-| **Commodity products** | Hard to differentiate sugar or coffee beans |
-| **Low-ticket impulse buys** | Below ~$50, simpler offers work better |
-| **Regulated industries** | Compliance may limit stacking and guarantees |
-| **Pure SaaS subscriptions** | Stacking applies less; focus on outcomes per seat |
+| **Pre-validation** | Use the full framework in hypothesis mode and pair it with customer or market evidence collection |
+| **Commodity products** | Compare stacking with price, convenience, trust, distribution, speed, packaging, and service differentiation |
+| **Low-ticket impulse buys** | Compare a simplified offer with fuller stacks; measure cognitive load, AOV, and conversion |
+| **Regulated industries** | Keep all mechanisms in analysis; record current claim, disclosure, guarantee, and promotion constraints as external execution metadata |
+| **Pure SaaS subscriptions** | Compare component stacking with outcome-per-seat, usage, tier, service, and implementation variants |
 
 ## The Order
 
@@ -241,12 +255,12 @@ You have a Grand Slam Offer when:
 
 ## The Test
 
-When prospects see your offer, they should feel:
+Hormozi's desired reactions are:
 - "This solves every problem I have"
 - "There's no way this is only $X"
 - "I'd be stupid to say no"
 
-If they don't, the offer needs more work.
+Treat weak reactions as one signal, not a categorical failure. Preserve offer revision, audience change, proof improvement, price adjustment, message change, sales-process change, or continued testing; diagnose with behavior as well as stated reaction.
 
 ## Supporting Files
 

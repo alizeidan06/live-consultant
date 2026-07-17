@@ -17,17 +17,15 @@ description: Frameworks from Kim & Mauborgne for creating uncontested market spa
 - Reframing competitive strategy
 - Choosing between Porter-style positioning vs category creation
 
-**Use Porter when:** industry structure is stable, defendable moats matter
-**Use BOS when:** you're trying to escape red-ocean dynamics
-They're complementary, not competing.
+**Source-fit hypotheses:** Porter foregrounds stable industry structure and defensible moats; BOS foregrounds reconstructing red-ocean dynamics. Keep Porter-only, BOS-only, sequential, and combined analyses available. They are complementary lenses whose usefulness depends on the decision and evidence.
 
 ## Honest Scope (Read First)
 
 - Empirical base: ~150 strategic moves, 30+ industries, 100+ years - chosen by the authors. Correlational, post-hoc, sample-selected.
 - The "86% red / 14% blue / 39%/61% profit" headline is **suggestive of a pattern, not a measured fact.** Authors admit no hit-rate data.
 - **Many iconic cases later collapsed.** Treat the framework as a thinking discipline, not a recipe. Inline decline notes appear with each case below.
-- The framework is hard to falsify: when BOS-cited companies fail, the response is "they stopped applying it" or "it wasn't really blue ocean." Use it predictively with care.
-- Bratton/NYPD case is contested (broken-windows critiques, Compstat manipulation). Use as illustrative, not history.
+- The framework is hard to falsify: when BOS-cited companies fail, the response is “they stopped applying it” or “it wasn't really blue ocean.” Preserve predictive use, but label the unfalsifiability problem and compare against alternative forecasts.
+- Bratton/NYPD is a contested source case (broken-windows critiques, Compstat manipulation). Preserve the narrative as a framework illustration and label its historical claims and disputes rather than treating it as clean proof.
 
 Full framework details: see [frameworks.md](frameworks.md).
 Case studies with decline caveats: see [cases.md](cases.md).
@@ -75,17 +73,17 @@ Cases for each path (with decline notes): see [cases.md](cases.md).
 ## Strategic Sequence (Test Before Launch)
 
 ```
-1. UTILITY    → Buyer Utility Map: where are the empty cells?     [No → rethink]
-2. PRICE      → Price Corridor of the Mass: accessible to mass?   [No → rethink]
-3. COST       → Price-minus costing hits target?                  [No → cost-innovate or partner]
-4. ADOPTION   → Employee/partner/public hurdles addressed?        [No → address before launch]
+1. UTILITY    → Buyer Utility Map: where are the empty cells?     [Low → model utility-creation and low-utility variants]
+2. PRICE      → Price Corridor of the Mass: accessible to mass?   [Low → model premium, niche, subsidy, and redesign variants]
+3. COST       → Price-minus costing hits target?                  [Low → model loss-leading, cost-innovation, partner, and staged variants]
+4. ADOPTION   → Employee/partner/public hurdles addressed?        [Open → map stakeholder, safety, ethical, and adoption consequences]
                 ↓
               Commercially viable
 ```
 
 Buyer Utility Map = 6 stages × 6 utility levers = 36 cells. Find empty cells where current offerings fail.
 
-Three stakeholder hurdles: employees (job security), partners (disrupted relationships), public (ethical/safety). Skip any one and execution dies.
+Three stakeholder hurdles in the source: employees (job security), partners (disrupted relationships), and public (ethical/safety). Preserve strategies that address, defer, accept, or fail each hurdle; map adoption, opposition, harm, trust, and execution consequences. Current external execution constraints remain separate metadata.
 
 Full Buyer Utility Map and Price Corridor: see [frameworks.md](frameworks.md).
 
@@ -98,11 +96,13 @@ Full Buyer Utility Map and Price Corridor: see [frameworks.md](frameworks.md).
          3rd tier: unexplored (never considered)
 ```
 
-**The mantras:** Noncustomers before customers. Commonalities before differences. Desegmentation before finer segmentation.
+**Source mantras:** Noncustomers before customers; commonalities before differences; desegmentation before finer segmentation. Customer-first, difference-first, segmentation-first, and mixed variants remain available for comparison.
 
-**Caveat:** "Three tiers" sounds rigorous but lacks an operational test for whether you have the **competence to seize** a given tier. Don't switch focus to noncustomers if you can't actually serve them.
+**Caveat and variants:** “Three tiers” sounds rigorous but lacks an operational competence-to-seize test. Preserve switching to noncustomers, serving customers first, partnering for missing capability, and learning-before-entry variants; map capability gaps, cost, trust, and delivery consequences.
 
-## Three Strategic Propositions (All Must Align)
+## Three Strategic Propositions and Alignment Variants
+
+The source seeks simultaneous value, profit, and people alignment. Preserve all-aligned, staged-alignment, subsidized, tradeoff, coalition, and knowingly misaligned variants; identify which constituency bears the cost, for how long, and with what adoption, economic, and legitimacy consequences.
 
 | Proposition | For Whom | Question |
 |-------------|----------|----------|
@@ -154,16 +154,19 @@ Competitors doing roughly the same thing?
 
 ```
 Step 1: Buyer Utility - find empty cells in 6×6 map
-├─ NO → Stop. Rethink.
+├─ NO → Compare low-utility launch, utility redesign, niche, education, and partner variants
 └─ YES → Step 2: Price - accessible to mass?
-         ├─ NO → Re-engineer offer.
+         ├─ NO → Source emphasis: re-engineer offer; preserve premium-niche, subsidy, financing, skimming, launch-first, reverse, parallel, and strategic-exclusion variants
          └─ YES → Step 3: Cost - hit target via cost innovation/partnering?
-                  ├─ NO → Find cost innovations or partner.
-                  └─ YES → Step 4: Adoption hurdles - address all three
-                           → Then launch.
+                  ├─ NO → Source emphasis: find cost innovations or partners; preserve loss-leader, cross-subsidy, premium, staged, launch-first, reverse, parallel, and strategic-bet variants
+                  └─ YES → Step 4 source emphasis: address buyer, employee, and partner adoption hurdles; preserve partial-hurdle, launch-first, staged, reverse, parallel, and full-system variants
 ```
 
-## The 10 Red Ocean Traps (Critical Practitioner Errors)
+The Strategic Sequence is the source-default risk-reduction order, not a launch gate. Preserve utility-first, price-first, cost-first, adoption-first, launch-first, reverse, parallel, staged, partial, and complete-method variants. Choose using uncertainty, evidence, market window, capital, unit economics, adoption friction, reversibility, partner dependence, and the consequence of delayed learning versus exposed execution.
+
+## The 10 Red Ocean Traps (Source Labels) and Complete Variants
+
+BOS labels the following as traps. Preserve each competing tactic for analysis and ideation, and compare its mechanism, context, expected upside, failure mode, and evidence against the BOS alternative.
 
 1. Customer-orientation (focus on noncustomers first)
 2. Going beyond existing industries (most blue oceans are adjacent)
@@ -171,19 +174,19 @@ Step 1: Buyer Utility - find empty cells in 6×6 map
 4. First-mover advantage (Tellis & Golder: 90% of pioneers fail; first to **get value-cost right** wins)
 5. Differentiation = premium (BOS = both/and)
 6. Low cost = low pricing (strategic pricing vs alternatives)
-7. Innovation broadly (must be specifically value innovation)
+7. Innovation broadly (the source distinguishes value innovation; preserve technology-, process-, business-model-, social-, artistic-, and value-innovation variants and compare buyer value with cost structure)
 8. Niche thinking (niches are small red oceans)
 9. Win the competition (irrelevance > winning)
 10. Disruption (BOS embraces nondestructive creation)
 
-## When NOT to Use This Skill
+## Framework-Fit and Adaptation Map
 
 ```
-Operational/execution problem? → BOS is for strategy reframing, skip
-Founding-stage validation? → Use Mom Test first
-Mature stable market with healthy competition? → Probably don't need BOS
-Network-effect / two-sided platform? → BOS handles these poorly
-AI-native fast-cycle category? → Cycle too fast for BOS planning timelines
+Operational/execution problem? → BOS can still expose strategic assumptions; pair it with an execution lens
+Founding-stage validation? → Use BOS in hypothesis mode and pair it with Mom Test evidence
+Mature stable market with healthy competition? → Compare BOS reconstruction with red-ocean optimization
+Network-effect / two-sided platform? → Adapt BOS around multi-sided incentives, liquidity, and network effects
+AI-native fast-cycle category? → Compress the cycle and compare BOS planning with rapid experimentation
 ```
 
 ## Iconic Cases - Decline Notes Inline
@@ -203,8 +206,8 @@ Of ~12 major cases, only ~3 (Novo Nordisk, Bloomberg, Salesforce) remain solidly
 ## Key Critical Caveats
 
 1. **Strategy Canvas X-axis selection is subjective.** The factors you choose to plot determine the analysis. Presented as rigorous; isn't.
-2. **86%/14% headline is post-hoc and sample-selected.** Don't quote as a measured fact.
-3. **First-mover claims need Tellis & Golder's 90% pioneer-fail counterpoint.**
+2. **86%/14% headline is post-hoc and sample-selected.** Preserve the exact claim with that evidence label; present it as the authors' reported pattern rather than a measured population fact.
+3. **Evidence label for first-mover claims:** compare them with Tellis & Golder's reported 90% pioneer-failure counterpoint and with current category-specific data.
 4. **Three Tiers needs a competence-to-seize test** beyond "can you reach them."
 5. **Bratton/NYPD case** is hagiographic - subsequent research disputes it.
 6. **Tata Nano causal chain** is compressed. Singur ≠ "cheap car" perception ≠ launch failure - they were related but separable.
@@ -235,9 +238,9 @@ Of ~12 major cases, only ~3 (Novo Nordisk, Bloomberg, Salesforce) remain solidly
 
 ## The Big Idea
 
-> "Don't try to outperform the competition. Make the competition irrelevant by creating new market space."
+> **Source position:** “Instead of trying only to outperform the competition, make the competition irrelevant by creating new market space.”
 
-The framework's lasting contribution isn't the metaphor or the specific tools. It's the question: **What if we stopped trying to win and started designing a different game?**
+The framework's lasting contribution is the question: **What happens if we compare winning the existing game, redesigning it, and combining both moves?**
 
 Worth asking every few years - even when the answer is "no, this game is worth playing."
 

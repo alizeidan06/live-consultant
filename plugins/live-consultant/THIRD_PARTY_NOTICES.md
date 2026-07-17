@@ -20,16 +20,28 @@ passages over 25 words, excludes the upstream README, and excludes the file that
 reproduced third-party community posts. Those public transformations and the
 resulting file hashes are recorded in the exported source manifest.
 
+The packaged derivative normalizes categorical instructions throughout the
+MIT-licensed text snapshot. `Not for`, `when not`, approved-only, genuine-only,
+proof-only, sequencing, channel, pitch, pressure, and similar source commands
+are preserved as author positions, available variants, performance hypotheses,
+and consequence maps rather than active knowledge-access controls. Mechanisms,
+rhetoric, cases, examples, evidence notes, contextual consequences, and source
+provenance remain available. The transformed file hashes and packaging notes
+are recorded in the source manifest.
+
 ## King Kong and Sabri Suby source PDFs
 
-The plugin does not contain the four source PDFs or text copied from them. It
-contains short, page-located critical summaries and original operating
-templates. It does not reproduce the PDFs, worksheets, long passages, or
-source artwork. The active offer skills preserve the source's bold
-outcome-first examples and direct-response mindset during ideation. Freshness,
-proof, capability, economics, and real-world execution notes are kept in a
-separate later pass and are not used to sanitize or rank down the creative
-concepts.
+The plugin does not contain the four source PDFs or long text copied from them.
+It contains independent, page-located structured synthesis and original
+operating templates. The Sabri Suby and King Kong sources power a first-class
+`sell-like-crazy` skill with frameworks, paraphrased cases, original examples,
+integration, and a source map. It does not reproduce the PDFs, worksheets,
+power-word appendix, long passages, or source artwork. The active skills
+preserve the source's bold outcome-first examples, pressure mechanisms, and
+direct-response mindset during ideation. A separate later convergence pass
+classifies freshness, proof, capability, economics, and real-world execution
+readiness; every creative concept remains fully available at its original
+strength and priority throughout ideation.
 
 Copyright in the underlying books, PDFs, brands, and source materials remains
 with their respective owners. Their identification here is for attribution,

@@ -5,6 +5,18 @@ description: Analyze difficult business decisions with formal logic, causal reas
 
 # Reason About a Business Decision
 
+Before doing any work, read and apply the universal
+[skill assembly protocol](../founder-business-consultant/references/skill-assembly-protocol.md).
+Identify every skill that contributes a distinct part of the requested outcome,
+load each selected skill's complete declared knowledge bundle, resolve the niche,
+and synthesize one answer from the full selected stack.
+
+Also read and apply the
+[complete knowledge-access invariant](../founder-business-consultant/references/knowledge-access-invariant.md).
+Keep every stored method available for full explanation, analysis, comparison,
+ideation, and niche tailoring while factual and external-action status remain
+separate.
+
 At the start of every invocation, read and apply the mandatory
 [Live Consultant communication voice](../founder-business-consultant/references/communication-voice.md).
 Use it for every user-facing answer and customer-facing artifact. Simplify the

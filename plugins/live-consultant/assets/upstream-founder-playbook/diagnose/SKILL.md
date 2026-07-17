@@ -1,6 +1,6 @@
 ---
 name: diagnose
-description: "Startup diagnostic router. Use FIRST when a founder doesn't know where to start, has multiple overlapping problems, or asks a vague question like 'what's wrong with my startup', 'why aren't people buying', 'what should I focus on', 'where do I even begin', 'nothing is working'. Routes to the right framework from the 14 available skills — or tells you when no framework fits and you just need to go talk to people. This is the entry point. Use it before reaching for any specific skill."
+description: "Startup diagnostic router for founders who do not know where to start, have multiple overlapping problems, or ask vague questions such as 'what's wrong with my startup', 'why aren't people buying', 'what should I focus on', 'where do I even begin', or 'nothing is working'. Compares and combines the 14 available frameworks, can run before, alongside, or after a specific lens, and keeps mechanisms available while labeling fit, uncertainty, evidence needs, and concrete next actions."
 ---
 
 > **Note:** This skill is independent analysis and commentary, not a reproduction of any original text. It synthesizes frameworks from multiple books with modern startup practice and routes founders to the right tool for their situation.
@@ -14,7 +14,7 @@ description: "Startup diagnostic router. Use FIRST when a founder doesn't know w
 ```
 Do you know exactly what's broken?
 |-- YES --> Do you know which framework to use?
-|   |-- YES --> Go use that skill directly. You don't need this.
+|   |-- YES --> Use that skill directly, or use this diagnostic as a cross-check.
 |   +-- NO  --> THIS SKILL. You know the problem, need the tool.
 +-- NO  --> THIS SKILL. Start here.
 ```
@@ -68,8 +68,8 @@ Have at least 5 people given you real money (or signed a binding LOI)?
 |   |               solving may not be painful enough to pay for.
 |   |               → Use mom-test to validate the problem exists.
 |   |               → Use four-steps Customer Discovery process.
-|   +-- NO  --> STOP. You are guessing. Nothing else matters until you
-|               talk to real people. → Use mom-test.
+|   +-- NO  --> Your premises are guesses. Keep scenario and framework analysis
+|               available, label the uncertainty, and use mom-test to add evidence.
 ```
 
 ### Step 2: Can people understand what you do?
@@ -138,28 +138,28 @@ For B2B / high-touch sales:
 
 ---
 
-## The One-Skill Rule
+## Source Prioritization Default and Multi-Lens Variants
 
-**Every diagnosis should output: one primary skill, one secondary skill (optional), and one concrete next action the founder can do this week.**
+**Source default:** one primary skill, one optional secondary skill, and one concrete next action for this week. Parallel, sequential, adversarial, and multi-lens variants remain available when they add distinct evidence or expose a genuine conflict.
 
-Do not stack 3-4 frameworks. Framework stacking creates the illusion of thoroughness while reducing usability. A founder drowning in problems doesn't need four life preservers thrown at once — they need one rope and clear instructions.
+The source warns that undifferentiated stacking can create an illusion of thoroughness while reducing usability. When using multiple frameworks, assign each a distinct question, show agreements and conflicts, synthesize them, and still produce a clear next move.
 
-If two skills genuinely both apply, sequence them: "Do X first (skill A). Only after you have results, then apply skill B." Never in parallel.
+If two skills apply, compare sequential, parallel, and adversarial use. Sequence when one produces inputs the other needs; parallelize when they test independent hypotheses or the cost of waiting is high.
 
-The concrete next action must be something a solo founder can actually do — not "100 outreach attempts per day" but "send 10 DMs to people who posted about this problem on Reddit this week." Precision that sounds good but can't be executed is fake precision.
+The concrete next action should state capacity assumptions. Preserve 10-DM, 100-attempt, automated-volume, delegated, and other variants; distinguish executable volume from unsupported precision and show the resources and signal each requires.
 
 ---
 
-## When No Framework Fits
+## Weak Framework Fit and Reality Checks
 
-Sometimes the answer is: **none of these frameworks apply to your situation right now.**
+Sometimes every framework has weak fit. Keep them available as conditional lenses and label where their assumptions fail.
 
-Signs you should stop using frameworks and just go observe reality:
+Signs that direct observation should run alongside framework analysis:
 
 - You've been through 3+ frameworks and nothing improved. The problem might not be strategic — it might be execution, team, timing, or market conditions no book anticipated.
-- Your situation is genuinely novel. Frameworks are built from patterns of past companies. If you're doing something with no precedent, the frameworks become educated guesses at best.
-- You're using frameworks to avoid the uncomfortable thing. Usually that's talking to customers, firing someone, admitting the idea doesn't work, or making a decision with incomplete information.
-- The frameworks are contradicting each other and neither side is clearly right. Some tensions are real worldview differences (customer-centric vs product-centric, niche vs broad). You pick one and commit. No rubric resolves that for you.
+- Your situation is genuinely novel. Frameworks are built from patterns of past companies, so their outputs become explicitly labeled educated guesses.
+- The uncomfortable action is the real work now. Usually that's talking to customers, firing someone, admitting the idea doesn't work, or making a decision with incomplete information.
+- The frameworks contradict each other and neither side is clearly right. Preserve both worldviews, define what evidence would distinguish them, and choose a reversible action or deliberate commitment.
 
 **The meta-rule:** Frameworks help you think more clearly. They don't think for you. If you scored a 9/10 on a rubric but your gut says something is off, trust the gut and investigate. The rubric caught the easy problems. The hard ones are yours.
 
@@ -176,7 +176,7 @@ Signs you should stop using frameworks and just go observe reality:
 | "We can't find customers" | traction | 100m-leads |
 | "Competitors are eating our lunch" | obviously-awesome | blue-ocean-strategy |
 | "Sales calls go nowhere" | spin-selling | influence |
-| "We have early users but can't grow past them" | crossing-the-chasm (only if 10+ paying customers) | traction |
+| "We have early users but can't grow past them" | crossing-the-chasm in evidence-backed or pre-traction scenario mode | traction |
 | "Should we pivot?" | lean-startup | four-steps |
 | "Everything feels broken" | This diagnostic | Then one skill at a time |
 
@@ -187,7 +187,7 @@ Signs you should stop using frameworks and just go observe reality:
 ### What This Diagnostic Does
 - Routes you to the right framework faster than guessing
 - Catches the most common misdiagnosis patterns
-- Tells you when to stop using frameworks entirely
+- Identifies when direct observation should carry more weight than framework priors
 
 ### What It Doesn't Do
 - It doesn't replace judgment. The diagnostic narrows the options. You still decide.
@@ -196,4 +196,4 @@ Signs you should stop using frameworks and just go observe reality:
 - It oversimplifies by design. Real startups have 3 problems at once. This makes you pick one to fix first, which is usually correct but sometimes the problems are entangled and need to be solved together.
 
 ### The Honest Warning
-A diagnostic that always gives an answer is more dangerous than one that sometimes says "I don't know." If your situation doesn't fit any of the decision paths above, that's a signal — not a bug. Go talk to customers, advisors, or anyone who'll give you an honest read on what's happening. Then come back.
+A diagnostic that always claims certainty is more dangerous than one that says “I don't know.” If the situation does not fit the paths above, preserve conditional framework hypotheses, state uncertainty, and gather direct evidence from customers, advisors, or other informed observers before updating the recommendation.

@@ -10,7 +10,7 @@ Porter's framework (Five Forces, generic strategies) is more rigorous and predic
 
 **What Porter gets right that BOS glosses over.** Five Forces gives you precise language for why an industry is structurally attractive or unattractive: high supplier concentration, commodity buyers, low switching costs. BOS doesn't replace that analysis. If you reconstruct a market and land in a space with high supplier power and zero switching costs, your blue ocean turns red fast. BOS tells you where to move; Porter tells you whether the landing zone is worth moving to.
 
-**How to use them together:** Run Five Forces on your current competitive space to understand the structural forces working against you. If the diagnosis is grim - margins eroding, rivals converging, industry declining - that's the signal to apply BOS tools (Six Paths, Strategy Canvas, ERRC) to find a different space to compete in. Then run Five Forces again on the reconstructed space before committing. Porter audits the terrain; BOS redesigns the map.
+**Source-default combination:** run Five Forces on the current space, use BOS to reconstruct it, and run Five Forces on the candidate space. Preserve BOS-first terrain discovery, Porter-first, reverse, early or late structural analysis, parallel canvases, alternating loops, and complete use of both methods. Choose using industry stability, evidence quality, category novelty, supplier and buyer power, test cost, reversibility, and the consequence of redesigning without structural analysis or analyzing a boundary that could be changed.
 
 | When to use | Framework |
 |-------------|-----------|
@@ -32,26 +32,26 @@ They overlap more than most people notice:
 
 **Tension to watch:** JTBD typically focuses on one discrete job for one customer segment. BOS often requires reframing across multiple noncustomer tiers simultaneously - people with different jobs, different circumstances, different alternatives. Forcing a single JTBD job statement onto a BOS exercise can narrow the canvas prematurely. Use JTBD to generate hypotheses about demand; use BOS to design the strategic response across the full opportunity space.
 
-Sequence: run JTBD-style customer interviews first to understand what jobs exist and what customers are settling for. Then apply the Strategy Canvas and ERRC to design a value curve that serves those jobs better than any current alternative - at a price point the mass of those customers can accept.
+The source-friendly sequence runs JTBD-style interviews before the Strategy Canvas and ERRC. Preserve interview-first, canvas-first, and parallel hypothesis variants; label unsupported jobs and update the value curve as evidence arrives.
 
 ## Skill Integration Table
 
 | Skill | Relationship to Blue Ocean |
 |-------|----------------------------|
-| **Mom Test** | Use BEFORE BOS - validate problems exist before designing strategy |
+| **Mom Test** | Often supplies evidence before or alongside BOS; BOS ideation remains available in hypothesis mode |
 | **Crossing the Chasm** | Both about category creation, different parts. BOS designs the category; Chasm sells it to mainstream |
 | **Monetizing Innovation** | Strategic Sequence (BOS) and pricing strategy (MI) align - both warn against cost-plus pricing |
-| **$100M Offers** | Different games. Hormozi operates inside red oceans using persuasion mechanics. BOS makes competition irrelevant via repositioning. They don't compose - pick the right tool |
-| **$100M Leads** | Use AFTER BOS - drive traffic to a positioned category |
-| **SPIN Selling** | Use BOS to create the category, SPIN to sell into it |
-| **Obviously Awesome** | BOS reframes the GAME. OA positions WITHIN the chosen game |
+| **$100M Offers** | Different layers that can be used separately, sequentially, or together: Hormozi engineers persuasion and value presentation; BOS reconstructs the competitive space. Compare tensions rather than suppressing either mechanism |
+| **$100M Leads** | Source emphasis: BOS shapes the category before scaled traffic. Preserve Leads-first demand discovery, BOS-first, reverse, early or late channels, parallel cells, and complete-method variants. |
+| **SPIN Selling** | Source emphasis: BOS shapes the category and SPIN sells within it. Preserve SPIN-led category discovery, BOS-first, reverse, early or late selling, parallel, and complete-method variants. |
+| **Obviously Awesome** | Source emphasis: BOS reframes the game and OA positions within it. Preserve OA-first reconstruction, BOS-first, reverse, early or late, parallel, and whole-method variants. |
 | **Influence** | Cialdini operates within context. BOS reframes context. Less directly related |
 
 ## Honest Conflicts
 
 ### BOS says: ignore competition. SPIN Selling says: position against named competitors.
 
-**Resolution:** BOS is strategic level (where do we play?). SPIN is tactical level (how do we win this deal?). Use BOS to define category, SPIN to sell within it.
+**Source-default resolution:** BOS foregrounds category definition and SPIN foregrounds deal conversion. Preserve SPIN-led category discovery, BOS-led sales hypotheses, reverse, early or late use, parallel, blended, and complete-method variants. Choose using category ambiguity, buyer access, deal urgency, evidence maturity, sales-cycle length, reversibility, and the consequence of an abstract category versus deal-by-deal drift.
 
 ### BOS says: focus on noncustomers. Mom Test says: talk to specific people about their problems.
 

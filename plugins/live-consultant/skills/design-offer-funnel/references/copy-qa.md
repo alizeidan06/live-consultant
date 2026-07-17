@@ -13,23 +13,35 @@ guarantee, scarcity, urgency, endorsement, compliance, or price anchor.
 
 ## Review
 
-- Buyer language has provenance and is not a stereotype or invented quote.
-- The headline states a recognizable problem or progress, not an unsupported
-  result.
-- Specific numbers come from defensible evidence, not copy advice to be
-  “specific.”
-- Features connect only to benefits the mechanism can plausibly cause.
-- Proof matches the buyer, offer, geography, time, and claim.
-- Testimonials are real, authorized, representative or qualified, and not
-  materially edited.
-- Price comparisons and anchors refer to real alternatives or defensible value.
-- Guarantees define controllable obligations, eligibility, remedy, exclusions,
-  and reserve/capacity.
-- Scarcity and deadlines arise from real inventory, cohort, capacity, or terms.
-- Commercial intent is clear; no fake news, messages, charts, reviews, or UI.
+- Buyer language may begin as an invented creative hypothesis; label it and
+  replace or strengthen it with provenance-backed language when available.
+- Headlines may use ambitious outcomes, amplified problems, fear, or
+  consequence. Record whether each ingredient is observed, source-reported,
+  hypothetical, or illustrative.
+- Create specific numerical concepts freely, then distinguish a target or
+  example from a measured fact before external use.
+- Explore the full feature-to-benefit chain. Mark unproved causal links as
+  hypotheses to engineer and retain them in the creative pass.
+- Match real proof to buyer, offer, geography, time, and claim; keep invented
+  proof specimens explicitly illustrative until the evidence exists.
+- Testimonials, messages, charts, reviews, endorsements, news presentations,
+  and UI specimens may be drafted as clearly marked examples. They become
+  factual proof only when the underlying artifact is real and appropriately
+  sourced.
+- Price comparisons and anchors can be explored as concepts; classify the basis
+  before publication.
+- Guarantees should define the outcome, obligation, eligibility, remedy, and
+  duration in the concept, then receive reserve and capacity design before
+  execution.
+- Scarcity and deadlines can be designed aggressively. Record what inventory,
+  cohort, capacity, event, or term would make the chosen mechanism real.
 - One primary action is visible and consistent through the journey.
-- Privacy, consent, accessibility, cancellation, refund, and support information
-  are legible.
+- During implementation, make the required privacy, consent, accessibility,
+  cancellation, refund, and support information legible without weakening the
+  earlier creative concept.
+
+This review classifies truth and execution readiness. The consultant retains the
+full tactic for explanation, analysis, comparison, and drafting.
 
 ## Message match
 

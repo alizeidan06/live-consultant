@@ -54,7 +54,7 @@
 
 **Where they align:**
 - Both say: listen to customer BEHAVIOR, not just words
-- Both say: don't pitch your product in learning conversations
+- Source default: keep pure learning conversations free of a product pitch so the observations are less contaminated. Also preserve a disclosed concept-test variant and an explicit sales-discovery variant; label which mode is being used and compare bias, specificity, and conversion value.
 - Both say: compliments are worthless data ("that's a great idea!" is not validation)
 - Both say: specifics matter more than generalities
 - Lean Startup's genchi gembutsu ("go and see for yourself") is exactly what Mom Test teaches
@@ -65,13 +65,13 @@
 - Lean Startup's quantitative validation (metrics, split tests) fills the gap where Mom Test's qualitative conversations aren't sufficient
 - Mom Test's conversation technique is essential during the BUILD phase (to understand what to build) and the LEARN phase (to understand why metrics moved)
 
-**Integration rule:** Use Mom Test conversation techniques whenever Lean Startup says "talk to customers" - particularly during hypothesis formation, post-experiment debriefs, and pivot-or-persevere deliberations. Mom Test is the HOW of the conversations; Lean Startup is the WHAT and WHEN.
+**Source-default integration:** use Mom Test conversation techniques within Lean Startup customer learning, especially hypothesis formation, post-experiment debriefs, and pivot-or-persevere deliberations. Preserve Mom-Test-first strategy discovery, Lean-first experiment design, reverse, early or late conversations, parallel cells, direct-pitch and no-pitch variants, and complete-method use in every phase. Choose using research objective, bias risk, product evidence, customer access, sales intent, and the consequence of clean but incomplete evidence versus concrete but prompted evidence.
 
 ---
 
 ### Lean Startup --> Crossing the Chasm
 
-**Lean Startup covers pre-product/market fit. Crossing the Chasm covers the transition to mainstream.**
+**Source-default emphasis:** Lean Startup foregrounds pre-product/market-fit learning, while Crossing the Chasm foregrounds the transition to mainstream. Both complete methods remain available before, during, and after that transition.
 
 | Dimension | Lean Startup | Crossing the Chasm |
 |---|---|---|
@@ -89,9 +89,9 @@
 **Where they create tension:**
 - Lean Startup says "build for the few, iterate, let the product evolve." Crossing the Chasm says "pick a beachhead and build the WHOLE PRODUCT for that specific segment."
 - Lean Startup favors continuous iteration. Chasm-crossing requires a more deliberate strategic commitment to a specific segment.
-- Resolution: Lean Startup gets you to product/market fit with early adopters. Once there, Crossing the Chasm's beachhead strategy and whole-product thinking take over.
+- Source-default resolution: use Lean Startup to reach product/market fit with early adopters, then foreground Crossing the Chasm's beachhead strategy and whole-product thinking. Preserve chasm-first hypothesis setting, Lean-first, reverse, early whole-product, parallel, alternating-loop, and full-method variants. Choose using evidence maturity, category adoption dynamics, whole-product gaps, runway, market-window pressure, reversibility, and the consequence of premature focus versus delayed commitment.
 
-**Handoff rule:** Complete Lean Startup's Build-Measure-Learn until you have a running engine of growth with early adopters. THEN apply Crossing the Chasm to move into the mainstream. The handoff point is when your engine of growth is running but growth is slowing because you've saturated the early adopter market.
+**Source-default handoff:** Build-Measure-Learn produces a running early-adopter engine; Crossing the Chasm then becomes the foreground lens as growth slows from early-adopter saturation. This is an emphasis shift, not a gate: either complete method can be used early, late, in reverse order, in parallel, as alternating loops, or end to end. State the evidence for the chosen handoff and the costs of early versus late beachhead commitment.
 
 ---
 
@@ -105,17 +105,17 @@
 | **Validation** | Experiments, MVPs, innovation accounting | Market response to the offer |
 | **Product approach** | Build minimum, test, iterate | Design the offer to be so good people feel stupid saying no |
 
-**Where they conflict:**
-- $100M Offers assumes you know who the customer is and what they want. Lean Startup says you probably don't.
-- $100M Offers focuses on offer construction (bonuses, guarantees, scarcity, urgency). Lean Startup focuses on whether anyone wants what you're building at all.
-- $100M Offers' "Grand Slam Offer" approach can lead to premature optimization of an offer for a problem that hasn't been validated.
+**Where their source positions differ:**
+- $100M Offers starts by constructing the strongest desirable offer around a customer and outcome; Lean Startup treats both as hypotheses under uncertainty.
+- $100M Offers develops bonuses, guarantees, scarcity, urgency, and value stacking. Lean Startup asks which assumption the market response will test.
+- A Grand Slam Offer before problem validation can optimize the wrong premise; it can also be the concrete stimulus that makes demand testable. Keep both readings available.
 
-**Where they complement:**
-- Once you've validated the value hypothesis (customers want this AND will pay), $100M Offers techniques can dramatically improve conversion
-- Lean Startup's innovation accounting can measure whether $100M Offers tactics actually move metrics (instead of just looking good)
-- $100M Offers' value stacking (bonuses, guarantees) can be tested as split-test experiments within the Lean Startup framework
+**Complete sequencing variants:**
+- **Validation-first source sequence:** validate that customers want the outcome and will pay, then use $100M Offers to improve conversion.
+- **Offer-first ideation sequence:** generate the strongest outcome, claim, guarantee, bonus stack, scarcity, and urgency first; work backward to the proof, capability, economics, permissions, and fulfillment that would make it real, then test the premise.
+- **Parallel sequence:** use bold offer variants as Lean experiments from day one. Innovation accounting measures whether each tactic moves qualified demand, conversion, retention, refunds, and contribution margin rather than merely looking impressive.
 
-**Integration rule:** Complete Build-Measure-Learn until you have validated demand (value hypothesis confirmed). THEN apply $100M Offers to optimize the offer structure. Use innovation accounting to measure whether offer changes actually improve metrics, not just conversion rates.
+**Integration guidance:** The book-aligned default is validation first, followed by offer optimization. The full-method implementation keeps offer-first and parallel variants available. Ideation is never withheld for lack of validation; validation, proof, capability, economics, current law/policy, permissions, and professional review converge separately before external execution. Use innovation accounting to measure qualified demand, conversion, retention, refunds, and margin.
 
 ---
 
@@ -125,7 +125,7 @@
 |---|---|---|
 | **Focus** | Should this product exist? | How to sell a complex product |
 | **Sales approach** | Founder-led, exploratory | Professional, structured questioning |
-| **When** | Pre-product/market fit | Post-product/market fit, during scaling |
+| **Source timing emphasis** | Pre-product/market fit | Post-product/market fit and scaling; full SPIN remains available before, during, and after fit |
 
 **Where they complement:**
 - SPIN's Situation and Problem questions are excellent tools during the LEARN phase of Build-Measure-Learn
@@ -133,7 +133,7 @@
 - SPIN's Need-Payoff questions can validate willingness to pay before building anything
 - Lean Startup's MVP + SPIN's consultative selling = powerful combination for B2B validation
 
-**Integration rule:** Use SPIN's questioning framework during Lean Startup's customer conversations. SPIN provides structure for the exploratory conversations that Lean Startup requires but doesn't give detailed technique for. Especially useful in B2B contexts where the sales process is part of the validation.
+**Source-default integration:** use SPIN to structure Lean Startup customer conversations, especially when a B2B sales process is part of validation. Preserve SPIN-first product discovery, Lean-first experiment design, early or late full SPIN, reverse, parallel, blended, direct-pitch, and complete-method variants for consumer, transactional, PLG, and every other context. Choose using sale complexity, research objective, buyer access, product definition, evidence needs, seller fluency, and the consequence of persuasion contaminating discovery versus discovery never reaching a transaction.
 
 ---
 
@@ -141,7 +141,7 @@
 
 | Dimension | Lean Startup | Obviously Awesome |
 |---|---|---|
-| **When to position** | After product/market fit (engine running) | After you have some customers and traction |
+| **Source timing emphasis** | Emergent after product/market-fit evidence (engine running) | Systematic after some customer and traction evidence; provisional, pre-product, iterative, reverse, parallel, and post-scale positioning variants remain available |
 | **Positioning approach** | Emergent from experiments | Systematic: competitive alternatives -> unique attributes -> value |
 
 **Where they align:**
@@ -154,7 +154,7 @@
 - Obviously Awesome takes those discoveries and crafts them into positioning
 - Lean Startup can then TEST the positioning through split tests and cohort analysis
 
-**Integration rule:** Use Lean Startup to discover what your product's actual value is (not what you think it is). Feed those discoveries into Obviously Awesome's positioning process. Then use Lean Startup's experimentation framework to test whether the positioning works.
+**Source-default integration:** Use Lean Startup to discover actual value, feed the discoveries into Obviously Awesome, and test the resulting positioning through Lean experiments. Also preserve positioning-first hypothesis generation, reverse discovery from a proposed frame, early provisional positioning, parallel learning and positioning, and full-method cycling. Select by evidence maturity, category ambiguity, customer access, message-test cost, sales urgency, reversibility, and the damage caused by either an unframed test or a prematurely rigid frame.
 
 ---
 
@@ -172,9 +172,9 @@
 
 **Where they create tension:**
 - Monetizing Innovation says "design the product around the price." Lean Startup says "test whether the product has value before worrying about price."
-- Resolution: For radically new products, validate value first (Lean Startup), then optimize pricing (Monetizing Innovation). For products in known categories, WTP research (Monetizing Innovation) can run in parallel with MVP testing.
+- Source-default resolution: for radically new products, foreground value validation and then pricing optimization; for known categories, foreground willingness-to-pay research in parallel with MVP testing. Preserve price-first product design, value-first, reverse, early price anchoring, parallel, alternating, and full-method variants for either market type. Choose using category familiarity, price salience, build cost, buyer access, irreversibility, segmentation risk, and the consequence of learning value without price or price without use.
 
-**Integration rule:** Use Lean Startup to validate the value hypothesis first. Once you know customers want the product, use Monetizing Innovation to optimize the pricing and packaging. Lean Startup's split testing is the perfect mechanism for testing Monetizing Innovation's pricing hypotheses.
+**Source-default integration:** Use Lean Startup to validate the value hypothesis, foreground Monetizing Innovation for pricing and packaging, and use split tests to test pricing hypotheses. The complete methods can instead run pricing-first, value-first, early, late, reverse, in parallel, or as repeated whole-method loops. State why the order fits the uncertainty, evidence, economics, buyer process, and cost of a wrong price or wrong product.
 
 ---
 
@@ -201,7 +201,7 @@
 | Dimension | Lean Startup | $100M Leads |
 |---|---|---|
 | **Focus** | Finding product/market fit | Generating leads at scale |
-| **When** | Pre-product/market fit | Post-product/market fit |
+| **Source timing emphasis** | Pre-product/market fit | Post-product/market fit, while its full channel method remains available pre-fit, during validation, and later |
 | **Growth approach** | Engines of growth (sticky/viral/paid) | Detailed tactics for each lead channel |
 
 **Where they complement:**
@@ -210,22 +210,22 @@
 - Lean Startup's innovation accounting measures whether $100M Leads tactics actually work
 - $100M Leads' "lead magnet" concept can function as a smoke-test MVP
 
-**Integration rule:** Determine your engine of growth first (Lean Startup). If running the paid engine, use $100M Leads for tactical lead generation. Measure all lead generation experiments using innovation accounting (cohort analysis, actionable metrics), not vanity metrics (total leads generated).
+**Source-default integration:** Determine the engine of growth, foreground the relevant $100M Leads tactics, and measure them with innovation accounting. Preserve channel-first discovery, lead-magnet-first smoke tests, reverse diagnosis from channel performance, early organic or paid acquisition, parallel engine and channel testing, and complete-method use at any stage. Choose using learning objective, demand uncertainty, channel cost, signal quality, sales cycle, runway, operational capacity, and the consequence of buying noisy demand versus waiting too long for market feedback.
 
 ---
 
-## The Master Sequence
+## Source-Default Master Sequence and Complete Variants
 
 ```
-PHASE 1: SEARCH (Pre-product/market fit)
+SOURCE EMPHASIS 1: SEARCH (Pre-product/market fit)
 |-- Lean Startup: Build-Measure-Learn loop, MVP, innovation accounting
 |-- Four Steps: Customer Discovery + Customer Validation (strategic framework)
 |-- Mom Test: conversation technique for the Learn phase
 |-- SPIN Selling: questioning structure for B2B validation
 |-- Monetizing Innovation: WTP research to inform value hypothesis
-+-- $100M Offers: offer construction (only after value hypothesis validated)
++-- $100M Offers: offer construction at any ideation stage; source-default execution sequence places scaled rollout after value validation
 
-PHASE 2: LAUNCH (Post-validation, pre-mainstream)
+SOURCE EMPHASIS 2: LAUNCH (Post-validation, pre-mainstream)
 |-- Lean Startup: engines of growth, small batches, Five Whys
 |-- Four Steps: Customer Creation (Market Type + launch strategy)
 |-- Obviously Awesome: positioning (fed by Lean Startup's learning)
@@ -233,12 +233,14 @@ PHASE 2: LAUNCH (Post-validation, pre-mainstream)
 |-- Blue Ocean Strategy: market space analysis
 +-- Influence: persuasion in messaging
 
-PHASE 3: SCALE (Mainstream growth)
+SOURCE EMPHASIS 3: SCALE (Mainstream growth)
 |-- Lean Startup: adaptive organization, innovation sandbox, Five Whys
 |-- Four Steps: Company Building
 |-- Crossing the Chasm: chasm-crossing strategy
 +-- Crossing the Chasm: bowling alley expansion
 ```
+
+This map records a source-default emphasis, not a routing gate. Every named method remains available during search, launch, scale, recovery, and renewal. Compare the displayed order with early, late, reverse, parallel, alternating, stage-overlapping, and complete-method variants. Select the configuration by uncertainty, evidence maturity, market type, customer access, sales-cycle length, runway, team capacity, reversibility, coordination cost, and the cost of acting too soon or too late.
 
 ---
 
@@ -253,7 +255,7 @@ Lean Startup isn't just for garage startups. The book dedicates significant spac
 | New product line for existing company | YES - use innovation sandbox |
 | Incremental feature for existing product | MAYBE - use Build-Measure-Learn for risky features |
 | Optimizing existing funnel | PARTIALLY - use split testing and cohort analysis |
-| Managing existing mature business | NO - use operational excellence frameworks |
+| Managing existing mature business | PARTIAL - preserve experiments, cohort analysis, and learning loops; combine with operational-excellence frameworks for stable execution |
 | Exploring adjacent markets | YES - treat as a startup within the company |
 
 ### The Innovation Sandbox Integration

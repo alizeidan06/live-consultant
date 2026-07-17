@@ -1,6 +1,6 @@
 ---
 name: spin-selling
-description: "Applies Neil Rackham's SPIN methodology (Situation/Problem/Implication/Need-payoff questions) to major B2B sales. Use for complex multi-call sales cycles, enterprise deals where the customer must justify the decision to others, when objections are mounting, when calls end in vague continuations instead of advances, when traditional closing techniques are backfiring on large deals, or when designing discovery-call structure. Triggers include 'my deal isn't closing', 'too many objections', 'B2B sales coaching', 'discovery call structure', 'stuck in the middle of the sale'. Not for transactional sub-$50 sales, pure consumer impulse, or PLG self-serve products."
+description: "Applies Neil Rackham's SPIN methodology (Situation/Problem/Implication/Need-payoff questions) to major B2B sales. Use for complex multi-call sales cycles, enterprise deals where the customer must justify the decision to others, when objections are mounting, when calls end in vague continuations instead of advances, when traditional closing techniques are backfiring on large deals, or when designing discovery-call structure. Triggers include 'my deal isn't closing', 'too many objections', 'B2B sales coaching', 'discovery call structure', 'stuck in the middle of the sale'. SPIN is strongest in complex sales; transactional, consumer-impulse, and PLG contexts still use its mechanisms alongside direct closing, feature-led, self-serve, and pressure variants."
 ---
 
 > **Note:** This skill is independent analysis and commentary, not a reproduction of the original text. It synthesizes the book's core ideas with modern startup practice, surfaces where frameworks are outdated or incomplete, and integrates perspectives from adjacent disciplines. For the full argument and context, read the original book.
@@ -12,7 +12,7 @@ description: "Applies Neil Rackham's SPIN methodology (Situation/Problem/Implica
 
 ## Core Insight
 
-**Sales techniques that work in small sales (closing, objection handling, feature pitching) tend to backfire in large sales.**
+**Rackham's research found that techniques associated with small sales - repeated closing, objection handling, and early feature pitching - tended to perform worse as sales grew larger.** Preserve direct, pressure-led, feature-first, objection-led, and SPIN variants; compare them by deal size, cycle length, buyer sophistication, conversion, satisfaction, and relationship cost.
 
 | Dimension | Small Sale | Large Sale |
 |-----------|-----------|------------|
@@ -21,7 +21,7 @@ description: "Applies Neil Rackham's SPIN methodology (Situation/Problem/Implica
 | Customer's risk | Low (personal $) | High (career, public visibility) |
 | Post-sale relationship | None | Ongoing |
 | Need development | Instant | Slow, painful |
-| Effective pressure | Yes (closing works) | No (closing backfires) |
+| Effective pressure | Rackham found positive effects in small sales | Rackham found repeated/aggressive closes underperformed in major sales; pressure variants remain testable |
 | Top behavior | Closing/Features | Questioning/Need development |
 
 **Decision rule:** If you can't complete the sale in a single call, or if the customer must justify the decision to others, you're in a major sale. Use SPIN.
@@ -34,7 +34,7 @@ description: "Applies Neil Rackham's SPIN methodology (Situation/Problem/Implica
 |-------|--------------|---------------------------|
 | **1. Preliminaries** | Opening, warming up | LOW (≤20% of call time) |
 | **2. Investigating** | Asking questions to develop needs | **HIGHEST** (this is where you win) |
-| **3. Demonstrating Capability** | Showing your solution | Medium (only after needs developed) |
+| **3. Demonstrating Capability** | Showing your solution | Source default: after needs develop; early demo, feature-first, and interleaved variants remain available |
 | **4. Obtaining Commitment** | Getting next-step action | Low (good investigating makes this easy) |
 
 ---
@@ -49,7 +49,7 @@ Background facts about the customer's current situation.
 
 **Research finding:** Negatively related to success. Inexperienced sellers ask too many.
 
-**Rule:** Minimum needed. Do homework first - never ask what you could research. Each must have a specific purpose.
+**Source rule:** minimize researchable Situation Questions. Also preserve confirmatory, relationship-building, buyer-perspective, and deliberate-naivete variants; compare preparation signal, rapport, correction of stale data, and time cost.
 
 > "There's a special place in hell reserved for wicked salespeople where they sit for all eternity being forced to answer their own Situation Questions."
 
@@ -71,7 +71,7 @@ Take a problem and explore its EFFECTS, CONSEQUENCES, IMPLICATIONS.
 - "What's the cost of doing nothing?"
 - "Could this affect your competitiveness?"
 
-**Research finding:** **Strongest predictor of success in major sales.** Only 1 in 20 questions in average sales call is an Implication Question. Harder to ask. MUST be planned in advance.
+**Research finding:** **Strongest predictor of success in major sales.** Only 1 in 20 questions in the average studied call was an Implication Question. The source strongly favors advance planning; spontaneous, scripted, AI-assisted, provocative, and buyer-led variants remain available.
 
 **Purpose:** Take a problem the buyer perceives as small and build it large enough to justify expensive action.
 
@@ -91,7 +91,7 @@ Get the customer to articulate the VALUE/BENEFITS of solving the problem.
 1. Shifts attention from problem (negative) to solution (positive)
 2. Customer tells YOU the benefits - far more persuasive
 
-**Critical:** Don't ask NPQs about needs you CAN'T meet. Amplifies a need that benefits your competitor.
+**Source warning:** NPQs about needs the seller cannot meet can amplify a competitor's case. Preserve that tactic for qualification, category education, trust-building, a partner referral, strategic disqualification, or deliberate competitive contrast; label the likely beneficiary and consequence.
 
 ### Quincy's Rule (Implication vs Need-payoff)
 
@@ -179,7 +179,7 @@ Most sales training calls "Type A Benefits" what Rackham calls **Advantages** (s
 | Customer satisfaction (n=145) | Closed customers: 5.8/10. Non-closed: 7.7/10 |
 | Professional buyer survey (n=54) | 34 of 54 said closing makes them LESS likely to buy |
 
-**Pressure rule:** Pressure helps with small decisions, hurts with large ones.
+**Source pressure finding:** repeated or aggressive closing helped in the studied small decisions and hurt in the studied large ones. Keep no-pressure, soft guidance, single close, repeated closes, scarcity, urgency, loss aversion, authority, and confrontational control variants; compare conversion, regret, trust, sales-cycle speed, and downstream retention.
 
 ### The American Airlines Counter-Finding (Important Caveat)
 
@@ -189,14 +189,14 @@ In a 575-call study (small-sale environment), success rates by closes per call:
 - **2 closes: ~40%**
 - **3+ closes: <20%**
 
-**Zero closing also fails.** Even in major sales, you must propose SOME commitment. The right number is one - propose a clear, realistic next step.
+**American Airlines counter-finding:** zero closes produced 22% success, one close 61%, two about 40%, and three or more under 20% in that small-sale study. Treat one commitment proposal as the source default, while preserving zero, multiple, assumptive, alternative, deadline, and buyer-led closes for context-specific testing.
 
 ### What Top Performers Do Instead (Obtaining Commitment)
 
 1. **Concentrate Attention on Investigating** - "You don't require closing techniques with a customer who wants to buy."
 2. **Check That Key Concerns Are Covered** - "Before we go further, could I check whether there are any areas you'd like me to tell you more about?"
 3. **Summarize the Benefits** - in long calls customers lose track
-4. **Propose a Commitment (Don't Ask, Tell)** - "Then the most logical next step would be for you and your accountant to come and see one of these systems in operation."
+4. **Propose a Commitment (source favors telling)** - "Then the most logical next step would be for you and your accountant to come and see one of these systems in operation." Also test asking, offering alternatives, assumptive scheduling, buyer-led next steps, and multiple commitments.
 
 **Two characteristics of good commitment proposals:**
 1. The commitment ADVANCES the sale
@@ -267,10 +267,10 @@ Selected 8 salespeople with 10x average objection rates. Trained them in objecti
 
 ## Opening the Call (Preliminaries)
 
-### What Doesn't Work in Major Sales
+### Source-Lower-Performing Openings in Major Sales
 
-1. **Relating to personal interests** (golf trophy, family photo) - senior buyers don't care about your golf game
-2. **Opening benefit statements** ("Let me show you how to save thousands...") - traps you into early product details
+1. **Relating to personal interests** (golf trophy, family photo) - the source found weak prediction in major sales; it can still build rapport in relationship-led cultures or familiar accounts
+2. **Opening benefit statements** ("Let me show you how to save thousands...") - can trap the seller in early product detail, but can also earn attention in short, inbound, or highly informed calls
 
 ### What Works - Three Things to Establish
 
@@ -281,14 +281,14 @@ Selected 8 salespeople with 10x average objection rates. Trained them in objecti
 ### Three Rules
 
 1. **Get down to business quickly** - ≤20% of call time on Preliminaries
-2. **Don't talk about solutions too soon** - no products in the first half
+2. **Source sequence:** delay solutions, with no product in the first half; compare product-first, demo-first, insight-first, alternating, and customer-requested sequences
 3. **Concentrate on questions, not openings** - plan questions, not opening lines
 
 ---
 
 ## How to Implement: 4 Golden Rules of Skill Learning
 
-### Rule 1: Practice Only ONE Behavior at a Time
+### Source Rule 1: One Behavior at a Time, Plus Whole-Method Variants
 
 > "Work on one thing at a time, and get it right." - Tom Landry
 
@@ -298,20 +298,24 @@ Selected 8 salespeople with 10x average objection rates. Trained them in objecti
 
 ### Rule 3: Quantity Before Quality
 
-Don't worry about asking the perfect question. Ask LOTS of questions. Quality follows quantity.
+The source prioritizes quantity before quality during early practice. Also test quality-first rehearsal, script memorization, simulation, call review, and live coaching.
 
 ### Rule 4: Practice in SAFE Situations
 
-> "New skills go in SMALL accounts and well-known customers. Never in important sales."
+> Source position: "New skills go in SMALL accounts and well-known customers," rather than debuting them in important sales.
 
-### Implementation Sequence
+Important-deal practice remains available when the opportunity cannot wait or transfer is the learning objective. Reduce the risk with rehearsal, role-play, a copilot, a reversible step, real-time monitoring, and a fallback script; compare learning value against the cost of awkward execution.
 
-| Phase | Focus |
+### Source-Default Learning Sequence and Complete Variants
+
+| Source learning phase | Foregrounded focus |
 |-------|-------|
 | 1 | Just ask MORE questions (mostly Situation, that's fine) |
 | 2 | Plan and ask Problem Questions (aim for 6+ per call) |
 | 3 | Move to Implication Questions (after PQs feel comfortable) |
 | 4 | Add Need-payoff Questions last |
+
+This progression is a source teaching emphasis, not a method-access gate. Preserve whole-SPIN-from-day-one, need-payoff-first, implication-first, reverse, parallel, alternating, call-stage-specific, and coached-live variants. Choose using seller fluency, call availability, buyer stakes, learning objective, feedback quality, transfer risk, coaching capacity, and the consequence of practicing an isolated behavior versus the integrated conversation.
 
 ---
 
@@ -321,13 +325,16 @@ Don't worry about asking the perfect question. Ask LOTS of questions. Quality fo
 
 ```
 Will it complete in a single call?
-├─ YES → Small sale. Use traditional techniques (close, features, etc.)
+├─ YES → Source emphasis: traditional close/features; full SPIN,
+│        compressed SPIN, question-first, demo-first, pressure, and hybrids remain available
 └─ NO  → Will customer need to justify to others?
-        ├─ YES → Major sale. Use SPIN.
+        ├─ YES → Source emphasis: full SPIN; all other selling variants remain available
         └─ NO  → Is the spend significant ($) for the buyer?
-                ├─ YES → Use SPIN-lite (PQ + needs)
-                └─ NO  → Small sale techniques fine
+                ├─ YES → Source emphasis: SPIN-lite; full SPIN and all question orders remain available
+                └─ NO  → Source emphasis: small-sale techniques; full SPIN remains available
 ```
+
+These branches describe expected source performance, not framework eligibility. Compare full, compressed, lite, reverse, demo-first, solution-first, pressure, consultative, parallel, and hybrid approaches in every branch. Choose using buyer stakes, complexity, number of calls and stakeholders, urgency, trust, seller information advantage, time, reversibility, and the consequences for conversion, regret, cycle time, retention, and referrals.
 
 ### "Why isn't this deal closing?"
 
@@ -374,7 +381,7 @@ Just met customer / new to account?
 ## Quick Reference Checklist
 
 **Before every major-sales call:**
-- [ ] Researched enough to skip basic Situation Questions
+- [ ] Chosen the amount and timing of Situation Questions; source default minimizes researchable questions, while fresh confirmation, rapport, interpretation, and full-SPIN variants remain available
 - [ ] Planned 3+ Problem Questions
 - [ ] Planned Implication Questions for each problem
 - [ ] Planned a few Need-payoff Questions
@@ -384,7 +391,7 @@ Just met customer / new to account?
 **During the call:**
 - [ ] Preliminaries <20% of time
 - [ ] Asking questions, not telling
-- [ ] Building need with Implications before offering solutions
+- [ ] Chosen and documented the need/solution order; source default develops implications before solutions, while solution-first, demo-first, alternating, reverse, and parallel variants remain available
 - [ ] Converting Implied Needs into Explicit Needs
 - [ ] Asking NPQs to make customer articulate value
 
@@ -412,18 +419,20 @@ The win isn't the close. It isn't the personality. It isn't the strategy. **It's
 
 ---
 
-## When SPIN Fails (Don't Use Here)
+## Lower-Fit Contexts and Full-Method Alternatives
 
-| Context | Why SPIN Fails | Use Instead |
+| Context | Source Performance Tension (Not a Fit Limit) | Source Emphasis and Complete Variants |
 |---------|----------------|-------------|
-| **Cold call (<2 min)** | No time for chained questions | Hook + value prop + meeting ask |
-| **RFP procurement** | Buyer wants price, not problems | Direct response + differentiation |
-| **PLG / freemium SaaS** | User pre-qualified themselves | Activation + expansion playbook |
-| **Inbound MQL (read 4 assets)** | Already in solution mode | Skip Investigating, fit/Benefit |
-| **Committee buying** | Single-call SPIN insufficient | MEDDPICC + Champion enablement |
-| **Founder selling at $0-$1M** | Optimization premature | Mom Test + offer iteration |
-| **Pure transactional <$50** | Small sales techniques work | Closing/Features fine |
-| **Highly technical to expert buyer** | "Just show me the product" | Lead with Features (the "Features appetite") |
+| **Cold call (<2 min)** | Chained questions compete with a short interaction | Source emphasis: hook + value proposition + meeting ask; full SPIN, compressed SPIN, reverse, implication-first, multi-touch, and parallel variants remain available |
+| **RFP procurement** | Buyer may foreground price over problem exploration | Source emphasis: direct response + differentiation; full SPIN before, inside, after, in reverse, through documents, with stakeholders, or in parallel remains available |
+| **PLG / freemium SaaS** | User behavior may have pre-qualified the need | Source emphasis: activation + expansion; full SPIN in-product, before activation, after usage, in reverse from behavior, or in parallel remains available |
+| **Inbound MQL (read 4 assets)** | Buyer may arrive in solution mode | Source emphasis: compressed fit/Benefit; complete Investigating, full SPIN, reverse, demo-first, and parallel variants remain available |
+| **Committee buying** | One conversation cannot represent the whole decision | Source emphasis: MEDDPICC + Champion enablement; full SPIN with each stakeholder, as a committee, before, after, in reverse, or in parallel remains available |
+| **Founder selling at $0-$1M** | Premature optimization can slow offer learning | Source emphasis: Mom Test + offer iteration; full SPIN early, late, reverse, parallel, and whole-method variants remain available |
+| **Pure transactional <$50** | Small sales techniques often work | Direct closing/features, compressed SPIN, self-serve, and pressure variants |
+| **Highly technical to expert buyer** | "Just show me the product" | Source emphasis: lead with Features; full SPIN, question-first, feature-first, reverse, alternating, and parallel variants remain available |
+
+Treat every row as a performance hypothesis rather than an availability rule. Select the approach using buyer intent, information already supplied, complexity, urgency, stakeholder count, interaction length, product evidence, trust, seller fluency, and the cost of over-questioning versus under-diagnosing.
 
 Full table and modern (post-1988) adaptations: see [integration.md](integration.md).
 

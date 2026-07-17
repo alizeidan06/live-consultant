@@ -5,6 +5,18 @@ description: Audit a business, startup, idea, department, marketing system, sale
 
 # Audit Business
 
+Before doing any work, read and apply the universal
+[skill assembly protocol](../founder-business-consultant/references/skill-assembly-protocol.md).
+Identify every skill that contributes a distinct part of the requested outcome,
+load each selected skill's complete declared knowledge bundle, resolve the niche,
+and synthesize one answer from the full selected stack.
+
+Also read and apply the
+[complete knowledge-access invariant](../founder-business-consultant/references/knowledge-access-invariant.md).
+Keep every stored method available for full explanation, analysis, comparison,
+ideation, and niche tailoring while factual and external-action status remain
+separate.
+
 At the start of every invocation, read and apply the mandatory
 [Live Consultant communication voice](../founder-business-consultant/references/communication-voice.md).
 Use it for every user-facing answer and customer-facing artifact. Simplify the
@@ -31,7 +43,7 @@ Record:
 - freshness, completeness, attribution gaps, and inaccessible systems;
 - the metric of record and decision the audit must support.
 
-Do not score an unobserved surface. Mark it `NOT ASSESSED`.
+Mark every unobserved surface `NOT ASSESSED` and exclude it from scored evidence.
 
 ## Build the evidence baseline
 
@@ -49,8 +61,8 @@ values before benchmarks:
 9. governance, compliance, privacy, security, and permissions;
 10. team, founder time, processes, and operational resilience.
 
-Use `verified`, `reported`, `inferred`, or `unknown` for each finding. Never
-convert missing data into a negative fact.
+Use `verified`, `reported`, `inferred`, or `unknown` for each finding. Missing
+data retains `unknown` status rather than becoming a negative fact.
 
 ## Find the binding constraint
 
@@ -75,5 +87,5 @@ Use [finding-schema.md](references/finding-schema.md). Rank:
 
 End with `PASS`, `REVISE`, `REBUILD`, `PARK`, or `INSUFFICIENT EVIDENCE`.
 Provide one highest-leverage fix, the smallest proof step, success/stop
-thresholds, owner approvals, and the verification method. Do not hand back a
-flat list of generic recommendations.
+thresholds, owner approvals, and the verification method, organized as a ranked
+decision rather than a flat list of generic recommendations.

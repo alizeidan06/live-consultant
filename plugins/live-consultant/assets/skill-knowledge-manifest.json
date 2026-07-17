@@ -1,0 +1,467 @@
+{
+  "schema_version": 1,
+  "bundle_semantics": "complete_recursive_markdown_plus_declared_files",
+  "assembly_protocol": "skills/founder-business-consultant/references/skill-assembly-protocol.md",
+  "skills": {
+    "sell-like-crazy": {
+      "entrypoint": "skills/sell-like-crazy/SKILL.md",
+      "bundle_roots": [
+        "skills/sell-like-crazy"
+      ],
+      "bundle_files": [
+        "assets/templates/sell-like-crazy-system-brief.md"
+      ],
+      "contribution": "Applies Sabri Suby's complete Sell Like Crazy and King Kong direct-response system, including dream-buyer research, high-value bait, the Godfather offer, traffic, nurture, conversion, and multiplication.",
+      "triggers": [
+        "Sabri Suby or Sell Like Crazy",
+        "King Kong marketing",
+        "dream buyer or Halo Strategy",
+        "Godfather offer",
+        "direct-response customer-acquisition system"
+      ],
+      "likely_companions": [
+        "design-offer-funnel",
+        "founder-playbook-100m-offers",
+        "founder-playbook-100m-leads",
+        "founder-playbook-storybrand",
+        "founder-playbook-made-to-stick",
+        "plan-meta-ads"
+      ]
+    },
+    "audit-business": {
+      "entrypoint": "skills/audit-business/SKILL.md",
+      "bundle_roots": [
+        "skills/audit-business"
+      ],
+      "contribution": "Builds an evidence-bound business audit, ranks findings, and identifies the binding constraint across the business system.",
+      "triggers": [
+        "business audit",
+        "root-cause diagnosis",
+        "funnel or sales audit",
+        "website or operation review"
+      ],
+      "likely_companions": [
+        "founder-business-consultant",
+        "reason-business-decision"
+      ]
+    },
+    "build-business-operations": {
+      "entrypoint": "skills/build-business-operations/SKILL.md",
+      "bundle_roots": [
+        "skills/build-business-operations"
+      ],
+      "contribution": "Designs and compares complete delivery, ownership, control, tooling, and operating systems for hypothetical through validated promises while labeling implementation status separately.",
+      "triggers": [
+        "business setup",
+        "delivery operations",
+        "roles and ownership",
+        "standard operating system"
+      ],
+      "likely_companions": [
+        "reason-business-decision",
+        "validate-business-idea"
+      ]
+    },
+    "design-offer-funnel": {
+      "entrypoint": "skills/design-offer-funnel/SKILL.md",
+      "bundle_roots": [
+        "skills/design-offer-funnel"
+      ],
+      "contribution": "Designs offers, copy, pages, funnels, and conversion paths from buyer evidence through an executable instrumented journey.",
+      "triggers": [
+        "offer design",
+        "landing-page copy",
+        "sales funnel",
+        "lead magnet",
+        "conversion path"
+      ],
+      "likely_companions": [
+        "sell-like-crazy",
+        "founder-playbook-100m-offers",
+        "founder-playbook-storybrand",
+        "founder-playbook-made-to-stick"
+      ]
+    },
+    "founder-business-consultant": {
+      "entrypoint": "skills/founder-business-consultant/SKILL.md",
+      "bundle_roots": [
+        "skills/founder-business-consultant"
+      ],
+      "contribution": "Orchestrates ambiguous or cross-domain consulting work, resolves the niche, assembles the complete skill stack, and returns one decision-ready answer.",
+      "triggers": [
+        "full business consultation",
+        "ambiguous founder problem",
+        "cross-domain business system",
+        "where should I start"
+      ],
+      "likely_companions": [
+        "audit-business",
+        "reason-business-decision",
+        "validate-business-idea"
+      ]
+    },
+    "founder-playbook-100m-leads": {
+      "entrypoint": "skills/founder-playbook-100m-leads/SKILL.md",
+      "bundle_roots": [
+        "skills/founder-playbook-100m-leads",
+        "assets/upstream-founder-playbook/100m-leads"
+      ],
+      "contribution": "Applies the complete 100M Leads lens to lead getters, outreach, content, paid acquisition, referrals, affiliates, and lead-generation scale.",
+      "triggers": [
+        "100M Leads",
+        "lead generation",
+        "outreach system",
+        "lead magnet distribution",
+        "acquisition volume"
+      ],
+      "likely_companions": [
+        "founder-playbook-traction",
+        "plan-meta-ads",
+        "sell-like-crazy"
+      ]
+    },
+    "founder-playbook-100m-offers": {
+      "entrypoint": "skills/founder-playbook-100m-offers/SKILL.md",
+      "bundle_roots": [
+        "skills/founder-playbook-100m-offers",
+        "assets/upstream-founder-playbook/100m-offers"
+      ],
+      "contribution": "Applies the complete 100M Offers lens to outcomes, certainty, speed, effort, value stacks, pricing, bonuses, scarcity, urgency, and risk reversal.",
+      "triggers": [
+        "100M Offers",
+        "Grand Slam Offer",
+        "value equation",
+        "bonuses or guarantee",
+        "offer value stack"
+      ],
+      "likely_companions": [
+        "sell-like-crazy",
+        "design-offer-funnel",
+        "founder-playbook-monetizing-innovation"
+      ]
+    },
+    "founder-playbook-blue-ocean": {
+      "entrypoint": "skills/founder-playbook-blue-ocean/SKILL.md",
+      "bundle_roots": [
+        "skills/founder-playbook-blue-ocean",
+        "assets/upstream-founder-playbook/blue-ocean-strategy"
+      ],
+      "contribution": "Applies the complete Blue Ocean Strategy lens to value innovation, strategy canvases, ERRC moves, noncustomers, and category redesign.",
+      "triggers": [
+        "Blue Ocean Strategy",
+        "strategy canvas",
+        "ERRC grid",
+        "noncustomers",
+        "value innovation"
+      ],
+      "likely_companions": [
+        "founder-playbook-obviously-awesome",
+        "founder-playbook-crossing-the-chasm"
+      ]
+    },
+    "founder-playbook-crossing-the-chasm": {
+      "entrypoint": "skills/founder-playbook-crossing-the-chasm/SKILL.md",
+      "bundle_roots": [
+        "skills/founder-playbook-crossing-the-chasm",
+        "assets/upstream-founder-playbook/crossing-the-chasm"
+      ],
+      "contribution": "Applies the complete Crossing the Chasm lens to beachheads, whole-product gaps, references, and pragmatic B2B adoption.",
+      "triggers": [
+        "Crossing the Chasm",
+        "early adopters to mainstream",
+        "beachhead segment",
+        "whole product",
+        "reference customers"
+      ],
+      "likely_companions": [
+        "founder-playbook-obviously-awesome",
+        "founder-playbook-four-steps"
+      ]
+    },
+    "founder-playbook-diagnose": {
+      "entrypoint": "skills/founder-playbook-diagnose/SKILL.md",
+      "bundle_roots": [
+        "skills/founder-playbook-diagnose",
+        "assets/upstream-founder-playbook/diagnose"
+      ],
+      "contribution": "Applies the complete upstream diagnostic lens to ambiguous startup symptoms while allowing the orchestrator to assemble every necessary companion skill.",
+      "triggers": [
+        "Founder Playbook diagnose",
+        "startup symptoms",
+        "which framework applies",
+        "where do I start"
+      ],
+      "likely_companions": [
+        "founder-business-consultant",
+        "audit-business"
+      ]
+    },
+    "founder-playbook-four-steps": {
+      "entrypoint": "skills/founder-playbook-four-steps/SKILL.md",
+      "bundle_roots": [
+        "skills/founder-playbook-four-steps",
+        "assets/upstream-founder-playbook/four-steps"
+      ],
+      "contribution": "Applies the complete Four Steps to the Epiphany lens to customer discovery, validation, creation, and company building.",
+      "triggers": [
+        "Four Steps to the Epiphany",
+        "customer discovery",
+        "customer validation",
+        "repeatable sales process",
+        "customer development"
+      ],
+      "likely_companions": [
+        "founder-playbook-mom-test",
+        "founder-playbook-lean-startup",
+        "validate-business-idea"
+      ]
+    },
+    "founder-playbook-influence": {
+      "entrypoint": "skills/founder-playbook-influence/SKILL.md",
+      "bundle_roots": [
+        "skills/founder-playbook-influence",
+        "assets/upstream-founder-playbook/influence"
+      ],
+      "contribution": "Applies the complete Influence and Pre-Suasion lens to persuasion mechanisms, sequencing, negotiation, sales, and resistance analysis.",
+      "triggers": [
+        "Influence or Pre-Suasion",
+        "persuasion principles",
+        "reciprocity or social proof",
+        "authority or scarcity",
+        "negotiation psychology"
+      ],
+      "likely_companions": [
+        "founder-playbook-spin-selling",
+        "design-offer-funnel"
+      ]
+    },
+    "founder-playbook-lean-startup": {
+      "entrypoint": "skills/founder-playbook-lean-startup/SKILL.md",
+      "bundle_roots": [
+        "skills/founder-playbook-lean-startup",
+        "assets/upstream-founder-playbook/lean-startup"
+      ],
+      "contribution": "Applies the complete Lean Startup lens to MVPs, Build-Measure-Learn loops, innovation accounting, pivots, and learning velocity.",
+      "triggers": [
+        "Lean Startup",
+        "minimum viable product",
+        "Build Measure Learn",
+        "pivot or persevere",
+        "innovation accounting"
+      ],
+      "likely_companions": [
+        "validate-business-idea",
+        "founder-playbook-four-steps"
+      ]
+    },
+    "founder-playbook-made-to-stick": {
+      "entrypoint": "skills/founder-playbook-made-to-stick/SKILL.md",
+      "bundle_roots": [
+        "skills/founder-playbook-made-to-stick",
+        "assets/upstream-founder-playbook/made-to-stick"
+      ],
+      "contribution": "Applies the complete Made to Stick SUCCESs lens to clarity, memorability, concrete language, credibility, emotion, and stories.",
+      "triggers": [
+        "Made to Stick",
+        "SUCCESs framework",
+        "make this memorable",
+        "simplify a message",
+        "sticky communication"
+      ],
+      "likely_companions": [
+        "founder-playbook-storybrand",
+        "design-offer-funnel",
+        "sell-like-crazy"
+      ]
+    },
+    "founder-playbook-mom-test": {
+      "entrypoint": "skills/founder-playbook-mom-test/SKILL.md",
+      "bundle_roots": [
+        "skills/founder-playbook-mom-test",
+        "assets/upstream-founder-playbook/mom-test"
+      ],
+      "contribution": "Applies the complete Mom Test lens to non-leading interviews, past behavior, commitment signals, segmentation, and interview evidence quality.",
+      "triggers": [
+        "The Mom Test",
+        "customer interview",
+        "non-leading questions",
+        "compliments versus commitment",
+        "discovery interview script"
+      ],
+      "likely_companions": [
+        "founder-playbook-four-steps",
+        "validate-business-idea"
+      ]
+    },
+    "founder-playbook-monetizing-innovation": {
+      "entrypoint": "skills/founder-playbook-monetizing-innovation/SKILL.md",
+      "bundle_roots": [
+        "skills/founder-playbook-monetizing-innovation",
+        "assets/upstream-founder-playbook/monetizing-innovation"
+      ],
+      "contribution": "Applies the complete Monetizing Innovation lens to willingness to pay, segmentation, configuration, pricing models, packaging, and price integrity.",
+      "triggers": [
+        "Monetizing Innovation",
+        "willingness to pay",
+        "pricing research",
+        "packaging design",
+        "monetization failure"
+      ],
+      "likely_companions": [
+        "founder-playbook-100m-offers",
+        "reason-business-decision"
+      ]
+    },
+    "founder-playbook-obviously-awesome": {
+      "entrypoint": "skills/founder-playbook-obviously-awesome/SKILL.md",
+      "bundle_roots": [
+        "skills/founder-playbook-obviously-awesome",
+        "assets/upstream-founder-playbook/obviously-awesome"
+      ],
+      "contribution": "Applies the complete Obviously Awesome lens to alternatives, differentiated attributes, buyer value, best-fit segments, category, and trends.",
+      "triggers": [
+        "Obviously Awesome",
+        "product positioning",
+        "competitive alternatives",
+        "best-fit customer",
+        "market category"
+      ],
+      "likely_companions": [
+        "founder-playbook-blue-ocean",
+        "founder-playbook-storybrand"
+      ]
+    },
+    "founder-playbook-spin-selling": {
+      "entrypoint": "skills/founder-playbook-spin-selling/SKILL.md",
+      "bundle_roots": [
+        "skills/founder-playbook-spin-selling",
+        "assets/upstream-founder-playbook/spin-selling"
+      ],
+      "contribution": "Applies the complete SPIN Selling lens to situation, problem, implication, and need-payoff questions, advances, complex deals, and coaching.",
+      "triggers": [
+        "SPIN Selling",
+        "complex B2B discovery",
+        "implication questions",
+        "need-payoff questions",
+        "sales-call advance"
+      ],
+      "likely_companions": [
+        "founder-playbook-influence",
+        "founder-playbook-storybrand"
+      ]
+    },
+    "founder-playbook-storybrand": {
+      "entrypoint": "skills/founder-playbook-storybrand/SKILL.md",
+      "bundle_roots": [
+        "skills/founder-playbook-storybrand",
+        "assets/upstream-founder-playbook/storybrand"
+      ],
+      "contribution": "Applies the complete StoryBrand lens to customer-centered messages, problem-guide-plan structure, calls to action, success, and consequences.",
+      "triggers": [
+        "StoryBrand",
+        "brand script",
+        "customer as hero",
+        "homepage messaging",
+        "problem guide plan"
+      ],
+      "likely_companions": [
+        "sell-like-crazy",
+        "founder-playbook-made-to-stick",
+        "design-offer-funnel"
+      ]
+    },
+    "founder-playbook-traction": {
+      "entrypoint": "skills/founder-playbook-traction/SKILL.md",
+      "bundle_roots": [
+        "skills/founder-playbook-traction",
+        "assets/upstream-founder-playbook/traction"
+      ],
+      "contribution": "Applies the complete Traction Bullseye lens to enumerating, ranking, cheaply testing, and focusing acquisition channels.",
+      "triggers": [
+        "Traction Bullseye",
+        "channel selection",
+        "acquisition-channel test",
+        "growth channel focus",
+        "distribution strategy"
+      ],
+      "likely_companions": [
+        "founder-playbook-100m-leads",
+        "plan-meta-ads"
+      ]
+    },
+    "improve-live-consultant": {
+      "entrypoint": "skills/improve-live-consultant/SKILL.md",
+      "bundle_roots": [
+        "skills/improve-live-consultant"
+      ],
+      "contribution": "Captures corrections and measured outcomes, diagnoses mistakes, proposes durable changes, and verifies learning without hidden telemetry.",
+      "triggers": [
+        "Live Consultant made a mistake",
+        "capture this correction",
+        "measured business outcome",
+        "improve the plugin",
+        "repeated consulting failure"
+      ],
+      "likely_companions": [
+        "founder-business-consultant",
+        "audit-business"
+      ]
+    },
+    "plan-meta-ads": {
+      "entrypoint": "skills/plan-meta-ads/SKILL.md",
+      "bundle_roots": [
+        "skills/plan-meta-ads"
+      ],
+      "contribution": "Plans, audits, and diagnoses Meta advertising from business economics through creative experiments, account evidence, tracking, and launch gates.",
+      "triggers": [
+        "Meta ads",
+        "Facebook advertising",
+        "Instagram advertising",
+        "ad-account audit",
+        "Meta campaign plan"
+      ],
+      "likely_companions": [
+        "sell-like-crazy",
+        "design-offer-funnel",
+        "founder-playbook-100m-leads"
+      ]
+    },
+    "reason-business-decision": {
+      "entrypoint": "skills/reason-business-decision/SKILL.md",
+      "bundle_roots": [
+        "skills/reason-business-decision"
+      ],
+      "contribution": "Frames difficult business choices, maps arguments and causality, computes uncertainty, tests countercases, and returns an auditable decision record.",
+      "triggers": [
+        "business decision analysis",
+        "formal logic",
+        "expected value",
+        "tradeoff under uncertainty",
+        "causal reasoning"
+      ],
+      "likely_companions": [
+        "audit-business",
+        "founder-business-consultant"
+      ]
+    },
+    "validate-business-idea": {
+      "entrypoint": "skills/validate-business-idea/SKILL.md",
+      "bundle_roots": [
+        "skills/validate-business-idea"
+      ],
+      "contribution": "Tests an idea, market, or offer through staged proof gates and evidence before expensive building or promotion.",
+      "triggers": [
+        "validate a business idea",
+        "market demand proof",
+        "test an offer",
+        "idea comparison",
+        "go or no-go decision"
+      ],
+      "likely_companions": [
+        "founder-playbook-mom-test",
+        "founder-playbook-four-steps",
+        "reason-business-decision"
+      ]
+    }
+  }
+}

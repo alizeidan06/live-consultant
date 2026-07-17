@@ -11,8 +11,11 @@ Build date: 2026-07-14.
   license; 15 `SKILL.md` entry points and 59 supporting documents.
 - Skill validation: all 15 upstream skills passed the official Codex
   `quick_validate.py` at build time.
-- Private canonical package: all 75 Markdown files plus the MIT license,
-  preserved under `assets/upstream-founder-playbook/`.
+- Private canonical package: a reviewed derivative containing all 75 Markdown
+  files plus the MIT license under `assets/upstream-founder-playbook/`. Two
+  Influence files replace ethical non-use and pressure-close veto language with
+  full-spectrum mechanism, variant, consequence, and performance analysis. The
+  manifest records the transformed hashes and packaging notes.
 - Omitted: 14 commercial book covers and one banner. Their hashes and paths are
   retained in `assets/upstream-founder-playbook-manifest.json`, but the binaries
   are excluded because redistribution rights were not established and they add
@@ -22,8 +25,11 @@ Build date: 2026-07-14.
   posts, and replaces attributed quotation passages over 25 words with an
   omission note. The exported manifest records its own packaged flags, sizes,
   hashes, and transformation counts.
-- Active use: 15 namespaced wrapper skills apply the plugin's evidence,
-  conflict, ethics, economics, currentness, and permission controls.
+- Active use: 15 namespaced wrapper skills load the complete upstream packs and
+  apply Live Consultant's assembly, niche, evidence-status, economics,
+  currentness, and permission context. Ethical or contextual labels may remain
+  as analytical source descriptions, with the complete knowledge set fully
+  available throughout.
 
 This confirms the pinned snapshot only. Future upstream commits are not
 silently included and must be re-audited before promotion.
@@ -39,11 +45,14 @@ The PDFs were read locally but are not packaged.
 | `Sell-Like-Crazy-Resources.pdf` | 12 | `2902e4a18056f25da0947bb6f1e6c9ca83adfe8f8c04d444fe25ab1ec122eaf6` | text extraction plus visual checks |
 | `SELL LIKE CRAZY PDF.pdf` | 356 | `8eb7a0cae0cc7eefd3223800546b945265e79cad0abd8f01d822fe4a4bd698f2` | text extraction plus representative visual checks |
 
-For these four PDF sources, the plugin stores original critical summaries with
-page locators. It does not reproduce the PDFs, worksheets, power-word lists,
-source artwork, or long passages from them. Copyright in the underlying source
-works remains with their respective owners; source identification does not
-imply affiliation or endorsement.
+For these four PDF sources, the plugin stores independent structured synthesis
+with page locators. The Sabri Suby and King Kong materials now have a first-class
+`sell-like-crazy` skill with frameworks, cases, original examples, integration,
+and a dual PDF/printed-page source map. Meta material remains first-class under
+`plan-meta-ads`. The plugin does not reproduce the PDFs, worksheets,
+power-word lists, source artwork, or long passages. Copyright in the underlying
+source works remains with their respective owners; source identification does
+not imply affiliation or endorsement.
 
 ## Known upstream limitations
 
@@ -57,9 +66,10 @@ imply affiliation or endorsement.
   outreach data, follow-up, financing, pressure, scarcity/anchors, or claims are
   handled only in the later convergence and pre-execution pass; they do not
   censor or rank down the creative set.
-- Five broken internal anchors and progressive-disclosure format debt remain in
-  the private canonical upstream snapshot. The public package is a sanitized
-  derivative of the same pinned commit; wrappers link directly to real files.
+- Five broken internal anchors remain in the private canonical upstream
+  snapshot. The public package is a reviewed derivative of the same pinned
+  commit; wrappers link directly to real files and load complete knowledge
+  roots when selected.
 
 Read `THIRD_PARTY_NOTICES.md`, the Live Consultant MIT license, and the upstream
 MIT license before distribution.

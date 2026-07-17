@@ -12,7 +12,7 @@
 | **Starting point** | No customers, no validated model | Early traction with visionaries |
 | **End point** | Proven repeatable sales process, ready to scale | Mainstream market dominance in beachhead |
 | **Key question** | "Who are our customers and will they pay?" | "How do we get pragmatists to buy?" |
-| **Market Type** | Must determine (existing/new/resegmented) | Assumes existing (but nascent) market |
+| **Market Type** | Source asks teams to classify existing/new/resegmented; provisional, mixed, and evolving classifications remain valid hypotheses | Assumes existing (but nascent) market |
 
 **Where they overlap:**
 - Both use "earlyvangelist" / "visionary" customers as the starting base
@@ -24,7 +24,7 @@
 - Four Steps' Company Building chapter references Moore but takes a broader view - it covers organizational transition, not just market strategy
 - Moore's framework assumes you've already found product/market fit; Blank's entire point is that most startups haven't
 
-**Handoff rule:** Complete Four Steps (Steps 1-2 at minimum) BEFORE applying Crossing the Chasm. If you're still searching for customers, you're pre-chasm. If you have paying earlyvangelists and a repeatable sales process, you're ready for chasm strategy.
+**Source handoff:** Four Steps 1-2 usually supply evidence before full chasm execution. Preserve Four-Steps-first, chasm-scenario-first, parallel, and iterative variants; label pre-traction chasm outputs as hypotheses and update them with paying-customer evidence.
 
 ---
 
@@ -53,7 +53,7 @@
 - Company Building step (organizational transition) - Lean Startup focuses on pre-scale
 - New Lanchester Strategy for market entry cost analysis
 
-**Integration rule:** Use Four Steps for the strategic framework (especially Market Type and the four-step sequence). Use Lean Startup for the tactical iteration speed (especially MVPs and quantitative experiments). They are complementary, not competing.
+**Source-default integration:** use Four Steps for strategic framing and Lean Startup for iteration speed. Preserve Lean-first strategic discovery, Four-Steps-first, reverse, early or late use, parallel loops, alternating cycles, and complete-method variants. Choose using uncertainty, market type ambiguity, experiment cadence, sales-cycle length, evidence needs, team capacity, and the consequence of speed without direction or structure without feedback.
 
 ---
 
@@ -65,20 +65,20 @@
 |---|---|---|
 | **Product spec source** | Founders' vision | N/A (Mom Test is about conversation technique, not product strategy) |
 | **Customer conversations** | Validate that a market exists for the founders' vision | Extract truth about customer problems without leading |
-| **Feature requests** | "By exception, not by rule" | Don't ask about features at all; ask about their life |
+| **Feature requests** | “By exception, not by rule” | Mom Test source preference: ask about their life; preserve feature, problem, workflow, and mixed-question variants with leading-bias consequences |
 
 **Where they align:**
 - Both say: get outside the building and talk to customers
 - Both say: listen more than you talk (80/20 ratio)
-- Both say: don't pitch your product in discovery conversations
+- Both source frameworks favor no-pitch discovery; pitch, concept-test, soft-pitch, and no-pitch variants remain available with bias and signal-quality effects labeled
 - Both say: customer actions (especially spending money) matter more than words
 
 **Where they create tension:**
 - Four Steps explicitly says "the initial product specification comes from the founders' vision, not focus groups." The founder has a vision and tests whether there's a market for it.
-- Mom Test says never mention your idea - just learn about the customer's world.
-- Resolution: use Mom Test conversation technique DURING Four Steps' Customer Discovery Phase 2 (Test the Problem). Don't mention the product. Just learn about the problem. Then in Phase 3 (Test the Product), you can show the product concept and get reactions.
+- Mom Test's source position omits the idea and learns about the customer's world.
+- Resolution hypothesis: use no-pitch technique during Phase 2 and concept testing during Phase 3. Preserve earlier disclosure, soft-pitch, direct-pitch, blinded, and mixed variants; compare honesty, leading bias, context, and purchase evidence.
 
-**Integration rule:** Mom Test is the HOW of the conversations. Four Steps is the WHAT and WHEN of the overall process. Use Mom Test techniques inside Four Steps' Customer Discovery phases.
+**Source-default integration:** Mom Test supplies conversation technique inside Four Steps' Customer Discovery process. Preserve Mom-Test-first process discovery, Four-Steps-first, reverse, early or late use, parallel interview cells, blended questions, and complete-method variants across Discovery, Validation, Creation, and Company Building. Choose using conversation objective, bias risk, selling intent, evidence maturity, and the consequence of clean but incomplete signal versus concrete but prompted signal.
 
 ---
 
@@ -90,14 +90,14 @@
 |---|---|---|
 | **Focus** | Building a repeatable sales roadmap | Closing complex B2B sales |
 | **Key contribution** | When and why to sell | How to sell |
-| **Sales team** | Founders sell first, then Sales Closer | Professional sales force |
+| **Sales team source emphasis** | Founder-led learning followed by a Sales Closer; closer-first, professional-team-first, delegated, reverse, parallel, and hybrid variants remain available | Professional sales force; founder-led, coached, shadowed, reverse, and parallel variants remain available |
 
 **Where they align:**
 - Both emphasize understanding the customer's problem deeply before presenting solutions
 - Both are designed for complex, multi-stakeholder B2B sales
 - SPIN's Situation/Problem/Implication/Need-Payoff questions map naturally to Four Steps' Customer Discovery conversation flow
 
-**Integration rule:** Use SPIN Selling as the tactical sales methodology within Four Steps' Customer Validation. The sales roadmap that Customer Validation produces should document which SPIN questions work, what implications resonate, and what need-payoff statements close deals.
+**Source-default integration:** use SPIN as a tactical sales methodology during Customer Validation and record the questions, implications, and need-payoff statements that move deals. Preserve full SPIN during Discovery, Creation, Company Building, recovery, and every other stage; SPIN-first roadmap discovery, Four-Steps-first, reverse, early, late, parallel, blended, and whole-method variants remain available. Choose using sale complexity, customer access, product definition, evidence need, stakeholder count, seller fluency, and the consequence of persuasion contaminating discovery versus discovery failing to reach a transaction.
 
 ---
 
@@ -119,21 +119,21 @@
 - Once you've completed Customer Discovery and know the customer's pain: $100M Offers techniques can make your Customer Validation sales more effective
 - Four Steps' earlyvangelist profiles tell you WHO to target; $100M Offers tells you HOW to package the offer
 
-**Integration rule:** Complete Customer Discovery (Step 1) before applying $100M Offers. You need to know the problem and the customer before you can craft an offer. Use $100M Offers to strengthen your pitch during Customer Validation (Step 2).
+**Source integration sequence:** Customer Discovery supplies inputs to $100M Offers, which strengthens the Customer Validation pitch. Preserve discovery-first, offer-hypothesis-first, live-offer-test-first, and parallel variants; label unsupported ingredients and define the evidence loop.
 
 ---
 
 ### Four Steps → Obviously Awesome (April Dunford)
 
-**Obviously Awesome is the positioning playbook. Four Steps says positioning must match Market Type.**
+**Obviously Awesome is the positioning playbook. Four Steps predicts better fit when positioning reflects Market Type; preserve matched, deliberately contrasting, category-first, customer-first, and experimentally mixed variants.**
 
 | Dimension | Four Steps | Obviously Awesome |
 |---|---|---|
 | **Positioning approach** | Three types matched to Market Type | Systematic process: competitive alternatives → unique attributes → value → best-fit customers → market category |
-| **When to position** | Customer Creation (Step 3, Phase 2) | After you have some customers and traction |
+| **Source timing emphasis for positioning** | Customer Creation | After some customer and traction evidence; provisional, pre-product, Discovery-stage, Validation-stage, reverse, parallel, continuous, and post-scale positioning variants remain available in both complete methods |
 
 **Where they align:**
-- Both reject positioning in a vacuum - it must come from real customer understanding
+- Both source frameworks predict that positioning grounded in customer understanding outperforms positioning built in a vacuum; preserve both as testable variants
 - Both emphasize that positioning differs based on competitive context
 
 **Where they complement:**
@@ -142,7 +142,7 @@
 - Four Steps says "match positioning to Market Type" but doesn't give a step-by-step positioning process
 - Obviously Awesome gives the step-by-step process but doesn't have the Market Type lens
 
-**Integration rule:** Use Four Steps' Market Type to determine WHICH positioning approach (differentiation / vision / segmentation). Use Obviously Awesome's process to CRAFT the positioning within that approach.
+**Source-default integration:** use Four Steps' Market Type to emphasize a positioning approach and use Obviously Awesome to craft it. Preserve OA-first market-type discovery, category-first, customer-first, reverse, early or late positioning, parallel tests, deliberate mismatch, and complete-method variants. Choose using type certainty, category ambiguity, customer evidence, message-test speed, reversibility, and the consequence of a wrong type assumption.
 
 ---
 
@@ -157,7 +157,7 @@
 - Monetizing Innovation's willingness-to-pay research can inform Four Steps' pricing hypothesis in Customer Discovery
 - Four Steps' earlyvangelist identification helps target Monetizing Innovation's "right" segment
 
-**Integration rule:** Use Monetizing Innovation's WTP research during Customer Discovery Phase 1 (State Your Hypotheses - pricing). Use Four Steps' Customer Validation to actually test whether the price works.
+**Source-default integration:** use willingness-to-pay research during Customer Discovery and transaction evidence during Customer Validation. Preserve price-first product design, transaction-first discovery, research-first, reverse, early or late WTP work, parallel cells, and complete-method variants across all four steps. Choose using category familiarity, buyer access, build cost, price salience, evidence quality, segmentation risk, and the cost of learning value without price or price without use.
 
 ---
 
@@ -170,7 +170,7 @@
 
 **Where they align:**
 - Four Steps' "new market" type IS a blue ocean
-- Both say: don't compete head-on with entrenched incumbents if you can't afford to
+- Both source frameworks favor resegmentation when a head-on fight is unaffordable. Preserve direct attack, wedge, partnership, coalition, category-creation, and resegmentation variants with required advantage and spend labeled.
 
 **Where they complement:**
 - Blue Ocean's strategy canvas and four-actions framework can help identify whether you're in a new market or resegmented market (Four Steps' hardest distinction)
@@ -193,25 +193,27 @@
 
 ---
 
-## The Master Sequence (When to Use Which Skill)
+## Source-Default Master Sequence and Complete Variants
 
 ```
-PHASE 1: SEARCH (Pre-product/market fit)
+SOURCE EMPHASIS 1: SEARCH (Pre-product/market fit)
 ├─ Four Steps: Customer Discovery + Customer Validation
 ├─ Mom Test: conversation technique for discovery
 ├─ SPIN Selling: sales methodology for validation
 ├─ Monetizing Innovation: pricing hypothesis input
 └─ $100M Offers: offer construction for validation
 
-PHASE 2: LAUNCH (Post-validation, pre-mainstream)
+SOURCE EMPHASIS 2: LAUNCH (Post-validation, pre-mainstream)
 ├─ Four Steps: Customer Creation
 ├─ Obviously Awesome: positioning process
 ├─ $100M Leads: demand generation tactics
 ├─ Blue Ocean Strategy: market space analysis
 └─ Influence: persuasion in messaging
 
-PHASE 3: SCALE (Mainstream growth)
+SOURCE EMPHASIS 3: SCALE (Mainstream growth)
 ├─ Four Steps: Company Building
 ├─ Crossing the Chasm: chasm-crossing strategy
 └─ Crossing the Chasm: bowling alley expansion
 ```
+
+This map records source-default emphasis rather than a method-access schedule. Every named method remains available during search, launch, scale, recovery, and renewal. Compare the displayed order with early, late, reverse, parallel, alternating, stage-overlapping, and complete-method variants. Select using uncertainty, evidence maturity, market type, buyer access, sales-cycle length, runway, team capacity, reversibility, coordination cost, and the cost of acting too soon or too late.

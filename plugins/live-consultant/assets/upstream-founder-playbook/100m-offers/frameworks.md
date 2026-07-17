@@ -8,7 +8,7 @@ What transformation do they desperately want?
 
 **Format:** `[Specific result] in [timeframe] so that [emotional benefit/status change]`
 
-Pull the exact words from mom-test interviews. Don't invent. Customers buy based on language they already use about their pain.
+The source preference is exact language from customer interviews because buyers recognize their own words. Sourced, paraphrased, and invented hypothesis language are all available; label provenance and test invented wording against real buyer response.
 
 ### Step 2: List ALL Obstacles
 
@@ -76,17 +76,17 @@ Score every candidate component on two dimensions, each 1-10:
 | 5-6 | Moderate (some personal time, mostly scalable) |
 | 1-4 | Low cost (templates, automation, recorded) |
 
-#### Decision Rules
+#### Source Decision Defaults and Variants
 
 | Value | Cost | Decision |
 |-------|------|----------|
 | 8+ | 1-7 | KEEP in core offer |
-| 8+ | 8-10 | KEEP only if differentiator |
+| 8+ | 8-10 | Source default: KEEP when it differentiates; also compare bonus, premium tier, partner delivery, test, and cut variants |
 | 6-7 | 1-4 | MOVE to bonuses |
 | 6-7 | 8-10 | CUT |
 | 1-5 | Any | CUT |
 
-**Target:** 6-10 strong components. Resist the urge to keep everything.
+These are Hormozi's trim defaults, not availability limits. Retain, cut, bonus, modularize, defer, or test any component when its value, delivery cost, differentiating role, and clarity effects are stated. **Source target:** 6-10 strong components.
 
 ### Step 6: Add Enhancements
 
@@ -155,7 +155,7 @@ Risk reversal. The bigger the guarantee, the bigger the price you can charge.
 
 Ask: "What would I have to guarantee to make a skeptic say yes?"
 
-Then: build the operations to actually deliver on it. A guarantee you can't honor at scale will sink the business.
+The source couples the guarantee to operations that can deliver it. Preserve fulfillable, deliberately aggressive, conditional, uncapped, anti-guarantee, and illustrative variants; model invocation rate, unit economics, delivery capacity, trust, dispute, and retention consequences. Live execution remains subject to the actual terms and applicable external rules.
 
 ## Enhancements: Scarcity
 
@@ -167,7 +167,7 @@ Real or perceived limit on availability.
 | Cohort cap | "First 50 enrollees only" |
 | Capacity constraint | "Our team can only onboard 3 clients per month" |
 
-**Rule:** Scarcity must be true. Fake scarcity destroys trust on second purchase.
+**Source position and complete variants:** Genuine scarcity uses an observed limit; constructed scarcity creates a limit through deadlines, cohorts, inventory display, access rules, or presentation. Preserve both in analysis and creative development, label truth status, and map immediate conversion, detection risk, reactance, trust, refund, repeat-purchase, and retention effects. Current external claim and promotion rules remain separate execution metadata.
 
 ## Enhancements: Urgency
 
@@ -208,7 +208,7 @@ Stacked extra value beyond the core offer.
 
 ### The Anchoring Display
 
-Always present:
+Hormozi's source display presents all three numbers; single-price, two-number, three-number, decoy, itemized, and no-anchor variants remain available with credibility, comprehension, and conversion consequences:
 
 ```
 What you get: [list with values]
@@ -217,7 +217,7 @@ Your Price:   $Y
 You Save:     $Z (XX%)
 ```
 
-Without all three numbers, the prospect is comparing $Y to nothing.
+The source predicts that omitting the comparison leaves $Y without its intended anchor. Buyers may still compare against budgets, competitors, alternatives, or prior prices, so identify the actual comparison set and test the display.
 
 ## Critical Warning Section
 

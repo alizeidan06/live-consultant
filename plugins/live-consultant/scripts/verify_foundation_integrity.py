@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Verify that Live Consultant's protected v0.2.0 foundation is unchanged."""
+"""Verify that Live Consultant's versioned protected foundation is unchanged."""
 
 from __future__ import annotations
 
@@ -11,6 +11,31 @@ from pathlib import Path
 
 PLUGIN_ROOT = Path(__file__).resolve().parents[1]
 LOCK_PATH = PLUGIN_ROOT / "assets" / "foundation-lock.json"
+MANDATORY_PROTECTED_FILES = {
+    "assets/skill-knowledge-manifest.json",
+    "assets/skill-routing-fixtures.json",
+    "assets/upstream-founder-playbook-manifest.json",
+    "assets/templates/sell-like-crazy-system-brief.md",
+    "scripts/learning_loop.py",
+    "scripts/release_mutation_selftest.py",
+    "scripts/skill_routing_selftest.py",
+    "scripts/verify_foundation_integrity.py",
+    "scripts/verify_knowledge_access.py",
+    "scripts/verify_skill_assembly.py",
+    "scripts/verify_source_coverage.py",
+    "skills/founder-business-consultant/SKILL.md",
+    "skills/founder-business-consultant/references/niche-intelligence-protocol.md",
+    "skills/founder-business-consultant/references/knowledge-access-invariant.md",
+    "skills/founder-business-consultant/references/routing-map.md",
+    "skills/founder-business-consultant/references/skill-assembly-protocol.md",
+    "skills/sell-like-crazy/SKILL.md",
+    "skills/sell-like-crazy/agents/openai.yaml",
+    "skills/sell-like-crazy/references/cases.md",
+    "skills/sell-like-crazy/references/examples.md",
+    "skills/sell-like-crazy/references/frameworks.md",
+    "skills/sell-like-crazy/references/integration.md",
+    "skills/sell-like-crazy/references/source-map.md",
+}
 
 
 def sha256(path: Path) -> str:
@@ -31,6 +56,10 @@ def main() -> int:
         raise SystemExit("foundation lock has no protected_files")
 
     errors: list[str] = []
+    missing_mandatory = sorted(MANDATORY_PROTECTED_FILES - set(protected))
+    for relative in missing_mandatory:
+        errors.append(f"mandatory v0.4 foundation file is not locked: {relative}")
+
     for raw_relative, expected in sorted(protected.items()):
         relative = Path(raw_relative)
         if relative.is_absolute() or ".." in relative.parts:

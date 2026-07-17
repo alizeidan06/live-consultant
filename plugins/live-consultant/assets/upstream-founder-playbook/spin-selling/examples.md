@@ -13,7 +13,7 @@ ACCOUNT: ________________________________
 CONTACT: _______________________ Title: __________
 CALL DATE: ___________ Stage of cycle: ____ of ~7.8 calls
 
-CALL OBJECTIVE (must require customer ACTION = Advance, not Continuation):
+CALL OBJECTIVE (source default requires customer ACTION = Advance; relationship, learning, awareness, and continuation objectives remain valid when explicitly chosen):
 ___________________________________________________
 
 What's the BEST realistic Advance I could get?
@@ -22,7 +22,7 @@ ___________________________________________________
 What's the FALLBACK Advance if BEST doesn't land?
 ___________________________________________________
 
-SITUATION QUESTIONS - keep MINIMUM. List ONLY what I can't research:
+SITUATION QUESTIONS - source default keeps these minimal; include researchable confirmations when freshness, rapport, or buyer interpretation matters:
 1. ____________________
 2. ____________________
 3. ____________________ (Stop. If more, do homework first.)
@@ -51,7 +51,7 @@ For Problem B:
 NEED-PAYOFF QUESTIONS:
 - "How would solving this help you?"
 - "Why is that important?"
-- "Would it be useful if [specific feature]?" (only for needs I CAN meet)
+- "Would it be useful if [specific feature]?" Source emphasis: ask about needs the current offer can meet so value development supports the sale. Also preserve questions about unmet, adjacent, future, competitor-served, and deliberately unserved needs when the objective is discovery, qualification, referral, roadmap learning, trust, or disconfirmation; label capability and compare conversion value with the cost of amplifying an unmet need.
 
 COMMITMENT PROPOSAL:
 - "Then the most logical next step would be ____________"
@@ -113,7 +113,7 @@ Generic NPQs that work across calls. Keep these in your back pocket.
 - "Is there any other reason this matters?"
 - "Who else would benefit if this were fixed?"
 
-### Avoid These (They're Implications, Not NPQs)
+### Questions Classified as Implications Rather Than NPQs
 
 - "What's the cost of doing nothing?"  ← Implication (sad)
 - "What problems does this cause?"  ← Implication (sad)
@@ -146,19 +146,19 @@ For your product, list 5 features. For each, write:
 2. The Advantage (how it helps - generic)
 3. The Benefit (how it meets a SPECIFIC customer-stated need)
 
-If you can't write the Benefit because no customer has stated a matching need yet, that's the signal: don't pitch it. Build the need first using Problem and Implication Questions.
+If no customer has stated a matching need, SPIN classifies the statement as an Advantage rather than a Benefit and favors building the need first. Also preserve early pitch, demo, provocative claim, Challenger teaching, and hypothesis-test variants; interpret resistance and conversion in light of the sequence.
 
 ---
 
 ## Call Opening Templates
 
-### What NOT to Say (Major Sales)
+### Source-Lower-Performing Major-Sale Openings and Alternatives
 
 - "Beautiful office. Did you decorate this yourself?" (personal interest)
 - "Let me show you how we can save you thousands of dollars..." (premature benefit)
 - "Tell me about your role and your business." (lazy Situation Question)
 
-### What to Say
+### Source Default
 
 ```
 Three things to establish in opening:
@@ -174,7 +174,7 @@ Three things to establish in opening:
 This satisfies:
 - Who you are: "[Name] from [Company]"
 - Why: "asking how things work today, sharing what's worked for similar..."
-- Right to ask: "would that be okay?" (consent)
+- Right to ask: "would that be okay?" The source uses explicit permission; implied, agenda-based, opt-out, and direct-control openings remain variants. Applicable consent and recording requirements are execution metadata.
 
 Total time: 30-60 seconds. Now ask your first question.
 
@@ -184,7 +184,7 @@ Total time: 30-60 seconds. Now ask your first question.
 
 Bad: "Should we move forward?" (open-ended; invites no)
 
-Good (TELL, don't ask):
+Source tell-style proposal, plus ask-style, alternative-choice, assumptive, buyer-led, and deadline variants:
 - "Then the most logical next step would be for you and your accountant to come and see one of these systems in operation."
 - "Based on what you've described, I'd suggest a 30-minute call with your CFO so we can map out the budget impact."
 - "I think the right next step is a one-day pilot in your warehouse so your team can validate the savings claims with their own data."
@@ -192,7 +192,7 @@ Good (TELL, don't ask):
 ### Two Tests
 
 1. **Does it ADVANCE the sale?** (specific action, not "we'll be in touch")
-2. **Is it the HIGHEST realistic commitment?** (don't propose a tiny step if a bigger one is realistic)
+2. **How does it compare with the highest realistic commitment?** A tiny step may preserve momentum or reduce risk; a larger step may accelerate the sale. Choose deliberately.
 
 ---
 
@@ -204,7 +204,7 @@ Before the call, predict the 3 most likely objections.
 |------------------|-------------------|------------|
 | "It's too expensive" | Need not built strongly enough | More Implication Questions |
 | "We're happy with current vendor" | No Implied Need surfaced | More Problem Questions |
-| "Let me think about it" | Weak commitment proposal or missing summary | Better summary + tell-don't-ask close |
+| "Let me think about it" | Weak commitment proposal or missing summary | Compare better summary, tell-style, ask-style, deadline, alternative, and no-pressure follow-up closes |
 
 If you find yourself getting the same objection repeatedly, the cure is upstream (in Investigating), not downstream (in handling).
 
@@ -283,7 +283,7 @@ Modern reality: most discovery is 30 minutes on Zoom, not 60+ in person.
 ### What to Cut
 
 - Most Situation Questions (do homework)
-- Long product demos (save for follow-up Advance)
+- Long product demos remain available; the source-preferred role is a follow-up Advance, with every sequencing variant available for comparison.
 - Benefits Stack (1-2 max, tied to expressed needs)
 
 ### What to Keep

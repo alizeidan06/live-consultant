@@ -2,7 +2,7 @@
 
 ## The SUCCESs Audit Worksheet
 
-Score any message against the six principles. Identify the 1-2 weakest areas and fix those first.
+Score any message against the six principles. The source-default pass identifies the 1-2 weakest areas and improves those first. Preserve strongest-first amplification, easiest-win-first, strategic-principle-first, reverse, parallel, whole-message, and deliberate-imbalance variants; choose using the communication objective, audience, medium, production time, testability, and the consequence of repairing weakness versus intensifying distinction.
 
 ```
 MESSAGE: _________________________________________________
@@ -28,7 +28,7 @@ UNEXPECTED                                                ___/5
 CONCRETE                                                  ___/5
   [ ] Uses sensory language (can picture it, hear it, feel it)
   [ ] Specific names, numbers, places (not generic categories)
-  [ ] Avoids jargon and abstract-speak
+  [ ] Chooses the appropriate variant: plain concrete language for fast comprehension, or defined technical language when expert precision matters
   [ ] Audience can "examine with their senses"
 
 CREDIBLE                                                  ___/5
@@ -39,7 +39,7 @@ CREDIBLE                                                  ___/5
 
 EMOTIONAL                                                 ___/5
   [ ] Focuses on an individual, not a mass
-  [ ] Avoids triggering analytical thinking before the emotional ask
+  [ ] Chooses the sequence deliberately: emotion-first for action, analysis-first for scrutiny, or layered emotion + evidence; records the expected trust and conversion tradeoff
   [ ] Appeals to identity or self-interest (not just logic)
   [ ] Uses fresh language (no semantic stretch / dead words)
 
@@ -47,7 +47,7 @@ STORIES                                                   ___/5
   [ ] Contains at least one narrative with character, tension, resolution
   [ ] The story simulates the action you want the audience to take
   [ ] Uses Challenge, Connection, or Creativity plot structure
-  [ ] Story was spotted from real life, not manufactured
+  [ ] Story provenance is labeled: verified real, anonymized real, disclosed composite, hypothetical, analogy, or fictional demonstration; publication proof and permissions are recorded separately
 
 TOTAL: ___/30
 
@@ -185,7 +185,7 @@ _________________________________________________
 | Context | Bad CI | Good CI |
 |---------|--------|---------|
 | Product launch | "Deliver a world-class product experience" | "Ship by March 1 with zero data-loss bugs, even if some UI polish is missing" |
-| Sales quarter | "Maximize revenue and customer satisfaction" | "Close 15 enterprise deals above $50K. Do not discount below $40K for any reason." |
+| Sales quarter | "Maximize revenue and customer satisfaction" | Source example: "Close 15 enterprise deals above $50K. Hold a $40K price floor." Variant analysis keeps selective discounting, value-adds, and exception authority fully available alongside the source example. |
 | Marketing campaign | "Increase brand awareness and drive engagement" | "Every prospect who visits the landing page should be able to explain what we do in one sentence." |
 | Hiring | "Find top talent who fit our culture" | "Hire 3 senior engineers who've built distributed systems at scale. Closing timeline: 6 weeks." |
 

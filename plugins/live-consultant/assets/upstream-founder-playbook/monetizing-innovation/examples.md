@@ -48,7 +48,7 @@ This becomes the constraint for pricing strategy choice.
 
 ## The BECAUSE Test - Templates
 
-Every pricing decision must end with a "because" traceable to customer data.
+The source asks every pricing decision to end with a "because" traceable to customer data. Also record cost, competitor, strategic, regulatory, executive-judgment, and experimental rationales so a hypothesis is visible instead of censored.
 
 ### Bad Examples
 
@@ -95,7 +95,7 @@ You're an industrial pump maker competing against an incumbent.
 ### Action by Quadrant
 
 - **Top Right (Reliability, Efficiency):** Lead all marketing here. These are your wedge.
-- **Bottom Right (Onboarding software):** Try to convince customers this matters - **only with proof points**. If you can't, don't waste budget.
+- **Bottom Right (Onboarding software):** Generate education, demonstration, reframing, social-proof, authority, fear, and deprioritization variants. Factual proof points are required before publishing factual claims, not before creating or comparing the concepts; test expected lift against evidence cost and budget.
 - **Top Left (Service network):** Prepare defensive arguments. Bundle 3rd-party service partners. Consider proactive remote diagnostics.
 - **Bottom Left (Industrial design):** Ignore for now.
 
@@ -212,7 +212,7 @@ Magazine subscription test.
 
 The $125 print-only option made the $125 print+online bundle look like a no-brainer. Adding a useless option increased revenue ~30%.
 
-**Rule:** Always have an anchor product. Start B2B negotiations with a HIGH anchor.
+**Source-default rule:** include an anchor product and begin B2B negotiation with a high anchor. Preserve no-anchor, low-anchor, customer-first anchor, precise anchor, range anchor, reverse, parallel-offer, and late-anchor variants; compare price realization, trust, speed, relationship, information discovery, and reactance.
 
 ---
 
@@ -234,7 +234,7 @@ The $125 print-only option made the $125 print+online bundle look like a no-brai
 
 ---
 
-## Razor & Blades - When to Use
+## Razor & Blades - Variants, Economics, and Context
 
 ### Coffee Machine Example
 
@@ -247,12 +247,12 @@ Same total. Customers strongly prefer B.
 
 ### Decision Rule
 
-Use razor & blades **only if you're 100% sure you can sell the downstream products**:
+The source favors razor-and-blades when downstream sales are highly predictable. Keep it available under uncertainty and model expected value, financing cost, lock-in, customer acceptance, and downside alongside full-upfront, subscription, lease, usage, and subsidized variants:
 - Lock-in mechanism (proprietary cartridges, accounts, data)
 - High switching cost
 - Customer can't easily skip the consumable
 
-If you're not sure, don't give away the razor.
+When downstream certainty is low, giving away or subsidizing the razor becomes a deliberate acquisition bet. Cap exposure, define a stop rule, and compare it with partial subsidy or a refundable deposit.
 
 ---
 

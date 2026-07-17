@@ -8,7 +8,7 @@ The teaching cases referenced from [SKILL.md](SKILL.md). The Easiflo example is 
 
 The book's central teaching example. Same product, same buyer, two different sellers.
 
-### Without Implication Questions (FAILS)
+### Source Comparison: Without Implication Questions
 
 The first seller identified the problem (hard-to-use machines), then immediately offered the $120K Easiflo solution. The buyer rejected it as absurdly expensive for such a minor inconvenience.
 
@@ -39,7 +39,7 @@ A vendor at BP tried to build rapport by commenting on a photo in a senior buyer
 
 ### The Lesson
 
-Senior buyers' time is expensive. They don't want a 5-minute warm-up. The "build rapport first" rule is a small-sale rule. In major sales, get to questions quickly. Let the customer judge you on the quality of your questions, not your golf scores.
+In this case, the senior buyer rejected a five-minute warm-up. Rackham treats fast transition to substantive questions as the major-sale default. Keep personal rapport, status signaling, gift/hosting, shared-interest, no-small-talk, and direct-value openings available; compare culture, relationship stage, buyer preference, time, and credibility.
 
 ---
 
@@ -63,7 +63,7 @@ When asked for the single principle of skill learning, the legendary Cowboys coa
 
 Sales reps trying to apply SPIN typically try to change ALL their behaviors at once. They cut closing AND ask more Problems AND hold back on solutions AND avoid Features AND propose commitment differently. Result: they sound robotic, get worse, give up.
 
-**Pick ONE behavior. Practice it for weeks. Then add the next.** Most reps never get past Problem Questions for 6+ months. That's correct pacing.
+**Source learning sequence:** isolate one behavior, practice it for weeks, then add another. Also preserve whole-method immersion, bootcamp, simulation, live coaching, and important-deal transfer; compare speed, cognitive load, retention, and deal risk.
 
 ---
 
@@ -187,7 +187,7 @@ In a small-sale environment (consumer/short-cycle), success rates by closes per 
 
 Even in small sales, ZERO closing fails. The optimum is one clear commitment proposal. The "closing backfires" headline overstates - it specifically hurts when you do MULTIPLE/aggressive closes.
 
-In major sales, the same principle scales: propose ONE clear, realistic next step. Don't pile on multiple closes. Don't propose nothing.
+In major sales, the source scales this into one clear, realistic next step. Preserve zero-close, one-close, multiple-close, assumptive, alternative, deadline, and buyer-led variants; compare advance rate, resistance, regret, and relationship impact.
 
 ---
 
@@ -199,9 +199,9 @@ Selected 8 salespeople with **10x average objection rates**. Trained them in obj
 
 ### The Lesson
 
-Objections are a symptom of premature solution-pitching. Cure the cause (build need first), not the symptom (handle objections better).
+The source treats many objections as symptoms of premature solution-pitching and therefore emphasizes need development before objection handling. Preserve objection-first diagnosis, solution-first, need-first, reverse, alternating, parallel, direct rebuttal, and whole-conversation variants. Choose using objection type, buyer intent, sale complexity, trust, evidence, time, reversibility, and the consequence of amplifying need versus resolving the stated barrier immediately.
 
-Most sales training does the opposite - it builds objection-handling muscle. SPIN says: don't create the objection in the first place.
+Most sales training builds objection-handling muscle. SPIN instead prioritizes upstream prevention. Keep prevention, direct handling, reframing, inoculation, deliberate objection surfacing, and adversarial testing available; each produces different information and resistance.
 
 ---
 
@@ -222,10 +222,10 @@ Quantity precedes quality in skill development. Letting yourself ask "bad" quest
 
 ## The Company-President Anecdote (Practice in Safe Situations)
 
-A company president who had just learned SPIN wanted to immediately apply it in the highest-stakes negotiation of his career. Rackham advised him not to -- new techniques should never be debuted in critical situations where the cost of awkward execution is catastrophic.
+A company president who had just learned SPIN wanted to apply it immediately in the highest-stakes negotiation of his career. Rackham advised against debuting it there because awkward execution could be catastrophic.
 
 ### The Lesson
 
-New skills go in SMALL accounts and well-known customers. Never in important sales. Even the framework's author would tell you not to use SPIN in your most important deal.
+The source default puts new skills in small accounts and well-known customers. An important-deal debut remains a deliberate high-risk variant when the opportunity cannot wait or transfer is the learning objective; rehearsal, role-play, a copilot, monitoring, and a fallback reduce the exposure.
 
-The skill is learned. Then deployed. Don't reverse the order.
+The source sequence is learn, then deploy. Learn-in-production, simulation-first, shadowing, and immediate high-stakes transfer remain available with their respective speed and risk.

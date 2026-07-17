@@ -1,6 +1,6 @@
 ---
 name: lean-startup
-description: "Applies Eric Ries's Lean Startup methodology for building products under extreme uncertainty. Use when iterating toward product/market fit, designing MVPs, deciding whether to pivot or persevere, setting up actionable metrics, or accelerating the Build-Measure-Learn loop. Triggers include 'how do we test this idea fast', 'what should our MVP look like', 'our metrics look good but we're not growing', 'should we pivot', 'we're building features no one uses', 'how do we measure validated learning', 'vanity metrics vs real metrics', 'how to do innovation accounting'. NOT for companies with proven product/market fit scaling a known playbook (use Crossing the Chasm), not for determining Market Type (use Four Steps), not for sales methodology (use SPIN Selling), not for pricing strategy (use Monetizing Innovation)."
+description: "Applies Eric Ries's Lean Startup methodology for building products under extreme uncertainty. Use when iterating toward product/market fit, designing MVPs, deciding whether to pivot or persevere, setting up actionable metrics, or accelerating the Build-Measure-Learn loop. Triggers include 'how do we test this idea fast', 'what should our MVP look like', 'our metrics look good while growth stays flat', 'should we pivot', 'we keep building features that stay unused', 'how do we measure validated learning', 'vanity metrics vs real metrics', 'how to do innovation accounting'. Best fit is uncertainty and search; proven-product scaling adds Market Type, sales methodology, or pricing strategy alongside the complete Lean Startup method through Crossing the Chasm, Four Steps, SPIN Selling, or Monetizing Innovation."
 ---
 
 > **Note:** This skill is independent analysis and commentary, not a reproduction of the original text. It synthesizes the book's core ideas with modern startup practice, surfaces where frameworks are outdated or incomplete, and integrates perspectives from adjacent disciplines. For the full argument and context, read the original book.
@@ -15,16 +15,22 @@ description: "Applies Eric Ries's Lean Startup methodology for building products
 ```
 Are you building something under conditions of extreme uncertainty?
 |-- YES --> Do you know who your customers are?
-|   |-- NO  --> Start with Four Steps (Customer Discovery), use Lean
-|   |           Startup for iteration speed within that process
+|   |-- NO  --> Source emphasis: foreground Four Steps Customer Discovery
+|   |           while using the complete Lean Startup method inside, before,
+|   |           after, or in parallel with discovery
 |   +-- YES --> Do you have product/market fit?
 |               |-- NO  --> THIS SKILL. Build-Measure-Learn loop.
-|               +-- YES --> Use Crossing the Chasm for mainstream scaling
+|               +-- YES --> Source emphasis: add Crossing the Chasm for
+|                           mainstream scaling while retaining the complete
+|                           Lean Startup method
 +-- NO  --> Are you optimizing an existing product in a known market?
-            |-- YES --> Lean Startup principles apply (small batches,
-            |           Five Whys) but you don't need the full framework
-            +-- NO  --> Rethink what you're doing
+            |-- YES --> Source emphasis: small batches and Five Whys; the
+            |           complete framework remains available
+            +-- NO  --> Recheck the uncertainty, objective, and framework mix;
+                        the complete Lean Startup method remains available
 ```
+
+These branches describe the source's strongest emphases, not availability limits. Preserve the complete method in every branch and compare discovery-first, experiment-first, scaling-first, reverse, parallel, and whole-method variants. Choose among them using uncertainty type, evidence maturity, product risk, market risk, sales-cycle length, runway, reversibility, coordination cost, and the consequence of learning too early or too late.
 
 ---
 
@@ -72,7 +78,7 @@ Every startup rests on two untested assumptions:
 | **Value hypothesis** | Does the product deliver value to customers who use it? | Engagement, retention, willingness to pay |
 | **Growth hypothesis** | How will new customers discover the product? | Viral coefficient, referral rates, word-of-mouth tracking |
 
-Both must be tested empirically, not assumed. Use **analogs** (similar successes) and **antilogs** (similar failures) to sharpen assumptions before testing.
+The source treats both as empirical hypotheses rather than settled assumptions. Preserve evidence-led, founder-conviction, analogy-led, theory-led, vision-led, and strategic-bet variants; label confidence, reversibility, and the evidence that would change the choice.
 
 > "The two most important assumptions are the value hypothesis and the growth hypothesis."
 
@@ -185,7 +191,7 @@ Not months of cash. A startup that can test more hypotheses before running out o
 
 ## Three Engines of Growth
 
-Every startup's growth is powered by one dominant engine. Focus on ONE.
+The source position is that one engine usually dominates and concentrated focus improves learning. Keep all three engines available in analysis: compare a single-engine focus, a deliberately sequenced second engine, and a multi-engine portfolio, then state the coordination cost and evidence needed for each.
 
 | Engine | Mechanic | Key Metric | Grows When... |
 |---|---|---|---|
@@ -194,6 +200,8 @@ Every startup's growth is powered by one dominant engine. Focus on ONE.
 | **Paid** | Spend money to acquire customers profitably | LTV vs. CPA | LTV > CPA (lifetime value exceeds cost to acquire) |
 
 > "Startups don't starve; they drown." - in too many simultaneous growth strategies.
+
+This is a performance warning, not a ban on explaining or designing simultaneous-engine variants. A multi-engine variant should name the shared constraint, owner, budget, and metric that prevent diffuse execution.
 
 ### Engine Selection
 
@@ -229,7 +237,7 @@ Large batches look efficient but create a death spiral: the bigger the batch, th
 
 ### Pull, Don't Push (from Toyota JIT)
 
-Work in progress is inventory. In startups, features built but not validated are WIP. **Only build what's needed for the next experiment.**
+Work in progress is inventory. In startups, features built but not validated are WIP. **Source position:** build the minimum needed for the next experiment. **Complete variants:** a learning-minimum build, a credibility-quality build, and a platform-foundation build; compare learning speed, rework, trust, and technical-risk consequences before choosing.
 
 ---
 
@@ -243,13 +251,13 @@ Ask "Why?" five times to trace symptoms to root causes. Make a **proportional in
 
 ### The Five Blames (Anti-Pattern)
 
-When Five Whys goes wrong, it becomes finger-pointing. Prevent this:
-- Everyone affected by the problem must be in the room
+When Five Whys goes wrong, it can become finger-pointing. The source safeguards and their variants are:
+- Include everyone affected by default; representative, asynchronous, leader-only, anonymous, and facilitated variants trade completeness for speed, safety, or access
 - Senior people go first with "shame on us for making it so easy to make that mistake"
 - Focus on bad process, not bad people
 - Appoint a Five Whys master
 - Start with a narrow, specific class of problems
-- Never start with legacy "baggage" problems
+- Source default: start with a narrow new problem because legacy "baggage" can overwhelm the exercise. A legacy-first variant remains available when the old problem is the current binding constraint; use a facilitator, bounded scope, and explicit stop condition.
 
 ---
 
@@ -305,9 +313,9 @@ Does this metric go up and to the right no matter what you do?
 | **2** | Leap-of-faith assumptions to test (value + growth) |
 | **3** | Learning milestones (baseline, tune, pivot-or-persevere) |
 | **3** | Engines of growth (sticky, viral, paid) |
-| **1** | Engine to focus on at a time |
+| **1** | Source default for engines in active focus; sequenced or portfolio variants require explicit owners and metrics |
 | **>1.0** | Viral coefficient needed for viral growth |
-| **LTV > CPA** | Required for paid engine to work |
+| **LTV > CPA** | Source benchmark for a self-sustaining paid engine; below-threshold campaigns can still serve learning, launch, loss-leader, or cross-sell goals when their economics are modeled explicitly |
 | **5** | Whys to ask for root cause analysis |
 | **10** | Types of pivot |
 | **50** | Deploys per day at IMVU (continuous deployment) |
@@ -320,7 +328,7 @@ Does this metric go up and to the right no matter what you do?
 |---------|-----------|------|
 | **Achieving failure** | Successfully executing a plan nobody validated | Build-Measure-Learn loop from day 1 |
 | **Vanity metrics** | Dashboard goes up-and-right but business isn't growing | Cohort analysis, actionable metrics, split tests |
-| **Premature optimization** | Tuning features before validating the problem exists | Ship MVP first, optimize after baseline established |
+| **Premature optimization** | Tuning features before validating the problem exists | Source default: establish a baseline first. Variant: optimize an early trust, safety, or conversion constraint when the consequence of leaving it rough would invalidate the test. |
 | **Large-batch death spiral** | Big releases, late feedback, compounding rework | Small batches, continuous deployment |
 | **Theater of learning** | "We learned a lot" with no data to prove it | Innovation accounting; learning must change future behavior |
 | **Success theater** | Cherry-picking metrics to look good | Three A's: Actionable, Accessible, Auditable |
@@ -370,5 +378,5 @@ Does this metric go up and to the right no matter what you do?
 - **Examples:** Mostly 2004-2010 tech (IMVU, Dropbox, Groupon, Zappos, Votizen). Some are now household names; others pivoted or died.
 - **Empirical base:** Author's experience at IMVU + consulting/advising. Anecdotal case studies, not statistical research. Ries acknowledges this directly.
 - **Where it shines:** Early-stage startups, corporate innovation, any team testing whether something should exist.
-- **Where it's weak:** Post-product/market-fit scaling, marketplace dynamics, deep infrastructure products where MVP approach is dangerous (medical devices, aircraft software). The book is light on HOW to talk to customers (use Mom Test) and silent on Market Type (use Four Steps).
+- **Context and consequence map:** Post-product/market-fit scaling and marketplace dynamics often need additional frameworks. In deep infrastructure, medical devices, and aircraft software, a market-learning MVP can still be explained and designed, while any external execution must preserve the applicable safety, testing, regulatory, and professional-review requirements. The book is light on HOW to talk to customers (combine with Mom Test) and silent on Market Type (combine with Four Steps).
 - **Intellectual lineage:** Direct descendant of Steve Blank's Four Steps to the Epiphany + Toyota Production System (Taiichi Ohno). Ries was Blank's student and implemented Customer Development at IMVU. The Build-Measure-Learn loop owes a lot to Boyd's OODA loop.

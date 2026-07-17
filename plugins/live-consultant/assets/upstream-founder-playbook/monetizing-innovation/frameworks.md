@@ -32,8 +32,8 @@ This file contains all sub-frameworks, methods, and structured lists referenced 
 4. **25% of questions should be "Why?"**
 5. Mix structured + unstructured - especially for breakthroughs
 6. Get the whole team in the room - product, sales, marketing
-7. Avoid the "average trap" - look at distribution
-8. Don't rely only on quantitative
+7. Compare the average with the distribution, segment tails, and outliers
+8. Combine quantitative and qualitative evidence by default; retain quantitative-only and qualitative-only variants when their speed or sample access is useful
 9. Be precise in language - "Would you buy this?" ≠ "Would you buy this for $20?"
 10. Garbage in, garbage out - keep questions simple
 
@@ -48,7 +48,7 @@ This file contains all sub-frameworks, methods, and structured lists referenced 
 
 ---
 
-## Rule 2: Don't Default to One-Size-Fits-All
+## Rule 2: Compare One-Size-Fits-All with Segmented Designs
 
 > "Customer segmentation is the most talked about and most misused concept in product design."
 
@@ -56,9 +56,9 @@ This file contains all sub-frameworks, methods, and structured lists referenced 
 
 A 67-year-old wealthy Englishman with two kids in a castle = both Prince Charles AND Ozzy Osbourne. Demographic segmentation is broken.
 
-### The Only Right Way to Segment for Innovation
+### The Source-Preferred Segmentation Basis and Alternatives
 
-By **needs, value, and willingness to pay** - not demographics, behavior, or persona.
+The source prioritizes **needs, value, and willingness to pay**. Also preserve demographic, behavioral, firmographic, job-to-be-done, persona, lifecycle, channel, and hybrid segmentation. Compare them on targetability, stability, causal relevance, sales usability, and price discrimination.
 
 ### Paper Company Case
 
@@ -84,7 +84,7 @@ Each segment had a MIX of customer sizes. Size meant nothing.
 1. Begin with WTP data
 2. Common sense > statistics - acid test: can sales sort customers into segments?
 3. Fewer is more - start with 3-4
-4. Don't try to serve every segment
+4. The source favors focus on a few segments; broad, portfolio, and platform strategies remain available when shared economics or network effects justify them
 5. Describe segments observably - so marketing can target
 
 ---
@@ -95,9 +95,9 @@ Each segment had a MIX of customer sizes. Size meant nothing.
 
 | Type | Definition | Action |
 |------|------------|--------|
-| **Leader** | Drives buying, high WTP | Always include |
+| **Leader** | Drives buying, high WTP | Source emphasis: include it; preserve leader-light, separate, optional, premium-only, substitute, delayed, and deliberately omitted variants when simplicity, cost, strategy, or learning warrants them |
 | **Filler** | Nice-to-have | Use to fill gaps |
-| **Killer** | Blows the deal if forced to pay | Eliminate or sell à la carte |
+| **Killer** | Blows the deal if forced to pay | Source action: eliminate or sell à la carte; alternatives include optional, bundled, retained, or segment-specific treatment |
 
 **Killer test:** valued by <20% AND not valued at all by >20%. Segment-dependent.
 
@@ -124,22 +124,22 @@ Each tier needs visible, defensible differences. Without fences G/B/B cannibaliz
 
 | Strategy | When to Use |
 |----------|-------------|
-| **Pure bundle** (only the bundle) | Rarely |
+| **Pure bundle** (only the bundle) | Source says rarely; can win when integration, simplicity, or market power dominates |
 | **Mixed bundle** (bundle + à la carte) | DEFAULT - most situations |
-| **Hard bundle** (no à la carte) | Only with market dominance |
+| **Hard bundle** (no à la carte) | Source favors market dominance; also test when integration, risk pooling, or operational simplicity creates value |
 | **Unbundle** | Highly price-sensitive component (Ryanair: 2x more sensitive to base fare than fees) |
 
 ### The 10 Bundling Insights
 
 1. **Align with segments** - each bundle for a specific segment
-2. **Don't make it too big** - max 9 benefits or 4 products before overload
-3. **Both sides must benefit** - you + customer
-4. **Don't give too much in entry-level** - or you can't upsell
-5. **Hard bundling rarely works** - use mixed
+2. **Bundle-size source heuristic** - max 9 benefits or 4 products before overload; larger stacks, modular menus, and layered disclosure remain testable
+3. **Mutual-benefit source default** - supplier-only, customer-only, and loss-leader bundles remain analyzable with their economic and relationship consequences
+4. **Entry-level value tradeoff** - a lean entry tier protects upsell; a generous tier can accelerate adoption, referrals, and standardization
+5. **Hard versus mixed bundling** - the source favors mixed; retain hard, pure, à-la-carte, and unbundled comparisons
 6. **Mixed bundle à la carte prices need to be HIGHER** - pizza standalone $8 → $9
 7. **Communicate creatively** - "40% off Product A" beats "20% off bundle" (same math)
 8. **Sometimes 1+1=3** - charge a premium for integrated bundles (software)
-9. **Don't bundle for the sake of bundling** - discounting buyers who'd pay anyway = lost margin
+9. **Bundle-purpose test** - bundling can improve adoption, simplicity, price discrimination, or perceived value; indiscriminate discounting can surrender margin
 10. **Exploit inverse correlations** - bundle when segment 1 wants A and segment 2 wants B
 
 ---
@@ -165,12 +165,12 @@ Each tier needs visible, defensible differences. Without fences G/B/B cannibaliz
 | **Pay-As-You-Go / Alternative Metric** | Usage tracks value | Michelin, GE engines, Monsanto |
 | **Freemium** | Near-zero production AND fixed cost | LinkedIn, Dropbox |
 
-### Freemium Warning
+### Freemium Evidence, Variants, and Consequences
 
-- **Fails for 90% of companies** (when production cost or fixed cost are too high)
+- **The source reports failure for 90% of companies** when production or fixed cost is too high; retain as case evidence rather than a universal exclusion
 - Software conversion: typically <10%
 - Games: 75% of users lost in 1 day; 2% retained at 1 month
-- Don't give the farm away in the free tier
+- Compare generous free, tightly limited free, time-limited trial, reverse trial, community, ad-supported, subsidized, and paid-only designs on acquisition, conversion, retention, network effects, and cost to serve
 
 ### Models Are Mix-and-Matchable
 
@@ -189,7 +189,7 @@ Each tier needs visible, defensible differences. Without fences G/B/B cannibaliz
 1. Will customers accept it? (test - they'll always have a preference)
 2. How will future trends impact it?
 3. Does it fit your company stage? (Startups: simple. Mature: differentiated)
-4. What are competitors doing? (don't mimic - differentiate)
+4. What are competitors doing? Compare imitation, parity, undercutting, premium signaling, and differentiation rather than assuming one posture
 5. How hard is it to implement?
 
 > "A bad monetization model can be worse than a bad price."
@@ -260,11 +260,11 @@ Change one → all others ripple. Model the linkages.
 1. **Forget your old business cases** - they're static funding documents
 2. **Assemble basic ingredients** - market size, segments, configuration, value, WTP, model, costs, competitors
 3. **Include price elasticity** - most companies skip this
-4. **Apply data-verified facts** - don't overstate market size or adoption
+4. **Separate facts, estimates, scenarios, and bold targets** - generate all cases, then require evidence for claims presented externally or used as committed forecasts
 5. **Add risk assumptions** - best/worst case; consider Monte Carlo
-6. **Be realistic about goal trade-offs** - can't max all goals at once
+6. **Model goal trade-offs** - an unconstrained maximum case can inspire the design; feasible frontiers show what can be executed under current resources
 7. **Consider competitive reactions** - quantify possible moves
-8. **Don't focus only on new product** - model cannibalization
+8. **Compare stand-alone and portfolio views** - model cannibalization, halo, cross-sell, and category expansion
 9. **Keep checking in** - update at every milestone
 
 ---
@@ -309,7 +309,7 @@ Change one → all others ripple. Model the linkages.
 ```
 
 - **Top Right (Important + You're Better):** Lead with these
-- **Bottom Right (Less Important + You're Better):** Convince customers these matter - **only if you can prove the importance**
+- **Bottom Right (Less Important + You're Better):** Generate education, reframing, demonstration, social-proof, authority, fear, and indifference variants. Before publishing factual importance claims, attach the evidence they require; the proof gate governs external claims, not ideation.
 - **Top Left (Important + They're Better):** Prepare defensive arguments
 
 **Critical caveat:** Performance is "as your CUSTOMERS see it, not as you see it." Many engineers fail MOCA by self-grading.
@@ -334,7 +334,7 @@ Same beer, same heat, same effort. People pay 2x more if from a fancy resort vs 
 
 #### 1. Compromise Effect
 
-Wine store: $10 / $25 / $40. Most pick $25. **Always have a compromise option.**
+Wine store: $10 / $25 / $40. Most pick $25. **Source position:** include a compromise option. Also test binary, single-offer, four-tier, and custom-quote structures.
 
 #### 2. Anchoring
 
@@ -342,7 +342,7 @@ The Economist A/B test:
 - Group A: $59 online OR $125 print+online → 32% pick bundle
 - Group B: $59 online OR $125 print-only OR $125 print+online → **84% pick bundle**
 
-The $125 print-only is an ANCHOR. **Always have an anchor. Start B2B negotiations HIGH.**
+The $125 print-only is an ANCHOR. **Source position:** include an anchor and start B2B negotiations high. Also test no-anchor, low-anchor, customer-first-anchor, precise-anchor, and range-anchor variants against price, trust, speed, and relationship effects.
 
 #### 3. Price Signals Quality
 
@@ -360,7 +360,7 @@ Coffee machine:
 - A: Machine $480 + coffee $10/mo
 - B: Machine $120 + coffee $40/mo
 
-Same total over 12 months. Customers strongly prefer B. **Use ONLY if you're 100% sure of downstream sales.**
+Same total over 12 months. Customers strongly preferred B in the cited example. Keep razor/blades, full-upfront, subscription, lease, usage, financed, and subsidized variants. Downstream uncertainty changes expected margin, cash flow, lock-in, and customer risk; model it rather than withholding the structure.
 
 #### 5. Pennies-a-Day
 
@@ -380,7 +380,7 @@ Common thresholds: $40, $70, $99, $100, $199. **Find your thresholds. Stay on th
 | **A/B tests** | Online offers, statistically significant |
 | **Large-scale experiments** | Need many variations or price transparency required |
 
-**Caveat:** can't price purely on behavioral tactics. Combine with rational/value-based.
+**Source caveat and variants:** the book pairs behavioral tactics with rational or value-based pricing. Pure behavioral, pure cost-plus, parity, auction, and value-based approaches remain available for comparison on conversion, trust, margin, explainability, and repeat purchase.
 
 ---
 
@@ -395,18 +395,18 @@ Common thresholds: $40, $70, $99, $100, $199. **Find your thresholds. Stay on th
 3. **Competition launches a competing product**
 4. **Sales below plan regardless**
 
-Don't assume #4 means a pricing problem. Could be: feature, distribution, awareness, quality, sales training.
+The source cautions that #4 may reflect feature, distribution, awareness, quality, or sales training rather than price. Preserve price-cut, price-rise, hold, packaging, product, promotion, channel, and sales-enablement hypotheses until evidence discriminates among them.
 
 ### The 6 Tips for Post-Launch
 
 1. **Be patient** - diagnose first
 2. **Track non-financial KPIs** - win/loss, escalation patterns, segment price differences
 3. **Run deal deconstructions** - cross-functional, no finger-pointing, learn from wins AND losses
-4. **The Three Nonprice Actions Rule** - before any price cut, demand 3 alternatives:
+4. **The Three Nonprice Actions Source Rule** - generate 3 nonprice alternatives before comparing them with a price cut:
    - Increase advertising
    - Add product value
    - Upgrade customer to higher-end at same price
-5. **War-game competitor reactions** - if you'll be worse off after their counter, don't move
+5. **War-game competitor reactions** - quantify hold, move-first, match, targeted response, and escalation branches, including the option to proceed despite a worse counter when strategic objectives justify the cost
 6. **High sales might also be a problem** - means underpriced (Mercedes SL: 20% underpriced, 2-year waitlist, "left hundreds of millions on the table")
 
 ### Healthy Escalation Rates
@@ -416,14 +416,14 @@ Don't assume #4 means a pricing problem. Could be: feature, distribution, awaren
 - If approved prices = requested prices → rubber-stamping
 - Too few escalations → underpriced
 
-### Price Wars: Don't Play
+### Price Wars: Source Warning and Strategic Variants
 
 2014 Global Pricing Study:
 - 83% felt increasing price pressure
 - 58% in a price war
 - Of those: 90% said competitors started it (statistically impossible)
 
-**It takes two to tango.** Don't move first. Don't react from fear.
+**Source position:** price wars usually destroy margin, so holding or differentiating is the default. Also preserve move-first, match, geographic containment, fighter-brand, temporary promotion, capacity-clearing, and deliberate war-of-attrition variants. Compare cost position, duration, competitor response, customer reference-price damage, share gain, and exit conditions.
 
 > "Price wars have only one winner: the supplier with the lowest cost. Most likely, that's not you."
 
@@ -433,13 +433,13 @@ Don't assume #4 means a pricing problem. Could be: feature, distribution, awaren
 
 The full 9-rule process assumes a cross-functional team, survey budget, and weeks of runway. Most founders have none of that. Here is a stripped-down 5-step version that captures the core logic without the overhead.
 
-1. **Talk to 10 potential customers about the problem** - skip the formal WTP survey. Use conversation. Ask what they're doing today to solve it and what that costs them in time or money.
+1. **Talk to 10 potential customers about the problem** - the source-lite path uses conversation instead of a formal WTP survey; formal, quantitative, and parallel approaches remain available.
 2. **Ask directly: "What would you pay to solve this?" and "What's the most you'd pay?"** - get a range from each person. Ignore the lowest answers; they are anchoring low on instinct. Weight the middle responses.
 3. **Test with 3 price points: low (everyone says yes), medium (most say yes), high (some say yes)** - you can do this with a simple landing page, a cold email with a "reply to buy," or a direct ask in conversation. Pick the price where the right segment says yes, not the price that closes everyone.
-4. **Bundle 2-3 features into a single offer** - skip Good/Better/Best for v1. One clean offer is easier to communicate and easier to iterate. Add tiers once you understand which features people actually use.
+4. **Bundle 2-3 features into a single offer** - the source-lite path favors one clean v1 offer. Good/Better/Best, à-la-carte, personalized, and deliberately complex high-value stacks remain available when they improve learning or conversion.
 5. **Launch at the medium price, iterate based on actual conversion data** - win/loss patterns, drop-off points, and reasons people don't buy will teach you more than any survey at this stage.
 
-> This skips the formal tools (Van Westendorp, Gabor-Granger, conjoint) that require 200+ respondents. Use those when you have the volume.
+> This lite path omits formal tools (Van Westendorp, Gabor-Granger, conjoint) that commonly need larger samples. They can also be used earlier with explicit uncertainty, directional interpretation, or pooled data.
 
 ---
 

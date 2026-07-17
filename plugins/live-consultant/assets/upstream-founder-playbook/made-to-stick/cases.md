@@ -180,7 +180,7 @@ Army mess hall manager Floyd Lee transformed a standard military cafeteria in Ir
 
 A college student lost 245 pounds in a year eating primarily Subway sandwiches combined with daily walking. Subway's ad agency initially rejected the story because it did not fit their existing campaign and lacked controlled evidence. A single employee championed it anyway. After the first commercial aired, Subway sales increased 18% in the first year.
 
-**Takeaway:** The most effective brand stories are discovered in the real world, not manufactured in conference rooms. Organizations with analytical cultures frequently reject their best stories because the stories do not fit existing frameworks. The story succeeded because it hit all six stickiness factors simultaneously.
+**Takeaway:** In this case, a discovered real-world story outperformed the agency's planned campaign because it hit all six stickiness factors simultaneously. Keep the full story-design option set available: discovered testimony, commissioned reporting, anonymized or composite cases, explicit hypotheticals, analogies, and deliberately fictional brand narratives. Compare them on credibility, control, emotional force, recall, and production cost. Before external use, label the provenance accurately and secure any evidence or permissions the chosen execution requires; those are publication controls, not limits on generating or analyzing the variants.
 
 ---
 

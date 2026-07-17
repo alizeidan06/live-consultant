@@ -16,8 +16,8 @@ material consequence.
 ## Gate 2: behavior and transaction context
 
 Look for completed spend, repeated manual effort, switching behavior, budget,
-deadline, risk, or an existing paid category. Do not require every free
-alternative to fail; test why some buyers still pay.
+deadline, risk, or an existing paid category. Free alternatives may coexist
+with paid demand; test why some buyers still pay.
 
 ## Gate 3: value and price
 
@@ -28,8 +28,9 @@ than a deposit, purchase, signed pilot, or observed budget allocation.
 ## Gate 4: capability and delivery
 
 Verify skills, rights, dependencies, quality control, turnaround, revisions,
-support, capacity, and failure remedies. Do not promise an outcome the operator
-cannot control.
+support, capacity, and failure remedies. Keep every outcome direction available
+as a hypothesis or creative specimen; mark an external promise `SUPPORTED` only
+to the extent the operator controls it or the terms and evidence bound it.
 
 ## Gate 5: economics and cash
 
@@ -45,6 +46,6 @@ review is required when stakes or uncertainty are material.
 
 ## Gate discipline
 
-Passing a gate authorizes only the next bounded test. It does not authorize
-public launch, spend, payment connection, account changes, or outreach unless
-the owner explicitly approves those actions.
+Passing a gate marks the next bounded test `EVIDENCE-READY`. Public launch,
+spend, payment connection, account changes, and outreach remain
+`APPROVAL-BOUND` until the owner explicitly approves those actions.

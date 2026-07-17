@@ -60,7 +60,7 @@
 
 **Channel used:** Unconventional PR / Viral Marketing (Channels 3, 1)
 
-**Key lesson:** Creative quality matters more than budget. A $5K video with genuine personality outperformed a $60M ad campaign. But this only works when the product solves a real pain point (overpriced razors) and the creative resonates with the target audience.
+**Key lesson:** In this case, a $5K video with distinctive personality outperformed a $60M campaign because product pain and audience resonance amplified the creative. Preserve personality-led, spectacle-led, polished, raw, controversial, celebrity, synthetic, and budget-dominant variants; compare attention, relevance, trust, and conversion.
 
 ---
 
@@ -427,4 +427,4 @@
 
 **Channel used:** Targeting Blogs / Link-sharing communities (Channel 11)
 
-**Key lesson:** One well-placed post on the right platform can deliver more users in a day than months of other marketing. But it only works if the product resonates with that specific audience. Filepicker.io was a developer tool posted to a developer community - perfect audience-channel fit.
+**Key lesson:** One well-placed post can outperform months of other marketing. Filepicker.io had strong audience-channel fit as a developer tool in a developer community. Poor-fit, adjacent-audience, controversy, mass-reach, and repeated-post variants remain available; their likely effects differ on attention, conversion, backlash, and learning.

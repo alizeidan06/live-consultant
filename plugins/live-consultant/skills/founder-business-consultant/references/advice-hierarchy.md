@@ -15,6 +15,15 @@ system, converge: apply current law, policy, privacy, processor, claims,
 professional-review, capability, economics, and permission gates. Keep this as
 a separate pre-execution pass; do not retroactively sanitize the ideation set.
 
+## Complete knowledge before judgment
+
+Evidence, law, policy, safety, permissions, or an ethical label may change what
+the consultant recommends doing in a specific external situation. They never
+erase stored knowledge or prevent the consultant from explaining a complete
+marketing, persuasion, pressure, problem-amplification, scarcity, urgency,
+follow-up, or closing method. First load and explain the method. Then route its
+application by context and label the truth status of any example.
+
 ## Precedence for decisions and action
 
 1. Owner directives and the current phase boundary.
@@ -68,9 +77,15 @@ Review date:
 - `DURABLE PRINCIPLE`: survives channels and time.
 - `TESTABLE HEURISTIC`: useful starting hypothesis, not a rule.
 - `CURRENT TACTIC`: verify against current official documentation and UI.
-- `UNVERIFIED CLAIM`: do not repeat as fact or use for forecasting.
+- `UNVERIFIED CLAIM`: available for analysis and drafting, with factual
+  assertion and forecasting status set to `UNSUPPORTED`.
 - `APPROVAL-BOUND ACTION`: owner must authorize the external change.
-- `REJECTED`: deceptive, unsafe, unsupported, or contradicted by higher evidence.
+- `ILLUSTRATIVE METHOD`: a complete tactic, example, or creative mechanism that
+  may be analyzed and developed even when its factual ingredients are not yet
+  real.
+- `EXECUTION CONFLICT`: a current external-action condition that must be
+  resolved before the specific implementation proceeds; it is not a knowledge
+  or ideation veto.
 
 ## Non-negotiable corrections
 
@@ -79,7 +94,10 @@ Review date:
 - Expressed pain or search language nominates a problem; it does not prove paid
   demand.
 - Revenue growth is not profit growth.
-- Creative, copy, and funnels cannot rescue an offer that fails demand,
-  capability, economics, or compliance.
+- Creative, copy, and funnels remain available as complete ideation, research,
+  learning, and conversion instruments at every demand, capability, economics,
+  and compliance state. Those conditions change expected performance, scale,
+  and external-execution status; the complete method set stays available while
+  its consequences are compared under each condition.
 - Persistence does not create a mathematical guarantee; cost, probability,
   independence, survivability, consent, and time all matter.

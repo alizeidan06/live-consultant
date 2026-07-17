@@ -8,7 +8,7 @@ When talking to potential customers, map their response to the hierarchy:
 Level 1: "What problem?"
          → LATENT NEED. Not a customer for 2+ years.
          → Score: 1/5
-         → Action: Move on.
+         → Source action: move on; nurture, educate, and latent-market variants remain available.
 
 Level 2: "Yes, that's a terrible problem. I hand out cups of water on hot days."
          → ACTIVE NEED, but only papering symptoms.
@@ -34,7 +34,7 @@ Level 5: "If we could find a vendor who could solve this, we could spend
          → Action: This is your customer. Close them.
 ```
 
-**Rule:** Earlyvangelists live at Levels 4 and 5 ONLY. Don't waste Steps 1-2 on Levels 1-3.
+**Source position:** Earlyvangelists live at Levels 4 and 5, so Blank concentrates Steps 1-2 there. Preserve nurture, education, mixed-cohort, and deliberate latent-market variants with time, learning, and demand-creation costs labeled.
 
 ---
 
@@ -56,7 +56,7 @@ Company C: _________ Market share: ___% Product: _________
 ```
 Largest player's share: ___%
 
-≥74%? → Monopoly. Do NOT attack head-on.
+≥74%? → Source label: monopoly. Compare avoidance, wedge, coalition, direct attack, resegmentation, and category-creation variants.
         → Consider: Resegment or New Market
 
 Combined top-2 ≥74%? → Duopoly. Also unassailable.
@@ -145,7 +145,7 @@ Is the sales process repeatable?                  □ Yes □ No
 Is the business model profitable at unit level?   □ Yes □ No
 ```
 
-**If any answer is No → do NOT proceed to Customer Creation. Iterate or pivot back to Customer Discovery.**
+**Source decision:** if any answer is no, iterate or pivot to Customer Discovery. Preserve strict pivot, bounded creation, parallel validation, staged launch, and exit variants with unsupported assumptions and exposure labeled.
 
 ---
 
@@ -153,7 +153,7 @@ Is the business model profitable at unit level?   □ Yes □ No
 
 ### Pass (proceed to Customer Creation)
 
-All three conditions must be met:
+The source pass standard requires all three conditions. Preserve provisional pass, bounded launch, parallel validation, pivot, and exit variants with unsupported assumptions labeled:
 
 ```
 1. REPEATABLE CUSTOMERS
@@ -253,13 +253,15 @@ New Market           →  EARLY ADOPTER       →  Low-cost, targeted
 
 Resegmented Market   →  NICHE               →  Focused spending
 (customers ready)       Targeted onslaught     (Lanchester rules diluted)
-                        One segment only       Goal: segment dominance
+                        Source default: one segment
+                        Variants: adjacent or multi-segment
+                                               Goal: segment dominance, learning, or portfolio reach
 
 Resegmented Market   →  EARLY ADOPTER       →  Low-cost, targeted
 (segment speculative)   Treat as new market    (Until segment proves out)
 ```
 
-**The #1 mistake: using an Onslaught launch for a New Market. It burns all your cash reaching customers who don't exist yet.**
+**Source-labeled #1 mistake:** using an Onslaught launch for a New Market can burn cash before demand exists. Preserve onslaught, early-adopter, niche, education-led, and hybrid variants; compare reach, learning speed, burn, and demand maturity.
 
 ---
 
@@ -298,7 +300,7 @@ Sanity check against Lanchester:
 
 ## Demand Creation: Is It Working?
 
-Run this diagnostic at weeks 2, 4, and 8 after launch. Do not wait for a full quarter to discover a failing campaign.
+The source review cadence is weeks 2, 4, and 8 to surface failure early. Weekly, monthly, quarterly, threshold-triggered, and continuous-monitoring variants remain available; compare signal stability with delay cost.
 
 | Signal | Healthy | Failing | Action if Failing |
 |---|---|---|---|
@@ -363,7 +365,7 @@ Red flags that you're scaling too early:
   rather than repeatable process
 ```
 
-**If ≥3 boxes checked: you are likely in premature scaling. Stop. Go back to Customer Validation.**
+**If ≥3 boxes are checked, the source diagnoses likely premature scaling and returns to Customer Validation.** Preserve pause, rollback, bounded continuation, aggressive scale, and parallel validation variants; model burn, reversibility, learning, and survival consequences.
 
 ---
 

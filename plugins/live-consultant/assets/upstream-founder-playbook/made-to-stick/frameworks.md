@@ -62,7 +62,7 @@ Some analogies are more useful than others. A generative analogy is one that pro
 
 **When to use:** When your product is genuinely novel and people have no existing category for it. The pitch gives them an instant schema.
 
-**When NOT to use:** When the reference points are wrong or misleading - bad schemas are worse than no schemas.
+**Context and variants:** When reference points are accurate, the analogy compresses understanding. When they are partial or misleading, preserve the analogy for analysis but pair it with the mismatch and test an alternative schema, a direct explanation, or a two-analogy contrast. Before publication, factual equivalences are checked so a knowingly partial analogy is not represented as literal equivalence.
 
 ---
 
@@ -81,7 +81,7 @@ The brain builds schemas (predictive models) of how the world works. Surprise ha
 5. Return to message:    Presenter delivers core message while attention is high
 ```
 
-**Warning:** The surprise must connect to the core message. If the audience says "that was surprising" but can't remember what the point was, you failed.
+**Performance consequence:** Source-default surprise connects to the core message. A spectacle-only variant can still be generated and may win attention, but if the audience remembers the surprise rather than the point, attribution and conversion are likely to fall. Test both separately.
 
 ### Gap Theory of Curiosity (Loewenstein, 1994)
 
@@ -158,7 +158,7 @@ Get out of the "death binders" (data abstractions) and into the real world.
 
 **Process:**
 1. Send your team into actual customer environments
-2. Observe real behavior, not reported behavior
+2. Compare observed behavior with reported behavior. The source weights observation more heavily; complete analysis keeps discrepancies and the conditions under which self-report adds otherwise invisible motives.
 3. Create concrete personas (like "Saddleback Sam") that everyone in the organization can reference
 4. Use these personas as decision filters: "What would Sam think of this?"
 
@@ -190,7 +190,11 @@ The Darth Vader toothbrush effect: irrelevant but vivid details boost the credib
 **Mechanism:** A person's knowledge of details is a proxy for their overall knowledge. When you provide specific, vivid details, the audience unconsciously infers that you know what you're talking about.
 
 **Rules for selecting details:**
-- Details must be truthful
+- The source default uses truthful details. Preserve factual, hypothetical,
+  illustrative, embellished, invented, and deliberately misleading detail
+  variants as fully explainable mechanisms. Label their truth status, then
+  compare immediate credibility and conversion effects with discovery risk,
+  trust erosion, refunds, reputation, retention, and the buyer's stakes.
 - Details should be "core" (support the central message, not distract from it)
 - Vivid, human-scale details > accurate, abstract details
 - One perfect detail > ten mediocre ones
@@ -223,7 +227,7 @@ One example that alone establishes credibility for an entire domain.
 
 ### Audience Credibility: Testable Credentials
 
-**Pattern:** Don't tell them. Let them discover it.
+**Source pattern and variants:** Letting the audience discover a claim can deepen belief. Also preserve direct assertion, guided discovery, demonstration, and assertion-plus-test variants; compare speed, resistance, comprehension, and perceived manipulation.
 
 | Tell (Weak) | Test (Strong) |
 |-------------|---------------|
@@ -240,7 +244,7 @@ One example that alone establishes credibility for an entire domain.
 
 ### The Rokia Effect
 
-Individual stories > statistics for driving action. Statistics > individual stories for establishing credibility. **Never combine them carelessly** - adding statistics to an emotional appeal REDUCES donations (from $2.38 to $1.43 in the Rokia study).
+Individual stories > statistics for driving action. Statistics > individual stories for establishing credibility. **Source warning:** in the cited Rokia study, adding statistics to the emotional appeal reduced donations from $2.38 to $1.43. Preserve story-only, statistics-only, simultaneous, and sequenced combinations; treat this result as context-specific evidence and test recall, trust, and action rather than banning a combination.
 
 **The analytical hat problem:** Priming people to think analytically suppresses emotional response. Even a simple math problem before a charity appeal reduced giving by 46%.
 
@@ -252,7 +256,7 @@ Individual stories > statistics for driving action. Statistics > individual stor
 
 Link your idea to something people already care about.
 
-| Don't Link To | Link To |
+| Lower-performing source example | Higher-performing source example |
 |---------------|---------|
 | Abstract environmental duty | "Don't Mess with Texas" (state pride) |
 | "Support the arts" (generic) | "A 73-year-old retired government worker dances in our company" (specific, human) |
@@ -342,11 +346,11 @@ Imagining an event activates the same brain regions as experiencing it. Stories 
 1. Find a real example of the change already happening (even small-scale)
 2. Tell it in specific, concrete, human terms
 3. Let the audience imagine how it could work in their context
-4. Do NOT explain the moral - let them draw the conclusion
+4. Choose the ending variant deliberately: implicit moral for self-persuasion, explicit moral for clarity, or an explicit action bridge. Compare inference accuracy, resistance, and action.
 
 ### Spotting vs. Creating Stories
 
-**You don't create sticky stories. You spot them.**
+**Source position:** sticky stories are often spotted in real events. **Complete variants:** verified real story, anonymized real story, disclosed composite, hypothetical, analogy, and fictional demonstration. Label provenance; require proof and permission only when a real-world claim or identifiable person is published.
 
 **Where to find them:**
 - Customer support tickets (Challenge plots)

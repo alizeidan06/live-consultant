@@ -40,14 +40,16 @@ We have assembled (key whole product features for your specific application).
 
 For each candidate beachhead, score 1-5 on each factor.
 
-### Show-Stoppers (any score ≤2 = ELIMINATE)
+### Source Show-Stoppers (Moore Eliminates at ≤2) and Variants
+
+Keep eliminate, defer, partner, subsidize, confront, and deliberate high-risk-entry variants available. For every low score, state the required compensating asset and the resource, timing, and failure consequences.
 
 | Factor | Question | Score (1-5) |
 |--------|----------|-------------|
 | **Target customer** | Single identifiable economic buyer, accessible, well-funded? | ___ |
 | **Compelling reason to buy** | Are economic consequences sufficient to mandate fixing this NOW? | ___ |
 | **Whole product** | Can we field a complete solution within 3 months? | ___ |
-| **Competition** | Has someone else already crossed here? Don't attack a fortified hill. | ___ |
+| **Competition** | Has someone else already crossed here? Compare avoidance, resegmentation, partnership, and fortified-hill attack variants. | ___ |
 
 ### Nice-to-Haves (rank order across surviving candidates)
 
@@ -61,9 +63,9 @@ For each candidate beachhead, score 1-5 on each factor.
 
 ### Decision Rule
 
-- Eliminate any candidate with a show-stopper ≤2
+- Source default: eliminate a candidate with a show-stopper ≤2; also model compensating-asset and high-risk-entry variants
 - Among survivors, pick the one with highest sum of nice-to-haves
-- **Pick ONE.** "You cannot cross the chasm in two places."
+- Source default: pick one beachhead; preserve sequential and simultaneous multi-beachhead variants with focus, diversification, and capital consequences
 
 ---
 
@@ -262,7 +264,7 @@ Pre-chasm and post-chasm reward different behaviors.
 - Target Market Segment Manager → becomes Industry Marketing Manager
 - Whole Product Manager → becomes Product Marketing Manager
 
-**Critical principle:** Product manager and product marketing manager must be SEPARATE roles. Conflating them causes whole-product gaps.
+**Source organization principle:** separate product manager and product marketing manager roles to reduce whole-product gaps. Preserve combined, separate, fractional, pod, and staged role designs with coordination, accountability, and staffing consequences.
 
 ### Pioneer Salesperson Pattern
 
@@ -276,13 +278,13 @@ A pioneer salesperson is bad at:
 - Following a playbook
 - Account development (they want to hunt new logos)
 
-When the chasm is crossed, pioneers often must be replaced (or repotted into evangelism roles for new beachheads). The molting process is real and painful.
+When the chasm is crossed, the source often replaces pioneers or moves them into new-beachhead evangelism. Preserve retain, retrain, repot, pair, replace, and hybrid talent variants with performance, culture, and continuity consequences.
 
 ---
 
 ## Position Defense (When Pragmatists Rejected Once)
 
-If pragmatist customers have rejected your product, the cure is whole-product, not pitch.
+If pragmatist customers have rejected the product, Moore favors whole-product repair over pitch repair. Preserve whole-product, pitch, pricing, proof, channel, segment, and combined variants and compare what each rejection pattern supports.
 
 ### Defense Checklist
 
@@ -290,8 +292,8 @@ If pragmatist customers have rejected your product, the cure is whole-product, n
 |-------|--------|
 | Pragmatists need references; you have none | Get 3-5 wins in your beachhead before broadening |
 | Pragmatists need ecosystem; you have none | Recruit tactical alliances for 3-month whole product |
-| Pragmatists need market leader signal; you don't have it | Position pricing at leader level + claim leadership in your specific niche (if true) |
-| Pragmatists need risk reduction; you offer revolution | Reframe as "30% improvement" not "fundamental breakthrough" |
+| Pragmatists need market leader signal; you lack it | Compare evidence-backed, inferred, constructed, and aspirational leadership signals; label truth status, detection risk, credibility, and trust effects |
+| Pragmatists need risk reduction; you offer revolution | Compare “30% improvement,” “fundamental breakthrough,” proof-first, and mixed framings against buyer risk orientation |
 | Pragmatists want vertical expertise; you sound generic | Build vertical-specific case studies, vocabulary, demos |
 | Pragmatists want competition; they don't see any | Name Market Alternative + Product Alternative explicitly |
 

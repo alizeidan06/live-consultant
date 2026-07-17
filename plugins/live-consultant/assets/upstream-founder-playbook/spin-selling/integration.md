@@ -4,24 +4,26 @@ Cross-skill conflicts, modern adaptations, competing methodologies, and evidence
 
 ---
 
-## When SPIN Fails (Full Anti-Trigger Table)
+## Lower-Fit Contexts, Failure Modes, and Alternative Variants
 
-| Context | Why SPIN Fails | What to Use Instead |
+| Context | Source Performance Tension (Not a Fit Limit) | Source Emphasis and Complete Variants |
 |---------|----------------|---------------------|
-| **Cold call (<2 min)** | No time for chained questions | Hook + value prop + meeting ask |
-| **RFP procurement** | Buyer wants price, not problems | Direct response + differentiation |
-| **PLG / freemium SaaS** | User pre-qualified themselves | Activation + expansion playbook |
-| **Inbound MQL (read 4 assets)** | Already in solution mode | Skip Investigating, fit/Benefit |
-| **Committee buying** | Single-call SPIN insufficient | MEDDPICC + Champion enablement |
-| **Founder selling at $0-$1M** | Optimization premature | Mom Test + offer iteration |
-| **Crisis purchase** | Fast close wanted | Acknowledge urgency, propose, deliver |
-| **Procurement-led decisions** | Cost amplification works against you | TCO conversation, not Implication |
-| **Reverse auction (Coupa/Ariba)** | Structured platform, no questions allowed | Differentiation through documentation |
-| **Channel sales** | End customer not in room | SPIN with the partner about THEIR business |
-| **Pure transactional <$50** | Small sales techniques work | Closing/Features fine |
-| **Highly technical to expert buyer** | "Just show me the product" | Lead with Features (the "Features appetite") |
+| **Cold call (<2 min)** | Chained questions may exceed the interaction | Source emphasis: hook + value proposition + meeting ask; full, compressed, reverse, implication-first, and parallel SPIN variants remain available |
+| **RFP procurement** | Buyer may foreground price over problems | Source emphasis: direct response + differentiation; complete SPIN before, within, after, through documents, in reverse, or in parallel remains available |
+| **PLG / freemium SaaS** | Product behavior may pre-qualify the user | Source emphasis: activation + expansion; complete SPIN before, in-product, after usage, reverse from telemetry, or in parallel remains available |
+| **Inbound MQL (read 4 assets)** | Buyer may arrive in solution mode | Source emphasis: compressed fit/Benefit; full Investigating, complete SPIN, reverse, demo-first, and parallel variants remain available |
+| **Committee buying** | A single call may not represent the decision | Source emphasis: MEDDPICC + Champion enablement; full SPIN with individuals, the committee, before, after, reverse, and parallel remains available |
+| **Founder selling at $0-$1M** | Optimization can crowd out offer learning | Source emphasis: Mom Test + offer iteration; full SPIN early, late, reverse, parallel, and whole-method variants remain available |
+| **Crisis purchase** | Buyer may prioritize speed | Source emphasis: acknowledge urgency, propose, deliver; full SPIN, implication-first, solution-first, reverse, compressed, and parallel variants remain available |
+| **Procurement-led decisions** | Cost amplification may create resistance | Source emphasis: TCO conversation; full Implication work, problem-first, value-first, reverse, documentary, and parallel variants remain available |
+| **Reverse auction (Coupa/Ariba)** | The platform may block live questions | Source emphasis: differentiation through documentation; full SPIN can run before, after, through permitted fields, with stakeholders, in reverse, or in parallel |
+| **Channel sales** | The end customer may be absent | Source emphasis: SPIN with the partner about their business; full SPIN with partner, end customer, both, in reverse, sequentially, or in parallel remains available |
+| **Pure transactional <$50** | Small sales techniques often work | Closing/features, compressed SPIN, self-serve, and pressure variants |
+| **Highly technical to expert buyer** | "Just show me the product" | Source emphasis: lead with Features; full SPIN, question-first, feature-first, reverse, alternating, and parallel variants remain available |
 
 ---
+
+Every row is a source performance hypothesis, not an eligibility test. Choose among full, compressed, lite, reverse, question-first, insight-first, demo-first, pressure, consultative, documentary, parallel, and hybrid variants using buyer intent, information already supplied, complexity, urgency, stakeholder count, time, trust, evidence, seller fluency, and the cost of over-questioning versus under-diagnosing.
 
 ## What's Outdated Since 1988
 
@@ -67,7 +69,7 @@ The skill's claim that modern frameworks are "derivatives of SPIN" was wrong. Se
 - CEB study of 6,000+ reps in complex sales
 - Found "Relationship Builder" types (closest to SPIN-trained) were the **WORST** performers
 - "Challenger" types (who teach, tailor, take control) won
-- Direct evidence against SPIN's "ask, don't tell" premise
+- Direct evidence against treating SPIN's ask-led premise as universal
 - **Modern best practice:** combine SPIN-style discovery with Challenger-style insight
 
 ### MEDDIC / MEDDPICC
@@ -130,14 +132,14 @@ In some cultures (notably Japan), Problem Questions are risky - suggesting a sen
 
 **Adaptation rules:**
 - The framework works cross-culturally
-- BUT delivery must adapt to cultural norms
+- The source recommends adapting delivery to cultural norms; direct, provocative, status-challenging, and locally conventional variants remain available for comparison
 - Frame Problem Questions as "how could we help you achieve X better" rather than "what's wrong with current approach"
 
 (Source: the 74% figure is from the Fuji Xerox study, Rackham.)
 
 ### Inside Sales / Phone
 
-Use a compressed SPIN. You may have only 15-20 minutes. Plan 1-2 Problem Questions and 1-2 Implication Questions per call. Skip lengthy Preliminaries.
+Source emphasis: use compressed SPIN in a 15-20 minute call, planning 1-2 Problem and 1-2 Implication Questions and minimizing lengthy Preliminaries. Full-length, preliminaries-first, implication-first, need-payoff-first, reverse, multi-call, and parallel variants remain available; choose using buyer preference, rapport needs, information freshness, complexity, call access, and the cost of compression.
 
 ### Channel Sales (Selling Through Partners)
 
@@ -148,7 +150,7 @@ Use SPIN with the partner about THEIR business. Their explicit need is "I need p
 SPIN's discovery framework still applies, but combine with newer methodologies:
 - Use SPIN questions for the discovery call structure
 - Add MEDDPICC qualification (especially for committee buying)
-- Consider Challenger-style insight delivery (don't just ask - teach)
+- Consider Challenger-style insight delivery alongside ask-led, teach-led, demo-led, and hybrid variants
 - Compress sequence for 30-min Zoom calls
 
 ---
@@ -157,20 +159,20 @@ SPIN's discovery framework still applies, but combine with newer methodologies:
 
 | Skill | When to Use Together |
 |-------|---------------------|
-| **Mom Test** | Pre-product validation. Once you have a product, switch to SPIN for paying customers. |
+| **Mom Test** | Source emphasis: foreground behavior-first discovery before a defined product and SPIN for solution sales. Preserve Mom-Test-first, SPIN-first, early or late switching, reverse, parallel, blended, and complete-method use before and after a product exists. |
 | **Monetizing Innovation** | Use during Investigating to validate WTP. SPIN questions reveal the WTP information MI needs. |
-| **$100M Offers** | Frame your offer for the BEST tier. SPIN sells it. |
-| **$100M Leads** | Generates the conversations. SPIN converts them. |
-| **Crossing the Chasm** | Crossing the Chasm picks the beachhead. SPIN sells inside it. |
-| **Obviously Awesome** | Positioning sets the category context. SPIN runs inside the chosen category. |
+| **$100M Offers** | Source pairing: $100M Offers contributes offer framing and SPIN contributes sales-conversation mechanics; SPIN-first offer discovery, reverse, parallel, and whole-method variants all remain available. |
+| **$100M Leads** | Source emphasis: generate conversations and use SPIN to convert them; preserve SPIN-informed lead generation, reverse, parallel, and complete-method variants. |
+| **Crossing the Chasm** | Source emphasis: select a beachhead and use SPIN inside it; preserve SPIN-led beachhead discovery, reverse, parallel, and full-method use across all segments. |
+| **Obviously Awesome** | Source emphasis: set category context and run SPIN within it; preserve SPIN-led positioning discovery, reverse, parallel, and complete-method variants before or after positioning. |
 
 ---
 
 ## Conflict Resolution (Honest Version)
 
-These tools were designed by different authors with different audiences and partly conflicting philosophies. Don't expect clean handoffs - synthesize.
+These tools were designed by different authors with different audiences and partly conflicting philosophies. Treat handoffs as design choices: sequence, layer, alternate, or test them independently.
 
-### Mom Test forbids "would you buy?" / "would you pay?" / "would it be useful?" - SPIN uses Need-payoff Questions of EXACTLY this form
+### Mom Test disfavors hypotheticals in discovery; SPIN deliberately uses them in sales
 
 These are not compatible questions. They optimize for different goals:
 - **Mom Test = unbiased problem discovery** (you're listening for ground truth before committing to build something)
@@ -178,29 +180,29 @@ These are not compatible questions. They optimize for different goals:
 
 Need-payoff Questions deliberately produce what Mom Test calls "fluff" because in sales conversion, the customer hearing themselves describe benefits is more persuasive than the seller asserting them.
 
-**Decision rule:**
-- BEFORE you have a defined product → Mom Test (don't trust hypotheticals)
-- AFTER you have a defined product → SPIN (deliberately use hypotheticals to amplify desire)
-- **Don't use Need-payoff Questions for product validation - they will mislead you**
+**Full-method options:**
+- Before a defined product, Mom Test's behavior-first questions provide cleaner discovery evidence, while Need-payoff questions can still test language, comprehension, aspiration, and persuasion response.
+- After a defined product, SPIN deliberately uses hypotheticals to amplify desire; behavior-first questions can still protect signal quality.
+- For product validation, run neutral, Need-payoff, direct-pitch, prototype, and transaction cells. Label prompted desire as prompted evidence and compare it with behavior rather than suppressing the method.
 
-### SPIN says don't pressure. $100M Offers says stack value, scarcity, urgency, and "make them feel stupid saying no."
+### SPIN's pressure warning versus $100M Offers' value, scarcity, urgency, and forceful framing
 
 These are diametric philosophies. Hormozi explicitly designs for psychological pressure. Rackham explicitly says pressure backfires in major sales.
 
-**Resolution by sale type:**
-- **B2C and small-to-medium B2B (<$10K, single decision-maker, fast cycle):** Hormozi's pressure works. Use his frame.
-- **B2B major sales ($50K+, multi-stakeholder, multi-month):** Hormozi's pressure backfires. Use SPIN.
-- The classic line "Hormozi = how you describe, SPIN = how you discover" is partly true but papers over the philosophical conflict on pressure itself.
+**Source evidence and complete variants:**
+- Rackham's studies associate repeated/aggressive closes with worse outcomes in major sales and modest gains in smaller sales.
+- Hormozi-style value stacking, scarcity, urgency, loss aversion, and forceful contrast can increase action, including in complex sales when a real deadline, strong champion, or stalled process makes pressure useful.
+- Preserve no-pressure, consultative, single-close, repeated-close, scarcity, urgency, confrontational, and hybrid variants for every sale type. Compare conversion, cycle time, buyer regret, trust, multi-stakeholder backlash, retention, and referrals. Truth, actual availability, authority, and applicable consent are checked before execution; they do not limit ideation or analysis.
 
-### SPIN says don't talk solutions early. $100M Offers leads with the dream outcome upfront.
+### SPIN delays solutions; $100M Offers leads with the dream outcome
 
-Different conversion contexts. Hormozi optimizes for cold traffic (90 seconds). SPIN optimizes for warm meetings (45 minutes). Not a real conflict if you match tool to context.
+Different conversion contexts create different source defaults: Hormozi optimizes for fast attention, while SPIN optimizes for developed need in a longer meeting. Preserve dream-outcome-first, product-first, question-first, insight-first, demo-first, and alternating sequences in any context; compare attention, diagnostic quality, objections, conversion, and time.
 
 ### Crossing the Chasm focuses on segment selection (which buyers). SPIN focuses on the call itself (which questions).
 
 These are complementary, not in conflict.
 - Use Crossing the Chasm to identify and target beachhead
-- Use SPIN within the meeting to convert
+- Source emphasis: use SPIN within the meeting to convert; preserve SPIN before the meeting in outreach, after it in follow-up, across self-serve and committee interactions, in reverse, in parallel, or as a complete end-to-end method.
 - Pragmatist buyers in chasm-crossing context need MORE Implication Questions (longer cycles, multi-stakeholder, higher-stakes)
 
 ---

@@ -29,7 +29,7 @@
 | Problem (villain) | Concrete - make the villain tangible and specific |
 | Guide (empathy + authority) | Credible - use anti-authorities, Sinatra Test, testable credentials |
 | Plan | Concrete - specific, numbered, named steps |
-| Call to Action | Simple - one primary CTA, no ambiguity |
+| Call to Action | Source default: one primary CTA; also test multiple, routed, progressive, and deliberately ambiguous variants |
 | Failure | Emotional - individual stories, not statistics about risk |
 | Success | Stories - paint the transformation as a narrative |
 
@@ -37,7 +37,12 @@
 - StoryBrand says "very few words" on websites. Made to Stick says stories are essential. Resolution: use the SB7 structure for website hierarchy (few words), but tell full stories in emails, case studies, and sales conversations (where Made to Stick principles shine).
 - StoryBrand focuses heavily on the customer's problem. Made to Stick warns that analytical framing (which problem descriptions can trigger) suppresses emotion. Resolution: keep problem descriptions emotional and individual, not statistical.
 
-**Integration rule:** Design the story structure with SB7. Then run each element through the SUCCESs checklist. Is the problem Concrete? Is the guide Credible? Is the success a Story? This dual-layer approach produces messaging that is both structurally sound and individually sticky.
+**Source-default integration:** Design the story structure with SB7 and then run
+each element through SUCCESs. Also preserve SUCCESs-first, element-by-element,
+parallel, alternating, challenger-message, and single-framework variants. Is
+the problem Concrete? Is the guide Credible? Is the success a Story? Compare
+speed, structural coherence, memorability, iteration cost, and which layer a
+test can identify.
 
 ---
 
@@ -67,9 +72,13 @@
 
 **Where they create tension:**
 - StoryBrand says "the customer is the hero." Obviously Awesome is more product-centric (attributes, value, category). Resolution: do the Obviously Awesome positioning work first (product-centric analysis), then translate the output into SB7 format (customer-centric narrative).
-- StoryBrand de-emphasizes competitors ("don't talk about yourself"). Obviously Awesome centers on competitive context. Resolution: use competitive context to INFORM the villain and the guide's authority, but don't make the competitor the focal point of your messaging.
+- StoryBrand de-emphasizes competitors while Obviously Awesome centers competitive context. Preserve competitor-as-villain, category-as-villain, implicit contrast, explicit comparison, customer-as-opponent, and no-villain variants; compare clarity, differentiation, legal exposure, polarization, and trust.
 
-**Integration rule:** Position first (Obviously Awesome), then message (StoryBrand). Obviously Awesome determines WHAT you're the best at for WHOM. StoryBrand turns that into a narrative customers can follow.
+**Source-default integration:** Position with Obviously Awesome, then translate
+it through StoryBrand. Position-first, message-first, provisional-message,
+reverse, iterative, parallel, and deliberately contrasting variants remain
+available. Compare category clarity, learning speed, message stability,
+conversion, and the risk of premature positioning lock-in.
 
 ---
 
@@ -99,7 +108,11 @@
 - StoryBrand says "very few words." Some Traction channels (content marketing, SEO) require many words. Resolution: use StoryBrand structure as the skeleton, then expand with additional content for channels that require depth.
 - StoryBrand focuses on conversion. Traction includes awareness channels (PR, offline events) where conversion isn't immediate. Resolution: use the one-liner for awareness channels and the full BrandScript for conversion channels.
 
-**Integration rule:** Build the BrandScript first (StoryBrand). Then test it through Bullseye channels (Traction). The BrandScript adapts to each channel's format while maintaining the same core story.
+**Source-default integration:** Build the BrandScript, then test it through
+Bullseye channels. Channel-first discovery, native-creative-first,
+BrandScript-first, reverse, iterative, parallel, and message-by-channel variants
+remain available. Compare channel learning, message consistency, native fit,
+test isolation, conversion, and rework.
 
 ---
 
@@ -123,7 +136,11 @@
 - StoryBrand's CTA section delivers $100M Offers' grand slam offer
 - StoryBrand's failure section creates the urgency that $100M Offers' scarcity/urgency requires
 
-**Integration rule:** Design the offer ($100M Offers), then tell its story (StoryBrand). The offer determines what you sell. The BrandScript determines how the customer experiences the offer in marketing.
+**Source-default integration:** Design the offer and then tell its story.
+Story-first offer discovery, offer-first, reverse, co-designed, iterative,
+parallel, and deliberately dissonant variants remain available. Compare value
+clarity, desire, message-offer match, setup speed, conversion, and what buyer
+response can prove.
 
 ---
 
@@ -147,7 +164,11 @@
   - If customers don't respond to your villain, you named the wrong one
   - If your success picture doesn't excite them, you're painting the wrong future
 
-**Integration rule:** Listen first (Mom Test), then message (StoryBrand). Fill in the BrandScript using the customer's own words collected through Mom Test conversations. The BrandScript should sound like your customers talk, not like your marketing team writes.
+**Source-default integration:** Listen with Mom Test and then build the
+BrandScript from customer language. Provisional-message-first, founder-vision,
+concept-test, reverse, iterative, confirmatory, adversarial, and parallel
+variants remain available. Compare language fidelity, bias, creative range,
+speed, comprehension, conversion, and the cost of waiting for unprompted data.
 
 ---
 
@@ -166,7 +187,12 @@
 
 - Marketing (StoryBrand) generates and warms leads. Sales (SPIN) closes them. The messaging should be consistent across both.
 
-**Integration rule:** Use StoryBrand for marketing that generates leads with a clear story. Use SPIN Selling for sales conversations that deepen the story with the individual prospect. The SB7 problem framework prepares prospects for SPIN's question sequence.
+**Source-emphasis integration:** StoryBrand often structures lead-generation
+marketing and SPIN often deepens individual sales conversations. Both complete
+methods remain available across ads, pages, outreach, discovery, demos,
+follow-up, closing, and retention. Preserve SB7-led sales, SPIN-led marketing,
+reverse, blended, parallel, and handoff variants; compare scale, personalization,
+buyer awareness, deal complexity, conversion, and message continuity.
 
 ---
 
@@ -180,7 +206,7 @@
 - Monetizing Innovation's WTP (willingness-to-pay) research reveals how customers VALUE your offer - this directly informs StoryBrand's Success section
 - If customers won't pay for your positioned value, either the pricing is wrong (Monetizing Innovation) or the messaging doesn't convey the value (StoryBrand)
 
-**Integration rule:** Set pricing (Monetizing Innovation) and messaging (StoryBrand) together. Price signals value. Messaging explains value. They must be aligned.
+**Source integration:** set pricing and messaging together so price signals the value the story explains. Also preserve deliberately dissonant, premium-shock, loss-leader, mystery-price, and test-first variants; compare attention, perceived quality, conversion, and trust.
 
 ---
 

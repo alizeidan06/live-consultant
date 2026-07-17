@@ -14,7 +14,7 @@ Most sales training treats need development as binary (no need → has need). Re
 | 2 | Implied Need (clear problems/difficulties) | "I'm unhappy with reliability" | Problem Q's reveal these |
 | 3 | Explicit Need (wants/intentions to act) | "We need a more reliable system" | Need-payoff Q's create these |
 
-**Most buyers in major sales sit at stage 1 longer than stage 2.** Problem Questions don't work yet at stage 1 - the buyer needs to feel some dissatisfaction first. Use Situation Questions to surface the dissatisfaction, then PQs.
+**Source pattern:** most studied major-sale buyers stayed at stage 1 longer than stage 2, and Problem Questions underperformed until some dissatisfaction surfaced. Preserve Situation-first, Problem-first, insight-first, demo-first, provocative, and buyer-led sequences; compare defensiveness, speed, evidence quality, and need intensity.
 
 ---
 
@@ -74,13 +74,13 @@ Many less-successful salespeople have impeccable strategic thinking. Top perform
 - Which needs did the customer feel strongly?
 - Which behaviors worked best?
 
-> Public release note: longer quoted source wording was omitted; the surrounding analysis preserves the operational point.
+> Source position: global conclusions such as "it went quite well" hide learning; detailed review exposes behavioral causes. Global, narrative, quantitative, and granular reviews can all be retained and compared by cost and usefulness.
 
 ---
 
 ## The 4 Golden Rules of Skill Learning - Extended
 
-### Rule 1: Practice Only ONE Behavior at a Time
+### Source Rule 1: One Behavior at a Time, Plus Whole-Method Variants
 
 Tom Landry's advice when asked for the single principle of skill learning:
 > "Work on one thing at a time, and get it right."
@@ -89,13 +89,13 @@ Tom Landry's advice when asked for the single principle of skill learning:
 
 ### Rule 2: Try the New Behavior at Least 3 Times
 
-New skills feel awkward. You'll sound artificial. Don't judge effectiveness on attempt #1.
+New skills often feel awkward on attempt one. The source recommends multiple trials before judging; immediate judgment remains useful when the downside is obvious or the context cannot be repeated.
 
 200 golfers studied: 157 of 200 said they scored WORSE after their first lesson. The skill needs breaking in.
 
 ### Rule 3: Quantity Before Quality
 
-Don't worry about asking the perfect question. Ask LOTS of questions. Quality follows quantity.
+The source uses question quantity to build fluency before optimizing quality. Quality-first rehearsal, fewer high-leverage questions, scripts, simulations, and live coaching remain available.
 
 A multinational spent $650K on a 9-month "quality" program with 74-step models. It was demotivating; learners walked out. Replacement program (1/10th cost): "We don't care if questions are good or bad. Ask lots of them." After training: students asked dozens of questions and quality also improved.
 
@@ -104,11 +104,13 @@ A multinational spent $650K on a 9-month "quality" program with 74-step models. 
 A company president was about to negotiate the biggest sale of his career - selling his company. Rackham's advice:
 > "Forget every single thing you've heard on this program; otherwise you'll spend the rest of your life regretting you came here."
 
-**New skills go in SMALL accounts and well-known customers. Never in important sales.**
+**Source default:** debut new skills in small accounts and well-known customers. Important-sale practice remains available with rehearsal, a copilot, live monitoring, reversible commitments, and a fallback plan; compare transfer value with deal risk.
 
 ---
 
-## Implementation Sequence (Detailed)
+## Source-Default Learning Sequence and Complete Variants (Detailed)
+
+The four phases below preserve the source's teaching progression. They do not reserve any question type for a later stage. Whole-SPIN-from-day-one, need-payoff-first, implication-first, reverse, parallel, alternating, simulation-first, and live-coached variants remain available. Choose using seller fluency, practice access, buyer stakes, feedback quality, call length, transfer risk, coaching capacity, and the consequences of isolated practice versus integrated performance.
 
 ### Phase 1: Just Ask More Questions
 
@@ -120,7 +122,7 @@ If you currently TELL too much, simply ask MORE questions. Most will be Situatio
 - Plan 3+ potential problems your product solves before each call
 - Concentrate on QUANTITY, not quality
 
-### Phase 3: Move to Implication Questions (After PQs Feel Comfortable)
+### Source Phase 3: Foreground Implication Questions (the source places this after PQ fluency)
 
 Plan them in advance using this method:
 1. Imagine the customer saying "So what? It's not that serious."
@@ -132,7 +134,7 @@ Example:
 - "So what?" → "Causes operator turnover"
 - Question: "What's this turnover costing in training?"
 
-### Phase 4: Need-Payoff Questions (Last)
+### Source Phase 4: Foreground Need-Payoff Questions (placed last in the source teaching sequence)
 
 Generic NPQs work across calls:
 - "How would that help you?"
@@ -152,8 +154,8 @@ Generic NPQs work across calls:
 2. **Stopping at Problem Questions** in large sales - failing to develop need
 3. **Not planning Implication Questions** in advance - they don't come spontaneously
 4. **Skipping NPQs entirely** (~50% of calls have zero)
-5. **Asking NPQs too early** before building need
-6. **Asking NPQs about needs you can't meet** - amplifies competitor's case
+5. **Using NPQs early without choosing the consequence** - the source warns this can preempt need development; early, first, reverse, and alternating NPQ variants remain available when attention, discovery, or buyer preference warrants them
+6. **Asking NPQs about needs you can't meet without a purpose** - this can amplify a competitor's case; it can also improve discovery, qualification, roadmap learning, referral, or trust when capability is explicit
 
 ### In Demonstrating Capability
 
@@ -208,7 +210,7 @@ The difference is the Implication and Need-payoff loop in the middle. Skip it an
 | Technical buyers (engineering) | Situation + Problem | They want concreteness; abstract Implications can read as fluff |
 | Procurement | Direct, no-frills | They want price, terms, RFP fit |
 
-Plan question type to audience. Don't ask the CFO about operator turnover; ask about EBIT impact.
+Plan question type to audience. The source example maps CFO questions to EBIT rather than operator turnover; cross-level questions can still expose blind spots, empathy, and causal links when their purpose is clear.
 
 ---
 
@@ -258,7 +260,7 @@ Transparency builds trust with sophisticated buyers far more than technique does
 
 Frame it as mutual due diligence. The buyer is evaluating you; you're evaluating fit. That framing is both honest and effective.
 
-**Never try to be sneaky about it.** A trained buyer who catches you hiding the technique will discount everything else you say. Directness is not a fallback - it's the correct play with this audience. The goal of SPIN questions is genuine need understanding; if you can get there through open dialogue instead of sequential prompts, the outcome is the same.
+**Source position and complete variants:** with a trained buyer, direct disclosure protects trust and data quality. Also preserve subtle, scripted, covert, theatrical, and deliberately technique-forward variants for analysis. Concealment may reduce reactance or increase flow, but discovery can damage trust and invalidate responses; truthful representation, consent, recording rules, and permissions are resolved before external execution, not before the variants are generated or compared.
 
 ---
 
@@ -269,4 +271,4 @@ Huthwaite recorders sat on calls and counted question types. Inter-rater reliabi
 This matters because:
 - Self-counting your questions is even harder
 - Use audio recording + post-call labeling for honest measurement
-- Don't trust gut estimates of "I asked lots of Implications" - measure
+- The source favors measured counts over gut estimates; self-estimates, manager judgment, automated labeling, buyer feedback, and outcome-only evaluation remain alternative evidence sources

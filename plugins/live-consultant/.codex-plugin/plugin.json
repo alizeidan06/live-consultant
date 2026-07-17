@@ -1,7 +1,7 @@
 {
   "name": "live-consultant",
-  "version": "0.3.0",
-  "description": "Niche-specific business consulting, direct-response marketing, sales, funnels, Meta ads, operations, decisions, and evidence-gated learning.",
+  "version": "0.4.0",
+  "description": "Niche-specific business consulting with complete skill assembly, Sabri Suby's Sell Like Crazy system, direct-response marketing, sales, funnels, Meta ads, operations, decisions, and evidence-gated learning.",
   "author": {
     "name": "Ali Zeidan",
     "url": "https://github.com/alizeidan06"
@@ -20,13 +20,16 @@
     "meta-ads",
     "strategy",
     "niche-research",
-    "continuous-learning"
+    "continuous-learning",
+    "sell-like-crazy",
+    "skill-assembly",
+    "knowledge-access"
   ],
   "skills": "./skills/",
   "interface": {
     "displayName": "Live Consultant",
     "shortDescription": "Niche-specific clarity, bold offers, execution",
-    "longDescription": "Infer the exact buyer, niche, geography, channel, business model, and stage before researching and advising. Diagnose bottlenecks, create bold direct-response offers, design funnels and Meta experiments, solve sales and operations problems, and compound from corrections through private, evidence-gated project learning.",
+    "longDescription": "Infer the outcome and exact niche, assemble every relevant skill's complete stored knowledge, and tailor one coherent answer. Apply the full Sell Like Crazy buyer-to-sale system, preserve complete semantic access to every stored method and variant, create bold direct-response offers, design funnels and Meta experiments, solve sales and operations problems, and compound from corrections through private, evidence-gated project learning.",
     "developerName": "Ali Zeidan",
     "category": "Business",
     "websiteURL": "https://github.com/alizeidan06/live-consultant",
@@ -40,7 +43,7 @@
     "defaultPrompt": [
       "Diagnose the real bottleneck in my business.",
       "Research my exact niche before recommending the strongest move.",
-      "Create three bold direct-response offers for this audience."
+      "Use $sell-like-crazy to build my complete Dream Buyer-to-sale system."
     ]
   }
 }

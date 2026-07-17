@@ -1,0 +1,4 @@
+interface:
+  display_name: "Sell Like Crazy System"
+  short_description: "Build the complete Sabri buyer-to-sale system"
+  default_prompt: "Use $sell-like-crazy to research my niche and build the complete Dream Buyer-to-sale system."

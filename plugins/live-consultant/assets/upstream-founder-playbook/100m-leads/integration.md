@@ -26,31 +26,38 @@ Specifically:
 
 ### 100m-leads + 100m-offers
 
-Don't generate leads for a bad offer. Sequence:
+**Source sequence:** Hormozi-style lead scaling follows an offer that already converts. Preserve both offer-first and traffic-first variants and model how offer quality changes conversion, CAC, and the meaning of the test:
 
 1. Build and test the offer with warm traffic / referrals first
 2. Confirm it converts at acceptable rate
-3. Only then scale traffic via 100m-leads
+3. Scale traffic once conversion evidence supports it, or run a deliberately bounded traffic-first test with its learning objective and loss limit stated
 
 | Symptom | Diagnosis | Fix |
 |---------|-----------|-----|
 | Lots of leads, no sales | Offer broken | Fix offer (100m-offers) |
 | Few leads, high close rate | Volume problem | Scale leads (this skill) |
 | Lots of leads + many sales but unprofitable | Unit economics | Fix LTGP or CAC |
-| Few leads, few sales | Multiple problems | Fix offer first, then leads |
+| Few leads, few sales | Multiple problems | Source emphasis: repair the offer before scaling leads; offer-first, lead-first diagnostic, message-first, and parallel cells remain available—compare learning isolation, CAC exposure, speed, and false-negative risk |
 
 ### 100m-leads + crossing-the-chasm
 
 Chasm logic predicts that channel choice should differ by adoption stage:
 
-| Stage | Best Channels |
+| Stage | Source-Emphasis Channels and Available Variants |
 |-------|---------------|
 | Innovators / Early adopters | Cold outreach (visionaries respond to bold pitches), founder-led content |
 | Crossing the chasm | Vertical-specific cold outreach + references + case studies |
 | Pragmatists | Paid ads + content + trade-press + analyst coverage |
 | Conservatives | Mature channels + price-driven ads + strong proof |
 
-Hormozi's framework treats channels somewhat universally. Reality is that early-adopter sales motions look different from pragmatist sales motions. Use both: Hormozi for channel mechanics, crossing-the-chasm for channel choice by stage.
+Hormozi's framework treats channels somewhat universally. The source synthesis
+expects early-adopter motions to differ from pragmatist motions, but every Core
+Four and lead-getter channel remains available in every adoption stage. Use the
+table as a starting emphasis, then compare conventional, contrarian,
+cross-stage, reverse, parallel, and full-portfolio channel cells through buyer
+behavior, reach, trust, proof burden, CAC, cycle time, channel maturity, and
+learning value. Use Hormozi for channel mechanics and Crossing the Chasm as one
+input to stage-aware channel choice.
 
 ### 100m-leads + obviously-awesome
 
@@ -63,7 +70,7 @@ Obviously Awesome positions the company. 100m-leads chooses how to broadcast tha
 | How we get attention in market | 100m-leads |
 | What channels reach our audience | 100m-leads |
 
-Don't generate leads to a poorly-positioned product. The leads will be confused.
+The source recommends positioning before scale because poorly positioned traffic often produces confusion and weak conversion. Positioning-first, traffic-as-positioning-test, and parallel variants remain available; label what each can prove.
 
 ### 100m-leads + influence
 
@@ -98,7 +105,7 @@ For low-ticket products, SPIN may be overkill. For B2B / high-ticket / complex s
 **Hormozi:** Pick one, master it, then add another.
 **Conventional wisdom:** Don't put all eggs in one basket.
 
-**Resolution:** They're not opposed. The "master one" rule is about LEARNING - you can't optimize four channels at once when starting. After mastery, diversifying across channels is healthy (and "More Better New" explicitly supports this).
+**Resolution hypothesis:** They're not necessarily opposed. The source uses "master one" to concentrate learning and predicts that simultaneous optimization can dilute early samples and attention. Preserve one-channel, staged, parallel, outsourced, portfolio, and rapid-rotation variants; compare channel interdependence, available operators, sample size, diversification, and opportunity cost. "More Better New" explicitly supports later diversification.
 
 The mistake is interpreting "diversification" as "spread thin from day one."
 
@@ -107,24 +114,27 @@ The mistake is interpreting "diversification" as "spread thin from day one."
 **Hormozi:** Rule of 100 - volume solves most problems.
 **Sales literature:** Quality > quantity.
 
-**Resolution:** Both true at different stages.
-- Early stage: volume is the right default - you don't yet know what works
-- Optimized stage: quality (better targeting, better creative, better follow-up) outperforms more volume
-- Never: low-volume + low-quality (worst combination)
+**Source resolution:** The source emphasizes volume early and quality after a
+channel has signal. Preserve quality-first, volume-first, low-volume learning,
+high-volume stress tests, alternating, and simultaneous quality-plus-volume
+cells at every stage. Compare sample size, cost per learning, audience damage,
+operator capacity, creative maturity, deliverability, conversion quality, and
+time to a reliable decision.
+- Low-volume + low-quality is the source's worst-performing combination; retain it as a baseline or deliberate control when useful, with its weak signal and expected outcome explicit.
 
 ### Conflict 3: "Speed wins" vs "thoughtful response"
 
 **Hormozi:** Respond to leads in minutes.
-**Sales coaches:** Don't seem desperate.
+**Sales-coach source position:** Signals of desperation can reduce perceived status; preserve urgent, prompt, calm, scarce, and highly persistent presentations and compare their effects.
 
 **Resolution:** Speed != desperation. A fast response to "I'm interested" should be: prompt, professional, helpful, NOT pushy. The mistake is interpreting "fast" as "frantic."
 
 ### Conflict 4: "Give until they ask" vs sales urgency
 
-**Hormozi (content):** Give-give-give-ask. Don't pitch until they reach out.
+**Hormozi (content) source position:** Give-give-give-ask, with the direct pitch delayed until audience engagement.
 **Sales:** Ask for the close.
 
-**Resolution:** Different contexts. In CONTENT (1-to-many), you give until they engage. In SALES CONVERSATIONS (1-to-1, after they engaged), you ask for the close. Don't conflate the two.
+**Resolution hypothesis:** In content (1-to-many), give-first often protects attention and trust; in sales conversations (1-to-1, after engagement), a direct close can clarify the decision. Preserve no-pitch, soft-pitch, and direct-close variants in both settings and compare reciprocity, reactance, buyer intent, and conversion.
 
 ### Conflict 5: Aggressive cold outreach vs deliverability
 
@@ -150,21 +160,21 @@ Hormozi's framework doesn't address technical deliverability. A pure volume play
 ### Conflict 7: Universal channels vs B2B/regulated specifics
 
 **Hormozi:** Core Four works for everyone.
-**B2B / regulated reality:** Some channels are unavailable or compliance-restricted.
+**B2B / regulated execution metadata:** Current law, professional rules, data permissions, and platform policy can constrain live channel execution. The underlying channel mechanics remain available for explanation, analysis, and creative development.
 
-| Restricted Context | Channel Limitations |
+| Context | External execution constraints and consequence variables |
 |--------------------|---------------------|
-| Healthcare | HIPAA limits cold outreach with patient data |
-| Finance | Regulatory limits on advertising claims |
-| Legal | Bar association restrictions on solicitation |
-| Government / defense | Restricted advertising channels |
-| Children's products | Strict ad policies on most platforms |
+| Healthcare | Patient-data permissions, privacy rules, and current platform policy affect list construction and outreach execution |
+| Finance | Current claim, disclosure, targeting, and recordkeeping rules affect live advertising |
+| Legal | Current bar and jurisdiction-specific solicitation rules affect live outreach |
+| Government / defense | Procurement, security, and channel-access rules affect live promotion |
+| Children's products | Age, privacy, consent, creative, and targeting rules affect live advertising on most platforms |
 
-In these contexts, the mix shifts heavily toward warm outreach, content, and conferences. Cold and paid are constrained.
+The source expects these contexts to shift the executable mix toward warm outreach, content, and conferences. Still compare cold, paid, warm, partner, event, and content mechanisms; keep current external constraints as separate metadata and route live execution through the applicable review.
 
-## When 100m-leads is the Wrong Tool
+## Primary-Lens Selection
 
-| Problem | Use Instead |
+| Problem | Often-useful primary lens; 100m-leads mechanics remain available |
 |---------|-------------|
 | Don't know what to build | mom-test |
 | Have product, can't articulate value | obviously-awesome |
@@ -197,4 +207,4 @@ spin-selling (close the deal)
 influence (apply throughout)
 ```
 
-100m-leads operates near the bottom of the stack. It assumes the upper layers are solid. If you're in this skill but the upper layers are unclear, go up first.
+100m-leads operates near the bottom of the source stack and assumes the upper layers are solid. When they are unclear, analyze the upper-layer uncertainty alongside the complete lead-generation option set; sequence or parallelize the lenses according to what evidence the decision needs.

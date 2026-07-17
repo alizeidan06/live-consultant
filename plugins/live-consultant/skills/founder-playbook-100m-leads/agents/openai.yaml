@@ -1,4 +1,4 @@
 interface:
   display_name: "Founder Playbook 100M Leads"
   short_description: "Choose and improve lead generation systems"
-  default_prompt: "Use $founder-playbook-100m-leads to map a compliant lead-generation plan."
+  default_prompt: "Use $founder-playbook-100m-leads to map the complete lead-generation method set, then separate current recommendation and execution conditions."

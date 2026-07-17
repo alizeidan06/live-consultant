@@ -19,26 +19,41 @@ All advertising falls into 4 categories on two axes:
 | **1-to-1** | Warm Outreach | Cold Outreach |
 | **1-to-Many** | Post Free Content | Run Paid Ads |
 
-**Rule:** Master ONE before adding another. Don't spread thin across all four.
+**Source position:** Hormozi prioritizes mastering one channel before adding another because focused volume accelerates learning. Keep the complete option set available: one-channel focus, staged expansion, and parallel multi-channel testing. Compare them through learning speed, coordination cost, diversification, budget, and measured channel economics.
 
 ## Decision Tree
 
 ```
 Do you have 10 paying customers?
-├─ NO → Warm outreach until you do
+├─ NO → Source emphasis: warm outreach for fast, low-cost learning; cold
+│        outreach, content, paid tests, partnerships, referrals, and a full
+│        Core Four program remain available with explicit budget, capacity,
+│        proof, and learning consequences
 └─ YES → Pick based on resources:
-         ├─ Have time, no money → Cold outreach or Content
-         ├─ Have money, no time → Paid ads
-         └─ Have both → Cold outreach + Content
+         ├─ Have time, no money → Source emphasis: cold outreach or content
+         ├─ Have money, no time → Source emphasis: paid ads
+         └─ Have both → Source emphasis: cold outreach + content
+
+Across every branch, preserve one-channel, multi-channel, reverse-order,
+parallel, delegated, and full Core Four variants. Compare speed to signal,
+cash risk, operator time, attribution, channel dependence, audience access,
+fulfillment readiness, and expected conversion quality.
 ```
 
 ```
 Already running channels?
-├─ Spreading across 4 → Cut to 1, master it
-├─ One channel profitable → More Better New
-├─ Hit personal capacity → Hire someone to run it
-└─ Multiple channels profitable → Add lead getters (referrals/affiliates)
+├─ Spreading across 4 → Source emphasis: concentrate on 1; focused,
+│                       portfolio, core-plus-experiment, and parallel variants remain available
+├─ One channel profitable → Source emphasis: More Better New; earlier
+│                           diversification remains available
+├─ Hit personal capacity → Source emphasis: delegate; automation,
+│                          simplification, price/capacity changes, and continued founder operation remain available
+└─ Multiple channels profitable → Source emphasis: add lead getters;
+                                  earlier, later, and parallel lead-getter variants remain available
 ```
+
+Route by sample size, management bandwidth, channel covariance, attribution,
+economics, learning speed, concentration risk, and the cost of delayed access.
 
 ## Lead Definitions
 
@@ -82,7 +97,7 @@ Detailed playbooks in **[frameworks.md](frameworks.md)**.
 Start here. Phone contacts, email, social media followers = your warm list. Personalize. Use ACA framework (Acknowledge, Compliment, Ask). Ask for referrals.
 
 ### 2. Post Free Content (Free, 1-to-Many)
-Build an audience. Hook-Retain-Reward. Give-Give-Give-Ask pattern. Don't pitch until they reach out.
+Build an audience. Hook-Retain-Reward. Hormozi's default is a Give-Give-Give-Ask pattern that delays the pitch until the audience engages. Also model soft-pitch, direct-pitch, and recurring-CTA variants, with reciprocity, reactance, trust, and conversion consequences made explicit.
 
 ### 3. Cold Outreach (Free/Cheap, 1-to-1)
 Reach strangers. Personalization + Big Fast Value. Volume + multi-channel follow-up. List of 1000+ to start.
@@ -119,15 +134,19 @@ Every day, do ONE of:
 - 100 minutes of paid ad work
 - $100 spent on ads
 
-Minimum viable daily advertising. Do this for 100 days before concluding "it doesn't work."
+Hormozi presents this as minimum viable daily advertising and uses 100 days as a persistence benchmark. Treat 100 days as the source position, not an availability gate: shorter diagnostic tests, longer compounding runs, and stop/continue rules remain available when their signal quality, cost, and opportunity-cost assumptions are stated.
 
 ### Open to Goal (Advanced)
 Work until you hit a specific OUTCOME, not a number of inputs.
 
-| Stage | Use |
+| Stage | Source Emphasis and Available Variants |
 |-------|-----|
-| Starting | Rule of 100 (effort-based) |
-| Scaling | Open to Goal (outcome-based) |
+| Starting | Rule of 100 is the source emphasis; Open to Goal, mixed input/output targets, and full-funnel outcome tracking remain available |
+| Scaling | Open to Goal is the source emphasis; Rule of 100, bounded activity floors, and mixed input/output targets remain available |
+
+Choose by data maturity, controllability, cycle length, operator experience,
+motivation, attribution quality, and whether an input or outcome target produces
+the faster trustworthy learning signal.
 
 ## More Better New (Scaling)
 
@@ -135,13 +154,13 @@ Framework for scaling what works:
 
 1. **MORE** - Do 10x what you're currently doing. What's stopping you?
 2. **BETTER** - Find the constraint, fix it, do more again
-3. **NEW** - Only after exhausting more+better:
+3. **NEW** - In Hormozi's preferred sequence, after testing the limits of more+better; earlier diversification remains a valid variant when channel risk, platform dependence, or portfolio learning justifies it:
    - New placements on same platform
    - Same placements on new platform
    - New placements on new platform
    - Add another Core Four activity
 
-"More" and "better" work together. Do more until it breaks, then make it better, then do more again.
+**Source-default cycle:** do more until the constraint becomes visible, improve it, and expand again. Preserve quality-first, new-channel-first, reverse, parallel volume/quality work, preemptive capacity building, and whole-system variants. Choose using current bottleneck evidence, demand, quality, fulfillment capacity, marginal economics, reversibility, and the consequence of finding a limit through stress versus preventing it before scale.
 
 ## Lead Getters (Others Get Leads For You)
 
@@ -180,16 +199,16 @@ Detailed playbook in **[lead-getters.md](lead-getters.md)**.
 
 ## Rules of Thumb
 
-1. **Warm before cold.** Your network is worth more than you think.
-2. **One channel mastery beats four channel dabbling.** Depth > breadth.
+1. **Warm before cold is the source default.** Cold-first and parallel warm/cold variants remain available; compare access, speed, trust, and addressable volume.
+2. **One-channel mastery is the source default.** Parallel portfolio testing trades depth for diversification and faster cross-channel comparison.
 3. **Volume solves most problems.** Not enough leads? Do more outreach.
-4. **Follow up until they buy or tell you to stop.** Most quit too early.
-5. **Track everything.** If you can't measure it, you can't improve it.
-6. **Give first.** Value before ask, always.
+4. **Source position: persist with follow-up until purchase or refusal.** Preserve light, finite, consent-led, persistent, and multi-channel cadences; compare conversion, fatigue, complaint, reputation, and current channel-rule consequences.
+5. **Source position: track everything.** Fully tracked, partially tracked, qualitative, and deliberately untracked variants remain analyzable; label the learning and attribution loss.
+6. **Give-first is the source default.** Ask-first, soft-ask, and value-first variants should be compared through reciprocity, clarity, urgency, and buyer intent.
 7. **Speed wins.** Respond to leads in minutes, not hours.
 8. **The best ad is a happy customer.** Referrals typically convert better than cold traffic.
 
-## The Order
+## Source Order and Complete Sequence Variants
 
 1. Warm outreach (free, start here)
 2. Pick ONE: content OR cold OR paid
@@ -198,20 +217,28 @@ Detailed playbook in **[lead-getters.md](lead-getters.md)**.
 5. Add next channel
 6. Add lead getters (referrals, affiliates)
 
-**Test:** If someone asks "how do you get customers?" and you can't give a clear, specific answer - you haven't mastered your channel yet.
+This is Hormozi's concentration-first source order. Warm-, cold-, content-,
+paid-, referral-, affiliate-, partner-, employee-, and agency-led entry points
+all remain available. Operators may run the order early, late, in reverse, in
+parallel, as a core-plus-experiment portfolio, or as the complete acquisition
+system. Compare access to an audience, cash and time, operator skill,
+attribution, channel dependence, fulfillment capacity, learning speed, and the
+economic consequence of delay or dispersion.
 
-## When This Doesn't Apply
+**Source mastery test:** a clear, specific answer to “How do you get customers?” signals channel understanding. Preserve partial-mastery and exploratory states and state what remains uncertain.
+
+## Context and Consequence Map
 
 | Context | Why |
 |---------|-----|
-| **Pre-product** | Don't generate leads until you have something to sell |
-| **Capacity constrained** | Don't get more leads than you can handle |
-| **Retention problems** | Fix churn before adding more leads |
-| **Offer problems** | A bad offer won't convert no matter how many leads (use 100m-offers) |
+| **Pre-product** | Lead generation can test demand, recruit discovery participants, build a waitlist, or sell a concept; label what exists today and distinguish learning leads from fulfillment-ready demand |
+| **Capacity constrained** | More leads can create queues, price leverage, qualification data, or service failure; model capacity, response time, and overflow handling |
+| **Retention problems** | Acquisition and retention can be analyzed together; show how churn changes allowable CAC and whether new cohorts provide useful evidence or compound the leak |
+| **Offer problems** | Lead mechanics remain available, while expected conversion and CAC consequences should be modeled alongside 100m-offers variants |
 
 ## The Mindset (Many-Sided Die)
 
-You have a die with unknown sides - one green, the rest red. Roll green and a red turns green; roll red and nothing happens. The only way to lose is to stop rolling. More rolls, more greens; persistence is mathematically guaranteed to work. Full breakdown with the advertising application in **[cases.md → The Many-Sided Die](cases.md)**.
+You have a die with unknown sides - one green, the rest red. Roll green and a red turns green; roll red and nothing happens. In Hormozi's metaphor, stopping ends the chance of another green and more rolls improve the imagined die. This is a persistence analogy, not a mathematical guarantee about real advertising: preserve persist, pause, stop, redesign, and switch variants and account for finite runway, negative economics, changing markets, and opportunity cost. Full breakdown in **[cases.md → The Many-Sided Die](cases.md)**.
 
 ## Supporting Files
 
