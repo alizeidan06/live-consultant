@@ -1,0 +1,128 @@
+name: Publish validated release
+
+on:
+  workflow_run:
+    workflows:
+      - Validate public plugin
+    types:
+      - completed
+
+permissions:
+  contents: write
+
+concurrency:
+  group: live-consultant-release
+  cancel-in-progress: false
+
+jobs:
+  release:
+    if: >-
+      github.event.workflow_run.conclusion == 'success' &&
+      github.event.workflow_run.event == 'push' &&
+      github.event.workflow_run.head_branch == 'main' &&
+      github.event.workflow_run.head_repository.full_name == github.repository
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the exact validated commit
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        with:
+          ref: ${{ github.event.workflow_run.head_sha }}
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
+        with:
+          python-version: "3.11"
+
+      - name: Extract immutable release metadata
+        id: metadata
+        run: >-
+          python3 scripts/release_metadata.py
+          --github-output "$GITHUB_OUTPUT"
+          --notes-file "$RUNNER_TEMP/release-notes.md"
+
+      - name: Create or verify immutable version tag
+        env:
+          EXPECTED_SHA: ${{ github.event.workflow_run.head_sha }}
+          TAG: ${{ steps.metadata.outputs.tag }}
+        run: |
+          set -euo pipefail
+
+          remote_tag_commit() {
+            local refs direct peeled
+            refs="$(git ls-remote origin "refs/tags/${TAG}" "refs/tags/${TAG}^{}")"
+            direct="$(awk '$2 !~ /\^\{\}$/ { print $1; exit }' <<<"$refs")"
+            peeled="$(awk '$2 ~ /\^\{\}$/ { print $1; exit }' <<<"$refs")"
+            printf '%s' "${peeled:-$direct}"
+          }
+
+          checked_out_sha="$(git rev-parse HEAD)"
+          if [[ "$checked_out_sha" != "$EXPECTED_SHA" ]]; then
+            echo "Checked-out commit $checked_out_sha differs from validated commit $EXPECTED_SHA." >&2
+            exit 1
+          fi
+
+          existing_sha="$(remote_tag_commit)"
+          if [[ -n "$existing_sha" ]]; then
+            if [[ "$existing_sha" != "$EXPECTED_SHA" ]]; then
+              echo "Tag $TAG already points to $existing_sha, not validated commit $EXPECTED_SHA." >&2
+              exit 1
+            fi
+            echo "Tag $TAG already points to the validated commit."
+            exit 0
+          fi
+
+          git tag "$TAG" "$EXPECTED_SHA"
+          if git push origin "refs/tags/$TAG"; then
+            echo "Created immutable tag $TAG at $EXPECTED_SHA."
+            exit 0
+          fi
+
+          # A concurrent run may have won the create-only race. It is safe only
+          # when that tag resolves to this exact validated commit.
+          existing_sha="$(remote_tag_commit)"
+          if [[ "$existing_sha" != "$EXPECTED_SHA" ]]; then
+            echo "Tag creation raced and $TAG resolves to ${existing_sha:-nothing}, not $EXPECTED_SHA." >&2
+            exit 1
+          fi
+          echo "Concurrent run created the matching tag $TAG."
+
+      - name: Create or verify immutable GitHub release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TAG: ${{ steps.metadata.outputs.tag }}
+          TITLE: ${{ steps.metadata.outputs.title }}
+        run: |
+          set -euo pipefail
+          release_json="$RUNNER_TEMP/existing-release.json"
+          notes_file="$RUNNER_TEMP/release-notes.md"
+
+          verify_existing_release() {
+            gh release view "$TAG" \
+              --repo "$GITHUB_REPOSITORY" \
+              --json tagName,name,body,isDraft,isPrerelease >"$release_json"
+            python3 scripts/release_metadata.py \
+              --notes-file "$notes_file" \
+              --verify-release-json "$release_json"
+          }
+
+          if gh release view "$TAG" --repo "$GITHUB_REPOSITORY" >/dev/null 2>&1; then
+            verify_existing_release
+            echo "Release $TAG already exists with the exact immutable metadata."
+            exit 0
+          fi
+
+          if gh release create "$TAG" \
+            --repo "$GITHUB_REPOSITORY" \
+            --verify-tag \
+            --title "$TITLE" \
+            --notes-file "$notes_file"; then
+            verify_existing_release
+            echo "Published release $TAG."
+            exit 0
+          fi
+
+          # A concurrent run may have created the release after our first
+          # lookup. Never edit it: verify exact identity and content instead.
+          verify_existing_release
+          echo "Concurrent run published the matching release $TAG."

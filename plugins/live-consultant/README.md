@@ -86,7 +86,15 @@ codex plugin add live-consultant@live-consultant
 Start a new Codex task after installation.
 
 For a version-pinned install, replace `main` with a release tag such as
-`v0.4.0`.
+`v0.4.1`.
+
+Existing users update the marketplace snapshot, reinstall, and start a new
+task so Codex loads the new skills:
+
+```bash
+codex plugin marketplace upgrade live-consultant
+codex plugin add live-consultant@live-consultant
+```
 
 ## Provenance
 

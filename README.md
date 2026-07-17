@@ -19,7 +19,26 @@ codex plugin add live-consultant@live-consultant
 ```
 
 Start a new Codex task after installation. For a reproducible install, replace
-`main` with a published tag such as `v0.4.0`.
+`main` with a published tag such as `v0.4.1`.
+
+## Get future releases
+
+New installations from `main` see the latest published version. Codex cannot
+silently rewrite an existing user's installed plugin, so existing users update
+their marketplace snapshot and reinstall explicitly:
+
+```bash
+codex plugin marketplace upgrade live-consultant
+codex plugin add live-consultant@live-consultant
+```
+
+Start a new Codex task after the reinstall. Tasks that were already open keep
+the skill registry they loaded at startup.
+
+Every public update is exported from reviewed private `main`, validated in both
+repositories, merged through a protected public pull request, and published as
+an immutable version tag and GitHub release. A failed gate leaves the last good
+release in place.
 
 ## What is included
 

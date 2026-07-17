@@ -1,8 +1,10 @@
 name: Validate public plugin
 
 on:
-  push:
   pull_request:
+  push:
+    branches:
+      - main
 
 permissions:
   contents: read
@@ -10,10 +12,26 @@ permissions:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    env:
+      PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
+      PUSH_BEFORE_SHA: ${{ github.event.before }}
     steps:
-      - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+      - uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5
         with:
           python-version: "3.11"
       - name: Validate release package
-        run: python3 scripts/validate_release.py
+        shell: bash
+        run: |
+          set -euo pipefail
+          base_ref="${PR_BASE_SHA:-${PUSH_BEFORE_SHA:-}}"
+          if [[ -z "$base_ref" || "$base_ref" =~ ^0+$ ]]; then
+            echo "An exact pull-request or push base commit is required." >&2
+            exit 1
+          fi
+          python3 scripts/validate_release.py \
+            --base-ref "$base_ref" \
+            --require-base

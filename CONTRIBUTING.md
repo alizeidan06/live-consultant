@@ -3,6 +3,15 @@
 Contributions that make Live Consultant clearer, more useful, more verifiable,
 or easier to install are welcome.
 
+## Repository role
+
+This public repository is the generated, distributable package. Maintainer
+source changes are reviewed in the private canonical repository and exported
+here through a versioned release pull request. Public contributions remain
+welcome, but a maintainer must reproduce and promote accepted changes into the
+canonical source before the next export; editing generated public files alone
+cannot become the durable source of truth.
+
 ## Learning contributions
 
 Use the sanitized learning-candidate issue form only after reviewing the local
