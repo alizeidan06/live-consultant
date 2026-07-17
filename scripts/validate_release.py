@@ -34,14 +34,28 @@ REQUIRED_ROOT_FILES = {
     Path("TERMS.md"),
     Path("plugins/live-consultant/LICENSE"),
     Path("plugins/live-consultant/assets/foundation-lock.json"),
+    Path("plugins/live-consultant/assets/skill-knowledge-manifest.json"),
+    Path("plugins/live-consultant/assets/skill-routing-fixtures.json"),
     Path("plugins/live-consultant/assets/templates/niche-context.md"),
+    Path("plugins/live-consultant/assets/templates/sell-like-crazy-system-brief.md"),
     Path("plugins/live-consultant/scripts/verify_foundation_integrity.py"),
+    Path("plugins/live-consultant/scripts/verify_skill_assembly.py"),
     Path("plugins/live-consultant/scripts/learning_loop.py"),
     Path("plugins/live-consultant/scripts/learning_loop_selftest.py"),
+    Path("plugins/live-consultant/scripts/release_mutation_selftest.py"),
+    Path("plugins/live-consultant/scripts/skill_routing_selftest.py"),
     Path("plugins/live-consultant/skills/improve-live-consultant/SKILL.md"),
     Path("plugins/live-consultant/skills/improve-live-consultant/references/foundation-invariants.md"),
     Path("plugins/live-consultant/skills/improve-live-consultant/references/learning-protocol.md"),
     Path("plugins/live-consultant/skills/founder-business-consultant/references/niche-intelligence-protocol.md"),
+    Path("plugins/live-consultant/skills/founder-business-consultant/references/skill-assembly-protocol.md"),
+    Path("plugins/live-consultant/skills/sell-like-crazy/SKILL.md"),
+    Path("plugins/live-consultant/skills/sell-like-crazy/agents/openai.yaml"),
+    Path("plugins/live-consultant/skills/sell-like-crazy/references/frameworks.md"),
+    Path("plugins/live-consultant/skills/sell-like-crazy/references/cases.md"),
+    Path("plugins/live-consultant/skills/sell-like-crazy/references/examples.md"),
+    Path("plugins/live-consultant/skills/sell-like-crazy/references/integration.md"),
+    Path("plugins/live-consultant/skills/sell-like-crazy/references/source-map.md"),
     Path("plugins/live-consultant/THIRD_PARTY_NOTICES.md"),
 }
 
@@ -304,7 +318,12 @@ def main() -> int:
             "niche-intelligence-protocol.md" in skill_file.read_text(encoding="utf-8"),
             f"skill lost universal niche intelligence: {skill_file.relative_to(ROOT)}",
         )
-    record(errors, skill_count == 23, f"expected 23 skills, found {skill_count}")
+        record(
+            errors,
+            "skill-assembly-protocol.md" in skill_file.read_text(encoding="utf-8"),
+            f"skill lost universal knowledge assembly: {skill_file.relative_to(ROOT)}",
+        )
+    record(errors, skill_count == 24, f"expected 24 skills, found {skill_count}")
 
     voice_path = (
         PLUGIN
@@ -376,6 +395,39 @@ def main() -> int:
     if coverage.returncode != 0:
         errors.append(f"source coverage failed: {coverage.stdout}{coverage.stderr}")
 
+    skill_assembly = subprocess.run(
+        [sys.executable, str(PLUGIN / "scripts" / "verify_skill_assembly.py")],
+        text=True,
+        capture_output=True,
+    )
+    if skill_assembly.returncode != 0:
+        errors.append(
+            "skill assembly failed: "
+            f"{skill_assembly.stdout}{skill_assembly.stderr}"
+        )
+
+    routing_selftest = subprocess.run(
+        [sys.executable, str(PLUGIN / "scripts" / "skill_routing_selftest.py")],
+        text=True,
+        capture_output=True,
+    )
+    if routing_selftest.returncode != 0:
+        errors.append(
+            "skill routing self-test failed: "
+            f"{routing_selftest.stdout}{routing_selftest.stderr}"
+        )
+
+    mutation_selftest = subprocess.run(
+        [sys.executable, str(PLUGIN / "scripts" / "release_mutation_selftest.py")],
+        text=True,
+        capture_output=True,
+    )
+    if mutation_selftest.returncode != 0:
+        errors.append(
+            "release mutation self-test failed: "
+            f"{mutation_selftest.stdout}{mutation_selftest.stderr}"
+        )
+
     learning_selftest = subprocess.run(
         [sys.executable, str(PLUGIN / "scripts" / "learning_loop_selftest.py")],
         text=True,
@@ -406,7 +458,10 @@ def main() -> int:
         "block_quotes_checked": block_quote_count,
         "inline_case_quotes_checked": inline_quote_count,
         "learning_selftest": learning_selftest.stdout.strip(),
+        "release_mutation_selftest": mutation_selftest.stdout.strip(),
         "skills": skill_count,
+        "skill_assembly": skill_assembly.stdout.strip(),
+        "skill_routing_selftest": routing_selftest.stdout.strip(),
         "source_coverage": coverage.stdout.strip(),
         "version": version,
     }

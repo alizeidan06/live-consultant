@@ -19,13 +19,13 @@ codex plugin add live-consultant@live-consultant
 ```
 
 Start a new Codex task after installation. For a reproducible install, replace
-`main` with a published tag such as `v0.3.0`.
+`main` with a published tag such as `v0.4.0`.
 
 ## What is included
 
-- Eight integrated consulting skills covering diagnosis, validation, offers and
-  funnels, Meta ads, decisions, operations, engagement leadership, and
-  continuous improvement.
+- Nine integrated consulting skills covering the complete Sell Like Crazy
+  system, diagnosis, validation, offers and funnels, Meta ads, decisions,
+  operations, engagement leadership, and continuous improvement.
 - Fifteen namespaced Founder Playbook lenses for positioning, customer
   development, pricing, sales, influence, acquisition, and experimentation.
 - Reusable templates for business context, offers, funnels, economics,
@@ -33,6 +33,9 @@ Start a new Codex task after installation. For a reproducible install, replace
 - Local scripts for workspace setup, unit-economics calculations, source
   coverage and foundation verification, and privacy-preserving learning.
 - A universal niche-intelligence protocol and reusable niche context card.
+- A machine-verified skill assembly protocol and complete knowledge manifest.
+- Six release-tested multi-skill routing fixtures covering common consulting
+  systems from offer-plus-Meta through promise-driven operations repair.
 
 ## Niche intelligence
 
@@ -48,6 +51,26 @@ matched to the claim. Evidence from one buyer, geography, channel, period,
 price context, or business model is not silently transferred to another. The
 niche layer changes how the foundation is applied; it does not rewrite the
 foundation.
+
+## Complete skill assembly
+
+Live Consultant first identifies the outcome the human needs, decomposes it
+into capabilities, and selects every skill with a distinct contribution. It
+then loads the complete framework, cases, examples, integrations, and source
+notes declared for each selected skill before tailoring one answer to the
+niche. Directly invoking a specialist does not bypass this assembly step.
+
+The release includes a first-class `$sell-like-crazy` skill covering Dream
+Buyer and Halo research, the Larger Market Formula, HVCOs, opt-in capture,
+Godfather Offers, the 17-step sales message, traffic economics, Magic Lantern
+nurture, doctor-style sales conversion, and email automation.
+
+Live Consultant does not hide a marketing or sales method because it uses
+pressure, pain amplification, fear, urgency, scarcity, manipulation, aggressive
+follow-up, or a hard close. It explains the complete mechanism and routes its
+intensity by buyer, price, stakes, channel, and sales motion. Illustrative
+evidence remains labeled illustrative until it is real; that truth status does
+not block access to the tactic.
 
 ## Continuous learning
 
@@ -88,6 +111,7 @@ preview and exact digest, but it cannot submit to GitHub or transmit data. Read
 - `Create three bold offers for this audience and explain why they hit.`
 - `Audit this funnel, calculate the economics, and give me the strongest next move.`
 - `Infer my exact niche, research it, and ask only what could change your answer.`
+- `Use $sell-like-crazy to build my complete Dream Buyer-to-sale system.`
 - `Use $improve-live-consultant to turn this correction into a tested local rule.`
 
 Live Consultant separates two jobs that are often mixed together. The creative
@@ -110,8 +134,10 @@ Founder Playbook pinned to commit
 long attributed quotations, community-post reproductions, artwork, and the
 upstream packaging README are omitted from the public package.
 
-Four marketing PDFs informed original, page-located critical summaries. The
-PDFs, OCR dumps, worksheets, source artwork, and long passages are not included.
+Four marketing PDFs informed original, page-located structured synthesis. The
+Sabri Suby and King Kong sources now power a dedicated framework, case,
+example, integration, and source-map pack. The PDFs, OCR dumps, worksheets,
+source artwork, and long passages are not included.
 See `plugins/live-consultant/THIRD_PARTY_NOTICES.md` for full attribution and
 license scope.
 
@@ -122,8 +148,10 @@ python3 scripts/validate_release.py
 ```
 
 The validator checks marketplace and plugin manifests, skill entry points,
-local links, source coverage, script compilation, the complete learning-loop
-self-test, forbidden private paths, secret signatures, symlinks, and disallowed
+complete knowledge-bundle assembly, the Sell Like Crazy source pack, local
+links, routing fixtures, source coverage, script compilation, the complete learning-loop
+self-test, nine destructive mutation regressions, forbidden private paths,
+secret signatures, symlinks, and disallowed
 binary/source-document files.
 
 ## Independent project

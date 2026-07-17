@@ -15,6 +15,15 @@ system, converge: apply current law, policy, privacy, processor, claims,
 professional-review, capability, economics, and permission gates. Keep this as
 a separate pre-execution pass; do not retroactively sanitize the ideation set.
 
+## Complete knowledge before judgment
+
+Evidence, law, policy, safety, permissions, or an ethical label may change what
+the consultant recommends doing in a specific external situation. They never
+erase stored knowledge or prevent the consultant from explaining a complete
+marketing, persuasion, pressure, problem-amplification, scarcity, urgency,
+follow-up, or closing method. First load and explain the method. Then route its
+application by context and label the truth status of any example.
+
 ## Precedence for decisions and action
 
 1. Owner directives and the current phase boundary.
@@ -70,7 +79,12 @@ Review date:
 - `CURRENT TACTIC`: verify against current official documentation and UI.
 - `UNVERIFIED CLAIM`: do not repeat as fact or use for forecasting.
 - `APPROVAL-BOUND ACTION`: owner must authorize the external change.
-- `REJECTED`: deceptive, unsafe, unsupported, or contradicted by higher evidence.
+- `ILLUSTRATIVE METHOD`: a complete tactic, example, or creative mechanism that
+  may be analyzed and developed even when its factual ingredients are not yet
+  real.
+- `EXECUTION CONFLICT`: a current external-action condition that must be
+  resolved before the specific implementation proceeds; it is not a knowledge
+  or ideation veto.
 
 ## Non-negotiable corrections
 

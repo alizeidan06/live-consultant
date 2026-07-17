@@ -188,7 +188,10 @@ Do not use niche research to:
 - bypass proof, economics, capability, or permission gates during commitment;
 - turn a current niche tactic into a universal principle;
 - overwrite an owner directive or protected foundation rule;
-- manufacture buyer language, benchmarks, demand, proof, or certainty.
+- shrink the creative range because buyer language, benchmarks, demand, proof,
+  or certainty are not yet observed. Create them as labeled hypotheses or
+  illustrative specimens, then research what can be supported before asserting
+  them as current fact.
 
 During ideation, use niche intelligence to make the strongest concepts more
 specific and vivid. During convergence or execution, apply the relevant current

@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "routing_map": "skills/founder-business-consultant/references/routing-map.md",
+  "fixtures": [
+    {
+      "id": "offer_meta_campaign",
+      "routing_section": "Offer plus Meta campaign",
+      "prompt_summary": "Build a bold offer, paid lead system, Meta campaign, economics decision, and complete conversion path.",
+      "required_skills": [
+        "sell-like-crazy",
+        "founder-playbook-100m-offers",
+        "founder-playbook-100m-leads",
+        "plan-meta-ads",
+        "reason-business-decision",
+        "design-offer-funnel"
+      ]
+    },
+    {
+      "id": "b2b_pricing_sales_followup",
+      "routing_section": "B2B pricing and sales",
+      "prompt_summary": "Price a complex B2B service, run discovery and persuasion, then own CRM follow-up and delivery promises.",
+      "required_skills": [
+        "founder-playbook-monetizing-innovation",
+        "founder-playbook-spin-selling",
+        "founder-playbook-influence",
+        "sell-like-crazy",
+        "founder-playbook-100m-leads",
+        "build-business-operations"
+      ]
+    },
+    {
+      "id": "new_ecommerce_offer",
+      "routing_section": "New ecommerce offer",
+      "prompt_summary": "Validate a new ecommerce offer, design the strongest version, map the funnel, and plan a measured Meta test.",
+      "required_skills": [
+        "validate-business-idea",
+        "sell-like-crazy",
+        "founder-playbook-100m-offers",
+        "plan-meta-ads",
+        "reason-business-decision",
+        "design-offer-funnel"
+      ]
+    },
+    {
+      "id": "local_high_ticket_service",
+      "routing_section": "Local high-ticket service",
+      "prompt_summary": "Create and sell a high-ticket local-service offer with lead generation, persuasion, capacity, and guarantee fulfillment.",
+      "required_skills": [
+        "sell-like-crazy",
+        "founder-playbook-100m-offers",
+        "founder-playbook-influence",
+        "founder-playbook-100m-leads",
+        "build-business-operations"
+      ]
+    },
+    {
+      "id": "new_idea_no_proof",
+      "routing_section": "New idea with no proof",
+      "prompt_summary": "Turn an unproven idea into its strongest offer, then test customer reality and iterate without overbuilding.",
+      "required_skills": [
+        "validate-business-idea",
+        "founder-playbook-mom-test",
+        "founder-playbook-lean-startup",
+        "sell-like-crazy",
+        "founder-playbook-100m-offers"
+      ]
+    },
+    {
+      "id": "operations_problem_from_promise",
+      "routing_section": "Operations problem caused by the promise",
+      "prompt_summary": "Repair delivery failure by tracing the promise, sales mechanism, fulfillment ownership, and business constraint together.",
+      "required_skills": [
+        "audit-business",
+        "build-business-operations",
+        "reason-business-decision",
+        "sell-like-crazy",
+        "founder-playbook-100m-offers",
+        "design-offer-funnel",
+        "founder-playbook-spin-selling"
+      ]
+    }
+  ]
+}

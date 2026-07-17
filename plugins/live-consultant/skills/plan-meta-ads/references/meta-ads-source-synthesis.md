@@ -36,19 +36,34 @@ them as heuristics, not independent performance evidence.
   pp.66–70).
 - Platform tactics have short half-lives (Meta p.72).
 
-## Reject or quarantine
+## Preserve the source methods and test them in context
 
-- “Creative is 80%” as a causal rule. The governing sequence is proof,
-  capability, economics, compliance, tracking, creative/page, then structure.
-- “Broad beats everything,” fixed ad volumes, universal CTAs, fixed review
-  windows, and universal budget ceilings.
-- Spend allocation as the definition of a winner (Meta p.48); business
-  contribution and incrementality govern.
-- “One-day view is a lie” as a substitute for incrementality analysis.
-- Universal purchaser exclusion; retention, replenishment, and upsell have
-  different objectives.
-- “Double sales,” “10× more likely,” and other unsupported outcome claims.
-- The “not a sales call” claim in the explicit sales CTA (`5 Ways`, p.24).
+These are part of the supplied playbooks. Keep them available as creative,
+diagnostic, or experimental hypotheses instead of deleting or quarantining
+them. Their source wording does not automatically make them a measured fact or
+a universal operating rule.
+
+- Treat “creative is 80%” as a forceful prioritization hypothesis. Let it drive
+  a strong creative pass, then measure how much variation is actually caused
+  by offer, audience, page, tracking, auction, and delivery in this account.
+- Treat “broad beats everything,” fixed ad volumes, universal CTAs, fixed
+  review windows, and universal budget ceilings as testable starting points.
+  Route them by account maturity, conversion volume, audience, objective, and
+  cash tolerance.
+- Preserve spend allocation as the source's winner signal (Meta p.48), while
+  comparing it with contribution, incrementality, lead quality, and downstream
+  sales before scaling.
+- Use “one-day view is a lie” as a provocative prompt to inspect observation
+  windows and delayed conversion. It does not replace incrementality analysis.
+- Test purchaser exclusion by objective. Acquisition, retention,
+  replenishment, cross-sell, and upsell can require different treatment.
+- Keep “double sales,” “10× more likely,” and similar outcome language as
+  source-reported or illustrative claim directions until the relevant
+  business produces evidence for them.
+- Preserve the “not a sales call” specimen from the explicit sales CTA (`5
+  Ways`, p.24) as a conversion example. Before external use, state the actual
+  nature of the call accurately and test whether that framing increases or
+  damages trust and show-up quality.
 
 ## Correct the economics
 

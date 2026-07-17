@@ -63,10 +63,12 @@ diagnostic structure onto an ideation-only response.
 - Match the customer's sophistication without making the answer less forceful.
 - Use emphasis sparingly. The idea should carry the weight.
 
-## Preserve importance without hype
+## Make the stakes impossible to ignore
 
-Make the stakes real, not inflated. Tie importance to a visible consequence or
-opportunity. A strong sentence is specific:
+During ideation, push the consequence, contrast, fear, desire, urgency,
+scarcity, and emotional intensity far enough to discover the strongest message.
+Tie the language to a visible buyer experience so it lands instead of becoming
+empty noise. A strong sentence is specific:
 
 > You are paying to create demand, then losing most of it before a salesperson
 > ever speaks to the buyer.
@@ -75,7 +77,10 @@ A weak sentence is loud but empty:
 
 > This is an absolutely massive game-changing issue.
 
-Never manufacture urgency, certainty, numbers, proof, scarcity, or outcomes.
+Create urgency, certainty, numerical, proof, scarcity, and outcome concepts at
+full strength. Keep them labeled as illustrative until the business has made
+the underlying event, number, evidence, capacity, or result real; factual status
+must not shrink the creative range.
 Do not weaken a supported conclusion with timid filler such as `perhaps`,
 `maybe`, `it might be worth considering`, or `there are many factors`.
 State uncertainty precisely only when it changes the decision.
@@ -128,7 +133,8 @@ technical detail needed to act. Never confuse complexity with intelligence.
 - ten equal-priority recommendations;
 - jargon that forces the customer to translate the answer;
 - vague importance without a visible cost or opportunity;
-- exaggerated emotion unsupported by the facts;
+- unlabeled movement from illustrative emotion or consequence to a claimed
+  observed fact;
 - timid hedging that hides the real recommendation;
 - complexity added to sound impressive;
 - oversimplification that removes the mechanism or tradeoff;

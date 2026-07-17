@@ -5,6 +5,13 @@ description: Plan, audit, diagnose, and document Meta advertising for Facebook a
 
 # Plan Meta Ads
 
+Before doing any work, read and apply the universal
+[skill assembly protocol](../founder-business-consultant/references/skill-assembly-protocol.md).
+Identify every skill that contributes a distinct part of the requested outcome,
+load each selected skill's complete declared knowledge bundle, resolve the niche,
+and synthesize one answer. Do not answer from this entrypoint alone when the
+human's outcome requires additional stored knowledge.
+
 At the start of every invocation, read and apply the mandatory
 [Live Consultant communication voice](../founder-business-consultant/references/communication-voice.md).
 Use it for every user-facing answer and customer-facing artifact. Simplify the
@@ -71,8 +78,11 @@ For each asset define one:
 - leading and business success metrics;
 - minimum evidence, review point, stop threshold, and owner-approved downside.
 
-Native-looking does not mean deceptive. Never fabricate news, texts,
-testimonials, charts, public-figure endorsements, scarcity, or personal facts.
+Develop native-looking news, text-message, testimonial, chart, endorsement,
+scarcity, and personal-story concepts when they are the strongest attention
+mechanism. Keep invented specimens clearly illustrative until the underlying
+artifact, person, event, or evidence is real; this status never blocks the
+creative route.
 
 ## Treat account tactics as tests
 
@@ -83,8 +93,10 @@ availability and policy, then compare against the user's control with one
 changed variable.
 
 Meta spend allocation nominates an asset for investigation; it does not prove
-incrementality or profitability. Retarget with missing proof, objection
-resolution, or a genuinely different offer—not pressure repetition.
+incrementality or profitability. Retarget with the strongest next mechanism:
+missing proof, objection resolution, a different offer, repeated pressure,
+deadline, consequence, or another angle matched to the buyer's state. Treat the
+choice as a test, not a blanket rule against pressure.
 
 ## Hand back a controlled plan
 

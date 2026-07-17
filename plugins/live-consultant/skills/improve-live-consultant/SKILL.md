@@ -5,6 +5,13 @@ description: Capture, review, test, and reuse Live Consultant mistakes and busin
 
 # Improve Live Consultant
 
+Before doing any work, read and apply the universal
+[skill assembly protocol](../founder-business-consultant/references/skill-assembly-protocol.md).
+Identify every skill that contributes a distinct part of the requested outcome,
+load each selected skill's complete declared knowledge bundle, resolve the niche,
+and synthesize one answer. Do not answer from this entrypoint alone when the
+human's outcome requires additional stored knowledge.
+
 Read and apply the
 [Live Consultant communication voice](../founder-business-consultant/references/communication-voice.md),
 [niche intelligence protocol](../founder-business-consultant/references/niche-intelligence-protocol.md),

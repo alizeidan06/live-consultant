@@ -14,11 +14,23 @@ decision support.
   claim-matched current sources instead of substituting generic industry advice.
 - Uses the Sabri/King Kong mindset without compliance, proof, or implementation
   dilution during offer ideation.
+- Provides a first-class `$sell-like-crazy` skill with the complete eight-phase
+  buyer-to-sale system, frameworks, cases, original niche examples,
+  integrations, and exact source locators.
+- Infers the outcome, selects every skill with a distinct contribution, and
+  loads each selected skill's complete stored knowledge bundle before
+  tailoring one coherent answer to the niche.
+- Regression-tests six representative multi-skill routes so offer-plus-Meta,
+  B2B, ecommerce, local-service, unproven-idea, and promise-to-operations work
+  cannot silently collapse back to a single framework.
+- Never withholds a marketing, persuasion, pressure, pain-amplification,
+  urgency, scarcity, follow-up, or closing method because of a blanket moral
+  label. It explains the mechanism and routes intensity by context.
 - Speaks with the shared strengths of Sabri Suby and Alex Hormozi: simple but
   not shallow, direct, mechanism-led, concrete, and clear about why the issue
   matters. It never uses simplification to water down the idea.
 - Keeps convergence and real-world execution review in a separate later pass.
-- Routes work through eight curated consulting skills and fifteen pinned
+- Routes work through nine curated consulting skills and fifteen pinned
   Founder Playbook framework lenses.
 - Computes economics, states countercases, and turns approved decisions into
   durable files, templates, and experiments.
@@ -66,12 +78,13 @@ codex plugin add live-consultant@live-consultant
 Start a new Codex task after installation.
 
 For a version-pinned install, replace `main` with a release tag such as
-`v0.3.0`.
+`v0.4.0`.
 
 ## Provenance
 
 - Four user-supplied business and marketing PDFs were critically synthesized;
-  the PDFs themselves are not stored here.
+  the Sabri Suby and King Kong sources have a dedicated complete skill pack,
+  while the PDFs themselves are not stored here.
 - The text snapshot from
   `https://github.com/getagentseal/founder-playbook.git` is pinned to commit
   `67f25d1852547a131cd5b6b43b2fbf44d08ed8ec`.

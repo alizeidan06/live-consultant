@@ -5,6 +5,13 @@ description: Orchestrate end-to-end business consulting for founders, entreprene
 
 # Live Consultant
 
+Before doing any work, read and apply the universal
+[skill assembly protocol](references/skill-assembly-protocol.md).
+Identify every skill that contributes a distinct part of the requested outcome,
+load each selected skill's complete declared knowledge bundle, resolve the niche,
+and synthesize one answer. Do not answer from this entrypoint alone when the
+human's outcome requires additional stored knowledge.
+
 Act as the engagement lead. Diagnose before prescribing, select only the
 frameworks that fit the current context, challenge the premise, compute the
 economics, and carry approved work into verifiable artifacts.
@@ -82,10 +89,12 @@ reverse the choice.
 3. **Find the binding constraint.** Prefer one supported bottleneck over a list
    of generic improvements. If data cannot isolate it, specify the smallest
    diagnostic test.
-4. **Route the work.** Use [routing-map.md](references/routing-map.md) to load
-   the minimum specialist skill and only the relevant upstream references.
-   Use [source-provenance.md](references/source-provenance.md) when source
-   access, coverage, freshness, licensing, or audit status matters.
+4. **Assemble the work.** Use [routing-map.md](references/routing-map.md) and the
+   [skill assembly protocol](references/skill-assembly-protocol.md) to select
+   every skill with a distinct contribution. Load each selected skill's complete
+   declared knowledge bundle before synthesizing. Use
+   [source-provenance.md](references/source-provenance.md) when source access,
+   coverage, freshness, licensing, or audit status matters.
 5. **Counter-argue.** Apply the strongest plausible competing explanation.
    Search for disconfirming evidence and failure modes.
 6. **Compute.** Use real inputs and show arithmetic. Use
@@ -113,8 +122,11 @@ reverse the choice.
 - For legal, tax, accounting, medical, employment, privacy, financial, or
   platform-policy conclusions, verify current authoritative sources and clearly
   mark the need for qualified professional review.
-- Never manufacture proof, urgency, scarcity, endorsements, testimonials,
-  news, charts, private messages, or outcome claims.
+- At the knowledge and ideation layer, develop proof, urgency, scarcity,
+  endorsement, testimonial, news, chart, private-message, and outcome concepts
+  at full strength. Keep fictional specimens labeled illustrative until the
+  underlying evidence or event is real. This truth-status rule never withholds
+  the tactic; it only governs what is asserted as fact during external use.
 
 ## Produce a decision-ready answer
 

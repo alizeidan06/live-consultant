@@ -2,6 +2,35 @@
 
 All notable public releases are recorded here.
 
+## 0.4.0 - 2026-07-17
+
+- Added the first-class `$sell-like-crazy` skill with the complete eight-phase
+  Sabri Suby/King Kong operating system, named frameworks, source cases,
+  original niche examples, companion-skill integration, a reusable system
+  brief, and exact PDF/printed-page provenance.
+- Replaced the one-skill and partial-reference architecture with a universal
+  outcome-to-capability assembly protocol across all 24 skills. Selected skills
+  now load every Markdown file beneath their declared knowledge roots plus any
+  individually declared bundle files.
+- Added a machine-readable skill knowledge manifest and release-blocking
+  assembly verifier with skill/bundle parity, routing, complete-load, and Sabri
+  pack checks.
+- Added six multi-skill routing fixtures and a self-test that proves each route
+  resolves to complete, present knowledge bundles.
+- Added destructive release mutation tests for the old pressure veto, Sabri
+  phases, agent metadata, template wiring, upstream transforms, default prompt,
+  source hashes, and explicit routing, including the owner's exact conditional
+  veto wording and word order.
+- Removed blanket active vetoes against psychological pressure, pain or problem
+  amplification, manipulation analysis, strong emotion, urgency, scarcity,
+  aggressive follow-up, and adjacent tactic families. Live Consultant now
+  preserves the full method and routes it by buyer and transaction context.
+- Re-baselined the protected foundation after explicit owner semantic review,
+  with new invariants for complete skill assembly and no tactic-family
+  withholding.
+- Made public export validate the exact sanitized staging tree before any files
+  replace the public repository.
+
 ## 0.3.0 - 2026-07-15
 
 - Added a universal niche decision card across all 23 skills so advice resolves

@@ -21,7 +21,7 @@ from typing import Any, Optional
 SCHEMA_VERSION = "1.0"
 LEARNING_RELATIVE = Path(".live-consultant") / "learning"
 EMPTY_EVENT_HMAC = "0" * 64
-FOUNDATION_IDS = {f"LC-F{number:02d}" for number in range(1, 11)}
+FOUNDATION_IDS = {f"LC-F{number:02d}" for number in range(1, 13)}
 PLUGIN_SKILL_IDS = {
     "audit-business",
     "build-business-operations",

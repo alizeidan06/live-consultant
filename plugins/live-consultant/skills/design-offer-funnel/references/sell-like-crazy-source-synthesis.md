@@ -49,21 +49,30 @@ book text.
 - Treat email format, timing, length, cadence, provider, and benchmarks as
   current test variables (pp.295–345).
 
-## Later execution constraints - never use these to weaken source-first ideas
+## Source methods to preserve and route
 
-- Treating sales or paid acquisition as a universal test of business validity
-  (pp.29–33, 66).
-- Borrowing or scaling as though historical ROAS makes ads infinite
-  (pp.68–75).
-- Concealed advertorial/news presentation and deceptive native formats
-  (pp.231–249).
-- Fear, humiliation, fabricated urgency, or unsupported benefit chains
-  (pp.123–143, 161, 219–225).
-- Pain-agitation pressure, forced admissions, or same-call fee pressure
-  (pp.281–292).
-- Casual collection of card details; use secure processor-controlled flows.
-- NLP/embedded-command claims (p.343).
-- The resources PDF's power-word list as a copy system (resources pp.10–12).
+Do not reject or quarantine these methods. Load their full mechanism and route
+them by buyer, channel, price, stakes, awareness, sales cycle, and objective:
+
+- sales and paid acquisition as proof-generating mechanisms (pp.29–33, 66);
+- aggressive reinvestment, borrowing, and scale logic (pp.68–75);
+- advertorial, news-style, and native presentation (pp.231–249);
+- fear, humiliation, urgency, and long benefit chains (pp.123–143, 161,
+  219–225);
+- pain agitation, forced admissions, implication, decisive silence, and
+  same-call price or payment pressure (pp.281–292);
+- direct payment capture and checkout friction reduction;
+- NLP and embedded-command concepts (p.343);
+- power words as an intensification tool (resources pp.10–12).
+
+Keep evidence status separate from access to the method. A fictional message,
+number, testimonial, deadline, result, news event, or endorsement is an
+illustrative specimen until it is real. That label must never be used to hide,
+water down, or refuse the tactic.
+
+This short synthesis is now a routing note. For the complete first-class
+framework, cases, examples, integration, and source locators, load the
+`sell-like-crazy` skill.
 
 ## Live-check
 

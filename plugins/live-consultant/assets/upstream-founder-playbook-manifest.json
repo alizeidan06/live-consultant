@@ -325,18 +325,18 @@
       "sha256": "ad9804e7b9606d5e55eaad89886e69b4c9742569b6e58dce040a21caf79a3de6"
     },
     {
-      "bytes": 15340,
+      "bytes": 16028,
       "packaged": true,
       "packaging_note": "public release text: source MIT notice retained; long attributed quotation passages omitted",
       "path": "influence/SKILL.md",
-      "sha256": "0b198e82be2d927e3859266438c29a88195d4dacacec599d53b696b66b1fae91"
+      "sha256": "b6191c945f50ffb9cb139de70542ad5b366639b92a2cc17a79af5cc2f43c0874"
     },
     {
-      "bytes": 5157,
+      "bytes": 5873,
       "packaged": true,
-      "packaging_note": "text/source license included",
+      "packaging_note": "Live Consultant derivative: complete source knowledge retained; blanket pressure prohibitions reframed as contextual performance hypotheses under owner directive 29",
       "path": "influence/integration.md",
-      "sha256": "057207882c37f0782e32364a279b990ce0325b227810f6ae828181fdd6e42e03"
+      "sha256": "afeb892f3a6b6ad9c3478bfba20632e2204550b684364d833d8263ff1b5cde22"
     },
     {
       "bytes": 3398,

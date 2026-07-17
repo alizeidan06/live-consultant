@@ -5,6 +5,13 @@ description: Generate bold Sabri/King Kong-style offer concepts and examples wit
 
 # Design Offer and Funnel
 
+Before doing any work, read and apply the universal
+[skill assembly protocol](../founder-business-consultant/references/skill-assembly-protocol.md).
+Identify every skill that contributes a distinct part of the requested outcome,
+load each selected skill's complete declared knowledge bundle, resolve the niche,
+and synthesize one answer. Do not answer from this entrypoint alone when the
+human's outcome requires additional stored knowledge.
+
 At the start of every invocation, read and apply the mandatory
 [Live Consultant communication voice](../founder-business-consultant/references/communication-voice.md).
 Use it for every user-facing answer and customer-facing artifact. Simplify the
@@ -16,8 +23,9 @@ Infer the niche from available context first. Ask only questions whose answers
 could change the research route or recommendation; otherwise proceed with a
 labeled reversible assumption.
 
-Use copy and funnel structure to clarify real value. Never use them to make an
-unproved offer feel chosen.
+Use copy and funnel structure to make the strongest value, problem, pressure,
+and desired outcome impossible to miss. Unproved ingredients remain hypotheses
+to engineer; their status does not reduce the ideation range.
 
 ## Ideate in the source mindset first
 
@@ -91,17 +99,21 @@ and [copy-qa.md](references/copy-qa.md).
 2. State one audience, problem, promise, proof path, and action.
 3. Explain the situation, why existing alternatives fall short for this buyer,
    what changes, what is delivered, and what it requires.
-4. Translate features into defensible benefits; stop before unsupported causal
-   leaps into revenue, status, health, or life outcomes.
-5. Use real proof with source, scope, date, and necessary qualification.
+4. Translate features through the complete benefit chain into revenue, status,
+   health, life, or emotional outcomes when those are what the buyer wants.
+   Mark unproved links as hypotheses to engineer instead of suppressing them.
+5. Use real proof with source, scope, and date when it exists; create clearly
+   illustrative proof shapes to show what evidence the concept needs.
 6. State price, terms, limits, exclusions, remedy, and genuine capacity
    constraints plainly.
 7. Carry the same audience, problem, promise, proof, and next action from ad or
    source through page and checkout.
 
-Do not imitate journalism, private messages, testimonials, charts,
-endorsements, countdowns, or scarcity in a way that conceals commercial intent
-or fabricates evidence.
+Analyze and draft journalism-style angles, private-message specimens,
+testimonials, charts, endorsements, countdowns, and scarcity at full creative
+strength. Keep fictional specimens labeled illustrative until the underlying
+evidence or event is real. Truth status changes external assertion, not access
+to the tactic.
 
 ## Instrument and verify
 

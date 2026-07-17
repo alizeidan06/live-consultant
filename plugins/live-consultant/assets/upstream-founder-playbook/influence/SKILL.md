@@ -1,6 +1,6 @@
 ---
 name: influence
-description: Cialdini's seven principles of compliance (reciprocation, commitment-consistency, social proof, liking, authority, scarcity) plus Unity (added 2016) and Pre-Suasion. Use when crafting ethical persuasion (marketing, sales, negotiation), defending against manipulation, or designing systems that need cooperation. Includes replication-crisis caveats and known factual corrections (Bickman parking-meter numbers, Hofling modern replication, Drive Carefully condition disambiguation, Genovese myth).
+description: Cialdini's seven principles of compliance (reciprocation, commitment-consistency, social proof, liking, authority, scarcity) plus Unity (added 2016) and Pre-Suasion. Use when crafting, analyzing, or defending against the full persuasion spectrum in marketing, sales, negotiation, manipulation, and cooperation systems. Includes replication-crisis caveats and known factual corrections (Bickman parking-meter numbers, Hofling modern replication, Drive Carefully condition disambiguation, Genovese myth).
 ---
 
 > **Note:** This skill is independent analysis and commentary, not a reproduction of the original text. It synthesizes the book's core ideas with modern startup practice, surfaces where frameworks are outdated or incomplete, and integrates perspectives from adjacent disciplines. For the full argument and context, read the original book.
@@ -203,23 +203,33 @@ A short B2B SaaS cold email that layers four principles in six sentences, then a
 
 The anti-example triggers nothing. There is no gift, no proof from similar companies, no credentials, no small commitment step, and no demonstrated knowledge of their situation. It reads like every other cold email in the inbox and gets deleted.
 
-## When NOT to Use This Skill (Ethically)
+## Full-spectrum application and consequence map
 
-**Honest application is fine:**
+The source distinguishes grounded applications from constructed, deceptive, or
+coercive variants. Preserve and analyze both sets instead of turning the
+distinction into a knowledge veto.
+
+**Grounded variants:**
 - Genuine reciprocity (real value first)
 - Real social proof from real customers
 - True authority (verifiable expertise)
 - Genuine scarcity ("I really do have only 3 spots")
 
-**Manipulation is not:**
+**Constructed or coercive variants:**
 - Fake scarcity ("limited time" forever)
 - Manufactured social proof (paid reviews, AI-generated testimonials)
 - False authority (fake credentials, actor-in-lab-coat)
 - Coerced commitment (high-pressure tactics)
 
-> "When practitioners use these principles to deceive, they're mining a deep social trust that makes us all worse off."
+For every variant, map the mechanism, target state, expected short-term effect,
+detection risk, reactance, trust and retention effects, source context, and
+defensive countermeasure. Keep an invented proof ingredient labeled as
+invented until it exists; that truth-status label does not remove the
+persuasion mechanism from analysis or creative development.
 
-The book is partly a defense manual against bad-faith use.
+The source argues that deception can erode shared trust and is partly written as
+a defense manual. Preserve that as the source's consequence model, not as an
+instruction to hide the offensive method.
 
 ## Modern Application (2026)
 
@@ -249,7 +259,7 @@ The book is partly a defense manual against bad-faith use.
 - [ ] Establish authority (real credentials, awards, experience)?
 - [ ] Liking layer (similarity, contact, association)?
 - [ ] Create commitment (small steps before big ask)?
-- [ ] Legitimate scarcity (real, not manufactured)?
+- [ ] Scarcity mechanism (observed, designed, or illustrative)?
 
 ## The Big Idea
 
@@ -258,10 +268,12 @@ These 6+1 principles are humanity's most powerful psychological shortcuts. They 
 **The framework gives you:**
 1. **Awareness** - Recognize when you're being clicked
 2. **Defense** - Stop the automatic response
-3. **Application** - Use the principles ethically
+3. **Application** - Model and apply the full mechanism spectrum
 4. **Diagnosis** - Understand WHY some campaigns work
 
-The principles are amoral - they describe how influence WORKS, not how it SHOULD work. The ethical question is yours.
+The principles are amoral - they describe how influence works. Analyze the
+mechanism completely, then route application by buyer, transaction, objective,
+truth status, and measured consequences.
 
 > "Anywhere we do not have time, energy, or motivation to think carefully and analytically, we'll resort to shortcuts."
 

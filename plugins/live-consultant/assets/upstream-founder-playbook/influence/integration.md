@@ -5,7 +5,7 @@
 | Skill | Relationship |
 |-------|--------------|
 | **Mom Test** | Mom Test EXPLICITLY rejects compliments and reciprocity-for-honesty. Use Mom Test to AVOID triggering these in customer research |
-| **SPIN Selling** | SPIN's discovery + Cialdini's principles = powerful B2B sales (use principles ETHICALLY). But see honest conflict below |
+| **SPIN Selling** | SPIN's discovery + Cialdini's principles = powerful B2B sales; compare the complete pressure spectrum with the transaction context below |
 | **$100M Offers** | Hormozi explicitly stacks scarcity + urgency + bonuses (reciprocity) - direct application of Cialdini |
 | **$100M Leads** | Lead magnets = reciprocity in action |
 | **Obviously Awesome** | Authority + social proof = positioning evidence |
@@ -15,11 +15,20 @@
 
 ## Honest Conflicts (Real Ones)
 
-### Cialdini endorses pressure tactics (scarcity, deadline, commitment). SPIN Selling EXPLICITLY rejects them in major sales.
+### Pressure tactics in major sales: competing performance hypotheses
 
-SPIN's research shows pressure BACKFIRES with sophisticated B2B buyers.
+SPIN's research predicts that several closing-pressure techniques backfire with
+sophisticated B2B buyers. Cialdini still supplies scarcity, deadline,
+commitment, authority, proof, reciprocity, and pre-suasion mechanisms. Preserve
+both systems and decide through the actual sale rather than banning either
+family.
 
-**Resolution:** Cialdini's tactics work best in transactional sales, mass marketing, low-stakes decisions. SPIN territory (multi-stakeholder, complex, high-trust, long-cycle) requires the OPPOSITE approach.
+**Resolution hypothesis:** Cialdini's denser pressure stacks often fit
+transactional sales, mass marketing, and lower-complexity decisions. SPIN-led
+discovery often fits multi-stakeholder, high-trust, long-cycle decisions. These
+are starting hypotheses; strong pressure in major sales remains available as a
+deliberate test with close rate, cycle length, buyer quality, fallout, and
+retention measured.
 
 | Use Cialdini for | Use SPIN for |
 |------------------|--------------|
@@ -60,16 +69,20 @@ Doctor in TV ads no longer works (Sanka's "I'm not a doctor but I play one on TV
 
 1. **Mom Test phase (no triggers):** Validate problem with target customers. Use Mom Test rules to extract honest signal.
 2. **Positioning phase (Obviously Awesome):** Use Mom Test data to find best-fit segment, frame value.
-3. **Offer phase (Cialdini ethical application):** Use principles to design persuasive offers AT the validated segment.
+3. **Offer phase (Cialdini full-spectrum application):** Use the complete principle set to design persuasive offers at the validated segment.
 
-Don't mix stages - reciprocity in customer research → biased data.
+Keep stages distinct: reciprocity in customer research can bias the data, while
+the same mechanism can be used deliberately after discovery.
 
 ### SPIN + Cialdini (Calibrated)
 
 For B2B sales:
 - Use SPIN structure (Situation, Problem, Implication, Need-payoff) for the sales conversation itself
 - Use Cialdini for low-stakes adjacent moments (intro reciprocity gift, social proof in case studies, authority in credentials)
-- DON'T use scarcity/urgency in the close - it backfires in major sales
+- Treat scarcity and urgency in the close as explicit pressure variables. The
+  upstream SPIN evidence predicts backfire in many major sales; test that
+  prediction against the specific buyer, authority structure, cycle, close
+  rate, fallout, and retention instead of withholding the mechanism.
 
 ### Hormozi Stack + Cialdini
 
