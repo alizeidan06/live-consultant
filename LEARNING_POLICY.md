@@ -3,7 +3,9 @@
 Live Consultant improves through transparent files and reviewed releases. It
 does not retrain model weights, collect hidden telemetry, merge one customer's
 memory into another customer's work, or edit its installed skills at runtime.
-It does not transmit usage data or submit learning reports automatically.
+It does not submit learning reports automatically. Hosted tool calls send only
+the explicit tool arguments needed to answer that call; the service does not
+turn those arguments into learning records or runtime edits.
 
 ## Learning scopes
 
@@ -21,7 +23,10 @@ It does not transmit usage data or submit learning reports automatically.
    chooses whether to post it manually. The plugin performs no upload.
 4. **Public core:** maintainers reproduce and rewrite accepted learnings, add
    regressions, review foundation compatibility, bump the version, and publish
-   a release. Runtime feedback never writes directly into the core.
+   a release. Compatible hosted knowledge and tool-logic deployments become
+   available centrally at the stable MCP URL. Runtime feedback never writes
+   directly into the core, and schema or bundled-skill changes still require a
+   versioned plugin release.
 
 ## Admission and promotion
 

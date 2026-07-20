@@ -2,6 +2,22 @@
 
 All notable public releases are recorded here.
 
+## 0.5.0 - 2026-07-18
+
+- Added a read-only hosted MCP route at
+  `https://live-consultant.sifr.marketing/mcp` so reviewed compatible knowledge,
+  routing, and tool-logic updates reach connected users on their next call
+  without reinstalling the bundled plugin.
+- Added deterministic complete-bundle routing, paginated knowledge loading,
+  deployment status, health, domain-verification support, and runtime tests
+  without a database, paid API, account system, or prompt logging.
+- Preserved the existing 24 bundled skills and made the update boundary
+  explicit: manifest, schema, skill, and local-script changes still use the
+  versioned marketplace release path and require a new Codex task.
+- Updated privacy, security, learning, and terms documentation for the hosted
+  service while keeping learning opt-in, sanitized, maintainer-reviewed, and
+  unable to self-edit the public core at runtime.
+
 ## 0.4.1 - 2026-07-17
 
 - Added a fail-closed release path from reviewed private `main` to a validated

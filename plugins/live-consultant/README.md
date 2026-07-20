@@ -45,6 +45,10 @@ decision support.
 - Runs an ephemeral self-check on every engagement and can, after one-time
   project consent, turn corrections and measured outcomes into redacted,
   regression-tested local rules.
+- Connects to a read-only hosted MCP route at
+  `https://live-consultant.sifr.marketing/mcp`. Compatible knowledge and tool
+  logic updates deployed there become available on the next tool call without
+  rewriting the installed plugin.
 
 ## Continuous learning
 
@@ -95,6 +99,11 @@ task so Codex loads the new skills:
 codex plugin marketplace upgrade live-consultant
 codex plugin add live-consultant@live-consultant
 ```
+
+That reinstall is needed only when the plugin manifest, local skills, or local
+scripts change. Hosted knowledge, routing, and compatible tool-logic updates at
+the stable MCP URL are picked up automatically by connected users. A task that
+never calls the hosted tools continues to use its bundled local release.
 
 ## Provenance
 

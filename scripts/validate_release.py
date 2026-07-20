@@ -11,6 +11,7 @@ import subprocess
 import sys
 import tempfile
 from pathlib import Path
+from urllib.parse import urlparse
 
 sys.dont_write_bytecode = True
 
@@ -21,6 +22,7 @@ ROOT = Path(__file__).resolve().parents[1]
 PLUGIN = ROOT / "plugins" / "live-consultant"
 MARKETPLACE = ROOT / ".agents" / "plugins" / "marketplace.json"
 MARKER = ROOT / ".live-consultant-public-export.json"
+MCP_ENDPOINT = "https://live-consultant.sifr.marketing/mcp"
 
 REQUIRED_ROOT_FILES = {
     Path(".agents/plugins/marketplace.json"),
@@ -30,17 +32,28 @@ REQUIRED_ROOT_FILES = {
     Path(".github/pull_request_template.md"),
     Path(".github/workflows/release.yml"),
     Path(".github/workflows/validate.yml"),
+    Path("app/.well-known/openai-apps-challenge/route.js"),
+    Path("app/[transport]/route.js"),
+    Path("app/healthz/route.js"),
     Path("CHANGELOG.md"),
     Path("CONTRIBUTING.md"),
     Path("LEARNING_POLICY.md"),
     Path("LICENSE"),
+    Path("OPENAI_REVIEW.md"),
+    Path("lib/live-consultant-knowledge.js"),
+    Path("lib/live-consultant-tools.js"),
+    Path("next.config.mjs"),
+    Path("package-lock.json"),
+    Path("package.json"),
     Path("PRIVACY.md"),
     Path("README.md"),
     Path("scripts/release_metadata.py"),
     Path("scripts/release_metadata_selftest.py"),
+    Path("tests/runtime.test.js"),
     Path("SECURITY.md"),
     Path("TERMS.md"),
     Path("plugins/live-consultant/LICENSE"),
+    Path("plugins/live-consultant/.mcp.json"),
     Path("plugins/live-consultant/assets/foundation-lock.json"),
     Path("plugins/live-consultant/assets/skill-knowledge-manifest.json"),
     Path("plugins/live-consultant/assets/skill-routing-fixtures.json"),
@@ -120,6 +133,7 @@ INLINE_QUOTE_PATTERNS = (
 
 EXPECTED_ACTION_PINS = {
     "actions/checkout": "34e114876b0b11c390a56381ad16ebd13914f8d5",
+    "actions/setup-node": "49933ea5288caeca8642d1e84afbd3f7d6820020",
     "actions/setup-python": "a26af69be951a213d495a4c3e4e4022e16d87065",
 }
 ACTION_USE_PATTERN = re.compile(
@@ -273,7 +287,12 @@ def validate_long_quotes(errors: list[str]) -> tuple[int, int]:
     return block_checked, inline_checked
 
 
-def validate_action_pins(errors: list[str], workflow: Path, text: str) -> None:
+def validate_action_pins(
+    errors: list[str],
+    workflow: Path,
+    text: str,
+    required_actions: set[str],
+) -> None:
     uses = list(ACTION_USE_PATTERN.finditer(text))
     record(errors, bool(uses), f"workflow has no pinned actions: {workflow.relative_to(ROOT)}")
     seen_actions: set[str] = set()
@@ -294,7 +313,7 @@ def validate_action_pins(errors: list[str], workflow: Path, text: str) -> None:
             )
         else:
             errors.append(f"workflow uses an unreviewed action: {action}")
-    for action in sorted(EXPECTED_ACTION_PINS):
+    for action in sorted(required_actions):
         record(
             errors,
             action in seen_actions,
@@ -310,14 +329,27 @@ def validate_release_automation(errors: list[str]) -> None:
 
     validate_text = validate_path.read_text(encoding="utf-8")
     release_text = release_path.read_text(encoding="utf-8")
-    validate_action_pins(errors, validate_path, validate_text)
-    validate_action_pins(errors, release_path, release_text)
+    validate_action_pins(
+        errors,
+        validate_path,
+        validate_text,
+        {"actions/checkout", "actions/setup-node", "actions/setup-python"},
+    )
+    validate_action_pins(
+        errors,
+        release_path,
+        release_text,
+        {"actions/checkout", "actions/setup-python"},
+    )
 
     record(errors, "pull_request_target" not in validate_text, "privileged pull_request_target is forbidden")
     record(errors, "contents: read" in validate_text, "validation workflow must remain read-only")
     for required in (
         "fetch-depth: 0",
         "persist-credentials: false",
+        'node-version: "20"',
+        "npm ci",
+        "npm run check",
         "github.event.pull_request.base.sha",
         "github.event.before",
         "--base-ref",
@@ -405,6 +437,9 @@ def main() -> int:
             PLUGIN / ".codex-plugin" / "plugin.json"
         ).read_text(encoding="utf-8")
         plugin_manifest = json.loads(plugin_manifest_text)
+        mcp_manifest = json.loads(
+            (PLUGIN / ".mcp.json").read_text(encoding="utf-8")
+        )
         marketplace = json.loads(MARKETPLACE.read_text(encoding="utf-8"))
         marker = json.loads(MARKER.read_text(encoding="utf-8"))
         source_manifest = json.loads(
@@ -414,19 +449,206 @@ def main() -> int:
                 / "upstream-founder-playbook-manifest.json"
             ).read_text(encoding="utf-8")
         )
+        runtime_package = json.loads(
+            (ROOT / "package.json").read_text(encoding="utf-8")
+        )
+        runtime_lock = json.loads(
+            (ROOT / "package-lock.json").read_text(encoding="utf-8")
+        )
     except (OSError, json.JSONDecodeError) as exc:
         errors.append(f"manifest read failed: {exc}")
         plugin_manifest_text = "{}"
         plugin_manifest = {}
+        mcp_manifest = {}
         marketplace = {}
         marker = {}
         source_manifest = {}
+        runtime_package = {}
+        runtime_lock = {}
 
     version = plugin_manifest.get("version", "")
     record(errors, plugin_manifest.get("name") == "live-consultant", "wrong plugin name")
     record(errors, bool(re.fullmatch(r"(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)", version)), "plugin version is not release semver")
     record(errors, plugin_manifest.get("license") == "MIT", "plugin license is not MIT")
     record(errors, plugin_manifest.get("repository") == "https://github.com/alizeidan06/live-consultant", "wrong public repository URL")
+    record(
+        errors,
+        plugin_manifest.get("mcpServers") == "./.mcp.json",
+        "plugin manifest does not declare the MCP companion",
+    )
+    mcp_servers = mcp_manifest.get("mcpServers", {})
+    record(
+        errors,
+        set(mcp_servers) == {"live-consultant"},
+        "MCP companion must declare exactly the live-consultant server",
+    )
+    live_mcp = mcp_servers.get("live-consultant", {})
+    record(
+        errors,
+        live_mcp == {"type": "http", "url": MCP_ENDPOINT},
+        "Live Consultant MCP configuration changed unexpectedly",
+    )
+    parsed_mcp_endpoint = urlparse(live_mcp.get("url", ""))
+    record(errors, parsed_mcp_endpoint.scheme == "https", "MCP endpoint must use HTTPS")
+    record(
+        errors,
+        parsed_mcp_endpoint.hostname == "live-consultant.sifr.marketing",
+        "MCP endpoint must stay on the reviewed SIFR subdomain",
+    )
+    record(errors, parsed_mcp_endpoint.path == "/mcp", "MCP endpoint path must be /mcp")
+
+    expected_runtime_dependencies = {
+        "@modelcontextprotocol/sdk": "1.26.0",
+        "@opentelemetry/api": "1.9.1",
+        "mcp-handler": "1.1.0",
+        "next": "16.2.10",
+        "react": "19.2.7",
+        "react-dom": "19.2.7",
+        "zod": "3.25.76",
+    }
+    expected_runtime_overrides = {"postcss": "8.5.19"}
+    record(errors, runtime_package.get("private") is True, "hosted runtime must remain private")
+    record(
+        errors,
+        runtime_package.get("engines", {}).get("node") == ">=20.9.0",
+        "hosted runtime Node floor changed unexpectedly",
+    )
+    record(
+        errors,
+        runtime_package.get("dependencies") == expected_runtime_dependencies,
+        "hosted runtime dependencies are not exactly pinned",
+    )
+    record(
+        errors,
+        runtime_package.get("overrides") == expected_runtime_overrides,
+        "hosted runtime security overrides are not exactly pinned",
+    )
+    runtime_scripts = runtime_package.get("scripts", {})
+    record(
+        errors,
+        runtime_scripts.get("test")
+        == "node --test --test-force-exit tests/*.test.js",
+        "hosted runtime test command changed unexpectedly",
+    )
+    record(
+        errors,
+        runtime_scripts.get("build") == "next build",
+        "hosted runtime build command changed",
+    )
+    record(
+        errors,
+        runtime_scripts.get("check") == "npm test && npm run build",
+        "hosted runtime combined check changed",
+    )
+    record(
+        errors,
+        runtime_lock.get("lockfileVersion") == 3,
+        "package lock must use lockfile version 3",
+    )
+    lock_root = runtime_lock.get("packages", {}).get("", {})
+    record(
+        errors,
+        lock_root.get("dependencies") == expected_runtime_dependencies,
+        "package lock root dependencies do not match package.json",
+    )
+    record(
+        errors,
+        runtime_lock.get("packages", {})
+        .get("node_modules/@opentelemetry/api", {})
+        .get("version")
+        == expected_runtime_dependencies["@opentelemetry/api"],
+        "package lock did not resolve the pinned OpenTelemetry API",
+    )
+    record(
+        errors,
+        runtime_lock.get("packages", {})
+        .get("node_modules/postcss", {})
+        .get("version")
+        == expected_runtime_overrides["postcss"],
+        "package lock did not resolve the pinned PostCSS security override",
+    )
+
+    runtime_tools_text = (ROOT / "lib/live-consultant-tools.js").read_text(
+        encoding="utf-8"
+    )
+    runtime_knowledge_text = (ROOT / "lib/live-consultant-knowledge.js").read_text(
+        encoding="utf-8"
+    )
+    runtime_route_text = (ROOT / "app/[transport]/route.js").read_text(
+        encoding="utf-8"
+    )
+    challenge_route_text = (
+        ROOT / "app/.well-known/openai-apps-challenge/route.js"
+    ).read_text(encoding="utf-8")
+    expected_tools = {
+        "route_consultation",
+        "load_knowledge_bundle",
+        "live_consultant_status",
+    }
+    record(
+        errors,
+        runtime_tools_text.count("server.registerTool(") == len(expected_tools),
+        "hosted runtime must expose exactly three tools",
+    )
+    for tool_name in sorted(expected_tools):
+        record(
+            errors,
+            f'"{tool_name}"' in runtime_tools_text,
+            f"hosted runtime tool missing: {tool_name}",
+        )
+    for invariant in (
+        "readOnlyHint: true",
+        "destructiveHint: false",
+        "idempotentHint: true",
+        "openWorldHint: false",
+        "outputSchema: ROUTE_OUTPUT_SCHEMA",
+        "outputSchema: BUNDLE_OUTPUT_SCHEMA",
+        "outputSchema: STATUS_OUTPUT_SCHEMA",
+        "business_context",
+        "Do not send conversation history",
+    ):
+        record(
+            errors,
+            invariant in runtime_tools_text,
+            f"hosted tool annotation missing: {invariant}",
+        )
+    for invariant in (
+        "disableSse: true",
+        "verboseLogs: false",
+        "redisUrl: undefined",
+    ):
+        record(
+            errors,
+            invariant in runtime_route_text,
+            f"hosted transport invariant missing: {invariant}",
+        )
+    record(
+        errors,
+        "OPENAI_APPS_CHALLENGE" in challenge_route_text,
+        "OpenAI domain challenge route lost its environment-backed value",
+    )
+    record(
+        errors,
+        "fetch(" not in runtime_knowledge_text,
+        "hosted knowledge may not fetch external data",
+    )
+    record(
+        errors,
+        "console." not in runtime_knowledge_text,
+        "hosted knowledge may not log prompts",
+    )
+    for invariant in (
+        "safeTarget",
+        "Symbolic links are not allowed",
+        "complete_recursive_markdown_plus_declared_files",
+        'persistence: "none"',
+        "prompt_logging: false",
+    ):
+        record(
+            errors,
+            invariant in runtime_knowledge_text,
+            f"hosted knowledge invariant missing: {invariant}",
+        )
     record(errors, marker.get("plugin") == "live-consultant", "export marker has the wrong plugin identity")
     record(
         errors,
@@ -613,11 +835,81 @@ def main() -> int:
         )
 
     privacy_text = (ROOT / "PRIVACY.md").read_text(encoding="utf-8")
+    privacy_words = " ".join(privacy_text.split())
     record(errors, "off by default" in privacy_text, "privacy policy lost local-learning opt-in")
     record(errors, "does not call GitHub" in privacy_text, "privacy policy lost no-submission promise")
+    record(
+        errors,
+        "does not require a Live Consultant account" in privacy_words,
+        "privacy policy lost hosted account boundary",
+    )
+    record(
+        errors,
+        "intentionally persist tool arguments" in privacy_words,
+        "privacy policy lost hosted persistence boundary",
+    )
     learning_policy = (ROOT / "LEARNING_POLICY.md").read_text(encoding="utf-8")
+    learning_policy_words = " ".join(learning_policy.split())
     record(errors, "does not retrain model weights" in learning_policy, "learning policy overclaims retraining")
-    record(errors, "does not transmit" in learning_policy, "learning policy lost transmission boundary")
+    record(
+        errors,
+        "does not submit learning reports automatically" in learning_policy_words,
+        "learning policy lost automatic-submission boundary",
+    )
+    record(
+        errors,
+        "does not turn those arguments into learning records" in learning_policy_words,
+        "learning policy lost hosted learning boundary",
+    )
+    reviewer_packet = (ROOT / "OPENAI_REVIEW.md").read_text(encoding="utf-8")
+    try:
+        positive_section = reviewer_packet.split(
+            "## Five positive reviewer tests", 1
+        )[1].split("## Three negative reviewer tests", 1)[0]
+        negative_section = reviewer_packet.split(
+            "## Three negative reviewer tests", 1
+        )[1].split("## Submission notes", 1)[0]
+    except IndexError:
+        positive_section = ""
+        negative_section = ""
+    record(
+        errors,
+        len(re.findall(r"(?m)^\d+\. \*\*", positive_section)) == 5,
+        "OpenAI reviewer packet must contain exactly five positive tests",
+    )
+    record(
+        errors,
+        len(re.findall(r"(?m)^\d+\. \*\*", negative_section)) == 3,
+        "OpenAI reviewer packet must contain exactly three negative tests",
+    )
+    for invariant in (
+        "`connect_domains`: `[]`",
+        "`resource_domains`: `[]`",
+        "https://github.com/alizeidan06/live-consultant/issues",
+    ):
+        record(
+            errors,
+            invariant in reviewer_packet,
+            f"OpenAI reviewer packet lost declaration: {invariant}",
+        )
+    assembly_protocol = (
+        PLUGIN
+        / "skills/founder-business-consultant/references/skill-assembly-protocol.md"
+    ).read_text(encoding="utf-8")
+    assembly_protocol_words = " ".join(assembly_protocol.split())
+    for invariant in (
+        "route_consultation",
+        "load_knowledge_bundle",
+        "the hosted load is complete when the response value is `null`",
+        "every selected bundle page has been read and `next_cursor` is `null`",
+        "hosted tools are absent or unavailable, fall back",
+        "restart the hosted route and load from the first page",
+    ):
+        record(
+            errors,
+            invariant in assembly_protocol_words,
+            f"skill assembly lost hosted-first invariant: {invariant}",
+        )
     validate_release_automation(errors)
 
     link_count = validate_local_links(errors)
@@ -733,6 +1025,8 @@ def main() -> int:
         "inline_case_quotes_checked": inline_quote_count,
         "learning_selftest": learning_selftest.stdout.strip(),
         "knowledge_access": knowledge_access.stdout.strip(),
+        "mcp_endpoint": MCP_ENDPOINT,
+        "runtime_tools": sorted(expected_tools),
         "release_mutation_selftest": mutation_selftest.stdout.strip(),
         "release_metadata_selftest": release_metadata_selftest.stdout.strip(),
         "skills": skill_count,

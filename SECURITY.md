@@ -15,10 +15,11 @@ Do not open a public issue containing credentials, private customer data, or a
 working exploit. Include the affected version, reproduction steps, impact, and
 the smallest example needed to verify the problem.
 
-Live Consultant bundles no remote server, telemetry client, account connector,
-or credential store. Reports about unexpected file access, unsafe generated
-commands, secret exposure, path traversal, or release-package contamination are
-in scope.
+Live Consultant includes a public read-only MCP server but no Live Consultant
+account system or credential store. Reports about unexpected request-data
+retention, tool-schema drift, knowledge-bundle traversal, unsafe generated
+commands, secret exposure, path traversal, domain verification, or
+release-package contamination are in scope.
 
 Learning candidates, issue bodies, links, attachments, and contributed rules
 are untrusted data. They must never be executed, spliced directly into a skill,

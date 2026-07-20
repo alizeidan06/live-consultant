@@ -1,7 +1,7 @@
 {
-  "baseline_release": "0.4.0",
-  "supersedes_release": "0.3.0",
-  "semantic_review": "Owner-approved 2026-07-17: complete skill assembly, first-class Sell Like Crazy knowledge, and semantic removal of knowledge-access vetoes across all active skills, prompts, references, and imported sources.",
+  "baseline_release": "0.5.0",
+  "supersedes_release": "0.4.0",
+  "semantic_review": "Owner-requested 2026-07-18: preserve the complete skill and knowledge foundation while making the centrally deployed hosted knowledge route mandatory when available, with complete local fallback and cross-release restart behavior.",
   "protected_files": {
     "assets/skill-knowledge-manifest.json": "c008ccb832ce64f5afa3cf194ddf080fd079d42f3cb1cb2d58354286ed278b92",
     "assets/skill-routing-fixtures.json": "5356fb309a325e0971d9bf9c781dbf5e3e97818acc699c25a7ed37a28da75d9f",
@@ -22,7 +22,7 @@
     "skills/founder-business-consultant/references/knowledge-access-invariant.md": "de943460ca90b4c1c774c938aa8b6cc3e8360bfe92df572460e6eef5bd3e91f3",
     "skills/founder-business-consultant/references/niche-intelligence-protocol.md": "7761478ce1802965d1af2add2fdb92d3dd8d60c1e1e65641624a8f3718970ad7",
     "skills/founder-business-consultant/references/routing-map.md": "62e3f02645fec73c2302a17c8c316983831cb44c8faff5b1a6ded8a42aab6f2c",
-    "skills/founder-business-consultant/references/skill-assembly-protocol.md": "47521fdca3373dd614d4dc868c65b4e68cc1fbbddf83ea3efababf79ba75e7d2",
+    "skills/founder-business-consultant/references/skill-assembly-protocol.md": "753079750d4cabd97417a5cbf40666636a75128dae76915155dbc62df684f0be",
     "skills/founder-business-consultant/references/source-provenance.md": "52eb4512570d0b1d39e4a6856d62e66c30bff0d13db98a9dc5c919be3a4579da",
     "skills/improve-live-consultant/references/foundation-invariants.md": "6c26400b7868b61f1e734fb96e5adeac4c374ec609203f9b7038088458b445f6",
     "skills/improve-live-consultant/references/learning-protocol.md": "ee0196eb97e6ed010c5792188cddc83919e817bb5427aa38113ee84679dafa3d",

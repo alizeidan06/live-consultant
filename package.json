@@ -1,0 +1,27 @@
+{
+  "name": "live-consultant-hosted-mcp",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "build": "next build",
+    "test": "node --test --test-force-exit tests/*.test.js",
+    "check": "npm test && npm run build"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.26.0",
+    "@opentelemetry/api": "1.9.1",
+    "mcp-handler": "1.1.0",
+    "next": "16.2.10",
+    "react": "19.2.7",
+    "react-dom": "19.2.7",
+    "zod": "3.25.76"
+  },
+  "overrides": {
+    "postcss": "8.5.19"
+  }
+}
