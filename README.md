@@ -23,9 +23,16 @@ Start a new Codex task after installation. For a reproducible install, replace
 
 ## Get future releases
 
-New installations from `main` see the latest published version. Codex cannot
-silently rewrite an existing user's installed plugin, so existing users update
-their marketplace snapshot and reinstall explicitly:
+Live Consultant has two update lanes:
+
+1. **Hosted knowledge and compatible tool logic:** the plugin connects to
+   `https://live-consultant.sifr.marketing/mcp`. Reviewed deployments at that
+   stable URL are available on the next hosted tool call, with no reinstall.
+2. **Bundled plugin files:** new or changed skills, scripts, manifests, or tool
+   schemas still require a marketplace upgrade, reinstall, and new Codex task.
+
+New installations from `main` see the latest bundled release. Existing users
+refresh bundled plugin files with:
 
 ```bash
 codex plugin marketplace upgrade live-consultant
@@ -57,6 +64,8 @@ release in place.
   verifier covering active instructions, agent prompts, and bundled sources.
 - Six release-tested multi-skill routing fixtures covering common consulting
   systems from offer-plus-Meta through promise-driven operations repair.
+- A read-only hosted MCP service that routes requests into complete declared
+  knowledge bundles and can receive reviewed compatible updates centrally.
 
 ## Niche intelligence
 
@@ -127,9 +136,11 @@ editing the rendered rule file does not change trusted behavior.
 Repeated observations append through project-local evidence lineage IDs; one
 experiment, artifact, cohort, or report counts once even when reworded.
 
-Community improvement is also opt-in. The tool can prepare a sanitized local
-preview and exact digest, but it cannot submit to GitHub or transmit data. Read
-[the learning policy](LEARNING_POLICY.md) for the full lifecycle.
+Community improvement is also opt-in. The local learning tool can prepare a
+sanitized preview and exact digest, but it cannot submit to GitHub or upload
+the preview. Hosted consultation tools process only the arguments explicitly
+sent to them and do not turn calls into learning candidates. Read [the learning
+policy](LEARNING_POLICY.md) for the full lifecycle.
 
 ## Try it
 
@@ -170,15 +181,29 @@ license scope.
 ## Verify the package
 
 ```bash
+node --version  # requires Node 20.9 or newer
+npm ci --ignore-scripts --no-audit --no-fund
+npm run check
 python3 scripts/validate_release.py
 ```
 
-The validator checks marketplace and plugin manifests, skill entry points,
+Together these commands run the hosted runtime contract tests and production
+build, then validate marketplace, plugin, and MCP manifests, the hosted tool
+schema, skill entry points,
 complete knowledge-bundle assembly, the Sell Like Crazy source pack, local
 links, routing fixtures, source coverage, script compilation, the complete learning-loop
 self-test, 21 destructive mutation regressions, forbidden private paths,
 secret signatures, symlinks, and disallowed
 binary/source-document files.
+
+## Policies and support
+
+- [Privacy](PRIVACY.md)
+- [Terms](TERMS.md)
+- [User support and bug reports](https://github.com/alizeidan06/live-consultant/issues)
+- [Security reporting](SECURITY.md)
+- [Learning policy](LEARNING_POLICY.md)
+- [OpenAI reviewer test packet](OPENAI_REVIEW.md)
 
 ## Independent project
 

@@ -12,6 +12,7 @@ permissions:
 jobs:
   validate:
     runs-on: ubuntu-latest
+    timeout-minutes: 30
     env:
       PR_BASE_SHA: ${{ github.event.pull_request.base.sha }}
       PUSH_BEFORE_SHA: ${{ github.event.before }}
@@ -35,3 +36,12 @@ jobs:
           python3 scripts/validate_release.py \
             --base-ref "$base_ref" \
             --require-base
+      - uses: actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020 # v4
+        with:
+          node-version: "20"
+          cache: npm
+      - name: Validate hosted MCP runtime
+        run: |
+          set -euo pipefail
+          npm ci --ignore-scripts --no-audit --no-fund
+          npm run check
