@@ -45,6 +45,7 @@ PLUGIN_SKILL_IDS = {
     "improve-live-consultant",
     "plan-meta-ads",
     "reason-business-decision",
+    "sell-like-crazy",
     "validate-business-idea",
 }
 DETECTION_SOURCES = {

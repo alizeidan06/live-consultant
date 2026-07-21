@@ -39,6 +39,17 @@ full conversion path. The Leads pack owns the paid lead-getter, lead-magnet,
 follow-up, and scale mechanics; the Meta specialist owns current account,
 creative-test, measurement, and platform decisions.
 
+### Sabri or King Kong-style long-form homepage copy
+
+Load `design-offer-funnel`, `sell-like-crazy`,
+`founder-playbook-storybrand`, `founder-playbook-made-to-stick`, and
+`founder-playbook-influence`. Add `audit-business` when revising an existing
+page or diagnosing why its current argument fails. The offer-funnel skill owns
+the customer-facing artifact and continuity checks; Sell Like Crazy owns the
+complete direct-response system; the companion lenses strengthen narrative
+clarity, memorability, and persuasion without exposing the framework to the
+buyer.
+
 ### B2B pricing and sales
 
 Load `founder-playbook-monetizing-innovation`, `founder-playbook-spin-selling`,

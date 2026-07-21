@@ -73,6 +73,8 @@ REQUIRED_ROOT_FILES = {
     Path("plugins/live-consultant/scripts/learning_loop_selftest.py"),
     Path("plugins/live-consultant/scripts/release_mutation_selftest.py"),
     Path("plugins/live-consultant/scripts/skill_routing_selftest.py"),
+    Path("plugins/live-consultant/scripts/copy_continuity_selftest.py"),
+    Path("plugins/live-consultant/skills/design-offer-funnel/references/sales-letter-continuity.md"),
     Path("plugins/live-consultant/skills/improve-live-consultant/SKILL.md"),
     Path("plugins/live-consultant/skills/improve-live-consultant/references/foundation-invariants.md"),
     Path("plugins/live-consultant/skills/improve-live-consultant/references/learning-protocol.md"),
@@ -797,6 +799,20 @@ def main() -> int:
         "hosted runtime directives content must be a non-empty string",
     )
     for invariant in (
+        "frameworks backstage",
+        "one shared causal belief spine",
+        "then branch deliberately",
+        "Retain visuals or motion when",
+        "shorter, visual, and technical countercases",
+        "hero offer for ready buyers",
+        "without repeating offer blocks",
+    ):
+        record(
+            errors,
+            isinstance(directive_content, str) and invariant in directive_content,
+            f"hosted runtime directives lost copy-continuity invariant: {invariant}",
+        )
+    for invariant in (
         "readOnlyHint: true",
         "destructiveHint: false",
         "idempotentHint: true",
@@ -1207,6 +1223,17 @@ def main() -> int:
             f"{routing_selftest.stdout}{routing_selftest.stderr}"
         )
 
+    copy_continuity_selftest = subprocess.run(
+        [sys.executable, str(PLUGIN / "scripts" / "copy_continuity_selftest.py")],
+        text=True,
+        capture_output=True,
+    )
+    if copy_continuity_selftest.returncode != 0:
+        errors.append(
+            "copy continuity self-test failed: "
+            f"{copy_continuity_selftest.stdout}{copy_continuity_selftest.stderr}"
+        )
+
     mutation_selftest = subprocess.run(
         [sys.executable, str(PLUGIN / "scripts" / "release_mutation_selftest.py")],
         text=True,
@@ -1259,6 +1286,7 @@ def main() -> int:
         "block_quotes_checked": block_quote_count,
         "inline_case_quotes_checked": inline_quote_count,
         "learning_selftest": learning_selftest.stdout.strip(),
+        "copy_continuity_selftest": copy_continuity_selftest.stdout.strip(),
         "knowledge_access": knowledge_access.stdout.strip(),
         "mcp_endpoint": MCP_ENDPOINT,
         "runtime_tools": sorted(expected_tools),

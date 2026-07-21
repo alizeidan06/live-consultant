@@ -52,3 +52,30 @@ audience | problem | promise | mechanism | proof | scope | price | action
 ```
 
 Any material change is a scent break that must be intentional and explained.
+
+## Long-form continuity and interpretation cost
+
+Before approving a long-form page, apply the complete
+[sales-letter continuity protocol](sales-letter-continuity.md).
+
+- Write the ordered belief spine before designing sections or components.
+- Make each section answer the question created by the section before it.
+- Keep one shared spine until a buyer, offer, or decision path materially
+  diverges; then branch deliberately and preserve continuity inside each route.
+- Replace consultant shorthand with observable nouns and verbs from the
+  buyer's day unless the audience already uses the term or the copy explains it
+  immediately.
+- Translate proof from a raw metric into the business outcome kept, gained,
+  removed, avoided, or made possible.
+- Put the nearest relevant proof beside the doubt or claim it resolves.
+- Treat cards, diagrams, timelines, dashboards, illustrations, and motion as
+  interpretation costs. Keep them when they prove, demonstrate, compare, or
+  reduce explanation; remove them when prose works as well or better.
+- A clear hero offer may serve ready buyers when proof warrants it. After that
+  exit, earn the intensified offer through recognition, explanation, mechanism,
+  and proof instead of interrupting the education with repeated offer blocks.
+- Run a headline-only skim. The headings should preserve the argument even
+  when the body is temporarily hidden.
+- Test the draft with a category novice, a skeptical buyer, and an impatient
+  mobile reader. Reject any passage that makes one of them decode the
+  consultant's framework before understanding the business point.

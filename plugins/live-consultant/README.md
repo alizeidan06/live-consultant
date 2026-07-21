@@ -36,6 +36,13 @@ decision support.
 - Speaks with the shared strengths of Sabri Suby and Alex Hormozi: simple but
   not shallow, direct, mechanism-led, concrete, and clear about why the issue
   matters. It never uses simplification to water down the idea.
+- Keeps long-form marketing frameworks backstage and regression-tests one
+  continuous buyer-belief sequence, literal customer actions, proof proximity,
+  ready-buyer exits, deliberate route branches, earned CTA timing, and
+  evidence-carrying visuals. Release-blocking contract and mutation checks are
+  paired with manual/model prompts for ecommerce, technical B2B, and high-stakes
+  countercases; they protect the instruction contract rather than claiming to
+  score future model output automatically.
 - Treats concept generation and convergence or real-world execution review as
   distinct outputs so neither shrinks the knowledge space.
 - Routes work through nine curated consulting skills and fifteen pinned
@@ -92,7 +99,7 @@ codex plugin add live-consultant@live-consultant
 Start a new Codex task after installation.
 
 For a version-pinned install, replace `main` with a release tag such as
-`v0.6.0`.
+`v0.6.1`.
 
 Users upgrading from v0.5.1 or earlier update the marketplace snapshot,
 reinstall, and start one new task so Codex discovers the stable v0.6 tools:

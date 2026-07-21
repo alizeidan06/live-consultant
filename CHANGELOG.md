@@ -2,6 +2,31 @@
 
 All notable public releases are recorded here.
 
+## 0.6.1 - 2026-07-21
+
+- Added a long-form sales-letter continuity protocol that keeps the complete
+  marketing framework backstage while the reader sees one plain, causal chain
+  of recognizable events, explanation, proof, mechanism, objections, offer,
+  and action.
+- Added square-zero language, novice paraphrase, proof-proximity, earned-CTA,
+  headline-skim, framework-removal, and three-reader review gates so expert
+  analysis cannot leak onto the page as jargon, disconnected modules, or a
+  diagram the buyer must decode.
+- Added a visual-necessity rule that keeps product demonstrations, useful
+  comparisons, technical diagrams, and copy-synced proof while testing motion
+  or components that add interpretation without evidence against a simpler
+  version.
+- Added a release-blocking continuity contract check, destructive mutation
+  guards, and five manual/model review prompts covering novice service owners,
+  ready-buyer exits, ecommerce, technical B2B, and high-stakes countercases.
+  These checks protect the written contract; they do not claim to measure a
+  future model's copy quality automatically.
+- Added deterministic routing so direct Sabri Suby or King Kong long-form copy
+  requests load both the complete Sell Like Crazy pack and the customer-surface
+  continuity protocol.
+- Fixed project learning so `sell-like-crazy` is accepted as the real bundled
+  skill it is instead of being rejected as an unknown skill identifier.
+
 ## 0.6.0 - 2026-07-21
 
 - Added the permanent `start_live_consultation` and
