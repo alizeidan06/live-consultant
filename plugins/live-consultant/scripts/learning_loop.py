@@ -23,6 +23,7 @@ LEARNING_RELATIVE = Path(".live-consultant") / "learning"
 EMPTY_EVENT_HMAC = "0" * 64
 FOUNDATION_IDS = {f"LC-F{number:02d}" for number in range(1, 13)}
 PLUGIN_SKILL_IDS = {
+    "analyze-business-meeting",
     "audit-business",
     "build-business-operations",
     "design-offer-funnel",
@@ -44,6 +45,7 @@ PLUGIN_SKILL_IDS = {
     "founder-playbook-traction",
     "improve-live-consultant",
     "plan-meta-ads",
+    "optimize-inventory-cash-flow",
     "reason-business-decision",
     "sell-like-crazy",
     "validate-business-idea",

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Optimize Inventory Cash Flow"
+  short_description: "Turn inventory into cash with real economics"
+  default_prompt: "Use $optimize-inventory-cash-flow to find what is trapping cash in this inventory business and build the strongest 13-week plan."

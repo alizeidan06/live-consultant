@@ -1305,8 +1305,8 @@ def scan_tree() -> tuple[list[str], int, int]:
     manifest_path = PLUGIN_ROOT / "assets" / "skill-knowledge-manifest.json"
     manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
     inventory = manifest.get("skills", {})
-    if len(inventory) != 24:
-        errors.append(f"skill manifest must declare 24 skills, found {len(inventory)}")
+    if len(inventory) != 26:
+        errors.append(f"skill manifest must declare 26 skills, found {len(inventory)}")
 
     declared_paths: set[Path] = set()
     for skill_name, record in inventory.items():

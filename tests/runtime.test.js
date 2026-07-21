@@ -50,7 +50,7 @@ function testTokenMac(domain, payload) {
 
 test("catalog loads all declared skills without external services", async () => {
   const catalog = await knowledge.loadKnowledgeCatalog();
-  assert.equal(catalog.skills.size, 24);
+  assert.equal(catalog.skills.size, 26);
   const declaredFiles = new Set(
     [...catalog.skills.values()].flatMap((skill) => skill.files)
   );
@@ -128,6 +128,191 @@ test("every routing fixture selects its complete required skill stack", async ()
     for (const skillId of fixture.required_skills) {
       assert.ok(selected.has(skillId), `${fixture.id} omitted ${skillId}`);
     }
+  }
+});
+
+test("new domain skills close over mandatory companions without expanding likely companions", async () => {
+  const inventory = await knowledge.routeConsultation({
+    query: "Our imported stock is aging, landed costs are unclear, and we need a 13-week cash plan."
+  });
+  const inventoryIds = new Set(inventory.selected_skills.map((skill) => skill.skill_id));
+  for (const skillId of [
+    "optimize-inventory-cash-flow",
+    "audit-business",
+    "reason-business-decision",
+    "build-business-operations",
+    "founder-business-consultant"
+  ]) {
+    assert.ok(inventoryIds.has(skillId), `inventory route omitted ${skillId}`);
+  }
+  assert.ok(!inventoryIds.has("plan-meta-ads"), "likely companions must not expand blindly");
+
+  const meeting = await knowledge.routeConsultation({
+    query: "Turn these messy business meeting notes and an unreliable speaker map into decisions and owners."
+  });
+  const meetingIds = new Set(meeting.selected_skills.map((skill) => skill.skill_id));
+  for (const skillId of [
+    "analyze-business-meeting",
+    "audit-business",
+    "reason-business-decision",
+    "founder-business-consultant"
+  ]) {
+    assert.ok(meetingIds.has(skillId), `meeting route omitted ${skillId}`);
+  }
+  assert.ok(!meetingIds.has("plan-meta-ads"), "meeting routing must remain issue-driven");
+  assert.ok(!meetingIds.has("founder-playbook-blue-ocean"), "generic meeting strategy must not imply category redesign");
+  assert.ok(!meetingIds.has("founder-playbook-traction"), "generic meeting actions must not imply channel selection");
+
+  const minimalMeeting = await knowledge.routeConsultation({
+    query: "Analyze this meeting transcript."
+  });
+  const minimalMeetingIds = new Set(
+    minimalMeeting.selected_skills.map((skill) => skill.skill_id)
+  );
+  for (const skillId of [
+    "analyze-business-meeting",
+    "audit-business",
+    "reason-business-decision",
+    "founder-business-consultant"
+  ]) {
+    assert.ok(minimalMeetingIds.has(skillId), `minimal meeting route omitted ${skillId}`);
+  }
+});
+
+test("plain-language domain anchors improve recall without contaminating unrelated cash-flow work", async () => {
+  for (const query of [
+    "We have too much stock and no cash.",
+    "Our warehouse inventory is not selling.",
+    "Our shelves are full and the bank account is empty. What do we do?",
+    "We keep buying products faster than customers buy them and now we cannot pay suppliers."
+  ]) {
+    const route = await knowledge.routeConsultation({ query });
+    const selected = new Set(route.selected_skills.map((skill) => skill.skill_id));
+    assert.ok(selected.has("optimize-inventory-cash-flow"), `inventory route missed: ${query}`);
+  }
+
+  for (const query of [
+    "Turn this call into next steps.",
+    "I have messy notes with four people arguing and no clear decision."
+  ]) {
+    const route = await knowledge.routeConsultation({ query });
+    const selected = new Set(route.selected_skills.map((skill) => skill.skill_id));
+    assert.ok(selected.has("analyze-business-meeting"), `meeting route missed: ${query}`);
+  }
+
+  for (const query of [
+    "Help my consulting agency improve cash flow.",
+    "Write a Sabri-style long-form homepage for my consulting agency that improves cash flow.",
+    "Analyze our weekly cash flow for a no-inventory SaaS business."
+  ]) {
+    const route = await knowledge.routeConsultation({ query });
+    const selected = new Set(route.selected_skills.map((skill) => skill.skill_id));
+    assert.ok(!selected.has("optimize-inventory-cash-flow"), `false inventory route: ${query}`);
+    assert.ok(!selected.has("analyze-business-meeting"), `false meeting route: ${query}`);
+  }
+});
+
+test("a meeting-derived inventory problem selects the complete combined stack", async () => {
+  const route = await knowledge.routeConsultation({
+    query: "Review an importer meeting about urgent cash, slow stock, verbal product demand, channel choices, price, and automation before reliable data."
+  });
+  const selected = new Set(route.selected_skills.map((skill) => skill.skill_id));
+  for (const skillId of [
+    "analyze-business-meeting",
+    "optimize-inventory-cash-flow",
+    "founder-business-consultant",
+    "audit-business",
+    "reason-business-decision",
+    "build-business-operations",
+    "founder-playbook-mom-test",
+    "validate-business-idea",
+    "founder-playbook-monetizing-innovation"
+  ]) {
+    assert.ok(selected.has(skillId), `combined route omitted ${skillId}`);
+  }
+});
+
+test("the shared anonymized inventory meeting case is deduplicated and associated with both skills", async () => {
+  const sharedPath = "skills/analyze-business-meeting/references/cases.md";
+  const seenPaths = new Set();
+  let sharedContent = "";
+  let cursor;
+  do {
+    const page = await knowledge.loadKnowledgeBundle({
+      skill_ids: ["analyze-business-meeting", "optimize-inventory-cash-flow"],
+      cursor,
+      page_size_chars: 2_000
+    });
+    for (const chunk of page.chunks) {
+      seenPaths.add(chunk.path);
+      if (chunk.path === sharedPath) {
+        assert.deepEqual(chunk.skill_ids, [
+          "analyze-business-meeting",
+          "optimize-inventory-cash-flow"
+        ]);
+        assert.equal(sharedContent.length, chunk.start_character);
+        sharedContent += chunk.content;
+      }
+    }
+    cursor = page.next_cursor ?? undefined;
+  } while (cursor);
+  assert.ok(seenPaths.has(sharedPath));
+  assert.equal(sharedContent, (await knowledge.loadKnowledgeCatalog()).documents.get(sharedPath));
+});
+
+test("new meeting and inventory packs contain only sanitized portable synthesis", async () => {
+  const catalog = await knowledge.loadKnowledgeCatalog();
+  const paths = new Set([
+    ...catalog.skills.get("analyze-business-meeting").files,
+    ...catalog.skills.get("optimize-inventory-cash-flow").files
+  ]);
+  const privateSourceTerms = [
+    "Jacob" + " Flooring",
+    "Flooring-" + "Speaker-Map",
+    "Flooring-" + "Meeting-Transcript",
+    "/" + "Users/",
+    "Speaker" + "0",
+    "Speaker" + " 0"
+  ];
+  for (const path of paths) {
+    const content = catalog.documents.get(path);
+    for (const term of privateSourceTerms) {
+      assert.ok(!content.includes(term), `${path} leaked private source marker ${term}`);
+    }
+  }
+});
+
+test("legacy knowledge loading reconstructs all 26 skills in deterministic batches of at most 24", async () => {
+  const catalog = await knowledge.loadKnowledgeCatalog();
+  const skillIds = [...catalog.skills.keys()].sort();
+  const batches = [skillIds.slice(0, 24), skillIds.slice(24)];
+  assert.deepEqual(batches.map((batch) => batch.length), [24, 2]);
+  const reconstructed = new Map();
+  for (const batch of batches) {
+    const batchReconstructed = new Map();
+    let cursor;
+    do {
+      const page = await knowledge.loadKnowledgeBundle({
+        skill_ids: batch,
+        cursor,
+        page_size_chars: 30_000
+      });
+      for (const chunk of page.chunks) {
+        const current = batchReconstructed.get(chunk.path) ?? "";
+        assert.equal(current.length, chunk.start_character);
+        batchReconstructed.set(chunk.path, current + chunk.content);
+      }
+      cursor = page.next_cursor ?? undefined;
+    } while (cursor);
+    for (const [path, content] of batchReconstructed) {
+      assert.equal(content, catalog.documents.get(path), `legacy batch drifted in ${path}`);
+      if (reconstructed.has(path)) assert.equal(reconstructed.get(path), content);
+      reconstructed.set(path, content);
+    }
+  }
+  assert.deepEqual(new Set(reconstructed.keys()), new Set(catalog.documents.keys()));
+  for (const [path, content] of reconstructed) {
+    assert.equal(content, catalog.documents.get(path), `legacy batches drifted in ${path}`);
   }
 });
 
@@ -541,6 +726,23 @@ test("v0.6 tokens and cursors fail closed without leaking consultation data", as
     /INVALID_CONSULTATION_ID/
   );
 
+  const signedUnknownEnvelope = JSON.parse(
+    Buffer.from(first.consultation_id, "base64url").toString("utf8")
+  );
+  signedUnknownEnvelope.payload.skill_ids = ["not-a-real-live-consultant-skill"];
+  signedUnknownEnvelope.checksum = testTokenMac(
+    "live-consultant-consultation-v1",
+    signedUnknownEnvelope.payload
+  );
+  const signedUnknownConsultation = Buffer.from(
+    canonicalJson(signedUnknownEnvelope),
+    "utf8"
+  ).toString("base64url");
+  await assert.rejects(
+    runtime.loadLiveConsultantBundle({ consultation_id: signedUnknownConsultation }),
+    /INVALID_CONSULTATION_ID|unknown skill/
+  );
+
   const cursorEnvelope = JSON.parse(
     Buffer.from(firstPage.next_cursor, "base64url").toString("utf8")
   );
@@ -790,6 +992,37 @@ test("the v0.6 hosted path can route and fully load every declared skill", async
     for (const [path, content] of reconstructed) {
       assert.equal(content, catalog.documents.get(path), `${skillId} drifted in ${path}`);
     }
+  }
+});
+
+test("one v0.6 consultation can pin and fully load the complete 26-skill catalog", async () => {
+  const catalog = await knowledge.loadKnowledgeCatalog();
+  const query = [...catalog.skills]
+    .map(([skillId, definition]) => definition.triggers?.[0] ?? skillId.replaceAll("-", " "))
+    .join("; ");
+  const started = await runtime.startLiveConsultation({ query });
+  const selectedSkillIds = started.selected_skills.map((skill) => skill.skill_id).sort();
+  assert.deepEqual(selectedSkillIds, [...catalog.skills.keys()].sort());
+
+  const reconstructed = new Map();
+  let cursor;
+  do {
+    const page = await runtime.loadLiveConsultantBundle({
+      consultation_id: started.consultation_id,
+      cursor,
+      page_size_chars: 30_000
+    });
+    for (const chunk of page.chunks) {
+      const current = reconstructed.get(chunk.path) ?? "";
+      assert.equal(current.length, chunk.start_character);
+      reconstructed.set(chunk.path, current + chunk.content);
+    }
+    cursor = page.next_cursor ?? undefined;
+  } while (cursor);
+
+  assert.deepEqual(new Set(reconstructed.keys()), new Set(catalog.documents.keys()));
+  for (const [path, content] of reconstructed) {
+    assert.equal(content, catalog.documents.get(path), `all-skill load drifted in ${path}`);
   }
 });
 

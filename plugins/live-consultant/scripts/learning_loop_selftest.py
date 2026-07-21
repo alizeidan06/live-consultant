@@ -155,8 +155,32 @@ def assert_no_network_imports() -> None:
         raise AssertionError(f"network-capable imports found: {sorted(overlap)}")
 
 
+def assert_skill_allowlist_matches_manifest() -> None:
+    manifest_path = SCRIPT.parents[1] / "assets" / "skill-knowledge-manifest.json"
+    manifest = json.loads(manifest_path.read_text(encoding="utf-8"))
+    declared = set(manifest["skills"])
+    tree = ast.parse(SCRIPT.read_text(encoding="utf-8"))
+    allowlist = None
+    for node in tree.body:
+        if not isinstance(node, ast.Assign):
+            continue
+        if any(
+            isinstance(target, ast.Name) and target.id == "PLUGIN_SKILL_IDS"
+            for target in node.targets
+        ):
+            allowlist = set(ast.literal_eval(node.value))
+            break
+    if allowlist is None:
+        raise AssertionError("PLUGIN_SKILL_IDS was not found")
+    assert allowlist == declared, (
+        f"learning skill allowlist drifted: missing={sorted(declared - allowlist)} "
+        f"extra={sorted(allowlist - declared)}"
+    )
+
+
 def main() -> int:
     assert_no_network_imports()
+    assert_skill_allowlist_matches_manifest()
     with tempfile.TemporaryDirectory(prefix="live-consultant-learning-test-") as temp:
         workspace = Path(temp) / "workspace"
         workspace.mkdir()
@@ -633,6 +657,26 @@ def main() -> int:
             )
         )
         assert sell_like_crazy_capture["action"] == "candidate"
+
+        for new_skill_id in (
+            "analyze-business-meeting",
+            "optimize-inventory-cash-flow",
+        ):
+            new_skill_candidate = candidate_fixture()
+            new_skill_candidate["skill_ids"] = [new_skill_id]
+            new_skill_candidate["mistake"]["summary"] = (
+                f"A scoped {new_skill_id} routing correction was reproduced."
+            )
+            new_skill_capture = parse(
+                run(
+                    privacy_workspace,
+                    "capture",
+                    "--input",
+                    "-",
+                    input_data=new_skill_candidate,
+                )
+            )
+            assert new_skill_capture["action"] == "candidate"
 
         copied_report = candidate_fixture()
         copied_report["mistake"]["summary"] = (

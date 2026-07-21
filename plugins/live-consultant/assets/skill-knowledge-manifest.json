@@ -3,6 +3,55 @@
   "bundle_semantics": "complete_recursive_markdown_plus_declared_files",
   "assembly_protocol": "skills/founder-business-consultant/references/skill-assembly-protocol.md",
   "skills": {
+    "analyze-business-meeting": {
+      "entrypoint": "skills/analyze-business-meeting/SKILL.md",
+      "bundle_roots": [
+        "skills/analyze-business-meeting"
+      ],
+      "bundle_files": [
+        "assets/templates/business-meeting-decision-brief.md"
+      ],
+      "contribution": "Converts business meeting transcripts, notes, and speaker maps into attribution-aware evidence, objective locks, contradictions, decisions, commitments, minimum data packs, and the complete domain-skill route.",
+      "triggers": [
+        "business meeting transcript or notes",
+        "meeting audit or call analysis",
+        "leadership call",
+        "strategy workshop",
+        "meeting discussion into facts decisions and actions",
+        "meeting or call into next steps",
+        "messy notes with no clear decision",
+        "action items and owners from a call",
+        "speaker map or unreliable diarization",
+        "decisions actions and owners from a meeting",
+        "consultant advice review"
+      ],
+      "routing_anchors": [
+        "meeting",
+        "transcript",
+        "speaker",
+        "workshop",
+        "minutes",
+        "diarization",
+        "recording",
+        "call",
+        "meeting notes",
+        "call notes",
+        "messy notes",
+        "action items"
+      ],
+      "required_companions": [
+        "audit-business",
+        "reason-business-decision"
+      ],
+      "likely_companions": [
+        "founder-business-consultant",
+        "audit-business",
+        "reason-business-decision",
+        "build-business-operations",
+        "improve-live-consultant",
+        "optimize-inventory-cash-flow"
+      ]
+    },
     "sell-like-crazy": {
       "entrypoint": "skills/sell-like-crazy/SKILL.md",
       "bundle_roots": [
@@ -44,7 +93,9 @@
       ],
       "likely_companions": [
         "founder-business-consultant",
-        "reason-business-decision"
+        "reason-business-decision",
+        "analyze-business-meeting",
+        "optimize-inventory-cash-flow"
       ]
     },
     "build-business-operations": {
@@ -61,7 +112,9 @@
       ],
       "likely_companions": [
         "reason-business-decision",
-        "validate-business-idea"
+        "validate-business-idea",
+        "analyze-business-meeting",
+        "optimize-inventory-cash-flow"
       ]
     },
     "design-offer-funnel": {
@@ -81,7 +134,8 @@
         "sell-like-crazy",
         "founder-playbook-100m-offers",
         "founder-playbook-storybrand",
-        "founder-playbook-made-to-stick"
+        "founder-playbook-made-to-stick",
+        "optimize-inventory-cash-flow"
       ]
     },
     "founder-business-consultant": {
@@ -155,6 +209,14 @@
         "ERRC grid",
         "noncustomers",
         "value innovation"
+      ],
+      "routing_anchors": [
+        "blue ocean",
+        "strategy canvas",
+        "ERRC",
+        "noncustomers",
+        "value innovation",
+        "category redesign"
       ],
       "likely_companions": [
         "founder-playbook-obviously-awesome",
@@ -386,6 +448,15 @@
         "growth channel focus",
         "distribution strategy"
       ],
+      "routing_anchors": [
+        "traction bullseye",
+        "channel selection",
+        "acquisition channel",
+        "growth channel",
+        "distribution strategy",
+        "marketing channel",
+        "lead generation channel"
+      ],
       "likely_companions": [
         "founder-playbook-100m-leads",
         "plan-meta-ads"
@@ -425,7 +496,85 @@
       "likely_companions": [
         "sell-like-crazy",
         "design-offer-funnel",
-        "founder-playbook-100m-leads"
+        "founder-playbook-100m-leads",
+        "optimize-inventory-cash-flow"
+      ]
+    },
+    "optimize-inventory-cash-flow": {
+      "entrypoint": "skills/optimize-inventory-cash-flow/SKILL.md",
+      "bundle_roots": [
+        "skills/optimize-inventory-cash-flow"
+      ],
+      "bundle_files": [
+        "skills/analyze-business-meeting/references/cases.md",
+        "assets/templates/inventory-cash-control-sheet.md",
+        "scripts/inventory_cash_calculator.py"
+      ],
+      "contribution": "Diagnoses and improves cash conversion through landed contribution, SKU aging and velocity, working-capital math, 13-week cash planning, purchase commitments, segment economics, and weight-versus-cube logistics.",
+      "triggers": [
+        "inventory cash flow",
+        "slow dead or aging stock",
+        "too much stock and no cash",
+        "inventory or stock is not selling",
+        "shelves full of unsold products",
+        "buying products faster than customers buy",
+        "cash trapped in stock or products",
+        "cannot pay suppliers because stock is not selling",
+        "landed cost or importer economics",
+        "inventory turns sell-through or GMROI",
+        "container weight or cube utilization",
+        "13-week cash forecast"
+      ],
+      "routing_anchors": [
+        "inventory",
+        "stock",
+        "sku",
+        "skus",
+        "importer",
+        "imported",
+        "wholesale",
+        "wholesaler",
+        "distributor",
+        "warehouse",
+        "replenishment",
+        "sell through",
+        "landed cost",
+        "container",
+        "freight",
+        "overstock",
+        "dead stock",
+        "unsold products",
+        "shelves full",
+        "shelves are full",
+        "buying products faster",
+        "cannot pay suppliers",
+        "cash tied up in products",
+        "cash trapped in goods"
+      ],
+      "routing_exclusions": [
+        "no inventory",
+        "without inventory",
+        "inventory free",
+        "non inventory",
+        "does not hold inventory",
+        "stock market",
+        "stock portfolio",
+        "stock options",
+        "stock photography"
+      ],
+      "required_companions": [
+        "audit-business",
+        "reason-business-decision",
+        "build-business-operations"
+      ],
+      "likely_companions": [
+        "analyze-business-meeting",
+        "founder-playbook-mom-test",
+        "validate-business-idea",
+        "founder-playbook-monetizing-innovation",
+        "sell-like-crazy",
+        "founder-playbook-100m-leads",
+        "design-offer-funnel"
       ]
     },
     "reason-business-decision": {
@@ -443,7 +592,9 @@
       ],
       "likely_companions": [
         "audit-business",
-        "founder-business-consultant"
+        "founder-business-consultant",
+        "analyze-business-meeting",
+        "optimize-inventory-cash-flow"
       ]
     },
     "validate-business-idea": {
@@ -462,7 +613,8 @@
       "likely_companions": [
         "founder-playbook-mom-test",
         "founder-playbook-four-steps",
-        "reason-business-decision"
+        "reason-business-decision",
+        "optimize-inventory-cash-flow"
       ]
     }
   }

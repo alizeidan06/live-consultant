@@ -19,7 +19,7 @@ codex plugin add live-consultant@live-consultant
 ```
 
 Start a new Codex task after installation. For a reproducible install, replace
-`main` with a published tag such as `v0.6.1`.
+`main` with a published tag such as `v0.7.0`.
 
 ## Get future releases
 
@@ -58,7 +58,7 @@ codex plugin marketplace upgrade live-consultant
 codex plugin add live-consultant@live-consultant
 ```
 
-Start a new Codex task after this v0.6 transition or any later incompatible
+Start a new Codex task after installing v0.7.0 or any later incompatible
 bundled release. Once a task has the stable v0.6 tools, reviewed compatible
 hosted updates do not require another task.
 
@@ -75,21 +75,24 @@ makes `/healthz` and the v0.6 consultation tools fail closed.
 
 ## What is included
 
-- Nine integrated consulting skills covering the complete Sell Like Crazy
-  system, diagnosis, validation, offers and funnels, Meta ads, decisions,
-  operations, engagement leadership, and continuous improvement.
+- Eleven integrated consulting skills covering the complete Sell Like Crazy
+  system, diagnosis, validation, offers and funnels, Meta ads, inventory and
+  cash flow, meeting-to-decision analysis, decisions, operations, engagement
+  leadership, and continuous improvement.
 - Fifteen namespaced Founder Playbook lenses for positioning, customer
   development, pricing, sales, influence, acquisition, and experimentation.
 - Reusable templates for business context, offers, funnels, economics,
-  evidence, experiments, creative tests, decisions, and launch gates.
+  inventory cash control, meeting evidence-to-action briefs, evidence,
+  experiments, creative tests, decisions, and launch gates.
 - Local scripts for workspace setup, unit-economics calculations, source
   coverage and foundation verification, and privacy-preserving learning.
 - A universal niche-intelligence protocol and reusable niche context card.
 - A machine-verified skill assembly protocol and complete knowledge manifest.
 - A universal complete knowledge-access invariant and semantic regression
   verifier covering active instructions, agent prompts, and bundled sources.
-- Six release-tested multi-skill routing fixtures covering common consulting
-  systems from offer-plus-Meta through promise-driven operations repair.
+- Ten release-tested multi-skill routing fixtures covering common consulting
+  systems from offer-plus-Meta through copy continuity, promise-driven
+  operations repair, inventory cash release, and meeting-derived decisions.
 - A read-only hosted MCP service with stable consultation-start and bundle-load
   tools, version-pinned answers, unchanged legacy fallbacks, and centrally
   reviewed compatible knowledge, directive, routing, and logic updates.

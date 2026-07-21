@@ -33,16 +33,17 @@ The production endpoint is `https://live-consultant.sifr.marketing/mcp`.
    `next_cursor`. Expect `complete: true` only on the final page, no repeated or
    missing character range, and the same consultation, contract, knowledge,
    and runtime-directive identity on every page.
-3. **Cross-skill assembly:** Start a consultation that needs both business
-   diagnosis and decision logic. Expect `audit-business` and
-   `reason-business-decision` where each has a distinct contribution, then
-   expect deterministic file ordering, file-to-skill associations, and one
-   shared file copy when bundles overlap.
+3. **Cross-skill assembly:** Start a consultation from a minimized importer
+   meeting synopsis involving urgent cash, slow inventory, weak product-demand
+   evidence, and automation. Expect meeting analysis, inventory cash flow,
+   audit, decision, operations, and demand/pricing skills where each has a distinct
+   contribution, then expect deterministic file ordering, file-to-skill
+   associations, and one shared case copy when bundles overlap.
 4. **Legacy compatibility:** Call `route_consultation`, then
    `load_knowledge_bundle`, with a valid request. Expect their established
    schemas and response shapes to remain usable for an older client while the
    new tools are preferred by v0.6 clients.
-5. **Deployment status:** Call `live_consultant_status`. Expect 24 skills, a
+5. **Deployment status:** Call `live_consultant_status`. Expect 26 skills, a
    64-character knowledge digest, no persistence, no external fetching, and no
    prompt logging.
 
@@ -67,7 +68,8 @@ The production endpoint is `https://live-consultant.sifr.marketing/mcp`.
   third-party business apps, with no claim of regulated professional advice.
 - The submission must use the real OpenAI-issued app ID and the production MCP
   scan. Never substitute a placeholder ID.
-- v0.6 requires one new Codex task to discover the permanent tool schemas.
+- Installing v0.7.0 requires one new Codex task to discover its two new local
+  skill entrypoints; v0.6 first established the permanent tool schemas.
   Thereafter, reviewed compatible hosted updates begin on the next Live
   Consultant call in the same task. The service does not claim mid-answer hot
   reloads, and incompatible schema or bundled changes still use a versioned

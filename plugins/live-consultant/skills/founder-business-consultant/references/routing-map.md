@@ -26,6 +26,8 @@ available.
 | Complex B2B sales | `founder-playbook-spin-selling` | `sell-like-crazy`, `founder-playbook-influence`, `founder-playbook-monetizing-innovation` |
 | MVP, experiment, or pivot | `founder-playbook-lean-startup` | `validate-business-idea`, `founder-playbook-mom-test`, the domain skill defining the tested artifact |
 | Business setup and delivery system | `build-business-operations` | `reason-business-decision`, `audit-business`, offer or guarantee skill defining the promise |
+| Business meeting, call, or workshop analysis | `analyze-business-meeting` | `audit-business`, `reason-business-decision`, `build-business-operations`, every domain skill surfaced by the minimized issue synopsis |
+| Inventory, importing, working capital, or urgent cash release | `optimize-inventory-cash-flow` | `audit-business`, `reason-business-decision`, `build-business-operations`, demand, pricing, sales, funnel, or channel skills required by the diagnosed cash trap |
 | Correction, failed advice, measured outcome, or repeated mistake | `improve-live-consultant` | every affected domain skill, plus the original evidence and test |
 
 ## Multi-skill assembly patterns
@@ -87,6 +89,42 @@ customer expectation—typically `sell-like-crazy`,
 `founder-playbook-100m-offers`, `design-offer-funnel`, or
 `founder-playbook-spin-selling`. Do not repair fulfillment without
 understanding the promise it must keep.
+
+### Inventory-heavy business under cash pressure
+
+Load `optimize-inventory-cash-flow`, `founder-business-consultant`,
+`audit-business`, `reason-business-decision`, and
+`build-business-operations`. The inventory specialist owns landed cost,
+velocity, working capital, logistics constraints, channel cash, commitments,
+and the 13-week plan; audit and decision reasoning test the binding constraint
+and countercase; operations makes the controls, owners, and cadence durable.
+Add demand, pricing, sales, offer, funnel, lead, or ads skills only when that
+cash-release path gives them a distinct job.
+
+### Business meeting to decisions and actions
+
+Load `analyze-business-meeting`, `founder-business-consultant`,
+`audit-business`, `reason-business-decision`, and
+`build-business-operations`. Inspect the source locally, route only a minimized
+non-identifying issue synopsis, then let the meeting skill own attribution,
+objective drift, contradictions, decision states, and the action close. The
+other skills own the substantive business diagnosis, tradeoffs, and operating
+implementation.
+
+### Meeting-derived inventory and cash diagnosis
+
+Load `analyze-business-meeting`, `optimize-inventory-cash-flow`,
+`founder-business-consultant`, `audit-business`,
+`reason-business-decision`, `build-business-operations`,
+`founder-playbook-mom-test`, `validate-business-idea`, and
+`founder-playbook-monetizing-innovation`. This stack converts uncertain meeting
+claims into an objective-locked brief, computes where inventory and working
+capital are trapped, tests behavioral demand and purchase commitment before
+reordering, tests willingness to pay, and assigns the immediate and durable
+work. Add `founder-playbook-spin-selling`, `sell-like-crazy`,
+`design-offer-funnel`, `founder-playbook-100m-leads`, or `plan-meta-ads` when
+the requested outcome includes sales-system repair, a tactile conversion path,
+sell-through, lead generation, or paid acquisition.
 
 ## Context rules
 

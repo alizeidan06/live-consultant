@@ -1,7 +1,7 @@
 {
   "name": "live-consultant",
-  "version": "0.6.1",
-  "description": "Niche-specific business consulting with complete skill assembly, a centrally updated hosted knowledge route, Sabri Suby's Sell Like Crazy system, direct-response marketing, sales, funnels, Meta ads, operations, decisions, and evidence-gated learning.",
+  "version": "0.7.0",
+  "description": "Niche-specific business consulting with complete skill assembly, inventory and cash-flow economics, meeting-to-decision analysis, a centrally updated hosted knowledge route, Sabri Suby's Sell Like Crazy system, direct-response marketing, sales, funnels, Meta ads, operations, decisions, and evidence-gated learning.",
   "author": {
     "name": "Ali Zeidan",
     "url": "https://github.com/alizeidan06"
@@ -21,6 +21,9 @@
     "strategy",
     "niche-research",
     "continuous-learning",
+    "inventory",
+    "cash-flow",
+    "meeting-analysis",
     "sell-like-crazy",
     "skill-assembly",
     "knowledge-access"
@@ -30,7 +33,7 @@
   "interface": {
     "displayName": "Live Consultant",
     "shortDescription": "Niche-specific clarity, bold offers, execution",
-    "longDescription": "Infer the outcome and exact niche, assemble every relevant skill's complete stored knowledge, and tailor one coherent answer. The hosted read-only knowledge route receives compatible core updates centrally while the bundled skills preserve complete local framework access. Apply the full Sell Like Crazy buyer-to-sale system, create bold direct-response offers, design funnels and Meta experiments, solve sales and operations problems, and compound from corrections through private, evidence-gated project learning.",
+    "longDescription": "Infer the outcome and exact niche, assemble every relevant skill's complete stored knowledge, and tailor one coherent answer. The hosted read-only knowledge route receives compatible core updates centrally while the bundled skills preserve complete local framework access. Turn business meetings into evidence and accountable actions, release cash trapped in inventory, apply the full Sell Like Crazy buyer-to-sale system, create bold direct-response offers, design funnels and Meta experiments, solve sales and operations problems, and compound from corrections through private, evidence-gated project learning.",
     "developerName": "Ali Zeidan",
     "category": "Business",
     "websiteURL": "https://github.com/alizeidan06/live-consultant",
@@ -42,9 +45,9 @@
       "Write"
     ],
     "defaultPrompt": [
-      "Diagnose the real bottleneck in my business.",
-      "Research my exact niche before recommending the strongest move.",
-      "Use $sell-like-crazy to build my complete Dream Buyer-to-sale system."
+      "Diagnose the real bottleneck in my exact niche and recommend the strongest move.",
+      "Use $sell-like-crazy to build my complete Dream Buyer-to-sale system.",
+      "Use $analyze-business-meeting and $optimize-inventory-cash-flow as needed to turn a meeting or cash-trapped inventory problem into evidence, decisions, owners, and a 13-week plan."
     ]
   }
 }

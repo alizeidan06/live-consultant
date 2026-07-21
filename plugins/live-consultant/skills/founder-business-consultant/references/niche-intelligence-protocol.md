@@ -94,10 +94,12 @@ into a mandatory questionnaire.
 | B2B SaaS | user, champion, economic buyer, company size, workflow, incumbent stack, ACV, implementation, buying cycle |
 | Agency or B2B service | vertical, buyer role, costly job, scope, current alternative, sales motion, proof, capacity, margin |
 | Ecommerce | product/SKU, use occasion, AOV, gross margin, repeat or replacement cycle, shipping market, returns, channel |
+| Inventory-heavy importer or distributor | SKU and unit, buyer segment, landed-cost basis, inventory age, replenishment lead time, credit terms, supplier/freight constraints, cash floor, commitment strength |
 | Marketplace | first constrained side, transaction frequency, geography, liquidity, trust, take rate, disintermediation |
 | Creator or information product | audience source, awareness, desired transformation, proof, delivery, price, trust, platform |
 | Regulated or professional service | service scope, payer, referral path, jurisdiction, credentials, capacity, official execution rules |
 | Employee or career decision | role, industry, company stage, stakeholder, decision rights, KPI, incentives, downside, time horizon |
+| Meeting or transcript analysis | artifact quality, attribution confidence, owner objective, time horizon, decision state, contradictions, minimum data, action owner and due date |
 
 ## 4. Choose research depth from the decision
 

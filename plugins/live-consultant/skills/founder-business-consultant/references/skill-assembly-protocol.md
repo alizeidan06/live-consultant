@@ -16,7 +16,10 @@ The machine-readable inventory is
 A selected skill includes every Markdown file beneath its declared
 `bundle_roots` and every individually declared `bundle_file`. The complete
 framework, cases, examples, integrations, templates, and source notes are the
-unit of selection; a short summary is an orientation aid.
+unit of selection; a short summary is an orientation aid. Every selected skill
+also recursively selects its manifest `required_companions`. Manifest
+`likely_companions` are prompts for contextual judgment, not automatic graph
+expansion.
 
 ## Mandatory assembly order
 
@@ -59,16 +62,22 @@ unit of selection; a short summary is an orientation aid.
    Older task registries retain the unchanged legacy `route_consultation` and
    `load_knowledge_bundle` compatibility route. In that route, send the same
    minimized context to `route_consultation`. Load every selected entry through
-   `load_knowledge_bundle` and follow every `next_cursor`. A `null` cursor marks
-   completion. Legacy availability preserves older tasks; it is not evidence
-   that the preferred runtime-directive contract was loaded.
+   `load_knowledge_bundle` and follow every `next_cursor`. If more than 24
+   skills are selected, split the sorted IDs into deterministic batches of at
+   most 24, fully load every batch, deduplicate shared paths, and compare the
+   knowledge digest across batches before synthesis. A `null` cursor marks one
+   batch complete. Legacy availability preserves older tasks; it is not
+   evidence that the preferred runtime-directive contract was loaded.
 6. **Select the complete skill stack.** Use the successful preferred or legacy
    hosted route's selected skills when step 5 succeeds. Otherwise consult the
    bundled manifest and select every skill with a distinct contribution. A
    directly invoked skill is the first candidate, not the automatic whole
-   stack. Imported single-skill routing and single-file retrieval rules are
-   source positions; the active assembly keeps every distinct contribution and
-   parallel combination available.
+   stack. In every route, recursively close the selected set over each skill's
+   `required_companions` before adding context-dependent skills. Consider
+   `likely_companions` one by one and add only those with a distinct job; never
+   expand them blindly. Imported single-skill routing and single-file retrieval
+   rules are source positions; the active assembly keeps every distinct
+   contribution and parallel combination available.
 7. **Load complete knowledge.** A successful preferred or legacy hosted load
    satisfies this step when every selected bundle page has been read and
    `next_cursor` is `null`. When the hosted tools are absent, unavailable, or

@@ -93,6 +93,7 @@ direct: source → page → checkout/booking → fulfillment
 proof-led: source → page → specimen/proof → checkout/booking → fulfillment
 education-led: source → useful first step → nurture → offer → fulfillment
 consultative: source → qualification → diagnosis → proposal → secure payment
+tactile/specification-led: source → page/catalog → sample, showroom, or specification aid → consultation/quote → order
 ```
 
 Lead magnets, long copy, entry offers, bumps, upsells, webinars, and long email

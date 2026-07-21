@@ -22,15 +22,16 @@ decision support.
 - Infers the outcome, selects every skill with a distinct contribution, and
   loads each selected skill's complete stored knowledge bundle before
   tailoring one coherent answer to the niche.
-- Regression-tests six representative multi-skill routes so offer-plus-Meta,
-  B2B, ecommerce, local-service, unproven-idea, and promise-to-operations work
-  cannot silently collapse back to a single framework.
+- Regression-tests ten representative multi-skill routes so offer-plus-Meta,
+  long-form copy, B2B, ecommerce, local-service, unproven-idea,
+  promise-to-operations, inventory-cash, meeting-to-action, and combined
+  meeting/inventory work cannot silently collapse back to one framework.
 - Keeps every stored marketing, sales, persuasion, influence, positioning,
   offer, funnel, advertising, outreach, follow-up, negotiation, and closing
   method available for complete explanation, comparison, ideation, and niche
   tailoring. Labels and external-execution status add context without shrinking
   the knowledge space.
-- Links all 24 skills to one complete knowledge-access invariant and scans
+- Links all 26 skills to one complete knowledge-access invariant and scans
   active instructions, agent prompts, and imported source packs with a semantic
   regression suite rather than an exact-phrase blacklist.
 - Speaks with the shared strengths of Sabri Suby and Alex Hormozi: simple but
@@ -45,7 +46,15 @@ decision support.
   score future model output automatically.
 - Treats concept generation and convergence or real-world execution review as
   distinct outputs so neither shrinks the knowledge space.
-- Routes work through nine curated consulting skills and fifteen pinned
+- Adds first-class meeting analysis that separates attribution, evidence
+  status, claim type, meeting function, objective drift, decisions,
+  commitments, and accountable next actions while routing only a minimized
+  non-identifying synopsis.
+- Adds first-class inventory and cash-flow consulting for landed contribution,
+  aging and velocity, GMROI, cash-conversion cycle, channel cash, container
+  constraints, commitment-backed purchasing, tactile-product conversion, and
+  a 13-week cash plan backed by a deterministic calculator.
+- Routes work through eleven curated consulting skills and fifteen pinned
   Founder Playbook framework lenses.
 - Computes economics, states countercases, and turns approved decisions into
   durable files, templates, and experiments.
@@ -99,10 +108,11 @@ codex plugin add live-consultant@live-consultant
 Start a new Codex task after installation.
 
 For a version-pinned install, replace `main` with a release tag such as
-`v0.6.1`.
+`v0.7.0`.
 
-Users upgrading from v0.5.1 or earlier update the marketplace snapshot,
-reinstall, and start one new task so Codex discovers the stable v0.6 tools:
+Users upgrading to v0.7.0 update the marketplace snapshot, reinstall, and
+start one new task so Codex discovers the new local skills while retaining the
+stable v0.6 hosted tools:
 
 ```bash
 codex plugin marketplace upgrade live-consultant

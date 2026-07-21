@@ -2,6 +2,36 @@
 
 All notable public releases are recorded here.
 
+## 0.7.0 - 2026-07-21
+
+- Added first-class `analyze-business-meeting` and
+  `optimize-inventory-cash-flow` skills with complete frameworks, cases,
+  examples, integrations, source maps, and reusable decision templates.
+- Added attribution-aware transcript analysis, objective-drift detection,
+  decision-state separation, minimized hosted routing, minimum data packs, and
+  deterministic owner/deadline/metric action closes.
+- Added landed contribution, inventory age and velocity, sell-through, GMROI,
+  cash-conversion-cycle, segment cash, weight-versus-cube, commitment-ladder,
+  tactile-product funnel, and 13-week cash planning methods plus a deterministic
+  calculator and self-test.
+- Added machine-enforced required-companion closure. Inventory cash work now
+  automatically joins audit, decision reasoning, and operations; meeting work
+  automatically joins audit and decision reasoning while issue-specific domain
+  skills still route from the actual objective and evidence.
+- Expanded the reviewed catalog to 26 skills, 142 unique knowledge files,
+  and ten protected multi-skill routes. Added regressions for natural
+  paraphrases, full-catalog hosted loading, legacy 24-skill batching, shared-file
+  deduplication, unknown skills, missing mechanisms, broken routes, and
+  unfinished skill scaffolds.
+- Packaged only original anonymized business mechanisms from the supplied
+  meeting evidence. Raw transcripts, names, locations, private paths, exact
+  confidential figures, raw speaker labels, and verbatim passages remain out of
+  the public plugin and hosted routing context.
+- Preserved the permanent v0.6 five-tool contract. Existing compatible tasks
+  receive the new hosted routing and knowledge on their next consultation;
+  installing v0.7.0 and opening one new task is required for direct local skill
+  discovery, new bundled scripts, and complete local fallback.
+
 ## 0.6.1 - 2026-07-21
 
 - Added a long-form sales-letter continuity protocol that keeps the complete
