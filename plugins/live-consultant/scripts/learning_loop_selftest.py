@@ -609,6 +609,31 @@ def main() -> int:
             expected=2,
         )
 
+        sell_like_crazy_candidate = candidate_fixture()
+        sell_like_crazy_candidate["skill_ids"] = ["sell-like-crazy"]
+        sell_like_crazy_candidate["mistake"]["summary"] = (
+            "The persuasion framework was rendered as customer-facing jargon."
+        )
+        sell_like_crazy_candidate["evidence"][0]["lineage_id"] = (
+            "lin-6666666666666666"
+        )
+        sell_like_crazy_candidate["evidence"][1]["lineage_id"] = (
+            "lin-7777777777777777"
+        )
+        sell_like_crazy_candidate["evidence"][2]["lineage_id"] = (
+            "lin-8888888888888888"
+        )
+        sell_like_crazy_capture = parse(
+            run(
+                privacy_workspace,
+                "capture",
+                "--input",
+                "-",
+                input_data=sell_like_crazy_candidate,
+            )
+        )
+        assert sell_like_crazy_capture["action"] == "candidate"
+
         copied_report = candidate_fixture()
         copied_report["mistake"]["summary"] = (
             "A copied secondary report was treated as three independent outcomes."

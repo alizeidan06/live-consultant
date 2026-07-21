@@ -9,7 +9,8 @@
         "skills/sell-like-crazy"
       ],
       "bundle_files": [
-        "assets/templates/sell-like-crazy-system-brief.md"
+        "assets/templates/sell-like-crazy-system-brief.md",
+        "skills/design-offer-funnel/references/sales-letter-continuity.md"
       ],
       "contribution": "Applies Sabri Suby's complete Sell Like Crazy and King Kong direct-response system, including dream-buyer research, high-value bait, the Godfather offer, traffic, nurture, conversion, and multiplication.",
       "triggers": [
@@ -17,7 +18,8 @@
         "King Kong marketing",
         "dream buyer or Halo Strategy",
         "Godfather offer",
-        "direct-response customer-acquisition system"
+        "direct-response customer-acquisition system",
+        "Sabri or King Kong-style long-form homepage copy"
       ],
       "likely_companions": [
         "design-offer-funnel",

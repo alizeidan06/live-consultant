@@ -19,7 +19,7 @@ codex plugin add live-consultant@live-consultant
 ```
 
 Start a new Codex task after installation. For a reproducible install, replace
-`main` with a published tag such as `v0.6.0`.
+`main` with a published tag such as `v0.6.1`.
 
 ## Get future releases
 

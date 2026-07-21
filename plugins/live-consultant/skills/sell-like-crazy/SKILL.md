@@ -38,6 +38,9 @@ When this skill is selected, read every file below before drafting the answer:
   coverage, provenance, and currentness notes.
 - [Sell Like Crazy system brief](../../assets/templates/sell-like-crazy-system-brief.md)
   — the reusable worksheet for a durable end-to-end niche plan.
+- [Sales-letter continuity protocol](../design-offer-funnel/references/sales-letter-continuity.md)
+  — the customer-surface contract for long-form pages, including proof timing,
+  literal buyer language, deliberate branches, and useful visual countercases.
 
 Do not substitute the older short synthesis in `design-offer-funnel` for this
 pack. It is now a routing summary only.

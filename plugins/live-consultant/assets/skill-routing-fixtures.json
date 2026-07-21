@@ -16,6 +16,18 @@
       ]
     },
     {
+      "id": "sabri_long_form_homepage",
+      "routing_section": "Sabri or King Kong-style long-form homepage copy",
+      "prompt_summary": "Write a Sabri or King Kong-style long-form homepage that turns complete strategy into one buyer-facing sales argument.",
+      "required_skills": [
+        "design-offer-funnel",
+        "sell-like-crazy",
+        "founder-playbook-storybrand",
+        "founder-playbook-made-to-stick",
+        "founder-playbook-influence"
+      ]
+    },
+    {
       "id": "b2b_pricing_sales_followup",
       "routing_section": "B2B pricing and sales",
       "prompt_summary": "Price a complex B2B service, run discovery and persuasion, then own CRM follow-up and delivery promises.",

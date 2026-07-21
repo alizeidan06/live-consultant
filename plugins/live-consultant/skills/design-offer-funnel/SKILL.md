@@ -102,8 +102,9 @@ barrier and its economics work.
 
 ## Write from buyer evidence
 
-Read [sell-like-crazy-source-synthesis.md](references/sell-like-crazy-source-synthesis.md)
-and [copy-qa.md](references/copy-qa.md).
+Read [sell-like-crazy-source-synthesis.md](references/sell-like-crazy-source-synthesis.md),
+[sales-letter-continuity.md](references/sales-letter-continuity.md), and
+[copy-qa.md](references/copy-qa.md).
 
 1. Use the buyer's recognizable problem or desired progress as the front door.
 2. State one audience, problem, promise, proof path, and action.
@@ -118,6 +119,16 @@ and [copy-qa.md](references/copy-qa.md).
    constraints plainly.
 7. Carry the same audience, problem, promise, proof, and next action from ad or
    source through page and checkout.
+
+For long-form pages, keep the strategic framework backstage. Build the visible
+page as one causal chain of buyer beliefs in language the intended reader can
+picture. Do not turn awareness stages, customer journeys, funnel steps, or the
+consultant's analysis into diagrams or labels the buyer must learn before the
+copy makes sense. A non-text element earns its place when it demonstrates the
+adjacent claim, reduces explanation, or makes the next decision easier.
+Keep the shared belief spine continuous until the buyer, offer, or decision
+path materially diverges; then branch deliberately and preserve continuity
+inside each route.
 
 Analyze and draft journalism-style angles, private-message specimens,
 testimonials, charts, endorsements, countdowns, and scarcity at full creative
