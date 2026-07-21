@@ -84,7 +84,8 @@ For each asset define one:
 - complete benefit or claim direction with factual status marked `verified`,
   `source-reported`, `hypothetical`, `illustrative`, or `unsupported`;
 - proof element;
-- destination/action;
+- destination/action matched to buyer uncertainty, including sample, showroom,
+  specification aid, consultation, quote, or checkout when appropriate;
 - changed variable and hypothesis;
 - leading and business success metrics;
 - minimum evidence, review point, stop threshold, and owner-approved downside.

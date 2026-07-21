@@ -1,0 +1,4 @@
+interface:
+  display_name: "Analyze Business Meeting"
+  short_description: "Turn messy meetings into reliable next moves"
+  default_prompt: "Use $analyze-business-meeting to extract the facts, constraints, decisions, owners, and next actions from this meeting."

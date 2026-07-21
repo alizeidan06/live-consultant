@@ -90,6 +90,46 @@
         "design-offer-funnel",
         "founder-playbook-spin-selling"
       ]
+    },
+    {
+      "id": "inventory_cash_release",
+      "routing_section": "Inventory-heavy business under cash pressure",
+      "prompt_summary": "Find what is trapping cash in an inventory-heavy importer, compute the economics, choose the strongest 13-week actions, and build the operating controls.",
+      "required_skills": [
+        "optimize-inventory-cash-flow",
+        "founder-business-consultant",
+        "audit-business",
+        "reason-business-decision",
+        "build-business-operations"
+      ]
+    },
+    {
+      "id": "business_meeting_to_decision",
+      "routing_section": "Business meeting to decisions and actions",
+      "prompt_summary": "Analyze a messy business meeting into attribution-aware evidence, the real objective, contradictions, decisions, owners, deadlines, metrics, and an executable operating plan.",
+      "required_skills": [
+        "analyze-business-meeting",
+        "founder-business-consultant",
+        "audit-business",
+        "reason-business-decision",
+        "build-business-operations"
+      ]
+    },
+    {
+      "id": "meeting_derived_inventory_cash",
+      "routing_section": "Meeting-derived inventory and cash diagnosis",
+      "prompt_summary": "Turn an importer meeting about urgent cash, slow stock, weak product-demand evidence, channel choices, and automation into a complete evidence-backed inventory decision and action system.",
+      "required_skills": [
+        "analyze-business-meeting",
+        "optimize-inventory-cash-flow",
+        "founder-business-consultant",
+        "audit-business",
+        "reason-business-decision",
+        "build-business-operations",
+        "founder-playbook-mom-test",
+        "validate-business-idea",
+        "founder-playbook-monetizing-innovation"
+      ]
     }
   ]
 }

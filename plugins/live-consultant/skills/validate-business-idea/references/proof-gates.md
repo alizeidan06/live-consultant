@@ -36,7 +36,10 @@ to the extent the operator controls it or the terms and evidence bound it.
 
 Model price, discounts, refunds, COGS, payment fees, variable delivery labor,
 support, commissions, chargebacks, fully loaded CAC, payback, retention,
-capacity, and cash timing under conservative/base/optimistic cases.
+capacity, and cash timing under conservative/base/optimistic cases. For an
+inventory purchase or import, also model landed unit cost, usable units,
+inventory hold, commitment strength, supplier/freight timing, receivables,
+payables, and the week cash crosses its minimum floor.
 
 ## Gate 6: compliance and permission
 

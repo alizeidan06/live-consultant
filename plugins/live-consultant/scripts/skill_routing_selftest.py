@@ -13,6 +13,33 @@ PLUGIN_ROOT = Path(__file__).resolve().parents[1]
 FIXTURES_PATH = PLUGIN_ROOT / "assets" / "skill-routing-fixtures.json"
 MANIFEST_PATH = PLUGIN_ROOT / "assets" / "skill-knowledge-manifest.json"
 SECTION_PATTERN = re.compile(r"^###\s+(.+?)\s*$", re.MULTILINE)
+REQUIRED_ROUTE_SUBSETS = {
+    "inventory_cash_release": {
+        "optimize-inventory-cash-flow",
+        "founder-business-consultant",
+        "audit-business",
+        "reason-business-decision",
+        "build-business-operations",
+    },
+    "business_meeting_to_decision": {
+        "analyze-business-meeting",
+        "founder-business-consultant",
+        "audit-business",
+        "reason-business-decision",
+        "build-business-operations",
+    },
+    "meeting_derived_inventory_cash": {
+        "analyze-business-meeting",
+        "optimize-inventory-cash-flow",
+        "founder-business-consultant",
+        "audit-business",
+        "reason-business-decision",
+        "build-business-operations",
+        "founder-playbook-mom-test",
+        "validate-business-idea",
+        "founder-playbook-monetizing-innovation",
+    },
+}
 
 
 class DuplicateKeyError(ValueError):
@@ -130,6 +157,14 @@ def main() -> int:
             continue
         if len(required) != len(set(required)):
             errors.append(f"{fixture_id}: required_skills contains duplicates")
+        required_subset = REQUIRED_ROUTE_SUBSETS.get(fixture_id)
+        if required_subset is not None:
+            missing_required = sorted(required_subset - set(required))
+            if missing_required:
+                errors.append(
+                    f"{fixture_id}: missing protected route skills: "
+                    + ", ".join(missing_required)
+                )
 
         markdown_count = 0
         file_count = 0
@@ -192,6 +227,10 @@ def main() -> int:
                 "declared_bundle_files": file_count,
             }
         )
+
+    missing_fixture_ids = sorted(set(REQUIRED_ROUTE_SUBSETS) - seen_ids)
+    for fixture_id in missing_fixture_ids:
+        errors.append(f"missing protected routing fixture: {fixture_id}")
 
     summary = {
         "errors": errors,

@@ -73,6 +73,8 @@ REQUIRED_ROOT_FILES = {
     Path("plugins/live-consultant/scripts/learning_loop_selftest.py"),
     Path("plugins/live-consultant/scripts/release_mutation_selftest.py"),
     Path("plugins/live-consultant/scripts/skill_routing_selftest.py"),
+    Path("plugins/live-consultant/scripts/inventory_cash_calculator.py"),
+    Path("plugins/live-consultant/scripts/inventory_cash_calculator_selftest.py"),
     Path("plugins/live-consultant/scripts/copy_continuity_selftest.py"),
     Path("plugins/live-consultant/skills/design-offer-funnel/references/sales-letter-continuity.md"),
     Path("plugins/live-consultant/skills/improve-live-consultant/SKILL.md"),
@@ -1045,7 +1047,7 @@ def main() -> int:
             "knowledge-access-invariant.md" in skill_file.read_text(encoding="utf-8"),
             f"skill lost universal complete knowledge access: {skill_file.relative_to(ROOT)}",
         )
-    record(errors, skill_count == 24, f"expected 24 skills, found {skill_count}")
+    record(errors, skill_count == 26, f"expected 26 skills, found {skill_count}")
 
     voice_path = (
         PLUGIN
@@ -1223,6 +1225,20 @@ def main() -> int:
             f"{routing_selftest.stdout}{routing_selftest.stderr}"
         )
 
+    inventory_cash_selftest = subprocess.run(
+        [
+            sys.executable,
+            str(PLUGIN / "scripts" / "inventory_cash_calculator_selftest.py"),
+        ],
+        text=True,
+        capture_output=True,
+    )
+    if inventory_cash_selftest.returncode != 0:
+        errors.append(
+            "inventory cash calculator self-test failed: "
+            f"{inventory_cash_selftest.stdout}{inventory_cash_selftest.stderr}"
+        )
+
     copy_continuity_selftest = subprocess.run(
         [sys.executable, str(PLUGIN / "scripts" / "copy_continuity_selftest.py")],
         text=True,
@@ -1288,6 +1304,7 @@ def main() -> int:
         "learning_selftest": learning_selftest.stdout.strip(),
         "copy_continuity_selftest": copy_continuity_selftest.stdout.strip(),
         "knowledge_access": knowledge_access.stdout.strip(),
+        "inventory_cash_selftest": inventory_cash_selftest.stdout.strip(),
         "mcp_endpoint": MCP_ENDPOINT,
         "runtime_tools": sorted(expected_tools),
         "release_mutation_selftest": mutation_selftest.stdout.strip(),

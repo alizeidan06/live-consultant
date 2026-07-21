@@ -24,8 +24,107 @@ REQUIRED_SKILL_FIELDS = {
     "triggers",
     "likely_companions",
 }
-OPTIONAL_SKILL_FIELDS = {"bundle_files"}
+OPTIONAL_SKILL_FIELDS = {
+    "bundle_files",
+    "required_companions",
+    "routing_anchors",
+    "routing_exclusions",
+}
 SABRI_SKILL = "sell-like-crazy"
+REQUIRED_COMPANIONS = {
+    "analyze-business-meeting": {
+        "audit-business",
+        "reason-business-decision",
+    },
+    "optimize-inventory-cash-flow": {
+        "audit-business",
+        "reason-business-decision",
+        "build-business-operations",
+    },
+}
+REQUIRED_DECLARED_BUNDLE_FILES = {
+    "analyze-business-meeting": {
+        "assets/templates/business-meeting-decision-brief.md",
+    },
+    "optimize-inventory-cash-flow": {
+        "skills/analyze-business-meeting/references/cases.md",
+        "assets/templates/inventory-cash-control-sheet.md",
+        "scripts/inventory_cash_calculator.py",
+    },
+}
+NEW_COMPLETE_PACK_FILES = {
+    "analyze-business-meeting": (
+        "agents/openai.yaml",
+        "references/frameworks.md",
+        "references/cases.md",
+        "references/examples.md",
+        "references/integration.md",
+        "references/source-map.md",
+    ),
+    "optimize-inventory-cash-flow": (
+        "agents/openai.yaml",
+        "references/frameworks.md",
+        "references/cases.md",
+        "references/examples.md",
+        "references/integration.md",
+        "references/source-map.md",
+    ),
+}
+NEW_COMPLETE_PACK_TERMS = {
+    "analyze-business-meeting": {
+        "SKILL.md": (
+            "minimal, non-identifying issue synopsis",
+            "Never send a raw transcript",
+            "Attribution confidence",
+            "Objective lock",
+            "Meeting Evidence-to-Action Brief",
+        ),
+        "references/frameworks.md": (
+            "Four-axis statement ledger",
+            "Objective lock and drift test",
+            "DISCUSSED → PROPOSED → DECIDED → ASSIGNED → COMPLETED",
+            "Minimum data pack",
+            "Deterministic action close",
+        ),
+        "references/cases.md": (
+            "Urgent-cash meeting that drifts into a long-term build",
+            "one qualitative meeting lineage",
+            "no measured post-recommendation outcome",
+        ),
+        "references/source-map.md": (
+            "Hashing private content would not make it anonymous",
+            "no measured outcome",
+        ),
+    },
+    "optimize-inventory-cash-flow": {
+        "SKILL.md": (
+            "IMMEDIATE CASH-RELEASE",
+            "DURABLE SYSTEM",
+            "13 weeks",
+            "verbal interest",
+            "protect → test → prove → migrate",
+            "baseline before AI",
+            "otherwise compute the same formulas transparently",
+        ),
+        "references/frameworks.md": (
+            "landed unit cost",
+            "annualized turns",
+            "GMROI",
+            "cash conversion cycle",
+            "payload utilization",
+            "Thirteen-week cash forecast",
+            "Empty cube is not automatically recoverable",
+        ),
+        "references/integration.md": (
+            "Sales-system diagnosis before replacement",
+            "Manual baseline before automation",
+        ),
+        "references/source-map.md": (
+            "STABLE ARITHMETIC",
+            "CURRENT FACT",
+        ),
+    },
+}
 SABRI_REQUIRED_FILES = (
     "agents/openai.yaml",
     "references/frameworks.md",
@@ -138,6 +237,8 @@ HOSTED_PROTOCOL_TERMS = (
     "load_knowledge_bundle",
     "runtime directives",
     "complete bundled package",
+    "required_companions",
+    "likely_companions",
 )
 UPSTREAM_REQUIRED_TRANSFORMS = {
     "influence/SKILL.md": (
@@ -507,6 +608,32 @@ def main() -> int:
                 errors.append(
                     f"skills.{skill_name} has unknown likely companion: {companion}"
                 )
+        required_companions = non_empty_string_list(
+            raw_entry.get("required_companions", []),
+            f"skills.{skill_name}.required_companions",
+            errors,
+            allow_empty=True,
+        )
+        for companion in required_companions:
+            if companion == skill_name:
+                errors.append(f"skills.{skill_name} requires itself as a companion")
+            elif companion not in manifested_skills:
+                errors.append(
+                    f"skills.{skill_name} has unknown required companion: {companion}"
+                )
+        expected_required = REQUIRED_COMPANIONS.get(skill_name)
+        if expected_required is not None and set(required_companions) != expected_required:
+            errors.append(
+                f"skills.{skill_name}.required_companions must be exactly: "
+                + ", ".join(sorted(expected_required))
+            )
+        for routing_field in ("routing_anchors", "routing_exclusions"):
+            if routing_field in raw_entry:
+                non_empty_string_list(
+                    raw_entry.get(routing_field),
+                    f"skills.{skill_name}.{routing_field}",
+                    errors,
+                )
 
         expected_entrypoint = f"skills/{skill_name}/SKILL.md"
         raw_entrypoint = raw_entry.get("entrypoint")
@@ -538,6 +665,14 @@ def main() -> int:
             errors,
             allow_empty=True,
         )
+        missing_declared_files = sorted(
+            REQUIRED_DECLARED_BUNDLE_FILES.get(skill_name, set()) - set(raw_files)
+        )
+        if missing_declared_files:
+            errors.append(
+                f"skills.{skill_name}.bundle_files missing required files: "
+                + ", ".join(missing_declared_files)
+            )
         required_local_root = f"skills/{skill_name}"
         if required_local_root not in raw_roots:
             errors.append(
@@ -590,13 +725,22 @@ def main() -> int:
                     f"{bundle_file.relative_to(PLUGIN_ROOT)}"
                 )
                 continue
-            if bundle_file.suffix.lower() != ".md":
+            if bundle_file.suffix.lower() not in {".md", ".py"}:
                 errors.append(
-                    f"skills.{skill_name}.bundle_files[{index}] must be Markdown: "
+                    f"skills.{skill_name}.bundle_files[{index}] must be Markdown or Python: "
                     f"{bundle_file.relative_to(PLUGIN_ROOT)}"
                 )
                 continue
-            covered_markdown.add(bundle_file)
+            try:
+                bundle_file.read_text(encoding="utf-8")
+            except (OSError, UnicodeError) as exc:
+                errors.append(
+                    f"skills.{skill_name}.bundle_files[{index}] is not readable UTF-8: "
+                    f"{bundle_file.relative_to(PLUGIN_ROOT)}: {exc}"
+                )
+                continue
+            if bundle_file.suffix.lower() == ".md":
+                covered_markdown.add(bundle_file)
 
         local_skill_dir = SKILLS_ROOT / skill_name
         validate_agent_metadata(skill_name, local_skill_dir, errors)
@@ -689,6 +833,55 @@ def main() -> int:
                     f"{SABRI_SKILL} semantic pack lost required concept "
                     f"{term!r} in {required.relative_to(PLUGIN_ROOT)}"
                 )
+
+    for skill_name, required_files in NEW_COMPLETE_PACK_FILES.items():
+        skill_root = SKILLS_ROOT / skill_name
+        for relative in required_files:
+            required = skill_root / relative
+            if required.is_symlink() or not required.is_file():
+                errors.append(
+                    f"{skill_name} missing required complete-pack file: "
+                    f"{required.relative_to(PLUGIN_ROOT)}"
+                )
+        for path in sorted(skill_root.rglob("*.md")):
+            if not path.is_file():
+                continue
+            try:
+                scaffold_text = path.read_text(encoding="utf-8")
+            except (OSError, UnicodeError) as exc:
+                errors.append(
+                    f"cannot scan {skill_name} scaffold markers in "
+                    f"{path.relative_to(PLUGIN_ROOT)}: {exc}"
+                )
+                continue
+            if re.search(r"(?:\[TODO[^\]]*\]|\bTODO\s*:)", scaffold_text, re.I):
+                errors.append(
+                    f"{skill_name} contains unfinished scaffold text in "
+                    f"{path.relative_to(PLUGIN_ROOT)}"
+                )
+
+    for skill_name, file_terms in NEW_COMPLETE_PACK_TERMS.items():
+        skill_root = SKILLS_ROOT / skill_name
+        for relative, required_terms in file_terms.items():
+            required = skill_root / relative
+            if not required.is_file():
+                continue
+            try:
+                content = re.sub(
+                    r"\s+", " ", required.read_text(encoding="utf-8").lower()
+                )
+            except (OSError, UnicodeError) as exc:
+                errors.append(
+                    f"cannot read {skill_name} semantic pack file "
+                    f"{required.relative_to(PLUGIN_ROOT)}: {exc}"
+                )
+                continue
+            for term in required_terms:
+                if term.lower() not in content:
+                    errors.append(
+                        f"{skill_name} semantic pack lost required concept "
+                        f"{term!r} in {required.relative_to(PLUGIN_ROOT)}"
+                    )
 
     sabri_template = PLUGIN_ROOT / "assets" / "templates" / "sell-like-crazy-system-brief.md"
     sabri_entrypoint = sabri_root / "SKILL.md"

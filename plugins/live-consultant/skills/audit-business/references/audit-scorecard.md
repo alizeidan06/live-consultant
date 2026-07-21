@@ -9,7 +9,7 @@ hide missing evidence and false precision.
 | Product and value | Does delivery create the promised result? | specimen, QA, usage, time-to-value, failure rate | blaming marketing for weak delivery |
 | Positioning | Does the right buyer understand why this fits? | alternatives, attributes, value themes, comprehension tests | treating a category narrative as proof; existing-category, category-creation, hybrid, and early-stage variants remain available |
 | Offer and price | Are value, scope, proof, terms, and risk clear? | exact-price response, terms, claims evidence, margins | treating bonus count as demand evidence; every bonus and stack variant remains available to analyze or test |
-| Economics | Can each sale contribute cash after variable cost? | price, refunds, COGS, fees, labor, support, CAC, payback | equating ROAS or revenue with profit |
+| Economics | Can each sale contribute cash after variable cost and working-capital timing? | price, refunds, COGS, fees, labor, support, CAC, payback; for inventory businesses, landed cost, age, turns, DIO, GMROI, receivables, payables, and cash floor | equating ROAS or revenue with profit; treating inventory as available cash |
 | Acquisition | Does a channel reach the buyer repeatably? | qualified cohorts, channel cost, incrementality, capacity | declaring a channel winner from clicks |
 | Sales | Does the process diagnose fit and advance decisions? | stage conversion, call evidence, loss reasons, cycle time | treating every objection as a close problem |
 | Funnel/site | Does message and intent continue end to end? | mobile journey, proof, events, page speed, error logs | treating cosmetic redesign as message proof; redesign-first, message-first, and parallel variants all remain available to compare |

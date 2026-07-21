@@ -68,6 +68,10 @@ questions and evidence for qualified local review.
 - Separate measured values from forecasts.
 - Reconcile revenue, refunds, fees, COGS, delivery labor, support, commissions,
   taxes, ad spend, cash timing, and liabilities.
+- For inventory businesses, define SKU/unit master data, landed-cost allocation,
+  inventory-count and age ownership, purchase commitments, receiving
+  exceptions, reorder rules, receivables/payables timing, and a weekly cash
+  floor before automating replenishment or reporting.
 - Use processor-hosted payment flows and least-privilege account access.
 - Collect the minimum customer data, state its purpose, protect it, and define
   retention/deletion.
@@ -83,6 +87,8 @@ Create or reuse:
 - offer/delivery specification and QA checklist;
 - customer intake and support runbook;
 - unit-economics and cash model;
+- inventory, landed-cost, commitment, and 13-week cash controls when physical
+  stock or importing is material;
 - website/funnel requirements and event map;
 - CRM stages, source-of-truth fields, and ownership;
 - experiment register and learning ledger;

@@ -213,6 +213,50 @@ def mutate_remove_sabri_route(root: Path) -> None:
     path.write_text(rendered, encoding="utf-8")
 
 
+def mutate_remove_inventory_cash_mechanism(root: Path) -> None:
+    path = root / "skills/optimize-inventory-cash-flow/references/frameworks.md"
+    replace_once(path, "Thirteen-week cash forecast", "Weekly forecast")
+
+
+def mutate_remove_meeting_minimized_routing(root: Path) -> None:
+    path = root / "skills/analyze-business-meeting/SKILL.md"
+    replace_once(
+        path,
+        "minimal, non-identifying issue synopsis",
+        "general issue synopsis",
+    )
+
+
+def mutate_remove_combined_inventory_skill(root: Path) -> None:
+    path = root / "assets/skill-routing-fixtures.json"
+    data = json.loads(path.read_text(encoding="utf-8"))
+    fixture = next(
+        item
+        for item in data["fixtures"]
+        if item["id"] == "meeting_derived_inventory_cash"
+    )
+    fixture["required_skills"].remove("optimize-inventory-cash-flow")
+    path.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
+
+
+def mutate_delete_meeting_pack_file(root: Path) -> None:
+    (root / "skills/analyze-business-meeting/references/examples.md").unlink()
+
+
+def mutate_remove_meeting_required_companion(root: Path) -> None:
+    path = root / "assets/skill-knowledge-manifest.json"
+    data = json.loads(path.read_text(encoding="utf-8"))
+    data["skills"]["analyze-business-meeting"]["required_companions"].remove(
+        "reason-business-decision"
+    )
+    path.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
+
+
+def mutate_reintroduce_new_skill_todo(root: Path) -> None:
+    path = root / "skills/optimize-inventory-cash-flow/SKILL.md"
+    append_fixture(path, "[TO" + "DO: finish this inventory workflow]")
+
+
 MUTATIONS: tuple[tuple[str, Callable[[Path], None], tuple[str, ...]], ...] = (
     ("cap_active_skill", mutate_cap_active_skill, (KNOWLEDGE_VALIDATOR,)),
     ("cap_agent_yaml", mutate_cap_agent_yaml, (KNOWLEDGE_VALIDATOR,)),
@@ -278,6 +322,36 @@ MUTATIONS: tuple[tuple[str, Callable[[Path], None], tuple[str, ...]], ...] = (
         "remove_explicit_sabri_route",
         mutate_remove_sabri_route,
         ("scripts/verify_foundation_integrity.py",),
+    ),
+    (
+        "remove_inventory_cash_mechanism",
+        mutate_remove_inventory_cash_mechanism,
+        ("scripts/verify_skill_assembly.py",),
+    ),
+    (
+        "remove_meeting_minimized_routing",
+        mutate_remove_meeting_minimized_routing,
+        ("scripts/verify_skill_assembly.py",),
+    ),
+    (
+        "remove_combined_inventory_skill",
+        mutate_remove_combined_inventory_skill,
+        ("scripts/skill_routing_selftest.py",),
+    ),
+    (
+        "delete_meeting_pack_file",
+        mutate_delete_meeting_pack_file,
+        ("scripts/verify_skill_assembly.py",),
+    ),
+    (
+        "remove_meeting_required_companion",
+        mutate_remove_meeting_required_companion,
+        ("scripts/verify_skill_assembly.py",),
+    ),
+    (
+        "reintroduce_new_skill_todo",
+        mutate_reintroduce_new_skill_todo,
+        ("scripts/verify_skill_assembly.py",),
     ),
 )
 

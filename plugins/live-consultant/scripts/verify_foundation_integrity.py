@@ -15,8 +15,12 @@ MANDATORY_PROTECTED_FILES = {
     "assets/skill-knowledge-manifest.json",
     "assets/skill-routing-fixtures.json",
     "assets/upstream-founder-playbook-manifest.json",
+    "assets/templates/business-meeting-decision-brief.md",
+    "assets/templates/inventory-cash-control-sheet.md",
     "assets/templates/sell-like-crazy-system-brief.md",
     "scripts/copy_continuity_selftest.py",
+    "scripts/inventory_cash_calculator.py",
+    "scripts/inventory_cash_calculator_selftest.py",
     "scripts/learning_loop.py",
     "scripts/learning_loop_selftest.py",
     "scripts/release_mutation_selftest.py",
@@ -25,6 +29,15 @@ MANDATORY_PROTECTED_FILES = {
     "scripts/verify_knowledge_access.py",
     "scripts/verify_skill_assembly.py",
     "scripts/verify_source_coverage.py",
+    "skills/analyze-business-meeting/SKILL.md",
+    "skills/analyze-business-meeting/agents/openai.yaml",
+    "skills/analyze-business-meeting/references/cases.md",
+    "skills/analyze-business-meeting/references/examples.md",
+    "skills/analyze-business-meeting/references/frameworks.md",
+    "skills/analyze-business-meeting/references/integration.md",
+    "skills/analyze-business-meeting/references/source-map.md",
+    "skills/audit-business/references/audit-scorecard.md",
+    "skills/build-business-operations/SKILL.md",
     "skills/design-offer-funnel/SKILL.md",
     "skills/design-offer-funnel/references/copy-qa.md",
     "skills/design-offer-funnel/references/sales-letter-continuity.md",
@@ -33,6 +46,14 @@ MANDATORY_PROTECTED_FILES = {
     "skills/founder-business-consultant/references/knowledge-access-invariant.md",
     "skills/founder-business-consultant/references/routing-map.md",
     "skills/founder-business-consultant/references/skill-assembly-protocol.md",
+    "skills/optimize-inventory-cash-flow/SKILL.md",
+    "skills/optimize-inventory-cash-flow/agents/openai.yaml",
+    "skills/optimize-inventory-cash-flow/references/cases.md",
+    "skills/optimize-inventory-cash-flow/references/examples.md",
+    "skills/optimize-inventory-cash-flow/references/frameworks.md",
+    "skills/optimize-inventory-cash-flow/references/integration.md",
+    "skills/optimize-inventory-cash-flow/references/source-map.md",
+    "skills/plan-meta-ads/SKILL.md",
     "skills/sell-like-crazy/SKILL.md",
     "skills/sell-like-crazy/agents/openai.yaml",
     "skills/sell-like-crazy/references/cases.md",
@@ -40,6 +61,7 @@ MANDATORY_PROTECTED_FILES = {
     "skills/sell-like-crazy/references/frameworks.md",
     "skills/sell-like-crazy/references/integration.md",
     "skills/sell-like-crazy/references/source-map.md",
+    "skills/validate-business-idea/references/proof-gates.md",
 }
 
 
@@ -63,7 +85,7 @@ def main() -> int:
     errors: list[str] = []
     missing_mandatory = sorted(MANDATORY_PROTECTED_FILES - set(protected))
     for relative in missing_mandatory:
-        errors.append(f"mandatory v0.4 foundation file is not locked: {relative}")
+        errors.append(f"mandatory foundation file is not locked: {relative}")
 
     for raw_relative, expected in sorted(protected.items()):
         relative = Path(raw_relative)
