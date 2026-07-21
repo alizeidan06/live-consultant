@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "live-consultant": {
+      "type": "http",
+      "url": "https://live-consultant.sifr.marketing/mcp"
+    }
+  }
+}

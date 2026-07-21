@@ -6,6 +6,8 @@ __pycache__/
 venv/
 dist/
 build/
+.next/
+node_modules/
 *.pdf
 *.docx
 *.key
