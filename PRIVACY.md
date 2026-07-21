@@ -8,6 +8,16 @@ does not require a Live Consultant account, intentionally persist tool
 arguments, create learning candidates from calls, or include application-level
 advertising or behavioral telemetry.
 
+The preferred v0.6 flow returns an opaque `consultation_id` from
+`start_live_consultation` and accepts it in `load_live_consultant_bundle`. This
+identifier is an HMAC-authenticated, stateless routing reference rather than an
+account, cookie, cross-customer profile, or stored server-side session. It
+contains only public contract, knowledge, runtime-directive, and selected-skill
+references needed to keep one answer on one reviewed version. It does not
+contain the user's request, business context, conversation, credentials, or
+personal data. Pagination cursors likewise contain only HMAC-authenticated
+consultation and offset references.
+
 The service runs on third-party hosting infrastructure. That infrastructure and
 the user's model or MCP host may process operational metadata under their own
 privacy and retention terms. Users should not send credentials, raw private
@@ -17,10 +27,14 @@ hosted tool arguments.
 ## Hosted data details
 
 - **Categories received:** the requested business outcome, optional minimized
-  task-specific business context, selected skill IDs, pagination cursor, page
-  size, and ordinary HTTP operational metadata processed by the host.
+  task-specific business context, optional client compatibility metadata
+  (`plugin_version`, supported contract versions, declared capabilities, and
+  caller-defined extensions), selected skill IDs, opaque consultation
+  identifier, pagination cursor, page size, and ordinary HTTP operational
+  metadata processed by the host.
 - **Purpose:** route one consultation request, return the selected public
-  knowledge, maintain page consistency, and report the deployed version.
+  knowledge and reviewed runtime directives, maintain one-version page
+  consistency, check contract compatibility, and report the deployed version.
 - **Recipients/processors:** Live Consultant's hosting provider and the user's
   OpenAI, Codex, or other MCP host under those providers' own terms. The service
   does not sell arguments or send them to advertising, analytics, data-broker,
@@ -33,6 +47,13 @@ hosted tool arguments.
   Consultant to stop future calls, and report a privacy issue through the
   repository support channel. Do not place secrets or sensitive data in a tool
   argument.
+
+A compatible hosted update can be selected by the next
+`start_live_consultation` call in the same v0.6-compatible Codex task. That
+behavior does not create persistent memory: every call still carries only its
+explicit arguments and stateless identifiers. A consultation remains pinned
+to one contract, knowledge, and runtime-directive identity rather than changing
+mid-answer.
 
 Project-local learning is off by default. When a user explicitly enables it,
 the plugin writes redacted structured candidates and reviewed local rules only

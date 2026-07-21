@@ -1,7 +1,7 @@
 {
-  "baseline_release": "0.5.0",
-  "supersedes_release": "0.4.0",
-  "semantic_review": "Owner-requested 2026-07-18: preserve the complete skill and knowledge foundation while making the centrally deployed hosted knowledge route mandatory when available, with complete local fallback and cross-release restart behavior.",
+  "baseline_release": "0.6.0",
+  "supersedes_release": "0.5.0",
+  "semantic_review": "Owner-approved 2026-07-21: preserve every complete skill and knowledge-access invariant while establishing the permanent v0.6 hosted start/load contract, version-pinned consultation assembly, same-task compatible updates on the next call, unchanged legacy hosted tools, and complete local fallback.",
   "protected_files": {
     "assets/skill-knowledge-manifest.json": "c008ccb832ce64f5afa3cf194ddf080fd079d42f3cb1cb2d58354286ed278b92",
     "assets/skill-routing-fixtures.json": "5356fb309a325e0971d9bf9c781dbf5e3e97818acc699c25a7ed37a28da75d9f",
@@ -12,7 +12,7 @@
     "scripts/skill_routing_selftest.py": "1b0e1dee8c7c3985ea0d0cc5bdbbcaad397c1ec4e655770ff71202a66b8e6842",
     "scripts/verify_foundation_integrity.py": "18ac6e62d77a95a4f778ba76ffe00ce5ef25efe68cece9825c08496bb78d80fc",
     "scripts/verify_knowledge_access.py": "cda31892b416ad2780eb2d5b50437ab67ff8c7ee04cb40152573735b184dcada",
-    "scripts/verify_skill_assembly.py": "b7d685bae6f25355f6e7a520ac1cc1e5ef82d0ffbbb4be7e8f8c825deb068ca4",
+    "scripts/verify_skill_assembly.py": "dc39f5bd49c9bc787a6e49833a07a7f01d18047971e9e09e123ff2501252997d",
     "scripts/verify_source_coverage.py": "d3b1b2d8f518676cf06a44a73960e347f662a42e4123d1892d220ef69e136f68",
     "skills/design-offer-funnel/references/offer-funnel-gates.md": "b1fcfa5c99f56c02e803df038ecfcffcc94da1c95fd18659d135cbeb2a61805a",
     "skills/design-offer-funnel/references/sell-like-crazy-source-synthesis.md": "beab0c0499961b5d3984572c0faed95f10a3b06e1537cc712813b81efc49f392",
@@ -22,7 +22,7 @@
     "skills/founder-business-consultant/references/knowledge-access-invariant.md": "de943460ca90b4c1c774c938aa8b6cc3e8360bfe92df572460e6eef5bd3e91f3",
     "skills/founder-business-consultant/references/niche-intelligence-protocol.md": "7761478ce1802965d1af2add2fdb92d3dd8d60c1e1e65641624a8f3718970ad7",
     "skills/founder-business-consultant/references/routing-map.md": "62e3f02645fec73c2302a17c8c316983831cb44c8faff5b1a6ded8a42aab6f2c",
-    "skills/founder-business-consultant/references/skill-assembly-protocol.md": "753079750d4cabd97417a5cbf40666636a75128dae76915155dbc62df684f0be",
+    "skills/founder-business-consultant/references/skill-assembly-protocol.md": "67c1ecb58778807b3302afcf4df52e27443c46ff480e11ab125381ab34ac56f3",
     "skills/founder-business-consultant/references/source-provenance.md": "52eb4512570d0b1d39e4a6856d62e66c30bff0d13db98a9dc5c919be3a4579da",
     "skills/improve-live-consultant/references/foundation-invariants.md": "6c26400b7868b61f1e734fb96e5adeac4c374ec609203f9b7038088458b445f6",
     "skills/improve-live-consultant/references/learning-protocol.md": "ee0196eb97e6ed010c5792188cddc83919e817bb5427aa38113ee84679dafa3d",

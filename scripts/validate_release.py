@@ -4,6 +4,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import py_compile
 import re
@@ -41,14 +42,18 @@ REQUIRED_ROOT_FILES = {
     Path("LICENSE"),
     Path("OPENAI_REVIEW.md"),
     Path("lib/live-consultant-knowledge.js"),
+    Path("lib/live-consultant-runtime.js"),
     Path("lib/live-consultant-tools.js"),
     Path("next.config.mjs"),
     Path("package-lock.json"),
     Path("package.json"),
     Path("PRIVACY.md"),
     Path("README.md"),
+    Path("runtime/runtime-directives.json"),
     Path("scripts/release_metadata.py"),
     Path("scripts/release_metadata_selftest.py"),
+    Path("tests/fixtures/tool-contract.v0.5.1.json"),
+    Path("tests/fixtures/tool-contract.v0.6.0.json"),
     Path("tests/runtime.test.js"),
     Path("SECURITY.md"),
     Path("TERMS.md"),
@@ -140,6 +145,12 @@ ACTION_USE_PATTERN = re.compile(
     r"(?m)^\s*(?:-\s*)?uses:\s*(?P<action>[^@\s]+)@(?P<revision>[^\s#]+)"
 )
 ZERO_SHA_PATTERN = re.compile(r"^0{40}$")
+LEGACY_TOOL_CONTRACT_SHA256 = (
+    "b735cd0f2fafcf309e7cf88cda2efdabdd7f9e7b5f2f3dc6d7b5a849a177afdb"
+)
+V06_TOOL_CONTRACT_SHA256 = (
+    "555d632d8680565071d606b011068efa57f8d9109f5b2093550f2020d627b8df"
+)
 
 
 def record(errors: list[str], condition: bool, message: str) -> None:
@@ -524,6 +535,19 @@ def main() -> int:
         runtime_lock = json.loads(
             (ROOT / "package-lock.json").read_text(encoding="utf-8")
         )
+        runtime_directives = json.loads(
+            (ROOT / "runtime/runtime-directives.json").read_text(encoding="utf-8")
+        )
+        legacy_tool_contract = json.loads(
+            (ROOT / "tests/fixtures/tool-contract.v0.5.1.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        v06_tool_contract = json.loads(
+            (ROOT / "tests/fixtures/tool-contract.v0.6.0.json").read_text(
+                encoding="utf-8"
+            )
+        )
     except (OSError, json.JSONDecodeError) as exc:
         errors.append(f"manifest read failed: {exc}")
         plugin_manifest_text = "{}"
@@ -534,6 +558,9 @@ def main() -> int:
         source_manifest = {}
         runtime_package = {}
         runtime_lock = {}
+        runtime_directives = {}
+        legacy_tool_contract = []
+        v06_tool_contract = []
 
     version = plugin_manifest.get("version", "")
     record(errors, plugin_manifest.get("name") == "live-consultant", "wrong plugin name")
@@ -643,6 +670,9 @@ def main() -> int:
     runtime_knowledge_text = (ROOT / "lib/live-consultant-knowledge.js").read_text(
         encoding="utf-8"
     )
+    runtime_module_text = (ROOT / "lib/live-consultant-runtime.js").read_text(
+        encoding="utf-8"
+    )
     runtime_route_text = (ROOT / "app/[transport]/route.js").read_text(
         encoding="utf-8"
     )
@@ -653,11 +683,48 @@ def main() -> int:
         "route_consultation",
         "load_knowledge_bundle",
         "live_consultant_status",
+        "start_live_consultation",
+        "load_live_consultant_bundle",
     }
+    canonical_contract = lambda value: json.dumps(
+        value, sort_keys=True, separators=(",", ":"), ensure_ascii=False
+    ).encode("utf-8")
+    legacy_contract_digest = hashlib.sha256(
+        canonical_contract(legacy_tool_contract)
+    ).hexdigest()
+    v06_contract_digest = hashlib.sha256(
+        canonical_contract(v06_tool_contract)
+    ).hexdigest()
+    record(
+        errors,
+        legacy_contract_digest == LEGACY_TOOL_CONTRACT_SHA256,
+        "the immutable v0.5.1 legacy tool contract fixture changed",
+    )
+    record(
+        errors,
+        v06_contract_digest == V06_TOOL_CONTRACT_SHA256,
+        "the permanent v0.6 hosted tool contract fixture changed",
+    )
+    record(
+        errors,
+        {tool.get("name") for tool in legacy_tool_contract if isinstance(tool, dict)}
+        == {
+            "route_consultation",
+            "load_knowledge_bundle",
+            "live_consultant_status",
+        },
+        "the v0.5.1 fixture does not contain exactly the three legacy tools",
+    )
+    record(
+        errors,
+        {tool.get("name") for tool in v06_tool_contract if isinstance(tool, dict)}
+        == expected_tools,
+        "the v0.6 fixture does not contain exactly the five permanent tools",
+    )
     record(
         errors,
         runtime_tools_text.count("server.registerTool(") == len(expected_tools),
-        "hosted runtime must expose exactly three tools",
+        "hosted runtime must expose exactly five tools",
     )
     for tool_name in sorted(expected_tools):
         record(
@@ -665,6 +732,70 @@ def main() -> int:
             f'"{tool_name}"' in runtime_tools_text,
             f"hosted runtime tool missing: {tool_name}",
         )
+    record(
+        errors,
+        "./live-consultant-runtime.js" in runtime_tools_text,
+        "hosted tools do not import the v0.6 runtime contract",
+    )
+    runtime_directives_object = (
+        runtime_directives if isinstance(runtime_directives, dict) else {}
+    )
+    record(
+        errors,
+        isinstance(runtime_directives, dict) and bool(runtime_directives),
+        "hosted runtime directives must be a non-empty JSON object",
+    )
+    expected_directive_fields = {
+        "schema_version",
+        "contract_version",
+        "directives_version",
+        "minimum_plugin_version",
+        "content",
+    }
+    record(
+        errors,
+        isinstance(runtime_directives, dict)
+        and set(runtime_directives_object) == expected_directive_fields,
+        "hosted runtime directives fields changed unexpectedly",
+    )
+    record(
+        errors,
+        runtime_directives_object.get("schema_version") == 1,
+        "hosted runtime directives schema_version must be 1",
+    )
+    for field in (
+        "contract_version",
+        "directives_version",
+        "minimum_plugin_version",
+    ):
+        value = runtime_directives_object.get(field)
+        record(
+            errors,
+            isinstance(value, str)
+            and bool(
+                re.fullmatch(
+                    r"(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)\.(?:0|[1-9]\d*)",
+                    value,
+                )
+            ),
+            f"hosted runtime directives {field} must be release semver",
+        )
+    record(
+        errors,
+        runtime_directives_object.get("contract_version") == "1.0.0",
+        "hosted runtime contract version must remain 1.0.0",
+    )
+    record(
+        errors,
+        runtime_directives_object.get("minimum_plugin_version") == "0.6.0",
+        "hosted runtime minimum plugin version must remain 0.6.0",
+    )
+    directive_content = runtime_directives_object.get("content")
+    record(
+        errors,
+        isinstance(directive_content, str) and bool(directive_content.strip()),
+        "hosted runtime directives content must be a non-empty string",
+    )
     for invariant in (
         "readOnlyHint: true",
         "destructiveHint: false",
@@ -696,15 +827,47 @@ def main() -> int:
         "OPENAI_APPS_CHALLENGE" in challenge_route_text,
         "OpenAI domain challenge route lost its environment-backed value",
     )
+    runtime_javascript = {
+        path.relative_to(ROOT): path.read_text(encoding="utf-8")
+        for path in sorted(
+            {
+                *(ROOT / "lib").glob("*.js"),
+                *(ROOT / "app").rglob("*.js"),
+            }
+        )
+    }
+    for relative, javascript in runtime_javascript.items():
+        record(
+            errors,
+            "fetch(" not in javascript,
+            f"hosted runtime may not fetch external data: {relative}",
+        )
+        record(
+            errors,
+            "console." not in javascript,
+            f"hosted runtime may not log prompts: {relative}",
+        )
     record(
         errors,
-        "fetch(" not in runtime_knowledge_text,
-        "hosted knowledge may not fetch external data",
+        "runtime-directives.json" in runtime_module_text,
+        "hosted runtime module does not load the versioned directives",
     )
+    for invariant in (
+        "createHmac",
+        "LIVE_CONSULTANT_TOKEN_SECRET",
+        "timingSafeEqual",
+        "RUNTIME_NOT_READY: hosted token authentication is not configured",
+    ):
+        record(
+            errors,
+            invariant in runtime_module_text,
+            f"hosted token authentication invariant missing: {invariant}",
+        )
+    health_route_text = (ROOT / "app/healthz/route.js").read_text(encoding="utf-8")
     record(
         errors,
-        "console." not in runtime_knowledge_text,
-        "hosted knowledge may not log prompts",
+        "assertLiveConsultantRuntimeReady" in health_route_text,
+        "hosted health route does not fail closed on runtime authentication",
     )
     for invariant in (
         "safeTarget",
@@ -967,12 +1130,15 @@ def main() -> int:
     ).read_text(encoding="utf-8")
     assembly_protocol_words = " ".join(assembly_protocol.split())
     for invariant in (
+        "start_live_consultation",
+        "load_live_consultant_bundle",
         "route_consultation",
         "load_knowledge_bundle",
         "the hosted load is complete when the response value is `null`",
         "every selected bundle page has been read and `next_cursor` is `null`",
-        "hosted tools are absent or unavailable, fall back",
-        "restart the hosted route and load from the first page",
+        "Older task registries retain the unchanged legacy",
+        "hosted tools are absent, unavailable, or fail closed, fall back to the complete bundled package",
+        "restart with `start_live_consultation`, and load from the first page",
     ):
         record(
             errors,

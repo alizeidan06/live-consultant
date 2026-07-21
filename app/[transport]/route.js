@@ -7,7 +7,7 @@ const handler = createMcpHandler(
   {
     serverInfo: {
       name: "live-consultant",
-      version: "1.0.0"
+      version: "1.1.0"
     },
     capabilities: {
       tools: {}

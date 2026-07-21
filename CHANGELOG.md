@@ -2,6 +2,31 @@
 
 All notable public releases are recorded here.
 
+## 0.6.0 - 2026-07-21
+
+- Added the permanent `start_live_consultation` and
+  `load_live_consultant_bundle` hosted tools. After one marketplace upgrade,
+  reinstall, and new Codex task to acquire their stable schemas, reviewed
+  compatible knowledge, runtime-directive, routing, and implementation-logic
+  updates arrive on the next Live Consultant call in that same task.
+- Pinned each consultation to one contract, knowledge, and runtime-directive
+  identity so a hosted deployment cannot silently mix versions within one
+  answer. Updates begin at the next consultation rather than hot-reloading an
+  answer already in progress.
+- HMAC-authenticated stateless consultation identifiers and cursors with a
+  server-held Deno secret, fail-closed runtime health, and adversarial tests
+  preventing callers from changing selected skills or skipping bundle pages.
+- Preserved the existing `route_consultation`, `load_knowledge_bundle`, and
+  `live_consultant_status` contracts for older clients, with the complete local
+  knowledge bundle remaining the final fallback when hosted access is absent
+  or unavailable.
+- Kept incompatible tool-schema changes and bundled manifest, skill, or script
+  changes on the explicit versioned marketplace path. Those releases still
+  require an upgrade, reinstall, and new Codex task.
+- Documented the stateless consultation identifier, compatibility boundary,
+  privacy model, security reporting scope, reviewer tests, and exact v0.6.0
+  installation pin.
+
 ## 0.5.1 - 2026-07-21
 
 - Fixed the public release workflow so the clean-package security validation

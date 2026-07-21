@@ -1,0 +1,331 @@
+[
+  {
+    "name": "route_consultation",
+    "title": "Route a Live Consultant request",
+    "description": "Infer the complete Live Consultant skill stack for one business question. Use this first, then load every selected bundle before answering.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 12000,
+          "description": "The specific business decision or deliverable requested."
+        },
+        "business_context": {
+          "type": "string",
+          "maxLength": 4000,
+          "description": "Only task-specific business facts needed for routing, such as niche, buyer, offer, stage, geography, channel, and constraints. Do not send conversation history, raw transcripts, credentials, personal data, customer lists, or regulated data."
+        }
+      },
+      "required": [
+        "query"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "idempotentHint": true,
+      "openWorldHint": false
+    },
+    "execution": {
+      "taskSupport": "forbidden"
+    },
+    "outputSchema": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "type": "string"
+        },
+        "requested_outcome": {
+          "type": "string"
+        },
+        "selected_skills": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "skill_id": {
+                "type": "string"
+              },
+              "contribution": {
+                "type": "string"
+              },
+              "reason": {
+                "type": "string"
+              },
+              "bundle_files": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "score": {
+                "type": "number"
+              }
+            },
+            "required": [
+              "skill_id",
+              "contribution",
+              "reason",
+              "bundle_files",
+              "score"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "matched_routing_fixtures": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "niche_decision_fields": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "next_step": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "schema_version",
+        "requested_outcome",
+        "selected_skills",
+        "matched_routing_fixtures",
+        "niche_decision_fields",
+        "next_step"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    }
+  },
+  {
+    "name": "load_knowledge_bundle",
+    "title": "Load complete Live Consultant knowledge",
+    "description": "Load the complete files for selected skills in deterministic pages. Keep calling with next_cursor until it is null; do not synthesize from only the first page.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "skill_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          },
+          "minItems": 1,
+          "maxItems": 24
+        },
+        "cursor": {
+          "type": "string"
+        },
+        "page_size_chars": {
+          "type": "integer",
+          "minimum": 2000,
+          "maximum": 30000
+        }
+      },
+      "required": [
+        "skill_ids"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "idempotentHint": true,
+      "openWorldHint": false
+    },
+    "execution": {
+      "taskSupport": "forbidden"
+    },
+    "outputSchema": {
+      "type": "object",
+      "properties": {
+        "schema_version": {
+          "type": "string"
+        },
+        "knowledge_digest": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "selected_skill_ids": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "files_total": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "total_characters": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "page_start_character": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "page_end_character": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "chunks": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "path": {
+                "type": "string"
+              },
+              "skill_ids": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "start_character": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "end_character": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "content": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "path",
+              "skill_ids",
+              "start_character",
+              "end_character",
+              "content"
+            ],
+            "additionalProperties": false
+          }
+        },
+        "next_cursor": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "complete": {
+          "type": "boolean"
+        },
+        "instruction": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "schema_version",
+        "knowledge_digest",
+        "selected_skill_ids",
+        "files_total",
+        "total_characters",
+        "page_start_character",
+        "page_end_character",
+        "chunks",
+        "next_cursor",
+        "complete",
+        "instruction"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    }
+  },
+  {
+    "name": "live_consultant_status",
+    "title": "Check Live Consultant knowledge status",
+    "description": "Return the deployed knowledge version, digest, file coverage, and privacy-preserving runtime boundaries.",
+    "inputSchema": {
+      "$schema": "http://json-schema.org/draft-07/schema#",
+      "type": "object",
+      "properties": {}
+    },
+    "annotations": {
+      "readOnlyHint": true,
+      "destructiveHint": false,
+      "idempotentHint": true,
+      "openWorldHint": false
+    },
+    "execution": {
+      "taskSupport": "forbidden"
+    },
+    "outputSchema": {
+      "type": "object",
+      "properties": {
+        "service": {
+          "type": "string",
+          "const": "live-consultant"
+        },
+        "runtime_schema_version": {
+          "type": "string"
+        },
+        "plugin_version": {
+          "type": "string"
+        },
+        "public_release_version": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "source_commit": {
+          "type": [
+            "string",
+            "null"
+          ]
+        },
+        "knowledge_digest": {
+          "type": "string",
+          "pattern": "^[0-9a-f]{64}$"
+        },
+        "skills": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "knowledge_files": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "persistence": {
+          "type": "string",
+          "const": "none"
+        },
+        "external_fetching": {
+          "type": "boolean",
+          "const": false
+        },
+        "prompt_logging": {
+          "type": "boolean",
+          "const": false
+        },
+        "update_model": {
+          "type": "string"
+        }
+      },
+      "required": [
+        "service",
+        "runtime_schema_version",
+        "plugin_version",
+        "public_release_version",
+        "source_commit",
+        "knowledge_digest",
+        "skills",
+        "knowledge_files",
+        "persistence",
+        "external_fetching",
+        "prompt_logging",
+        "update_model"
+      ],
+      "additionalProperties": false,
+      "$schema": "http://json-schema.org/draft-07/schema#"
+    }
+  }
+]

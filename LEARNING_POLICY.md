@@ -23,10 +23,14 @@ turn those arguments into learning records or runtime edits.
    chooses whether to post it manually. The plugin performs no upload.
 4. **Public core:** maintainers reproduce and rewrite accepted learnings, add
    regressions, review foundation compatibility, bump the version, and publish
-   a release. Compatible hosted knowledge and tool-logic deployments become
-   available centrally at the stable MCP URL. Runtime feedback never writes
-   directly into the core, and schema or bundled-skill changes still require a
-   versioned plugin release.
+   a release. After the one-time v0.6 upgrade and new-task transition, the
+   stable `start_live_consultation` and `load_live_consultant_bundle` tools make
+   reviewed compatible hosted knowledge, runtime-directive, routing, and
+   implementation-logic deployments available on the next Live Consultant call
+   in the same task. One consultation stays version-pinned; this is not a
+   mid-answer hot reload. Runtime feedback never writes directly into the core,
+   and incompatible schema or bundled-skill changes still require a versioned
+   plugin release and new Codex task.
 
 ## Admission and promotion
 

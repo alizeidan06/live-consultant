@@ -46,9 +46,11 @@ decision support.
   project consent, turn corrections and measured outcomes into redacted,
   regression-tested local rules.
 - Connects to a read-only hosted MCP route at
-  `https://live-consultant.sifr.marketing/mcp`. Compatible knowledge and tool
-  logic updates deployed there become available on the next tool call without
-  rewriting the installed plugin.
+  `https://live-consultant.sifr.marketing/mcp`. The stable v0.6
+  `start_live_consultation` and `load_live_consultant_bundle` tools make
+  reviewed compatible knowledge, runtime-directive, routing, and
+  implementation-logic updates available on the next consultation call in the
+  same task without rewriting the installed plugin.
 
 ## Continuous learning
 
@@ -90,20 +92,34 @@ codex plugin add live-consultant@live-consultant
 Start a new Codex task after installation.
 
 For a version-pinned install, replace `main` with a release tag such as
-`v0.4.1`.
+`v0.6.0`.
 
-Existing users update the marketplace snapshot, reinstall, and start a new
-task so Codex loads the new skills:
+Users upgrading from v0.5.1 or earlier update the marketplace snapshot,
+reinstall, and start one new task so Codex discovers the stable v0.6 tools:
 
 ```bash
 codex plugin marketplace upgrade live-consultant
 codex plugin add live-consultant@live-consultant
 ```
 
-That reinstall is needed only when the plugin manifest, local skills, or local
-scripts change. Hosted knowledge, routing, and compatible tool-logic updates at
-the stable MCP URL are picked up automatically by connected users. A task that
-never calls the hosted tools continues to use its bundled local release.
+After that one-time transition, `start_live_consultation` checks the current
+reviewed hosted contract at the beginning of each consultation and
+`load_live_consultant_bundle` loads its complete version-pinned knowledge. A
+compatible hosted knowledge, runtime-directive, routing, or
+implementation-logic update is therefore picked up on the next Live Consultant
+call in the same task. It does not require another reinstall or new task.
+
+This is a next-call update, not a mid-answer hot reload. One consultation stays
+pinned to one contract, knowledge, and directive digest. Material tool-schema
+changes, new local skill registrations, manifest changes, and local-script
+changes remain incompatible changes that require a versioned marketplace
+upgrade, reinstall, and new task.
+
+The unchanged legacy `route_consultation` and `load_knowledge_bundle` tools
+remain available for older clients. If neither hosted path is available, Live
+Consultant uses the complete local bundle and makes the lack of a hosted
+refresh explicit. A task that never calls the hosted tools continues to use its
+bundled local release.
 
 ## Provenance
 
