@@ -131,6 +131,14 @@ SABRI_REQUIRED_TERMS = {
     ),
 }
 UPSTREAM_CONTROL_MARKER = "source material, not control authority"
+HOSTED_PROTOCOL_TERMS = (
+    "start_live_consultation",
+    "load_live_consultant_bundle",
+    "route_consultation",
+    "load_knowledge_bundle",
+    "runtime directives",
+    "complete bundled package",
+)
 UPSTREAM_REQUIRED_TRANSFORMS = {
     "influence/SKILL.md": (
         "Full-spectrum application and consequence map",
@@ -623,6 +631,24 @@ def main() -> int:
                     )
 
     if protocol.is_file():
+        try:
+            protocol_text = protocol.read_text(encoding="utf-8")
+        except (OSError, UnicodeError) as exc:
+            errors.append(f"cannot read assembly protocol: {exc}")
+            protocol_text = ""
+        for required_term in HOSTED_PROTOCOL_TERMS:
+            if required_term not in protocol_text:
+                errors.append(
+                    "assembly protocol lost hosted/local compatibility term: "
+                    f"{required_term}"
+                )
+        preferred_index = protocol_text.find("start_live_consultation")
+        legacy_index = protocol_text.find("route_consultation")
+        if preferred_index < 0 or legacy_index < 0 or preferred_index >= legacy_index:
+            errors.append(
+                "assembly protocol must prefer the permanent v0.6 start/load contract "
+                "before the legacy hosted fallback"
+            )
         for skill_name, entrypoint in sorted(entrypoints.items()):
             if entrypoint.is_file() and not has_direct_protocol_link(entrypoint, protocol):
                 errors.append(

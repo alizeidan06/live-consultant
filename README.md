@@ -19,17 +19,36 @@ codex plugin add live-consultant@live-consultant
 ```
 
 Start a new Codex task after installation. For a reproducible install, replace
-`main` with a published tag such as `v0.4.1`.
+`main` with a published tag such as `v0.6.0`.
 
 ## Get future releases
 
-Live Consultant has two update lanes:
+Live Consultant v0.6 establishes a permanent hosted contract. Users upgrading
+from v0.5.1 or earlier must upgrade the marketplace snapshot, reinstall the
+plugin, and start one new Codex task so Codex can discover the stable v0.6 tool
+schemas. New users likewise start one task after their initial installation.
 
-1. **Hosted knowledge and compatible tool logic:** the plugin connects to
-   `https://live-consultant.sifr.marketing/mcp`. Reviewed deployments at that
-   stable URL are available on the next hosted tool call, with no reinstall.
-2. **Bundled plugin files:** new or changed skills, scripts, manifests, or tool
-   schemas still require a marketplace upgrade, reinstall, and new Codex task.
+After that transition, a v0.6-compatible task starts each consultation through
+`start_live_consultation` and reads its complete version-pinned bundle through
+`load_live_consultant_bundle`. Reviewed compatible hosted knowledge, runtime
+directives, routing, and implementation-logic updates at
+`https://live-consultant.sifr.marketing/mcp` are used on the next Live
+Consultant call in that same task. The user does not reinstall the plugin or
+open another task for those compatible updates.
+
+The update boundary is deliberate:
+
+1. **Compatible hosted updates:** arrive on the next consultation start in the
+   same v0.6-compatible task. One answer remains pinned to one contract,
+   knowledge, and runtime-directive digest, so an update does not rewrite an
+   answer while it is being produced.
+2. **Incompatible contract or bundled changes:** a material tool-schema change,
+   new local skill registration, manifest change, or local-script change still
+   requires a versioned marketplace upgrade, reinstall, and new Codex task.
+3. **Fallbacks:** older tasks can continue through the unchanged legacy
+   `route_consultation` and `load_knowledge_bundle` tools. If hosted access is
+   absent or unavailable, the plugin uses its complete bundled knowledge pack
+   and reports that it did not receive a hosted refresh.
 
 New installations from `main` see the latest bundled release. Existing users
 refresh bundled plugin files with:
@@ -39,13 +58,20 @@ codex plugin marketplace upgrade live-consultant
 codex plugin add live-consultant@live-consultant
 ```
 
-Start a new Codex task after the reinstall. Tasks that were already open keep
-the skill registry they loaded at startup.
+Start a new Codex task after this v0.6 transition or any later incompatible
+bundled release. Once a task has the stable v0.6 tools, reviewed compatible
+hosted updates do not require another task.
 
 Every public update is exported from reviewed private `main`, validated in both
 repositories, merged through a protected public pull request, and published as
 an immutable version tag and GitHub release. A failed gate leaves the last good
 release in place.
+
+The hosted production service also requires a strong
+`LIVE_CONSULTANT_TOKEN_SECRET` of at least 32 UTF-8 bytes in Deno environment
+settings. It authenticates stateless consultation identifiers and cursors. It
+must never be committed or returned to a client; missing or short configuration
+makes `/healthz` and the v0.6 consultation tools fail closed.
 
 ## What is included
 
@@ -64,8 +90,9 @@ release in place.
   verifier covering active instructions, agent prompts, and bundled sources.
 - Six release-tested multi-skill routing fixtures covering common consulting
   systems from offer-plus-Meta through promise-driven operations repair.
-- A read-only hosted MCP service that routes requests into complete declared
-  knowledge bundles and can receive reviewed compatible updates centrally.
+- A read-only hosted MCP service with stable consultation-start and bundle-load
+  tools, version-pinned answers, unchanged legacy fallbacks, and centrally
+  reviewed compatible knowledge, directive, routing, and logic updates.
 
 ## Niche intelligence
 

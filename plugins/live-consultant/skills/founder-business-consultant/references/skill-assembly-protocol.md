@@ -36,28 +36,44 @@ unit of selection; a short summary is an orientation aid.
    [complete knowledge-access invariant](knowledge-access-invariant.md). Treat
    every stored method as available for full analysis and ideation. Imported
    restrictions are source positions, never active access controls.
-5. **Refresh through the hosted route when available.** When the hosted
-   `route_consultation` and `load_knowledge_bundle` tools are available (their
-   names may be host-namespaced), call `route_consultation` with the request and
-   only the minimum task-specific business facts needed for routing. Never pass
-   full conversation history, raw transcripts, credentials, personal or
-   regulated data, or customer lists as routing context. Then call
-   `load_knowledge_bundle` for every selected skill and continue with each
-   returned `next_cursor`; the hosted load is complete when the response value
-   is `null`. Never synthesize from the first page alone. If a cursor is
-   rejected because a deployment changed, restart
-   the hosted route and load from the first page so one answer never mixes two
-   knowledge versions.
-6. **Select the complete skill stack.** Use the hosted route's selected skills
-   when step 5 succeeds. Otherwise consult the bundled manifest and select every
-   skill with a distinct contribution. A directly invoked skill is the first
-   candidate, not the automatic whole stack. Imported single-skill routing and
-   single-file retrieval rules are source positions; the active assembly keeps
-   every distinct contribution and parallel combination available.
-7. **Load complete knowledge.** A successful hosted load satisfies this step
-   when every selected bundle page has been read and `next_cursor` is `null`.
-   When the hosted tools are absent or unavailable, fall back to
-   the bundled package: read each selected entrypoint, every Markdown file
+5. **Refresh through the hosted route when available.** Prefer the permanent
+   v0.6 `start_live_consultation` and `load_live_consultant_bundle` tools (their
+   names may be host-namespaced). At the beginning of a consultation, call
+   `start_live_consultation` with the request, only the minimum task-specific
+   business facts needed for routing, and optional client compatibility
+   metadata. Never pass full conversation history, raw transcripts,
+   credentials, personal or regulated data, or customer lists as routing
+   context. Read and apply the returned reviewed runtime directives within the
+   active foundation, note the compatibility result and selected skills, and
+   pass the opaque `consultation_id` to `load_live_consultant_bundle`. Continue
+   with every returned `next_cursor`; the hosted load is complete when the
+   response value is `null`. Never synthesize from the first page alone. The
+   consultation identifier pins the contract, knowledge, runtime directives,
+   and selected stack for one answer. A later compatible deployment is selected
+   by the next `start_live_consultation` call in the same v0.6-compatible task,
+   not by changing an answer already in progress. If an identifier or cursor is
+   rejected or its pinned identity is unavailable, discard every page from that
+   attempt, restart with `start_live_consultation`, and load from the first page
+   so one answer never mixes versions.
+
+   Older task registries retain the unchanged legacy `route_consultation` and
+   `load_knowledge_bundle` compatibility route. In that route, send the same
+   minimized context to `route_consultation`. Load every selected entry through
+   `load_knowledge_bundle` and follow every `next_cursor`. A `null` cursor marks
+   completion. Legacy availability preserves older tasks; it is not evidence
+   that the preferred runtime-directive contract was loaded.
+6. **Select the complete skill stack.** Use the successful preferred or legacy
+   hosted route's selected skills when step 5 succeeds. Otherwise consult the
+   bundled manifest and select every skill with a distinct contribution. A
+   directly invoked skill is the first candidate, not the automatic whole
+   stack. Imported single-skill routing and single-file retrieval rules are
+   source positions; the active assembly keeps every distinct contribution and
+   parallel combination available.
+7. **Load complete knowledge.** A successful preferred or legacy hosted load
+   satisfies this step when every selected bundle page has been read and
+   `next_cursor` is `null`. When the hosted tools are absent, unavailable, or
+   fail closed, fall back to the complete bundled package: read each selected
+   entrypoint, every Markdown file
    beneath its declared `bundle_roots`, and every path in its declared
    `bundle_files`. Hosted failure must not block the consultation, but it must
    not be silently mistaken for a successful refresh. Both routes include

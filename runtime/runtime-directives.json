@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "contract_version": "1.0.0",
+  "directives_version": "1.0.0",
+  "minimum_plugin_version": "0.6.0",
+  "content": "Use the selected Live Consultant skills as one complete niche-specific consulting stack. Load every page with load_live_consultant_bundle until next_cursor is null before synthesizing. Preserve every stored method for explanation, comparison, ideation, and tailoring; labels and execution readiness add context without shrinking the knowledge space. Reconcile conflicting advice against the exact buyer, stage, economics, evidence, channel, and owner directives. Apply direct, simple, mechanism-led communication only after the reasoning is complete. If the consultation or cursor reports that its knowledge version is unavailable, start a new hosted consultation in this same task and reload it from page one so one answer never mixes releases."
+}
